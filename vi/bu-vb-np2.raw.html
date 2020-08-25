@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8>
+<link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+<title>Vibhanga (Bhikkhu) - Nissaggiya Pācittiya 2</title>
+<script src="../js/jquery-1.10.2.min.js"></script>
+<link rel="stylesheet" href="../css/menu.css">
+<link rel="stylesheet" href="../css/css.css">
+</head>
+<body>
+<div id="container">
+<header>
+<div id="eng_searchlink"> <span><a href="../home/engsearch.html" >Search English Content</a></span></div>
+<div id="pali_searchlink"> <span><a href="../home/palisearch.html" >Search Pali Content</a></span></div>
+
+<div class="logotext">
+<a href="../home/index.html"><span>The True Dhamma</span></a>
+</div>
+<nav>
+<div id="navbar">
+<ul id="css3menu0" >
+<li class="topfirst" id="home"><a href="../home/index.html">Home</a></li>
+<li class="topmenu" id="dn"><a href="../dn/dn.html">Digha Nikaya</a></li>
+<li class="topmenu" id="mn"><a href="../mn/mn.html">Majjhima Nikaya</a></li>
+	<li class="topmenu" id="sn"><a href="../sn/sn.html">↓ Samyutta Nikaya</a>
+		<ul>
+		<li><a href="../sn/sn01.html">Part 1 - The Book with Verses</a></li>
+			<li><a href="../sn/sn02.html">Part 2 - The Book of Causation</a></li>
+			<li><a href="../sn/sn03.html">Part 3 - The Book of the Aggregates</a></li>
+			<li><a href="../sn/sn04.html">Part 4 - The Book of the Six Sense Bases</a></li>
+			<li><a href="../sn/sn05.html" title="Part 5 - The Great Book">Part 5 - The Great Book</a></li>
+		</ul>
+	</li>
+		<li class="topmenu" id="an"><a href="../an/an.html">↓ Anguttara Nikaya</a>
+			<ul>
+			<li><a href="../an/an1.html">The Ones</a></li>
+			<li><a href="../an/an2.html">The Twos</a></li>
+			<li><a href="../an/an3.html">The Threes</a></li>
+			<li><a href="../an/an4.html">The Fours</a></li>
+			<li><a href="../an/an5.html">The Fives</a></li>
+			<li><a href="../an/an6.html">The Sixes</a></li>
+			<li><a href="../an/an7.html">The Sevens</a></li>
+			<li><a href="../an/an8.html">The Eights</a></li>
+			<li><a href="../an/an9.html">The Nines</a></li>
+			<li><a href="../an/an10.html">The Tens</a></li>
+			<li><a href="../an/an11.html">The Elevens</a></li>
+			</ul>
+		</li>
+	<li class="topmenu" id="kn"><a href="../kn/kn.html">↓ Khuddaka Nikaya</a>
+			<ul>
+			<li><a href="../dhp/dhp.html" title="The Dhammapada">The Dhammapada</a></li>
+			<li><a href="../snp/snp.html">Sutta Nipata</a></li>
+			<li><a href="../ud/ud.html">Udana</a></li>
+			<li><a href="../it/it.html">Itivuttaka</a></li>
+			<li><a href="../tha/tha.html">The Theragatha</a></li>
+			<li><a href="../thi/thi.html">The Therigatha</a></li>
+			</ul>
+	</li>
+	<li class="toplast" id="vi"><a class="pressed" href="../vi/vi.html">↓ Vinaya Pitaka</a>
+			<ul>
+			<li><a href="../vi/kd.html">Khandaka</a></li>
+<li><a class="pressed" href="../vi/bu-vb.html" title="Monk’s Rules">Bhikkhu Vibhanga</a></li>
+<li><a href="../vi/bu-pt.html" title="Bhikkhu Pātimokkha">Bhikkhu Pātimokkha</a></li>
+
+			<li><a href="../vi/bi-pt.html" title="Bhikkhunī Pātimokkha">Bhikkhunī Patimokkha</a></li>
+			<li><a href="../vi/bi-vb.html" title="Nuns Rules">Bhikkhuni Vibhanga</a></li>
+			<li><a href="../bmc/bmc.html">Buddhist Monastic Code I</a></li>
+      <li><a href="../bmc/bmc2.html">Buddhist Monastic Code 2</a></li>
+			</ul>
+	</li>
+</ul>
+</div> <!--navbar-->
+</nav>
+<div class="controlpanel" id="controlpanel"><!--controlpanel-->
+<ul>
+	<li>
+	<ul class="inner">
+		<li><a href="#" title="Page Top" >&nbsp;▲&nbsp;</a>
+		<li class="nextprev">
+			<button class="palitoggle"
+				id="pali"
+				type="button"
+				title="Display Pali and activate Lookup Dictionary"
+				style="width:2.8em; padding: 0 2px;">Pali</button>
+		</li>
+		<li><a href="#bottom" title="Page Bottom">&nbsp;▼&nbsp;</a>
+	</ul>
+	</li>
+</ul>
+</div> <!--controlpanel-->
+</header>
+<div id="content">
+<h2>Vinaya Pitaka - Monastic Rules</h2>
+
+	<ul id="vbnav">
+	 <li><a href="../vi/bu-vb-pj.html">Pārājikas</a></li>
+   <li><a href="../vi/bu-vb-sn.html">Sanghādisesas</a></li>
+   <li><a href="../vi/bu-vb-an.html">Aniyatas</a></li>
+   <li id="active"><a href="../vi/bu-vb-np.html">Nissaggiya Pācittiyas</a></li>
+   <li><a href="../vi/bu-vb-pc.html">Pācittiyas</a></li>
+   <li><a href="../vi/bu-vb-pd.html">Pāṭidesanīyas</a></li>
+   <li><a href="../vi/bu-vb-sk.html">Sekhiyas</a></li>
+	<li><a href="../vi/bu-vb-as.html">Adhikaraṇa-Samathās</a></li>
+	</ul>
+
+<h2>Bhikkhu Vibhanga - Nissaggiya Pācittiya 2: Not to spend the night apart from one of his three robes.</h2>
+<div id="metaarea">
+<ul class="translator">
+<li>Translated from the Pali by Ebo Croffie (coming sooner or later)...</li>
+</ul>
+</div>
+
+<section class="raw_sutta">
+<div lang="en">
+</div><!--End English-->
+
+<div lang="pi"><!--Pali-->
+<hr>
+
+<p>
+<span class="parno">1</span>
+<a class="ms" id="p_1V_1883"></a>
+<a class="msdiv" id="msdiv471"></a>
+Tena samayena buddho bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa
+ārāme. Tena kho pana samayena bhikkhū bhikkhūnaṃ hatthe cīvaraṃ nikkhipitvā
+santaruttarena janapadacārikaṃ pakkamanti. Tāni cīvarāni ciraṃ nikkhittāni
+kaṇṇakitāni honti. Tāni bhikkhū otāpenti. Addasā kho āyasmā ānando
+senāsanacārikaṃ āhiṇḍanto te bhikkhū tāni cīvarāni otāpente. Disvāna yena te
+bhikkhū tenupasankami; upasankamitvā te bhikkhū etadavoca—  "kassimāni, āvuso,
+cīvarāni kaṇṇakitānī"ti? Atha kho te bhikkhū āyasmato ānandassa etamatthaṃ
+ārocesuṃ. Āyasmā ānando ujjhāyati khiyyati vipāceti—  "kathañhi nāma bhikkhū
+bhikkhūnaṃ hatthe cīvaraṃ nikkhipitvā santaruttarena janapadacārikaṃ
+pakkamissantī"ti.</p>
+
+<p>
+<span class="parno">2</span>
+<a class="ms" id="p_1V_1884"></a>
+Atha kho āyasmā ānando te bhikkhū anekapariyāyena vigarahitvā bhagavato
+etamatthaṃ ārocesi … pe …   "saccaṃ kira, bhikkhave, bhikkhū bhikkhūnaṃ hatthe
+cīvaraṃ nikkhipitvā santaruttarena janapadacārikaṃ pakkamantī"ti? "Saccaṃ,
+bhagavā"ti. Vigarahi buddho bhagavā … pe …   kathañhi nāma te, bhikkhave,
+moghapurisā bhikkhūnaṃ hatthe cīvaraṃ nikkhipitvā santaruttarena
+janapadacārikaṃ pakkamissanti. Netaṃ, bhikkhave, appasannānaṃ vā pasādāya … pe …
+evañca pana, bhikkhave, imaṃ sikkhāpadaṃ uddiseyyātha— </p>
+<hr>
+
+<p>
+<span class="parno">3</span>
+<a class="ms" id="p_1V_1885"></a>
+<a class="msdiv" id="msdiv472"></a>
+<strong class="rule">"Niṭṭhitacīvarasmiṃ bhikkhunā ubbhatasmiṃ kathine
+ekarattampi ce bhikkhu ticīvarena vippavaseyya, nissaggiyaṃ pācittiyan"</strong>ti.</p>
+
+<p>
+<span class="parno">4</span>
+<a class="ms" id="p_1V_1886"></a>
+Evañcidaṃ bhagavatā bhikkhūnaṃ sikkhāpadaṃ paññattaṃ hoti.</p>
+<hr>
+
+<p>
+<span class="parno">5</span>
+<a class="ms" id="p_1V_1887"></a>
+<a class="msdiv" id="msdiv473"></a>
+Tena kho pana samayena aññataro bhikkhu kosambiyaṃ gilāno hoti. Ñātakā tassa
+bhikkhuno santike dūtaṃ pāhesuṃ—  "āgacchatu bhadanto, mayaṃ,
+upaṭṭhahissāmā"ti. Bhikkhūpi evamāhaṃsu—  "gacchāvuso, ñātakā taṃ
+upaṭṭhahissantī"ti. So evamāha—  "bhagavatāvuso, sikkhāpadaṃ paññattaṃ—  ‘na
+ticīvarena vippavasitabban’ti. Ahañcamhi gilāno. Na sakkomi ticīvaraṃ ādāya
+pakkamituṃ. Nāhaṃ gamissāmī"ti. Bhagavato etamatthaṃ ārocesuṃ. Atha kho bhagavā
+etasmiṃ nidāne etasmiṃ pakaraṇe dhammiṃ kathaṃ katvā bhikkhū āmantesi—
+"anujānāmi, bhikkhave, gilānassa bhikkhuno ticīvarena avippavāsasammutiṃ dātuṃ.
+Evañca pana, bhikkhave, dātabbā. Tena gilānena bhikkhunā saṇghaṃ upasankamitvā
+ekaṃsaṃ uttarāsangaṃ karitvā vuḍḍhānaṃ bhikkhūnaṃ pāde vanditvā ukkuṭikaṃ
+nisīditvā añjaliṃ paggahetvā evamassa vacanīyo—  ‘ahaṃ, bhante, gilāno. Na
+sakkomi ticīvaraṃ ādāya pakkamituṃ. Sohaṃ, bhante, saṇghaṃ ticīvarena
+avippavāsasammutiṃ yācāmī’ti. Dutiyampi yācitabbā. Tatiyampi yācitabbā.
+Byattena bhikkhunā paṭibalena sangho ñāpetabbo— </p>
+
+<p>
+<span class="parno">6</span>
+<a class="ms" id="p_1V_1888"></a>
+<a class="msdiv" id="msdiv474"></a>
+‘Suṇātu me, bhante, sangho. Ayaṃ itthannāmo bhikkhu gilāno. Na sakkoti
+ticīvaraṃ ādāya pakkamituṃ. So saṇghaṃ ticīvarena avippavāsasammutiṃ yācati.
+Yadi sanghassa pattakallaṃ, sangho itthannāmassa bhikkhuno ticīvarena
+avippavāsasammutiṃ dadeyya. Esā ñatti.</p>
+
+<p>
+<span class="parno">7</span>
+<a class="ms" id="p_1V_1889"></a>
+Suṇātu me, bhante, sangho. Ayaṃ itthannāmo bhikkhu gilāno. Na sakkoti ticīvaraṃ
+ādāya pakkamituṃ. So saṇghaṃ ticīvarena avippavāsasammutiṃ yācati. sangho
+itthannāmassa bhikkhuno ticīvarena avippavāsasammutiṃ deti. Yassāyasmato
+khamati itthannāmassa bhikkhuno ticīvarena avippavāsasammutiyā dānaṃ, so
+tuṇhassa; yassa nakkhamati, so bhāseyya.</p>
+
+<p>
+<span class="parno">8</span>
+<a class="ms" id="p_1V_1890"></a>
+Dinnā saṇghena itthannāmassa bhikkhuno ticīvarena avippavāsasammuti. Khamati
+sanghassa, tasmā tuṇhī, evametaṃ dhārayāmī’ti.</p>
+
+<p>
+<span class="parno">9</span>
+<a class="ms" id="p_1V_1891"></a>
+Evañca pana, bhikkhave, imaṃ sikkhāpadaṃ uddiseyyātha— </p>
+<hr>
+
+<p>
+<span class="parno">10</span>
+<a class="ms" id="p_1V_1892"></a>
+<a class="msdiv" id="msdiv475"></a>
+<strong class="rule">"Niṭṭhitacīvarasmiṃ bhikkhunā ubbhatasmiṃ kathine
+ekarattampi ce bhikkhu ticīvarena vippavaseyya, aññatra bhikkhusammutiyā,
+nissaggiyaṃ pācittiyan"</strong>ti. (<em>2</em>:<strong>21</strong>)</p>
+<hr>
+
+<p>
+<span class="parno">11</span>
+<a class="ms" id="p_1V_1893"></a>
+<a class="msdiv" id="msdiv476"></a>
+<strong>Niṭṭhitacīvarasmin</strong>ti bhikkhuno cīvaraṃ kataṃ vā hoti naṭṭhaṃ
+vā vinaṭṭhaṃ vā daḍḍhaṃ vā cīvarāsā vā upacchinnā.</p>
+
+<p>
+<span class="parno">12</span>
+<a class="ms" id="p_1V_1894"></a>
+<strong>Ubbhatasmiṃ kathine</strong>ti aṭṭhannaṃ mātikānaṃ aññatarāya mātikāya
+ubbhataṃ hoti, saṇghena vā antarā ubbhataṃ hoti.</p>
+
+<p>
+<span class="parno">13</span>
+<a class="ms" id="p_1V_1895"></a>
+<strong>Ekarattampi ce bhikkhu ticīvarena vippavaseyyā</strong>ti sanghāṭiyā vā
+uttarāsangena vā antaravāsakena vā.</p>
+
+<p>
+<span class="parno">14</span>
+<a class="ms" id="p_1V_1896"></a>
+<strong>Aññatra bhikkhusammutiyā</strong>ti ṭhapetvā bhikkhusammutiṃ.</p>
+<hr>
+
+<p>
+<span class="parno">15</span>
+<a class="ms" id="p_1V_1897"></a>
+<strong>Nissaggiyaṃ hotī</strong>ti saha aruṇuggamanā nissaggiyaṃ hoti.
+Nissajjitabbaṃ sanghassa vā gaṇassa vā puggalassa vā. Evañca pana, bhikkhave,
+nissajjitabbaṃ … pe …   "idaṃ me, bhante, cīvaraṃ rattivippavutthaṃ aññatra
+bhikkhusammutiyā nissaggiyaṃ, imāhaṃ sanghassa nissajjāmī"ti … pe …   dadeyyāti … pe …
+dadeyyunti … pe …   āyasmato dammīti.</p>
+<hr>
+
+<p>
+<span class="parno">16</span>
+<a class="ms" id="p_1V_1898"></a>
+<a class="msdiv" id="msdiv477"></a>
+Gāmo ekūpacāro nānūpacāro. Nivesanaṃ ekūpacāraṃ nānūpacāraṃ. Udosito ekūpacāro
+nānūpacāro. Aṭṭo ekūpacāro nānūpacāro. Māḷo ekūpacāro nānūpacāro. Pāsādo
+ekūpacāro nānūpacāro. Hammiyaṃ ekūpacāraṃ nānūpacāraṃ. Nāvā ekūpacārā
+nānūpacārā. Sattho ekūpacāro nānūpacāro. Khettaṃ ekūpacāraṃ nānūpacāraṃ.
+Dhaññakaraṇaṃ ekūpacāraṃ nānūpacāraṃ. Ārāmo ekūpacāro nānūpacāro. Vihāro
+ekūpacāro nānūpacāro. Rukkhamūlaṃ ekūpacāraṃ nānūpacāraṃ. Ajjhokāso ekūpacāro
+nānūpacāro.</p>
+<hr>
+
+<p>
+<span class="parno">17</span>
+<a class="ms" id="p_1V_1899"></a>
+<a class="msdiv" id="msdiv478"></a>
+<strong>Gāmo ekūpacāro</strong> nāma ekakulassa gāmo hoti parikkhitto ca.
+Antogāme cīvaraṃ nikkhipitvā antogāme vatthabbaṃ. Aparikkhitto hoti, yasmiṃ
+ghare cīvaraṃ nikkhittaṃ hoti tasmiṃ ghare vatthabbaṃ, hatthapāsā vā na
+vijahitabbaṃ.</p>
+
+<p>
+<span class="parno">18</span>
+<a class="ms" id="p_1V_1900"></a>
+<a class="msdiv" id="msdiv479"></a>
+Nānākulassa gāmo hoti parikkhitto ca. Yasmiṃ ghare cīvaraṃ nikkhittaṃ hoti
+tasmiṃ ghare vatthabbaṃ sabhāye vā dvāramūle vā, hatthapāsā vā na vijahitabbaṃ.
+Sabhāyaṃ gacchantena hatthapāse cīvaraṃ nikkhipitvā sabhāye vā vatthabbaṃ
+dvāramūle vā, hatthapāsā vā na vijahitabbaṃ. Sabhāye cīvaraṃ nikkhipitvā
+sabhāye vā vatthabbaṃ dvāramūle vā, hatthapāsā vā na vijahitabbaṃ. Aparikkhitto
+hoti, yasmiṃ ghare cīvaraṃ nikkhittaṃ hoti tasmiṃ ghare vatthabbaṃ, hatthapāsā
+vā na vijahitabbaṃ.</p>
+<hr>
+
+<p>
+<span class="parno">19</span>
+<a class="ms" id="p_1V_1901"></a>
+<a class="msdiv" id="msdiv480"></a>
+Ekakulassa nivesanaṃ hoti parikkhittañca, nānāgabbhā nānāovarakā. Antonivesane
+cīvaraṃ nikkhipitvā antonivesane vatthabbaṃ. Aparikkhittaṃ hoti, yasmiṃ gabbhe
+cīvaraṃ nikkhittaṃ hoti tasmiṃ gabbhe vatthabbaṃ, hatthapāsā vā na
+vijahitabbaṃ.</p>
+
+<p>
+<span class="parno">20</span>
+<a class="ms" id="p_1V_1902"></a>
+<a class="msdiv" id="msdiv481"></a>
+Nānākulassa nivesanaṃ hoti parikkhittañca, nānāgabbhā nānāovarakā. Yasmiṃ
+gabbhe cīvaraṃ nikkhittaṃ hoti tasmiṃ gabbhe vatthabbaṃ dvāramūle vā,
+hatthapāsā vā na vijahitabbaṃ. Aparikkhittaṃ hoti, yasmiṃ gabbhe cīvaraṃ
+nikkhittaṃ hoti tasmiṃ gabbhe vatthabbaṃ, hatthapāsā vā na vijahitabbaṃ.</p>
+
+<p>
+<span class="parno">21</span>
+<a class="ms" id="p_1V_1903"></a>
+<a class="msdiv" id="msdiv482"></a>
+Ekakulassa udosito hoti parikkhitto ca, nānāgabbhā nānāovarakā. Antoudosite
+cīvaraṃ nikkhipitvā antoudosite vatthabbaṃ. Aparikkhitto hoti, yasmiṃ gabbhe
+cīvaraṃ nikkhittaṃ hoti tasmiṃ gabbhe vatthabbaṃ, hatthapāsā vā na
+vijahitabbaṃ.</p>
+
+<p>
+<span class="parno">22</span>
+<a class="ms" id="p_1V_1904"></a>
+<a class="msdiv" id="msdiv483"></a>
+Nānākulassa udosito hoti parikkhitto ca, nānāgabbhā nānāovarakā. Yasmiṃ gabbhe
+cīvaraṃ nikkhittaṃ hoti tasmiṃ gabbhe vatthabbaṃ dvāramūle vā, hatthapāsā vā na
+vijahitabbaṃ. Aparikkhitto hoti, yasmiṃ gabbhe cīvaraṃ nikkhittaṃ hoti tasmiṃ
+gabbhe vatthabbaṃ, hatthapāsā vā na vijahitabbaṃ.</p>
+<hr>
+
+<p>
+<span class="parno">23</span>
+<a class="ms" id="p_1V_1905"></a>
+<a class="msdiv" id="msdiv484"></a>
+Ekakulassa aṭṭo hoti, antoaṭṭe cīvaraṃ nikkhipitvā antoaṭṭe vatthabbaṃ.
+Nānākulassa aṭṭo hoti, nānāgabbhā nānāovarakā. Yasmiṃ gabbhe cīvaraṃ nikkhittaṃ
+hoti tasmiṃ gabbhe vatthabbaṃ dvāramūle vā, hatthapāsā vā na vijahitabbaṃ.</p>
+
+<p>
+<span class="parno">24</span>
+<a class="ms" id="p_1V_1906"></a>
+<a class="msdiv" id="msdiv485"></a>
+Ekakulassa māḷo hoti, antomāḷe cīvaraṃ nikkhipitvā antomāḷe vatthabbaṃ.
+Nānākulassa māḷo hoti nānāgabbhā nānāovarakā, yasmiṃ gabbhe cīvaraṃ nikkhittaṃ
+hoti tasmiṃ gabbhe vatthabbaṃ dvāramūle vā, hatthapāsā vā na vijahitabbaṃ.</p>
+
+<p>
+<span class="parno">25</span>
+<a class="ms" id="p_1V_1907"></a>
+<a class="msdiv" id="msdiv486"></a>
+Ekakulassa pāsādo hoti, antopāsāde cīvaraṃ nikkhipitvā antopāsāde vatthabbaṃ.
+Nānākulassa pāsādo hoti, nānāgabbhā nānāovarakā. Yasmiṃ gabbhe cīvaraṃ
+nikkhittaṃ hoti tasmiṃ gabbhe vatthabbaṃ dvāramūle vā, hatthapāsā vā na
+vijahitabbaṃ.</p>
+
+<p>
+<span class="parno">26</span>
+<a class="ms" id="p_1V_1908"></a>
+<a class="msdiv" id="msdiv487"></a>
+Ekakulassa hammiyaṃ hoti. Antohammiye cīvaraṃ nikkhipitvā antohammiye
+vatthabbaṃ. Nānākulassa hammiyaṃ hoti, nānāgabbhā nānāovarakā. Yasmiṃ gabbhe
+cīvaraṃ nikkhittaṃ hoti tasmiṃ gabbhe vatthabbaṃ dvāramūle vā, hatthapāsā vā na
+vijahitabbaṃ.</p>
+<hr>
+
+<p>
+<span class="parno">27</span>
+<a class="ms" id="p_1V_1909"></a>
+<a class="msdiv" id="msdiv488"></a>
+Ekakulassa nāvā hoti. Antonāvāya cīvaraṃ nikkhipitvā antonāvāya vatthabbaṃ.
+Nānākulassa nāvā hoti nānāgabbhā nānāovarakā. Yasmiṃ ovarake cīvaraṃ nikkhittaṃ
+hoti tasmiṃ ovarake vatthabbaṃ, hatthapāsā vā na vijahitabbaṃ.</p>
+
+<p>
+<span class="parno">28</span>
+<a class="ms" id="p_1V_1910"></a>
+<a class="msdiv" id="msdiv489"></a>
+Ekakulassa sattho hoti. Satthe cīvaraṃ nikkhipitvā purato vā pacchato vā
+sattabbhantarā na vijahitabbā, passato abbhantaraṃ na vijahitabbaṃ. Nānākulassa
+sattho hoti, satthe cīvaraṃ nikkhipitvā hatthapāsā na vijahitabbaṃ.</p>
+
+<p>
+<span class="parno">29</span>
+<a class="ms" id="p_1V_1911"></a>
+<a class="msdiv" id="msdiv490"></a>
+Ekakulassa khettaṃ hoti parikkhittañca. Antokhette cīvaraṃ nikkhipitvā
+antokhette vatthabbaṃ. Aparikkhittaṃ hoti, hatthapāsā na vijahitabbaṃ.
+Nānākulassa khettaṃ hoti parikkhittañca. Antokhette cīvaraṃ nikkhipitvā
+dvāramūle vā vatthabbaṃ, hatthapāsā vā na vijahitabbaṃ. Aparikkhittaṃ hoti,
+hatthapāsā na vijahitabbaṃ.</p>
+
+<p>
+<span class="parno">30</span>
+<a class="ms" id="p_1V_1912"></a>
+<a class="msdiv" id="msdiv491"></a>
+Ekakulassa dhaññakaraṇaṃ hoti parikkhittañca. Antodhaññakaraṇe cīvaraṃ
+nikkhipitvā antodhaññakaraṇe vatthabbaṃ. Aparikkhittaṃ hoti, hatthapāsā na
+vijahitabbaṃ. Nānākulassa dhaññakaraṇaṃ hoti parikkhittañca. Antodhaññakaraṇe
+cīvaraṃ nikkhipitvā dvāramūle vā vatthabbaṃ, hatthapāsā vā na vijahitabbaṃ.
+Aparikkhittaṃ hoti, hatthapāsā na vijahitabbaṃ.</p>
+<hr>
+
+<p>
+<span class="parno">31</span>
+<a class="ms" id="p_1V_1913"></a>
+<a class="msdiv" id="msdiv492"></a>
+Ekakulassa ārāmo hoti parikkhitto ca. Antoārāme cīvaraṃ nikkhipitvā antoārāme
+vatthabbaṃ. Aparikkhitto hoti, hatthapāsā na vijahitabbaṃ. Nānākulassa ārāmo
+hoti parikkhitto ca. Antoārāme cīvaraṃ nikkhipitvā dvāramūle vā vatthabbaṃ,
+hatthapāsā vā na vijahitabbaṃ. Aparikkhitto hoti, hatthapāsā na vijahitabbaṃ.</p>
+
+<p>
+<span class="parno">32</span>
+<a class="ms" id="p_1V_1914"></a>
+<a class="msdiv" id="msdiv493"></a>
+Ekakulassa vihāro hoti parikkhitto ca. Antovihāre cīvaraṃ nikkhipitvā
+antovihāre vatthabbaṃ. Aparikkhitto hoti, yasmiṃ vihāre cīvaraṃ nikkhittaṃ hoti
+tasmiṃ vihāre vatthabbaṃ, hatthapāsā vā na vijahitabbaṃ. Nānākulassa vihāro
+hoti parikkhitto ca. Yasmiṃ vihāre cīvaraṃ nikkhittaṃ hoti tasmiṃ vihāre
+vatthabbaṃ dvāramūle vā, hatthapāsā vā na vijahitabbaṃ. Aparikkhitto hoti,
+yasmiṃ vihāre cīvaraṃ nikkhittaṃ hoti tasmiṃ vihāre vatthabbaṃ, hatthapāsā vā
+na vijahitabbaṃ.</p>
+<hr>
+
+<p>
+<span class="parno">33</span>
+<a class="ms" id="p_1V_1915"></a>
+<a class="msdiv" id="msdiv494"></a>
+Ekakulassa rukkhamūlaṃ hoti, yaṃ majjhanhike kāle samantā chāyā pharati,
+antochāyāya cīvaraṃ nikkhipitvā antochāyāya vatthabbaṃ. Nānākulassa rukkhamūlaṃ
+hoti, hatthapāsā na vijahitabbaṃ.</p>
+
+<p>
+<span class="parno">34</span>
+<a class="ms" id="p_1V_1916"></a>
+Ajjhokāso ekūpacāro nāma agāmake araññe samantā sattabbhantarā ekūpacāro, tato
+paraṃ nānūpacāro.</p>
+<hr>
+
+<p>
+<span class="parno">35</span>
+<a class="ms" id="p_1V_1917"></a>
+<a class="msdiv" id="msdiv495"></a>
+Vippavutthe vippavutthasaññī aññatra bhikkhusammutiyā, nissaggiyaṃ pācittiyaṃ.
+Vippavutthe vematiko, aññatra bhikkhusammutiyā, nissaggiyaṃ pācittiyaṃ.
+Vippavutthe avippavutthasaññī, aññatra bhikkhusammutiyā, nissaggiyaṃ
+pācittiyaṃ. Appaccuddhaṭe paccuddhaṭasaññī … pe …   avissajjite vissajjitasaññī …
+anaṭṭhe naṭṭhasaññī …   avinaṭṭhe vinaṭṭhasaññī …   adaḍḍhe daḍḍhasaññī avilutte
+viluttasaññī, aññatra bhikkhusammutiyā, nissaggiyaṃ pācittiyaṃ.</p>
+
+<p>
+<span class="parno">36</span>
+<a class="ms" id="p_1V_1918"></a>
+Nissaggiyaṃ cīvaraṃ anissajjitvā paribhuñjati, āpatti dukkaṭassa. Avippavutthe
+vippavutthasaññī, āpatti dukkaṭassa. Avippavutthe vematiko, āpatti dukkaṭassa.
+Avippavutthe avippavutthasaññī, anāpatti.</p>
+<hr>
+
+<p>
+<span class="parno">37</span>
+<a class="ms" id="p_1V_1919"></a>
+<a class="msdiv" id="msdiv496"></a>
+Anāpatti—  antoaruṇe paccuddharati, vissajjeti, nassati, vinassati, ḍayhati,
+acchinditvā gaṇhanti, vissāsaṃ gaṇhanti, bhikkhusammutiyā, ummattakassa,
+ādikammikassāti.</p>
+<p class="endsutta">
+<span class="parno">38</span>
+<a class="ms" id="p_1V_1920"></a>
+Udosita(dutiyakathina)sikkhāpadaṃ niṭṭhitaṃ dutiyaṃ.</p>
+
+</div><!--End Pali-->
+</section>
+
+<div id="nextprev"><a id="previous-sutta" href="../vi/bu-vb-np1.html"></a><a id="next-sutta" href="../vi/bu-vb-np3.html"></a></div>
+
+</div><!--content-->
+<footer>
+<div id="breadcrumbs">
+<a href="../home/index.html">Home</a><a href="../vi/vi.html">Vinaya Pitaka</a><a href="../vi/bu-vb.html">Bhikkhu Vibhanga</a><a href="../vi/bu-vb-np.html">Nissaggiya Pācittiyas</a>Nissaggiya Pācittiya 2
+</div>
+<a id="bottom"></a>
+</footer>
+<script src="../js/footer.js"></script>
+</div><!--container-->
+</body>
+</html>

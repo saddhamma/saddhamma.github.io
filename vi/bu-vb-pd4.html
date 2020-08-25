@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8>
+<link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+<title>Vibhanga (Bhikkhu) - Pāṭidesanīya 4</title>
+<script src="../js/jquery-1.10.2.min.js"></script>
+<link rel="stylesheet" href="../css/menu.css">
+<link rel="stylesheet" href="../css/css.css">
+</head>
+<body>
+<div id="container">
+<header>
+<div id="eng_searchlink"> <span><a href="../home/engsearch.html" >Search English Content</a></span></div>
+<div id="pali_searchlink"> <span><a href="../home/palisearch.html" >Search Pali Content</a></span></div>
+
+<div class="logotext">
+<a href="../home/index.html"><span>The True Dhamma</span></a>
+</div>
+<nav>
+<div id="navbar">
+<ul id="css3menu0" >
+<li class="topfirst" id="home"><a href="../home/index.html">Home</a></li>
+<li class="topmenu" id="dn"><a href="../dn/dn.html">Digha Nikaya</a></li>
+<li class="topmenu" id="mn"><a href="../mn/mn.html">Majjhima Nikaya</a></li>
+	<li class="topmenu" id="sn"><a href="../sn/sn.html">↓ Samyutta Nikaya</a>
+		<ul>
+		<li><a href="../sn/sn01.html">Part 1 - The Book with Verses</a></li>
+			<li><a href="../sn/sn02.html">Part 2 - The Book of Causation</a></li>
+			<li><a href="../sn/sn03.html">Part 3 - The Book of the Aggregates</a></li>
+			<li><a href="../sn/sn04.html">Part 4 - The Book of the Six Sense Bases</a></li>
+			<li><a href="../sn/sn05.html" title="Part 5 - The Great Book">Part 5 - The Great Book</a></li>
+		</ul>
+	</li>
+		<li class="topmenu" id="an"><a href="../an/an.html">↓ Anguttara Nikaya</a>
+			<ul>
+			<li><a href="../an/an1.html">The Ones</a></li>
+			<li><a href="../an/an2.html">The Twos</a></li>
+			<li><a href="../an/an3.html">The Threes</a></li>
+			<li><a href="../an/an4.html">The Fours</a></li>
+			<li><a href="../an/an5.html">The Fives</a></li>
+			<li><a href="../an/an6.html">The Sixes</a></li>
+			<li><a href="../an/an7.html">The Sevens</a></li>
+			<li><a href="../an/an8.html">The Eights</a></li>
+			<li><a href="../an/an9.html">The Nines</a></li>
+			<li><a href="../an/an10.html">The Tens</a></li>
+			<li><a href="../an/an11.html">The Elevens</a></li>
+			</ul>
+		</li>
+	<li class="topmenu" id="kn"><a href="../kn/kn.html">↓ Khuddaka Nikaya</a>
+			<ul>
+			<li><a href="../dhp/dhp.html" title="The Dhammapada">The Dhammapada</a></li>
+			<li><a href="../snp/snp.html">Sutta Nipata</a></li>
+			<li><a href="../ud/ud.html">Udana</a></li>
+			<li><a href="../it/it.html">Itivuttaka</a></li>
+			<li><a href="../tha/tha.html">The Theragatha</a></li>
+			<li><a href="../thi/thi.html">The Therigatha</a></li>
+			</ul>
+	</li>
+	<li class="toplast" id="vi"><a class="pressed" href="../vi/vi.html">↓ Vinaya Pitaka</a>
+			<ul>
+			<li><a href="../vi/kd.html">Khandaka</a></li>
+<li><a class="pressed" href="../vi/bu-vb.html" title="Monk’s Rules">Bhikkhu Vibhanga</a></li>
+<li><a href="../vi/bu-pt.html" title="Bhikkhu Pātimokkha">Bhikkhu Pātimokkha</a></li>
+			<li><a href="../vi/bi-pt.html" title="Bhikkhunī Pātimokkha">Bhikkhunī Patimokkha</a></li>
+			<li><a href="../vi/bi-vb.html" title="Nuns Rules">Bhikkhuni Vibhanga</a></li>
+			<li><a href="../bmc/bmc.html">Buddhist Monastic Code I</a></li>
+      <li><a href="../bmc/bmc2.html">Buddhist Monastic Code 2</a></li>
+			</ul>
+	</li>
+</ul>
+</div> <!--navbar-->
+</nav>
+<div class="controlpanel" id="controlpanel"><!--controlpanel-->
+<ul>
+	<li>
+	<ul class="inner">
+		<li><a href="#" title="Page Top" >&nbsp;▲&nbsp;</a>
+		<li class="nextprev">
+			<button class="palitoggle"
+				id="pali"
+				type="button"
+				title="Display Pali and activate Lookup Dictionary"
+				style="width:2.8em; padding: 0 2px;">Pali</button>
+		</li>
+		<li><a href="#bottom" title="Page Bottom">&nbsp;▼&nbsp;</a>
+	</ul>
+	</li>
+</ul>
+</div> <!--controlpanel-->
+</header>
+<div id="content">
+<h2>Vinaya Pitaka - Monastic Rules</h2>
+
+	<ul id="vbnav">
+	 <li><a href="../vi/bu-vb-pj.html">Pārājikas</a></li>
+   <li><a href="../vi/bu-vb-sn.html">Sanghādisesas</a></li>
+   <li><a href="../vi/bu-vb-an.html">Aniyatas</a></li>
+   <li><a href="../vi/bu-vb-np.html">Nissaggiya Pācittiyas</a></li>
+   <li><a href="../vi/bu-vb-pc.html">Pācittiyas</a></li>
+   <li id="active"><a href="../vi/bu-vb-pd.html">Pāṭidesanīyas</a></li>
+   <li><a href="../vi/bu-vb-sk.html">Sekhiyas</a></li>
+	<li><a href="../vi/bu-vb-as.html">Adhikaraṇa-Samathās</a></li>
+	</ul>
+
+<h2>Bhikkhu Vibhanga - Pāṭidesanīya 4: Not to eat the food offered by donors whom one has not previously warned of an existing danger in the area.</h2>
+
+<div id="metaarea">
+<ul class="translator">
+<li>Translated from the Pali by Ebo Croffie (coming sooner or later).</li>
+</ul>
+</div>
+
+<section class="raw_sutta">
+<div lang="en">
+</div><!--End English-->
+
+<div lang="pi"><!--Pali-->
+
+<p>
+<span class="parno">1</span>
+<a class="ms" id="p_2V_1656"></a>
+<a class="msdiv" id="msdiv570"></a>
+Tena samayena buddho bhagavā sakkesu viharati kapilavatthusmiṃ nigrodhārāme.
+Tena kho pana samayena sākiyadāsakā avaruddhā honti. Sākiyāniyo icchanti
+āraññakesu senāsanesu bhattaṃ kātuṃ. Assosuṃ kho sākiyadāsakā—  "sākiyāniyo
+kira āraññakesu senāsanesu bhattaṃ kattukāmā"ti. Te magge pariyuṭṭhiṃsu.
+Sākiyāniyo paṇītaṃ khādanīyaṃ bhojanīyaṃ ādāya āraññakaṃ senāsanaṃ agamaṃsu.
+Sākiyadāsakā nikkhamitvā sākiyāniyo acchindiṃsu ca dūsesuñca. Sākiyā
+nikkhamitvā te core sabhaṇḍe gahetvā ujjhāyanti khiyyanti vipācenti—  "kathañhi
+nāma bhadantā ārāme core paṭivasante nārocessantī"ti.</p>
+
+<p>
+<span class="parno">2</span>
+<a class="ms" id="p_2V_1657"></a>
+Assosuṃ kho bhikkhū sākiyānaṃ ujjhāyantānaṃ khiyyantānaṃ vipācentānaṃ. Atha kho
+te bhikkhū bhagavato etamatthaṃ ārocesuṃ. Atha kho bhagavā etasmiṃ nidāne
+etasmiṃ pakaraṇe dhammiṃ kathaṃ katvā bhikkhū āmantesi—  "tena hi, bhikkhave,
+bhikkhūnaṃ sikkhāpadaṃ paññapessāmi dasa atthavase paṭicca saṇghasuṭṭhutāya … pe …
+evañca pana, bhikkhave, imaṃ sikkhāpadaṃ uddiseyyātha— </p>
+
+<p>
+<span class="parno">3</span>
+<a class="ms" id="p_2V_1658"></a>
+<strong class="rule">"Yāni kho pana tāni āraññakāni senāsanāni sāsankasammatāni
+sappaṭibhayāni, yo pana bhikkhu tathārūpesu senāsanesu pubbe appaṭisaṃviditaṃ
+khādanīyaṃ</strong>
+<strong>vā bhojanīyaṃ vā ajjhārāme sahatthā paṭiggahetvā khādeyya vā bhuñjeyya
+vā, paṭidesetabbaṃ tena bhikkhunā—  ‘gārayhaṃ, āvuso, dhammaṃ āpajjiṃ asappāyaṃ
+pāṭidesanīyaṃ taṃ paṭidesemī’"</strong>ti.</p>
+
+<p>
+<span class="parno">4</span>
+<a class="ms" id="p_2V_1659"></a>
+Evañcidaṃ bhagavatā bhikkhūnaṃ sikkhāpadaṃ paññattaṃ hoti.</p>
+
+<p>
+<span class="parno">5</span>
+<a class="ms" id="p_2V_1660"></a>
+<a class="msdiv" id="msdiv571"></a>
+Tena kho pana samayena aññataro bhikkhu āraññakesu senāsanesu gilāno hoti.
+Manussā khādanīyaṃ vā bhojanīyaṃ vā ādāya āraññakaṃ senāsanaṃ agamaṃsu. Atha
+kho te manussā taṃ bhikkhuṃ etadavocuṃ—  "bhuñjatha, bhante"ti. Atha kho so
+bhikkhu—  "bhagavatā paṭikkhittaṃ āraññakesu senāsanesu khādanīyaṃ vā
+bhojanīyaṃ vā sahatthā paṭiggahetvā khādituṃ bhuñjitun"ti kukkuccāyanto na
+paṭiggahesi, nāsakkhi piṇḍāya carituṃ, chinnabhatto ahosi.</p>
+
+<p>
+<span class="parno">6</span>
+<a class="ms" id="p_2V_1661"></a>
+Atha kho so bhikkhu bhikkhūnaṃ etamatthaṃ ārocesi. Bhikkhū bhagavato etamatthaṃ
+ārocesuṃ. Atha kho bhagavā etasmiṃ nidāne etasmiṃ pakaraṇe dhammiṃ kathaṃ
+katvā bhikkhū āmantesi—  "anujānāmi, bhikkhave, gilānena bhikkhunā āraññakesu
+senāsanesu pubbe appaṭisaṃviditaṃ khādanīyaṃ vā bhojanīyaṃ vā sahatthā
+paṭiggahetvā khādituṃ bhuñjituṃ. Evañca pana, bhikkhave, imaṃ sikkhāpadaṃ
+uddiseyyātha— </p>
+<hr>
+
+<p>
+<span class="parno">7</span>
+<a class="ms" id="p_2V_1662"></a>
+<a class="msdiv" id="msdiv572"></a>
+<strong class="rule">"Yāni kho pana tāni āraññakāni senāsanāni sāsankasammatāni
+sappaṭibhayāni, yo pana bhikkhu tathārūpesu senāsanesu pubbe appaṭisaṃviditaṃ
+khādanīyaṃ vā bhojanīyaṃ vā ajjhārāme sahatthā paṭiggahetvā agilāno khādeyya vā
+bhuñjeyya vā, paṭidesetabbaṃ tena bhikkhunā—  ‘gārayhaṃ, āvuso, dhammaṃ
+āpajjiṃ asappāyaṃ pāṭidesanīyaṃ, taṃ paṭidesemī’"</strong>ti. (<em>4</em>:<strong>145</strong>)</p>
+
+<p>
+<span class="parno">8</span>
+<a class="ms" id="p_2V_1663"></a>
+<a class="msdiv" id="msdiv573"></a>
+<strong>Yāni kho pana tāni āraññakāni senāsanānī</strong>ti
+<strong>āraññakaṃ</strong> nāma
+<strong>senāsanaṃ</strong> pañcadhanusatikaṃ pacchimaṃ.</p>
+
+<p>
+<span class="parno">9</span>
+<a class="ms" id="p_2V_1664"></a>
+<strong>Sāsankaṃ</strong> nāma ārāme ārāmūpacāre corānaṃ niviṭṭhokāso dissati,
+bhuttokāso dissati, ṭhitokāso dissati, nisinnokāso dissati, nipannokāso
+dissati.</p>
+
+<p>
+<span class="parno">10</span>
+<a class="ms" id="p_2V_1665"></a>
+<strong>Sappaṭibhayaṃ</strong> nāma ārāme ārāmūpacāre corehi manussā hatā
+dissanti, viluttā dissanti, ākoṭitā dissanti.</p>
+
+<p>
+<span class="parno">11</span>
+<a class="ms" id="p_2V_1666"></a>
+<strong>Yo panā</strong>ti yo yādiso … pe …
+<strong>bhikkhū</strong>ti … pe …   ayaṃ imasmiṃ atthe adhippeto bhikkhūti.</p>
+
+<p>
+<span class="parno">12</span>
+<a class="ms" id="p_2V_1667"></a>
+<strong>Tathārūpesu senāsanesū</strong>ti evarūpesu senāsanesu.</p>
+
+<p>
+<span class="parno">13</span>
+<a class="ms" id="p_2V_1668"></a>
+<strong>Appaṭisaṃviditaṃ</strong> nāma pañcannaṃ paṭisaṃviditaṃ, etaṃ
+appaṭisaṃviditaṃ nāma. Ārāmaṃ ārāmūpacāraṃ ṭhapetvā paṭisaṃviditaṃ, etaṃ
+appaṭisaṃviditaṃ nāma.</p>
+
+<p>
+<span class="parno">14</span>
+<a class="ms" id="p_2V_1669"></a>
+Paṭisaṃviditaṃ nāma yo koci itthī vā puriso vā ārāmaṃ ārāmūpacāraṃ āgantvā
+āroceti—  "itthannāmassa, bhante, khādanīyaṃ vā bhojanīyaṃ vā āharissantī"ti.
+Sace sāsankaṃ hoti, sāsankanti ācikkhitabbaṃ; sace sappaṭibhayaṃ hoti,
+sappaṭibhayanti ācikkhitabbaṃ; sace—  "hotu, bhante, āhariyissatī"ti bhaṇati,
+corā vattabbā—  "manussā idhūpacaranti apasakkathā"ti. Yāguyā paṭisaṃvidite
+tassā parivāro āhariyyati, etaṃ paṭisaṃviditaṃ nāma. Bhattena paṭisaṃvidite
+tassa parivāro āhariyyati, etaṃ paṭisaṃviditaṃ nāma. Khādanīyena paṭisaṃvidite
+tassa parivāro āhariyyati, etaṃ paṭisaṃviditaṃ nāma. Kulena paṭisaṃvidite yo
+tasmiṃ kule manusso khādanīyaṃ vā bhojanīyaṃ vā āharati, etaṃ paṭisaṃviditaṃ
+nāma. Gāmena paṭisaṃvidite yo tasmiṃ gāme manusso khādanīyaṃ vā bhojanīyaṃ vā
+āharati, etaṃ paṭisaṃviditaṃ nāma. Pūgena paṭisaṃvidite yo tasmiṃ pūge manusso
+khādanīyaṃ vā bhojanīyaṃ vā āharati, etaṃ paṭisaṃviditaṃ nāma.</p>
+
+<p>
+<span class="parno">15</span>
+<a class="ms" id="p_2V_1670"></a>
+<strong>Khādanīyaṃ</strong> nāma pañca bhojanāni—  yāmakālikaṃ sattāhakālikaṃ
+yāvajīvikaṃ ṭhapetvā avasesaṃ khādanīyaṃ nāma.</p>
+
+<p>
+<span class="parno">16</span>
+<a class="ms" id="p_2V_1671"></a>
+<strong>Bhojanīyaṃ</strong> nāma pañca bhojanāni—  odano, kummāso, sattu,
+maccho, maṃsaṃ.</p>
+
+<p>
+<span class="parno">17</span>
+<a class="ms" id="p_2V_1672"></a>
+<strong>Ajjhārāmo</strong> nāma parikkhittassa ārāmassa antoārāmo.
+Aparikkhittassa upacāro.</p>
+
+<p>
+<span class="parno">18</span>
+<a class="ms" id="p_2V_1673"></a>
+<strong>Agilāno</strong> nāma sakkoti piṇḍāya carituṃ.</p>
+
+<p>
+<span class="parno">19</span>
+<a class="ms" id="p_2V_1674"></a>
+<strong>Gilāno</strong> nāma na sakkoti piṇḍāya carituṃ.</p>
+
+<p>
+<span class="parno">20</span>
+<a class="ms" id="p_2V_1675"></a>
+Appaṭisaṃviditaṃ agilāno "khādissāmi bhuñjissāmī"ti paṭiggaṇhāti, āpatti
+dukkaṭassa. Ajjhohāre ajjhohāre āpatti pāṭidesanīyassa.</p>
+
+<p>
+<span class="parno">21</span>
+<a class="ms" id="p_2V_1676"></a>
+<a class="msdiv" id="msdiv574"></a>
+Appaṭisaṃvidite appaṭisaṃviditasaññī khādanīyaṃ vā bhojanīyaṃ vā ajjhārāme
+sahatthā paṭiggahetvā agilāno khādati vā bhuñjati vā, āpatti pāṭidesanīyassa.
+Appaṭisaṃvidite vematiko khādanīyaṃ vā bhojanīyaṃ vā ajjhārāme sahatthā
+paṭiggahetvā agilāno khādati vā bhuñjati vā, āpatti pāṭidesanīyassa.
+Appaṭisaṃvidite paṭisaṃviditasaññī khādanīyaṃ vā bhojanīyaṃ vā ajjhārāme
+sahatthā paṭiggahetvā agilāno khādati vā bhuñjati vā, āpatti pāṭidesanīyassa.</p>
+
+<p>
+<span class="parno">22</span>
+<a class="ms" id="p_2V_1677"></a>
+Yāmakālikaṃ sattāhakālikaṃ yāvajīvikaṃ āhāratthāya paṭiggaṇhāti, āpatti
+dukkaṭassa. Ajjhohāre ajjhohāre āpatti dukkaṭassa. Paṭisaṃvidite
+appaṭisaṃviditasaññī, āpatti dukkaṭassa. Paṭisaṃvidite vematiko, āpatti
+dukkaṭassa. Paṭisaṃvidite paṭisaṃviditasaññī, anāpatti.</p>
+<hr>
+
+<p>
+<span class="parno">23</span>
+<a class="ms" id="p_2V_1678"></a>
+<a class="msdiv" id="msdiv575"></a>
+Anāpatti—  paṭisaṃvidite, gilānassa, paṭisaṃvidite vā gilānassa vā sesakaṃ
+bhuñjati, bahārāme paṭiggahetvā antoārāme bhuñjati, tattha jātakaṃ mūlaṃ vā
+tacaṃ vā pattaṃ vā pupphaṃ vā phalaṃ vā bhuñjati, yāmakālikaṃ sattāhakālikaṃ
+yāvajīvikaṃ sati paccaye paribhuñjati, ummattakassa, ādikammikassāti.</p>
+<p class="endsutta">
+<span class="parno">24</span>
+<a class="ms" id="p_2V_1679"></a>
+Catutthapāṭidesanīyasikkhāpadaṃ niṭṭhitaṃ.</p>
+
+<p>
+<span class="parno">25</span>
+<a class="ms" id="p_2V_1680"></a>
+Uddiṭṭhā kho, āyasmanto, cattāro pāṭidesanīyā dhammā. Tatthāyasmante pucchāmi—
+"kaccittha parisuddhā"? Dutiyampi pucchāmi—  "kaccittha parisuddhā"?
+Tatiyampi pucchāmi—  "kaccittha parisuddhā"? Parisuddhetthāyasmanto, tasmā
+tuṇhī, evametaṃ dhārayāmīti.</p>
+<p class="endsection">
+<span class="parno">26</span>
+<a class="ms" id="p_2V_1681"></a>
+Pāṭidesanīyakaṇḍaṃ niṭṭhitaṃ.</p>
+
+</div><!--End Pali-->
+</section>
+<div id="nextprev"><a id="previous-sutta" href="../vi/bu-vb-pd3.html"></a><a id="next-sutta" href="../vi/bu-vb-sk.html"></a></div>
+</div><!--content-->
+<footer>
+<div id="breadcrumbs">
+<a href="../home/index.html">Home</a><a href="../vi/vi.html">Vinaya Pitaka</a><a href="../vi/bu-vb.html">Bhikkhu Vibhanga Pāṭidesanīyas</a>Pāṭidesanīya 4
+</div>
+<a id="bottom"></a>
+</footer>
+<script src="../js/footer.js"></script>
+</div><!--container-->
+</body>
+</html>

@@ -1,0 +1,52 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "URWPalladioITU";
+  src: url("./fonts/PAITUR.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/PAITUR.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/PAITUR.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/PAITUR.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/PAITUR.woff") format("woff"),
+    url("./fonts/PAITUR.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "URWPalladioITU-Bold";
+  src: url("./fonts/PAITUB.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/PAITUB.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/PAITUB.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/PAITUB.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/PAITUB.woff") format("woff"),
+    url("./fonts/PAITUB.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "URWPalladioITU-Italic";
+  src: url("./fonts/PAITUI.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/PAITUI.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/PAITUI.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/PAITUI.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/PAITUI.woff") format("woff"),
+    url("./fonts/PAITUI.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "URWPalladioITU-BoldItalic";
+  src: url("./fonts/PAITUBI.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/PAITUBI.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/PAITUBI.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/PAITUBI.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/PAITUBI.woff") format("woff"),
+    url("./fonts/PAITUBI.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+

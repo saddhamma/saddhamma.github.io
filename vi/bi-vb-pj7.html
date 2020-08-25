@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8>
+<link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+<title>Vibhanga (Bhikkhuni) - Pārājika 7</title>
+<script src="../js/jquery-1.10.2.min.js"></script>
+<link rel="stylesheet" href="../css/menu.css">
+<link rel="stylesheet" href="../css/css.css">
+</head>
+<body>
+<div id="container">
+<header>
+<div id="eng_searchlink"> <span><a href="../home/engsearch.html" >Search English Content</a></span></div>
+<div id="pali_searchlink"> <span><a href="../home/palisearch.html" >Search Pali Content</a></span></div>
+
+<div class="logotext">
+<a href="../home/index.html"><span>The True Dhamma</span></a>
+</div>
+<nav>
+<div id="navbar">
+<ul id="css3menu0" >
+<li class="topfirst" id="home"><a href="../home/index.html">Home</a></li>
+<li class="topmenu" id="dn"><a href="../dn/dn.html">Digha Nikaya</a></li>
+<li class="topmenu" id="mn"><a href="../mn/mn.html">Majjhima Nikaya</a></li>
+	<li class="topmenu" id="sn"><a href="../sn/sn.html">↓ Samyutta Nikaya</a>
+		<ul>
+		<li><a href="../sn/sn01.html">Part 1 - The Book with Verses</a></li>
+			<li><a href="../sn/sn02.html">Part 2 - The Book of Causation</a></li>
+			<li><a href="../sn/sn03.html">Part 3 - The Book of the Aggregates</a></li>
+			<li><a href="../sn/sn04.html">Part 4 - The Book of the Six Sense Bases</a></li>
+			<li><a href="../sn/sn05.html" title="Part 5 - The Great Book">Part 5 - The Great Book</a></li>
+		</ul>
+	</li>
+		<li class="topmenu" id="an"><a href="../an/an.html">↓ Anguttara Nikaya</a>
+			<ul>
+			<li><a href="../an/an1.html">The Ones</a></li>
+			<li><a href="../an/an2.html">The Twos</a></li>
+			<li><a href="../an/an3.html">The Threes</a></li>
+			<li><a href="../an/an4.html">The Fours</a></li>
+			<li><a href="../an/an5.html">The Fives</a></li>
+			<li><a href="../an/an6.html">The Sixes</a></li>
+			<li><a href="../an/an7.html">The Sevens</a></li>
+			<li><a href="../an/an8.html">The Eights</a></li>
+			<li><a href="../an/an9.html">The Nines</a></li>
+			<li><a href="../an/an10.html">The Tens</a></li>
+			<li><a href="../an/an11.html">The Elevens</a></li>
+			</ul>
+		</li>
+	<li class="topmenu" id="kn"><a href="../kn/kn.html">↓ Khuddaka Nikaya</a>
+			<ul>
+			<li><a href="../dhp/dhp.html" title="The Dhammapada">The Dhammapada</a></li>
+			<li><a href="../snp/snp.html">Sutta Nipata</a></li>
+			<li><a href="../ud/ud.html">Udana</a></li>
+			<li><a href="../it/it.html">Itivuttaka</a></li>
+			<li><a href="../tha/tha.html">The Theragatha</a></li>
+			<li><a href="../thi/thi.html">The Therigatha</a></li>
+			</ul>
+	</li>
+	<li class="toplast" id="vi"><a class="pressed" href="../vi/vi.html">↓ Vinaya Pitaka</a>
+			<ul>
+			<li><a href="../vi/kd.html">Khandaka</a></li>
+			<li><a href="../vi/bu-vb.html" title="Monk’s Rules">Bhikkhu Vibhanga</a></li>
+			<li><a href="../vi/bu-pt.html" title="Bhikkhu Pātimokkha">Bhikkhu Pātimokkha</a></li>
+			<li><a href="../vi/bi-pt.html" title="Bhikkhunī Pātimokkha">Bhikkhunī Patimokkha</a></li>
+			<li><a class="pressed" href="../vi/bi-vb.html" title="Nuns Rules">Bhikkhuni Vibhanga</a></li>
+			<li><a href="../bmc/bmc.html">Buddhist Monastic Code I</a></li>
+      <li><a href="../bmc/bmc2.html">Buddhist Monastic Code 2</a></li>
+			</ul>
+	</li>
+</ul>
+</div> <!--navbar-->
+</nav>
+<div class="controlpanel" id="controlpanel"><!--controlpanel-->
+<ul>
+	<li>
+	<ul class="inner">
+		<li><a href="#" title="Page Top" >&nbsp;▲&nbsp;</a>
+		<li class="nextprev">
+			<button class="palitoggle"
+				id="pali"
+				type="button"
+				title="Display Pali and activate Lookup Dictionary"
+				style="width:2.8em; padding: 0 2px;">Pali</button>
+		</li>
+		<li><a href="#bottom" title="Page Bottom">&nbsp;▼&nbsp;</a>
+	</ul>
+	</li>
+</ul>
+</div> <!--controlpanel-->
+</header>
+<div id="content">
+<h2>Vinaya Pitaka - Monastic Rules</h2>
+
+<div>
+	<ul id="vbnav">
+	 <li id="active"><a href="../vi/bi-vb-pj.html">Pārājikas</a></li>
+   <li><a href="../vi/bi-vb-sn.html">Sanghādisesas</a></li>
+   <li><a href="../vi/bi-vb-an.html">Aniyatas</a></li>
+   <li><a href="../vi/bi-vb-np.html">Nissaggiya Pācittiyas</a></li>
+   <li><a href="../vi/bi-vb-pc.html">Pācittiyas</a></li>
+   <li><a href="../vi/bi-vb-pd.html">Pāṭidesanīyas</a></li>
+   <li><a href="../vi/bi-vb-sk.html">Sekhiyas</a></li>
+	<li><a href="../vi/bi-vb-as.html">Adhikaraṇa-Samathās</a></li>
+	</ul>
+</div>
+
+<h2>Bhikkhuni Vibhanga - Pārājika 7: Following a Suspended Bhikkhu</h2>
+
+<div id="metaarea">
+	<ul class="translator">
+		<li>Translated from the Pali by Ebo Croffie (coming sooner or later).</li>
+
+<hr>
+
+<p>Those who were modest nuns … spread it about, saying: "How can the lady Thullanandā imitate the monk … suspended by a complete Order?" … “It is true, lord."</p>
+
+<p>The enlightened one, the lord, rebuked them, saying:</p>
+
+<p>"How, monks, can the nun Thullanandā imitate the monk … suspended by a complete Order? It is not, monks, for pleasing those who are not (yet) pleased … And thus, monks, let the nuns set forth this rule of training:</p>
+
+<hr>
+
+<p>"<span class="rule">Whatever nun should imitate him—a monk suspended by a complete Order, one who is disrespectful towards, who does not make amends towards,<span class="note"><span class="details"><span class="p"><i lang="pi">apaṭikāra</i>. <em>Cf.</em> <a class="cr" href="#Vin.1.97">Vin.1.97"></a>, <i lang="pi">appaṭikamma</i> and <i lang="pi">paṭikaroti</i> used with <i lang="pi">āpatti</i>, an offence. Also <span class="ref">AN.ii.241<em>ff.</em></span>, <i lang="pi">yathFādhammaṃ paṭikarissati</i>, he (or she) will make amends according to the rule, for having fallen into a <i lang="pi">pārājika</i>, <i lang="pi">saṅghādisesa</i>, <i lang="pi">pācittiya</i> or <i lang="pi">pāṭidesaniya(ka)</i> offence (<i lang="pi">dhamma</i>). <i lang="pi">Paṭikaroti</i> is also “to confess."</span></span></span> one who is unfriendly towards<span class="note"><span class="details"><span class="p"><i lang="pi">akatasahāya</i>. <cite class="book">Critical Pali Dictionary</cite>’s “who has not taken an advocate" cannot be accepted here.</span></span></span> the rule,<span class="note"><span class="details"><span class="p"><i lang="pi">dhamma</i>.</span></span></span> the discipline, the teacher’s instruction—that nun should be spoken to thus by the nuns: ‘Lady, this monk, suspended by a complete Order, is disrespectful towards, he does not make amends towards, he is unfriendly towards the rule, the discipline, the teacher’s instruction. Do not imitate this monk, lady.’ And if this nun, being spoken to thus by <a class="pts_pn" id="BD.3.170"></a> these nuns, should persist as before, that nun should be admonished by the nuns up to the third time for giving up this (course). If, being admonished up to the third time, she should give it up, that is good. But if she should not give it up, she also becomes one who is defeated, she is not in communion, she is an imitator of one who is suspended."<span class="note"><span class="details"><span class="p">As in Monks’ <a class="cr" href="#Bu-Pc.68">Bu-Pc.68"></a>, this is more like <i lang="pi">Saṅghādisesa</i> method and material than <i lang="pi">Pārājika</i>.</span></span></span></span></p>
+
+<hr>
+
+<p><span class="parno">Bi-Pj.7.2, Bi-Pj.7.2.1</span><span class="term">Whatever</span> means: <span class="gloss"> … nun is to be understood in this case.</span></p>
+
+<p><span class="term">Complete Order</span> means: <span class="gloss">belonging to the same communion, staying within the same boundary.<span class="note"><span class="details"><span class="p">= above, <a class="cr" href="#BD.3.65"></a>, below, <a class="cr" href="#BD.3.193"></a>, and <a class="cr" href="#Vin.3.173">Vin.3.173"></a>.</span></span></span></span></p>
+
+<p><span class="term">Suspended</span> means: <span class="gloss">suspended for not seeing or for not making amends for or for not giving up an offence.<span class="note"><span class="details"><span class="p">= below, <a class="cr" href="#BD.3.193"></a>.</span></span></span></span></p>
+
+<p><span class="term">Towards the rule, the discipline</span> means: <span class="gloss">towards whatever is the rule, whatever is the discipline.<span class="note"><span class="details"><span class="p">= below, <a class="cr" href="#BD.3.193"></a>.</span></span></span></span></p>
+
+<p><span class="term">Towards the teacher’s instruction</span> means: <span class="gloss">towards the conqueror’s instruction, the enlightened one’s instruction.<span class="note"><span class="details"><span class="p">= below, <a class="cr" href="#BD.3.193"></a>.</span></span></span></span></p>
+
+<p><span class="term">Disrespectful</span> means: <span class="gloss">he does not heed an Order or a group or an individual or a (formal) act.</span></p>
+
+<p><span class="term">Does not make amends towards</span> means: <span class="gloss">he is suspended, not restored.<span class="note"><span class="details"><span class="p">= above, <a class="cr" href="#BD.3.28"></a>, in definition of <i lang="pi">akaṭānudhamma</i>, “has not acted according to the rule."</span></span></span></span></p>
+
+<p><span class="term">Unfriendly towards</span> means: <span class="gloss">monks belonging to the same communion are called friends. He who is not together with these is therefore called unfriendly.</span></p>
+
+<p><span class="term">Should imitate him</span> means: <span class="gloss">if he becomes one of such views, of such indulgence, of such pleasures, she too becomes one of those views, of that indulgence, of those pleasures.</span></p>
+
+<p><span class="term">That nun</span> means: <span class="gloss">whatever nun is an imitator of one who is suspended.</span></p>
+
+<p><span class="term">By the nuns</span><span class="note"><span class="details"><span class="p"><em>Cf.</em> <a class="cr" href="#Vin.3.178">Vin.3.178<em>f.</em></a>, <a class="cr" href="#Vin.3.185">Vin.3.185"></a>.</span></span></span> means: <span class="gloss">by other nuns: these sec, these <a class="pts_pn" id="BD.3.171"></a> hear; she should be told by these saying: ‘Lady, this monk, suspended by a complete Order, … do not imitate this monk, lady.’ And a second time she should be told … And a third time she should be told … If she gives it up, that is good; if she does not give it up, there is an offence of wrong-doing. If, having heard, they do not speak, there is an offence of wrong-doing. That nun, having been pulled into the midst of the Order, should be told: ‘Lady, this monk, suspended by a complete Order, … do not imitate this monk, lady.’ And a second time … And a third time she should be told … If she gives it up, that is good; if she does not give it up, there is an offence of wrong-doing.</span> <span class="term">That nun should be admonished</span>. And thus, monks, should she be admonished: the Order should be informed by an experienced, competent nun, saying: </p>
+
+<p><span class="kamma">‘Ladies, let the Order listen to me. This nun so and so imitated a monk suspended by a complete Order, one who is disrespectful towards, who does not make amends towards, who is unfriendly towards the rule, the discipline, the teacher’s instruction. She does not give up this course. If it seems right to the Order, let the Order admonish the nun so and so in order that she may give up this course. This is the motion. Ladies, let the Order listen to me. This nun so and so … She does not give up this course. The Order admonishes the nun so and so in order that she may give up this course. If the admonishing of the nun so and so in order that she may give up this course is pleasing to the ladies, let them be silent; if it is not pleasing, then you should speak. And a second time I speak forth this matter … And a third time I speak forth this matter … The nun so and so is admonished by the Order for giving up this course. It is pleasing to the Order … So do I understand this.’</span></p>
+
+<p>As a result of the motion there is an offence of wrong-doing; as a result of two proclamations there are grave offences; at the end of the proclamations, there is an offence involving defeat.</p>
+
+<p><a class="pts_pn" id="BD.3.172"></a> <span class="term">She also</span> means: <span class="gloss">she is so called in reference to the former.</span></p>
+
+<p><span class="term">She becomes one who is defeated</span> means: <span class="gloss">as a flat stone broken in half cannot be put together again,<span class="note"><span class="details"><span class="p"><em>Cf.</em> <a class="cr" href="#Vin.1.97">Vin.1.97"></a>, <a class="cr" href="#Vin.3.74">Vin.3.74"></a>.</span></span></span> so a nun, being admonished up to the third time, <a class="pts_pn" id="Vin.4.220"></a> not giving it up, becomes one who is not a (true) recluse, not a daughter of the Sakyans</span>; therefore she is called <span class="term">she becomes one who is defeated</span>.</p>
+
+<p><span class="term">Not in communion</span> means: <span class="gloss">communion … </span> is therefore called <span class="term">not in communion</span>.</p>
+
+
+<p><span class="parno">Bi-Pj.7.2.2</span> If she thinks that it is a legally valid act when it is a legally valid act (and) does not give it up, there is an offence involving defeat. If she is in doubt as to whether it is a legally valid act (and) does not give it up, there is an offence involving defeat. If she thinks that it is not a legally valid act when it is a legally valid act (and) does not give it up, there is an offence involving defeat. If she thinks that it is a legally valid act when it is not a legally valid act, there is an offence of wrong-doing. If she is in doubt as to whether it is not a legally valid act, there is an offence of wrong-doing. If she thinks that it is not a legally valid act when it is not a legally valid act, there is an offence of wrong-doing.<span class="note"><span class="details"><span class="p"><em>Cf.</em> <a class="cr" href="#Vin.3.174">Vin.3.174"></a>, <a class="cr" href="#Vin.3.177">Vin.3.177"></a>, <a class="cr" href="#Vin.3.179">Vin.3.179"></a>, <a class="cr" href="#Vin.3.186">Vin.3.186"></a>; <a class="cr" href="#Vin.4.136">Vin.4.136"></a>, where last clause of <a class="cr" href="#Bi-Pj.7.2.2">Bi-Pj.7.2.2"></a> ends <i lang="pi">anāpatti</i> instead of, as on these other occasions, <i lang="pi">āpatti dukkaṭassa</i>.</span></span></span></p>
+
+
+<p><a class="pts_pn" id="Bi-Pj.7.2.3"></a> There is no offence if she is not admonished; if she gives it up, if she is mad, if she is the first wrong-doer.<span class="note"><span class="details"><span class="p"><em>Cf.</em> <a class="cr" href="#Vin.3.174">Vin.3.174"></a>, <a class="cr" href="#Vin.3.177">Vin.3.177"></a>, <a class="cr" href="#Vin.3.179">Vin.3.179"></a>, <a class="cr" href="#Vin.3.186">Vin.3.186"></a>; <a class="cr" href="#Vin.4.136">Vin.4.136"></a>, where last clause of <a class="cr" href="#Bi-Pj.7.2.2">Bi-Pj.7.2.2"></a> ends <i lang="pi">anāpatti</i> instead of, as on these other occasions, <i lang="pi">āpatti dukkaṭassa</i>.</span></span></span></p>
+<p class="end">Told is the Third Offence involving Defeat<br>
+</p>
+
+
+</div><!--End English-->
+
+<div lang="pi"><!--Pali-->
+<p>
+<span class="parno">1</span>
+<a class="ms" id="p_2V_2155"></a>
+<a class="msdiv" id="msdiv668"></a>
+Tena samayena buddho bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa
+ārāme. Tena kho pana samayena thullanandā bhikkhunī samaggena saṃghena
+ukkhittaṃ ariṭṭhaṃ bhikkhuṃ gaddhabādhipubbaṃ anuvattati.</p>
+
+<hr>
+
+<p>
+<span class="parno">2</span>
+<a class="ms" id="p_2V_2156"></a>
+Yā tā bhikkhuniyo appicchā…pe…  tā ujjhāyanti khiyyanti vipācenti—  “kathañhi
+nāma ayyā thullanandā samaggena saṃghena ukkhittaṃ ariṭṭhaṃ bhikkhuṃ
+gaddhabādhipubbaṃ anuvattissatī”ti…pe…  “saccaṃ kira, bhikkhave, thullanandā
+bhikkhunī samaggena saṃghena ukkhittaṃ ariṭṭhaṃ bhikkhuṃ gaddhabādhipubbaṃ
+anuvattatī”ti? “Saccaṃ, bhagavā”ti. Vigarahi buddho bhagavā…pe…  kathañhi nāma,
+bhikkhave, thullanandā bhikkhunī samaggena saṃghena ukkhittaṃ ariṭṭhaṃ
+bhikkhuṃ gaddhabādhipubbaṃ anuvattissati. Netaṃ, bhikkhave, appasannānaṃ vā
+pasādāya…pe…  evañca pana, bhikkhave, bhikkhuniyo imaṃ sikkhāpadaṃ uddisantu—</p>
+<p>
+
+<hr>
+<span class="parno">3</span>
+<a class="ms" id="p_2V_2157"></a>
+<a class="msdiv" id="msdiv669"></a>
+<strong class="rule">“Yā pana bhikkhunī samaggena saṃghena ukkhittaṃ bhikkhuṃ
+dhammena vinayena satthusāsanena anādaraṃ appaṭikāraṃ akatasahāyaṃ
+tamanuvatteyya, sā bhikkhunī bhikkhunīhi evamassa vacanīyā—  ‘eso kho, ayye,
+bhikkhu samaggena saṃghena ukkhitto dhammena vinayena satthusāsanena anādaro
+appaṭikāro akatasahāyo, māyye, etaṃ bhikkhuṃ anuvattī’ti. Evañca sā bhikkhunī
+bhikkhunīhi vuccamānā tatheva paggaṇheyya, sā bhikkhunī bhikkhunīhi yāvatatiyaṃ
+samanubhāsitabbā tassa paṭinissaggāya. Yāvatatiyañce samanubhāsiyamānā taṃ
+paṭinissajjeyya, iccetaṃ kusalaṃ. No ce paṭinissajjeyya, ayampi pārājikā hoti
+asaṃvāsā ukkhittānuvattikā”</strong>ti. </p>
+
+<hr>
+
+<p>
+<span class="parno">4</span>
+<a class="ms" id="p_2V_2158"></a>
+<a class="msdiv" id="msdiv670"></a>
+<strong>Yā panā</strong>ti yā yādisā…pe…
+<strong>bhikkhunī</strong>ti…pe…  ayaṃ imasmiṃ atthe adhippetā bhikkhunīti.</p>
+<p>
+<span class="parno">5</span>
+<a class="ms" id="p_2V_2159"></a>
+<strong>Samaggo</strong>
+nāma saṃgho samānasaṃvāsako samānasīmāyaṃ ṭhito.</p>
+<p>
+<span class="parno">6</span>
+<a class="ms" id="p_2V_2160"></a>
+<strong>Ukkhitto</strong>
+nāma āpattiyā adassane vā appaṭikamme vā appaṭinissagge vā ukkhitto.</p>
+<p>
+<span class="parno">7</span>
+<a class="ms" id="p_2V_2161"></a>
+<strong>Dhammena vinayenā</strong>ti yena
+dhammena yena vinayena.</p>
+<p>
+<span class="parno">8</span>
+<a class="ms" id="p_2V_2162"></a>
+<strong>Satthusāsanenā</strong>ti jinasāsanena
+buddhasāsanena.</p>
+<p>
+<span class="parno">9</span>
+<a class="ms" id="p_2V_2163"></a>
+<strong>Anādaro</strong>
+nāma saṃghaṃ vā gaṇaṃ vā puggalaṃ vā kammaṃ vā nādiyati.</p>
+<p>
+<span class="parno">10</span>
+<a class="ms" id="p_2V_2164"></a>
+<strong>Appaṭikāro</strong>
+nāma ukkhitto anosārito.</p>
+<p>
+<span class="parno">11</span>
+<a class="ms" id="p_2V_2165"></a>
+<strong>Akatasahāyo</strong>
+nāma samānasaṃvāsakā bhikkhū vuccanti sahāyā. So tehi saddhiṃ natthi, tena
+vuccati akatasahāyoti.</p>
+<p>
+<span class="parno">12</span>
+<a class="ms" id="p_2V_2166"></a>
+<strong>Tamanuvatteyyā</strong>ti yaṃdiṭṭhiko
+so hoti yaṃkhantiko yaṃruciko, sāpi taṃdiṭṭhikā hoti taṃkhantikā taṃrucikā.</p>
+<p>
+<span class="parno">13</span>
+<a class="ms" id="p_2V_2167"></a>
+<strong>Sā bhikkhunī</strong>ti yā sā
+ukkhittānuvattikā bhikkhunī.</p>
+<p>
+<span class="parno">14</span>
+<a class="ms" id="p_2V_2168"></a>
+<strong>Bhikkhunīhī</strong>ti aññāhi
+bhikkhunīhi. Yā passanti yā suṇanti tāhi vattabbā—  “eso kho, ayye, bhikkhu
+samaggena saṃghena ukkhitto dhammena vinayena satthusāsanena anādaro appaṭikāro
+akatasahāyo. Māyye, etaṃ bhikkhuṃ anuvattī”ti. Dutiyampi vattabbā. Tatiyampi
+vattabbā. Sace paṭinissajjati, iccetaṃ kusalaṃ; no ce paṭinissajjati, āpatti
+dukkaṭassa. Sutvā na vadanti, āpatti dukkaṭassa. Sā bhikkhunī saṃghamajjhampi
+ākaḍḍhitvā vattabbā—  “eso kho, ayye, bhikkhu samaggena saṃghena ukkhitto
+dhammena vinayena satthusāsanena anādaro appaṭikāro akatasahāyo. Māyye, etaṃ
+bhikkhuṃ anuvattīti. Dutiyampi vattabbā. Tatiyampi vattabbā. Sace
+paṭinissajjati, iccetaṃ kusalaṃ. No ce paṭinissajjati, āpatti dukkaṭassa. Sā
+bhikkhunī samanubhāsitabbā. Evañca pana, bhikkhave, samanubhāsitabbā. Byattāya
+bhikkhuniyā paṭibalāya saṃgho ñāpetabbo— </p>
+<p>
+<span class="parno">15</span>
+<a class="ms" id="p_2V_2169"></a>
+<a class="msdiv" id="msdiv671"></a>
+‘Suṇātu me, ayye, saṃgho. Ayaṃ itthannāmā bhikkhunī samaggena saṃghena
+ukkhittaṃ bhikkhuṃ dhammena vinayena satthusāsanena anādaraṃ appaṭikāraṃ
+akatasahāyaṃ tamanuvattati, sā taṃ vatthuṃ na paṭinissajjati. Yadi saṃghassa
+pattakallaṃ, saṃgho itthannāmaṃ bhikkhuniṃ samanubhāseyya tassa vatthussa
+paṭinissaggāya. Esā ñatti.</p>
+<p>
+<span class="parno">16</span>
+<a class="ms" id="p_2V_2170"></a>
+Suṇātu me, ayye, saṃgho. Ayaṃ itthannāmā bhikkhunī samaggena saṃghena ukkhittaṃ
+bhikkhuṃ dhammena vinayena satthusāsanena anādaraṃ appaṭikāraṃ akatasahāyaṃ
+tamanuvattati. Sā taṃ vatthuṃ na paṭinissajjati. Saṃgho itthannāmaṃ bhikkhuniṃ
+samanubhāsati tassa vatthussa paṭinissaggāya. Yassā ayyāya khamati itthannāmāya
+bhikkhuniyā samanubhāsanā tassa vatthussa paṭinissaggāya, sā tuṇhassa; yassā
+nakkhamati, sā bhāseyya.</p>
+<p>
+<span class="parno">17</span>
+<a class="ms" id="p_2V_2171"></a>
+Dutiyampi etamatthaṃ vadāmi…pe…  tatiyampi etamatthaṃ vadāmi…pe… .</p>
+<p>
+<span class="parno">18</span>
+<a class="ms" id="p_2V_2172"></a>
+Samanubhaṭṭhā saṃghena itthannāmā bhikkhunī tassa vatthussa paṭinissaggāya.
+Khamati saṃghassa, tasmā tuṇhī, evametaṃ dhārayāmī’”ti.</p>
+<p>
+<span class="parno">19</span>
+<a class="ms" id="p_2V_2173"></a>
+Ñattiyā dukkaṭaṃ, dvīhi kammavācāhi thullaccayā, kammavācā pariyosāne āpatti
+pārājikassa.</p>
+<p>
+<span class="parno">20</span>
+<a class="ms" id="p_2V_2174"></a>
+<strong>Ayampī</strong>ti purimāyo upādāya
+vuccati.</p>
+<p>
+<span class="parno">21</span>
+<a class="ms" id="p_2V_2175"></a>
+<strong>Pārājikā hotī</strong>ti seyyathāpi
+nāma puthusilā dvedhā bhinnā appaṭisandhikā hoti, evameva bhikkhunī yāvatatiyaṃ
+samanubhāsanāya na paṭinissajjantī assamaṇī hoti asakyadhītā. Tena vuccati
+pārājikā hotīti.</p>
+<p>
+<span class="parno">22</span>
+<a class="ms" id="p_2V_2176"></a>
+<strong>Asaṃvāsā</strong>ti
+<strong>saṃvāso</strong> nāma ekakammaṃ ekuddeso samasikkhatā. Eso saṃvāso
+nāma. So tāya saddhiṃ natthi. Tena vuccati asaṃvāsāti.</p>
+<p>
+<span class="parno">23</span>
+<a class="ms" id="p_2V_2177"></a>
+<a class="msdiv" id="msdiv672"></a>
+Dhammakamme dhammakammasaññā na paṭinissajjati, āpatti pārājikassa. Dhammakamme
+vematikā na paṭinissajjati, āpatti pārājikassa. Dhammakamme adhammakammasaññā
+na paṭinissajjati, āpatti pārājikassa.</p>
+<p>
+<span class="parno">24</span>
+<a class="ms" id="p_2V_2178"></a>
+Adhammakamme dhammakammasaññā, āpatti dukkaṭassa. Adhammakamme vematikā, āpatti
+dukkaṭassa. Adhammakamme adhammakammasaññā, āpatti dukkaṭassa.</p>
+<p>
+<span class="parno">25</span>
+<a class="ms" id="p_2V_2179"></a>
+<a class="msdiv" id="msdiv673"></a>
+Anāpatti—  asamanubhāsantiyā, paṭinissajjantiyā, ummattikāya…pe…
+ādikammikāyāti.</p>
+<p class="endsutta">
+<span class="parno">26</span>
+<a class="ms" id="p_2V_2180"></a>
+Tatiyapārājikaṃ samattaṃ.</p>
+</div><!--End Pali-->
+
+<div id="nextprev"><a id="previous-sutta" href="../vi/bi-vb-pj6.html"></a><a id="next-sutta" href="../vi/bi-vb-pj8.html"></a></div>
+</section>
+</div><!--content-->
+<footer>
+<div id="breadcrumbs">
+<a href="../home/index.html">Home</a><a href="../vi/vi.html">Vinaya Pitaka</a><a href="../vi/bi-vb.html">Bhikkhu Vibhanga</a><a href="../vi/bi-vb-pj.html">Pārājikas</a>Pārājika 7
+</div>
+<a id="bottom"></a>
+</footer>
+<script src="../js/footer.js"></script>
+</div><!--container-->
+</body>
+</html>

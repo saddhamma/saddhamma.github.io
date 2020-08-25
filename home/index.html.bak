@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8>
+<link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+<title>A Treasury of Dhamma</title>
+<style type="text/css">
+	#content p { margin: 0 0 .5em 0; }
+</style>
+</head>
+<body>
+<div id="container">
+<header>
+<script src="../js/jquery-1.10.2.min.js"></script>
+<link rel="stylesheet" href="../css/menu.css">
+<link rel="stylesheet" href="../css/css.css">
+<div id="eng_searchlink"> <span><a href="../home/engsearch.html" >Search English Content</a></span></div>
+<div id="pali_searchlink"> <span><a href="../home/palisearch.html" >Search Pali Content</a></span></div>
+
+<div class="logotext">
+<a href="../home/index.html"><span>The True Dhamma</span></a>
+</div>
+<nav>
+<div id="navbar">
+<ul id="css3menu0" >
+<li class="topfirst" id="home"><a class="pressed" href="../index.html">Home</a></li>
+<li class="topmenu" id="dn"><a href="../dn/dn.html">Digha Nikaya</a></li>
+<li class="topmenu" id="mn"><a href="../mn/mn.html">Majjhima Nikaya</a></li>
+	<li class="topmenu" id="sn"><a href="../sn/sn.html">↓ Samyutta Nikaya</a>
+		<ul>
+			<li><a href="../sn/sn01.html">Part 1 - The Book with Verses</a></li>
+			<li><a href="../sn/sn02.html">Part 2 - The Book of Causation</a></li>
+			<li><a href="../sn/sn03.html">Part 3 - The Book of the Aggregates</a></li>
+			<li><a href="../sn/sn04.html">Part 4 - The Book of the Six Sense Bases</a></li>
+			<li><a href="../sn/sn05.html">Part 5 - The Great Book</a></li>
+		</ul>
+	</li>
+		<li class="topmenu" id="an"><a href="../an/an.html">↓ Anguttara Nikaya</a>
+			<ul>
+			<li><a href="../an/an1.html">The Ones</a></li>
+			<li><a href="../an/an2.html">The Twos</a></li>
+			<li><a href="../an/an3.html">The Threes</a></li>
+			<li><a href="../an/an4.html">The Fours</a></li>
+			<li><a href="../an/an5.html">The Fives</a></li>
+			<li><a href="../an/an6.html">The Sixes</a></li>
+			<li><a href="../an/an7.html">The Sevens</a></li>
+			<li><a href="../an/an8.html">The Eights</a></li>
+			<li><a href="../an/an9.html">The Nines</a>
+			<li><a href="../an/an10.html">The Tens</a></li>
+			<li><a href="../an/an11.html">The Elevens</a></li>
+			</ul>
+		</li>
+	<li class="topmenu" id="kn"><a href="../kn/kn.html">↓ Khuddaka Nikaya</a>
+			<ul>
+			<li><a href="../dhp/dhp.html">The Dhammapada</a></li>
+			<li><a href="../snp/snp.html">Sutta Nipata</a></li>
+			<li><a href="../ud/ud.html">Udana</a></li>
+			<li><a href="../it/it.html">Itivuttaka</a></li>
+			<li><a href="../tha/tha.html">The Theragatha</a></li>
+			<li><a href="../thi/thi.html">The Therigatha</a></li>
+			</ul>
+	</li>
+	<li class="toplast" id="vi"><a href="../vi/vi.html">↓ Vinaya Pitaka</a>
+			<ul>
+			<li><a href="../vi/kd.html">Khandaka</a></li>
+			<li><a href="../vi/bu-vb.html" title="Monk’s Rules">Bhikkhu Vibhanga</a></li>
+			<li><a href="../vi/bu-pt.html">Bhikkhu Pātimokkha</a></li>
+			<li><a href="../vi/bi-pt.html">Bhikkhunī Pātimokkha</a></li>
+			<li><a href="../vi/bi-vb.html"  title="Nuns Rules">Bhikkhuni Vibhanga</a></li>
+			<li><a href="../bmc/bmc.html">Buddhist Monastic Code I</a></li>
+      <li><a href="../bmc/bmc2.html">Buddhist Monastic Code 2</a></li>
+			</ul>
+	</li>
+</ul>
+</div> <!--navbar-->
+</nav>
+<div class="controlpanel" id="controlpanel"><!--controlpanel-->
+<ul>
+	<li>
+	<ul class="inner">
+		<li><a href="#" title="Page Top" >&nbsp;▲&nbsp;</a>
+		<li class="nextprev">
+			<button class="palitoggle"
+				id="pali"
+				type="button"
+				title="Display Pali and activate Lookup Dictionary"
+				style="width:2.8em; padding: 0 2px;">Pali</button>
+		</li>
+		<li><a href="#bottom" title="Page Bottom">&nbsp;▼&nbsp;</a>
+	</ul>
+	</li>
+</ul>
+</div> <!--controlpanel-->
+</header>
+<div id="content">
+
+<h2>The True Dhamma</h2>
+
+<p>These pages are designed to make the best available translations of the Buddha’s words easily available in English and Pali. </p>
+
+<h3>The Control Panel</h3>
+
+<p>The control panel widget that appears on the right hand side of the screen provides navigation between <strong>previous</strong> and <strong>next</strong> pages and between the <strong>top</strong> and <strong>bottom</strong> of the page. </p>
+
+<p>The <strong>-</strong> and <strong>+</strong> symbols decrease and increase the font size.</p>
+
+<p>The <strong>Pali</strong> button appears wherever a Pali version is present (not all pages have a Pali translation). Clicking the Pali button toggles Pali on. Pali stays turned on until the button is clicked again.<br>
+With Pali showing, hovering the cursor over a Pali word gives you the English translation of available words.</p>
+
+<p><img src="../images/ctrl-panel.png" alt="control panel image"></p>
+
+<h3>Navigation Around The Site</h3>
+
+<p>Use the navigation at the <strong>top</strong> of the page to navigate to other pages.</p>
+
+<p>Alternatively, the  “breadcrumbs” at the <strong>bottom</strong> of each page contain clickable links to take you to the top of the current level, the top of the next higher level etc. or to this page. The last entry in the breadcrumbs is the current page.</p>
+
+<p><img src="../images/breadcrumbs.png" alt="breadcrumbs image"></p>
+
+<h3>Comments (Footnotes)</h3>
+
+<p>In the English text, hovering the cursor over an information icon ( <span class="note"> <span class="details"><span class="p">Comments or footnotes appear in a pop-up box.</span></span></span> ) shows the comment or footnote in a pop up text box. Move the cursor away to close the pop-up box.</p>
+
+<h3>Pali Text</h3>
+
+<p>The Pali text contains a built-in Pali-English dictionary. <b>Hint:</b> move the cursor <i>downwards</i> to select the word; the definition pops up.
+
+<p>Some of the Pali text is highlighted with a <span class="var" title="Variant reading">beige</span> background to indicate variant Pali readings. Hovering the cursor over Pali text causes a popup as a standard tooltip.</p>
+
+<p><img src="../images/pali-var.png" alt="Pali text" style="margin-left:2em;"></p>
+
+<h3>Search on Current Page</h3>
+
+<p>The <strong>Find on this Page</strong> search box at the top of the screen allows you to search for text <strong>on the current page</strong>. It  “follows you” as you scroll down the page. If Pali is toggled on when searching, both Pali and English matches are highlighted. Use the next and previous buttons to move between matches. Note that the search function does not operate until at least three characters are entered. </p>
+
+<p>Pali searches ignore diacriticals. e.g. to find the word “pariyādāya” simply enter “pariya ..”  (or even “par” to find matches). Clicking in the search box clears the previous search.</p>
+
+<p><img src="../images/search.png" alt="search image"></p>
+
+<h3>Search Entire Site</h3>
+
+<p>To search the English Content of the <strong>entire site</strong>, click on the <strong>Search English Content</strong> link in the header of each page.</p>
+
+<p>To search the Pali Content of the <strong>entire site</strong>, click on the <strong>Search Pali Content</strong> link in the header of each page.</p>
+
+<p>Please be warned that the first time either of the search pages is opened may take a while to load &hellip; after that it’s fine.</p>
+
+<p><img src="../images/advsearch.png" alt="advanced search image"></p>
+
+<p>The search results will be displayed in hyperlinks that will take you to the relevant page but not to the exact location on the page. (Hint: Use right click | <strong>Open in new tab</strong> if you want to keep the results displayed) You will have to use <strong>Search on Current Page</strong> (as above) until a future iteration of this work integrates the two types of searches.</p>
+
+<h3>Versions of these pages &hellip;</h3>
+
+<p>These pages are updated regularly to add content, fix mistakes and to make improvements.  At this time the Pali is not completely aligned with the English in the Vinaya Pitika and elsewhere.</p>
+
+<p>Where the reader is directed to another sutta to read a similar block of ellided text, the original text is being reinstated. This process also continues &hellip; </p>
+
+<p>As Ajahn Brahmali&rsquo;s translations of the Vinaya become available and, as time allows, his translations are replacing the I.B Horner translations.</p>
+
+<p>For consistency, paragraph numbering is gradually being changed so that the english paragraph numbering follows the pali paragraph numbering. This process is also ongoing.</p>
+
+<p>Last updated 7th February 2018.</p>
+
+<div id="nextprev"></div>
+</div>
+<footer>
+<div id="bottomlinks">Home
+| <a href="../home/copyright.html">Copyright</a>
+| <a href="../home/contactus.html">Contact us</a>
+</div>
+<a id="bottom"></a>
+</footer>
+</div>
+<script src="../js/footer.js"></script>
+</body>
+</html>

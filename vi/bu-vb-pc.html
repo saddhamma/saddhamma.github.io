@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8>
+<link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+<title>Vibhanga (Bhikkhu) - Pācittiyas</title>
+<script src="../js/jquery-1.10.2.min.js"></script>
+<link rel="stylesheet" href="../css/menu.css">
+<link rel="stylesheet" href="../css/css.css">
+</head>
+<body>
+<div id="container">
+<header>
+<div id="eng_searchlink"> <span><a href="../home/engsearch.html" >Search English Content</a></span></div>
+<div id="pali_searchlink"> <span><a href="../home/palisearch.html" >Search Pali Content</a></span></div>
+
+<div class="logotext">
+<a href="../home/index.html"><span>The True Dhamma</span></a>
+</div>
+<nav>
+<div id="navbar">
+<ul id="css3menu0" >
+<li class="topfirst" id="home"><a href="../home/index.html">Home</a></li>
+<li class="topmenu" id="dn"><a href="../dn/dn.html">Digha Nikaya</a></li>
+<li class="topmenu" id="mn"><a href="../mn/mn.html">Majjhima Nikaya</a></li>
+	<li class="topmenu" id="sn"><a href="../sn/sn.html">↓ Samyutta Nikaya</a>
+		<ul>
+		<li><a href="../sn/sn01.html">Part 1 - The Book with Verses</a></li>
+			<li><a href="../sn/sn02.html">Part 2 - The Book of Causation</a></li>
+			<li><a href="../sn/sn03.html">Part 3 - The Book of the Aggregates</a></li>
+			<li><a href="../sn/sn04.html">Part 4 - The Book of the Six Sense Bases</a></li>
+			<li><a href="../sn/sn05.html" title="Part 5 - The Great Book">Part 5 - The Great Book</a></li>
+		</ul>
+	</li>
+		<li class="topmenu" id="an"><a href="../an/an.html">↓ Anguttara Nikaya</a>
+			<ul>
+			<li><a href="../an/an1.html">The Ones</a></li>
+			<li><a href="../an/an2.html">The Twos</a></li>
+			<li><a href="../an/an3.html">The Threes</a></li>
+			<li><a href="../an/an4.html">The Fours</a></li>
+			<li><a href="../an/an5.html">The Fives</a></li>
+			<li><a href="../an/an6.html">The Sixes</a></li>
+			<li><a href="../an/an7.html">The Sevens</a></li>
+			<li><a href="../an/an8.html">The Eights</a></li>
+			<li><a href="../an/an9.html">The Nines</a></li>
+			<li><a href="../an/an10.html">The Tens</a></li>
+			<li><a href="../an/an11.html">The Elevens</a></li>
+			</ul>
+		</li>
+	<li class="topmenu" id="kn"><a href="../kn/kn.html">↓ Khuddaka Nikaya</a>
+			<ul>
+			<li><a href="../dhp/dhp.html" title="The Dhammapada">The Dhammapada</a></li>
+			<li><a href="../snp/snp.html">Sutta Nipata</a></li>
+			<li><a href="../ud/ud.html">Udana</a></li>
+			<li><a href="../it/it.html">Itivuttaka</a></li>
+			<li><a href="../tha/tha.html">The Theragatha</a></li>
+			<li><a href="../thi/thi.html">The Therigatha</a></li>
+			</ul>
+	</li>
+	<li class="toplast" id="vi"><a class="pressed" href="../vi/vi.html">↓ Vinaya Pitaka</a>
+			<ul>
+			<li><a href="../vi/kd.html">Khandaka</a></li>
+<li><a class="pressed" href="../vi/bu-vb.html" title="Monk’s Rules">Bhikkhu Vibhanga</a></li>
+<li><a href="../vi/bu-pt.html" title="Bhikkhu Pātimokkha">Bhikkhu Pātimokkha</a></li>
+			<li><a href="../vi/bi-pt.html" title="Bhikkhunī Pātimokkha">Bhikkhunī Patimokkha</a></li>
+			<li><a href="../vi/bi-vb.html" title="Nuns Rules">Bhikkhuni Vibhanga</a></li>
+			<li><a href="../bmc/bmc.html">Buddhist Monastic Code I</a></li>
+      <li><a href="../bmc/bmc2.html">Buddhist Monastic Code 2</a></li>
+			</ul>
+	</li>
+</ul>
+</div> <!--navbar-->
+</nav>
+<div class="controlpanel" id="controlpanel"><!--controlpanel-->
+<ul>
+	<li>
+	<ul class="inner">
+		<li><a href="#" title="Page Top" >&nbsp;▲&nbsp;</a>
+		<li class="nextprev">
+			<button class="palitoggle"
+				id="pali"
+				type="button"
+				title="Display Pali and activate Lookup Dictionary"
+				style="width:2.8em; padding: 0 2px;">Pali</button>
+		</li>
+		<li><a href="#bottom" title="Page Bottom">&nbsp;▼&nbsp;</a>
+	</ul>
+	</li>
+</ul>
+</div> <!--controlpanel-->
+</header>
+<div id="content">
+<h2>Vinaya Pitaka - Monastic Rules</h2>
+
+<div>
+	<ul id="vbnav">
+	 <li><a href="../vi/bu-vb-pj.html">Pārājikas</a></li>
+   <li><a href="../vi/bu-vb-sn.html">Sanghādisesas</a></li>
+   <li><a href="../vi/bu-vb-an.html">Aniyatas</a></li>
+   <li><a href="../vi/bu-vb-np.html">Nissaggiya Pācittiyas</a></li>
+   <li id="active"><a href="../vi/bu-vb-pc.html">Pācittiyas</a></li>
+   <li><a href="../vi/bu-vb-pd.html">Pāṭidesanīyas</a></li>
+   <li><a href="../vi/bu-vb-sk.html">Sekhiyas</a></li>
+	<li><a href="../vi/bu-vb-as.html">Adhikaraṇa-Samathās</a></li>
+	</ul>
+
+<h2>Bhikkhu Vibhanga - Pācittiyas</h2>
+
+<table class="suttalist sectionlist">
+
+<tr>
+	<th colspan="2">Pācittiyas - Offences Involving Confession</th>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc1.html">1:</a></td>
+  <td><a href="../vi/bu-vb-pc1.html">Not to lie.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc2.html">2:</a></td>
+  <td><a href="../vi/bu-vb-pc2.html">Not to insult another bhikkhu.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc3.html">3:</a></td>
+  <td><a href="../vi/bu-vb-pc3.html">Not to create disagreement between bhikkhus.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc4.html">4:</a></td>
+  <td><a href="../vi/bu-vb-pc4.html">Not to recite together with laymen, texts of dhamma in Pali language.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc5.html">5:</a></td>
+  <td><a href="../vi/bu-vb-pc5.html">Not to spend the night under the same roof as the laity.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc6.html">6:</a></td>
+  <td><a href="../vi/bu-vb-pc6.html">Not to lie down in a building in which there is a woman.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc7.html">7:</a></td>
+  <td><a href="../vi/bu-vb-pc7.html">Not to teach to a woman more than six consecutive words of dhamma.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc8.html">8:</a></td>
+  <td><a href="../vi/bu-vb-pc8.html">Not to announce to a layman a realisation that has been achieved.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc9.html">9:</a></td>
+  <td><a href="../vi/bu-vb-pc9.html">Not to tell of another monks serious offence to a layperson.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc10.html">10:</a></td>
+  <td><a href="../vi/bu-vb-pc10.html">Not to dig or cause someone else to dig the ground.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc11.html">11:</a></td>
+  <td><a href="../vi/bu-vb-pc11.html">Not to destroy plants.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc12.html">12:</a></td>
+  <td><a href="../vi/bu-vb-pc12.html">Not to change the conversation when the saṇgha asks a question.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc13.html">13:</a></td>
+  <td><a href="../vi/bu-vb-pc13.html">Not to blame or slander a bhikkhu.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc14.html">14:</a></td>
+  <td><a href="../vi/bu-vb-pc14.html">Not to leave a mattress or a chair outside without arranging it back suitably.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc15.html">15:</a></td>
+  <td><a href="../vi/bu-vb-pc15.html">Not to leave a couch that has been moved in the monastery.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc16.html">16:</a></td>
+  <td><a href="../vi/bu-vb-pc16.html">Not to set a bhikkhu apart in order to make him leave.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc17.html">17:</a></td>
+  <td><a href="../vi/bu-vb-pc17.html">Not to expel a bhikkhu from a lodging belonging to the saṇgha.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc18.html">18:</a></td>
+  <td><a href="../vi/bu-vb-pc18.html">Not to install oneself on a bed or a chair that is placed on a floor with broken planks.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc19.html">19:</a></td>
+  <td><a href="../vi/bu-vb-pc19.html">Not to build a roof having more than three layers.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc20.html">20:</a></td>
+  <td><a href="../vi/bu-vb-pc20.html">Not to pour water containing living beings onto the ground.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc21.html">21:</a></td>
+  <td><a href="../vi/bu-vb-pc21.html">Not to teach bhikkhunīs without the saṇgha's approval.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc22.html">22:</a></td>
+  <td><a href="../vi/bu-vb-pc22.html">Not to teach dhamma to bhikkhunīs after nightfall.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc23.html">23:</a></td>
+  <td><a href="../vi/bu-vb-pc23.html">Not to go to a bhikkhunīs monastery in order to teach.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc24.html">24:</a></td>
+  <td><a href="../vi/bu-vb-pc24.html">Not to accuse a bhikkhu of teaching bhikkhunīs for the sake of gain.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc25.html">25:</a></td>
+  <td><a href="../vi/bu-vb-pc25.html">Not to give a robe to a bhikkhunī except in exchange.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc26.html">26:</a></td>
+  <td><a href="../vi/bu-vb-pc26.html">Not to sew a robe for a bhikkhunī.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc27.html">27:</a></td>
+  <td><a href="../vi/bu-vb-pc27.html">Not to plan a trip with a bhikkhunī.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc28.html">28:</a></td>
+  <td><a href="../vi/bu-vb-pc28.html">Not to travel in a boat with a bhikkhunī.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc29.html">29:</a></td>
+  <td><a href="../vi/bu-vb-pc29.html">Not to eat food obtained via the intervention of a bhikkhunī.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc30.html">30:</a></td>
+  <td><a href="../vi/bu-vb-pc30.html">Not to sit with a bhikkhunī in a remote spot.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc31.html">31:</a></td>
+  <td><a href="../vi/bu-vb-pc31.html">Not to eat twice consecutively at a food distribution place.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc32.html">32:</a></td>
+  <td><a href="../vi/bu-vb-pc32.html">Not to eat Group meals.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc33.html">33:</a></td>
+  <td><a href="../vi/bu-vb-pc33.html">Not to eat beforehand after having been invited to a meal.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc34.html">34:</a></td>
+  <td><a href="../vi/bu-vb-pc34.html">Not to be immoderate in receiving food from laypeople.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc35.html">35:</a></td>
+  <td><a href="../vi/bu-vb-pc35.html">Not to eat elsewhere after an invitation meal.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc36.html">36:</a></td>
+  <td><a href="../vi/bu-vb-pc36.html">A bhikkhu is not to offer food to another bhikkhu who has already eaten his fill.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc37.html">37:</a></td>
+  <td><a href="../vi/bu-vb-pc37.html">Not to consume solid foods between noon and the following dawn.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc38.html">38:</a></td>
+  <td><a href="../vi/bu-vb-pc38.html">A bhikkhu is not to store food.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc39.html">39:</a></td>
+  <td><a href="../vi/bu-vb-pc39.html">Not to ask for food of superior quality for oneself.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc40.html">40:</a></td>
+  <td><a href="../vi/bu-vb-pc40.html">Not to eat food which has not been offered.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc41.html">41:</a></td>
+  <td><a href="../vi/bu-vb-pc41.html">Not to give food to followers of other teachings.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc42.html">42:</a></td>
+  <td><a href="../vi/bu-vb-pc42.html">Not to dismiss a bhikkhu with whom one is on alms round.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc43.html">43:</a></td>
+  <td><a href="../vi/bu-vb-pc43.html">Not to intrude upon a laypersons bedroom.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc44.html">44:</a></td>
+  <td><a href="../vi/bu-vb-pc44.html">Not to be alone with a female in an isolated place.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc45.html">45:</a></td>
+  <td><a href="../vi/bu-vb-pc45.html">Not to sit next to a woman in a place remote from others' ears.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc46.html">46:</a></td>
+  <td><a href="../vi/bu-vb-pc46.html">Not visit houses just before noon.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc47.html">47:</a></td>
+  <td><a href="../vi/bu-vb-pc47.html">Not to request medicines beyond the limits of the quantity or time fixed by the donor.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc48.html">48:</a></td>
+  <td><a href="../vi/bu-vb-pc48.html">Not to watch an army departing for combat.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc49.html">49:</a></td>
+  <td><a href="../vi/bu-vb-pc49.html">Not to sleep with an armed troop for more than three consecutive nights.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc50.html">50:</a></td>
+  <td><a href="../vi/bu-vb-pc50.html">Not to witness military activities.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc51.html">51:</a></td>
+  <td><a href="../vi/bu-vb-pc51.html">Not to consume alcohol or other intoxicants.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc52.html">52:</a></td>
+  <td><a href="../vi/bu-vb-pc52.html">Not to tickle abother bhikkhu.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc53.html">53:</a></td>
+  <td><a href="../vi/bu-vb-pc53.html">Not to play in the water.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc54.html">54:</a></td>
+  <td><a href="../vi/bu-vb-pc54.html">Not to be disrespectful.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc55.html">55:</a></td>
+  <td><a href="../vi/bu-vb-pc55.html">Not to frighten another bhikkhu.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc56.html">56:</a></td>
+  <td><a href="../vi/bu-vb-pc56.html">Not to light a fire, or have a fire lit.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc57.html">57:</a></td>
+  <td><a href="../vi/bu-vb-pc57.html">Not to wash more than twice per month if the body is not dirty.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc58.html">58:</a></td>
+  <td><a href="../vi/bu-vb-pc58.html">Not to use a robe without having marked it for identification.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc59.html">59:</a></td>
+  <td><a href="../vi/bu-vb-pc59.html">Not to wear a robe that you have formerly relinquished.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc60.html">60:</a></td>
+  <td><a href="../vi/bu-vb-pc60.html">Not to hide the belongings of another bhikkhu.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc61.html">61:</a></td>
+  <td><a href="../vi/bu-vb-pc61.html">Not to kill animals.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc62.html">62:</a></td>
+  <td><a href="../vi/bu-vb-pc62.html">Not to use water containing living beings.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc63.html">63:</a></td>
+  <td><a href="../vi/bu-vb-pc63.html">Not to agitate in order to re-open a closed issue.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc64.html">64:</a></td>
+  <td><a href="../vi/bu-vb-pc64.html">Not to conceal a serious offence.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc65.html">65:</a></td>
+  <td><a href="../vi/bu-vb-pc65.html">Not to ordain a person under twenty years of age.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc66.html">66:</a></td>
+  <td><a href="../vi/bu-vb-pc66.html">Not to travel with a group intending theft.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc67.html">67:</a></td>
+  <td><a href="../vi/bu-vb-pc67.html">Not to make a trip with a woman having planned it with her.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc68.html">68:</a></td>
+  <td><a href="../vi/bu-vb-pc68.html">Not to affirm obstacles to the path as being obstacles.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc69.html">69:</a></td>
+  <td><a href="../vi/bu-vb-pc69.html">Not to associate with a bhikkhu who has been placed outside the community.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc70.html">70:</a></td>
+  <td><a href="../vi/bu-vb-pc70.html">Not to associate with a sāmaṇera who has erroneous views.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc71.html">71:</a></td>
+  <td><a href="../vi/bu-vb-pc71.html">Not to look for pretexts to disregard the rules of the pātimokkha.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc72.html">72:</a></td>
+  <td><a href="../vi/bu-vb-pc72.html">Not to denigrate the rules of the pātimokkha.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc73.html">73:</a></td>
+  <td><a href="../vi/bu-vb-pc73.html">Not to pretend not knowing a rule of conduct.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc74.html">74:</a></td>
+  <td><a href="../vi/bu-vb-pc74.html">Not to hit another bhikkhu.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc75.html">75:</a></td>
+  <td><a href="../vi/bu-vb-pc75.html">Not to make a threatening gesture to a fellow bhikkhu.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc76.html">76:</a></td>
+  <td><a href="../vi/bu-vb-pc76.html">Not to groundlessly accuse a bhikkhu of a saṇghādisesa.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc77.html">77:</a></td>
+  <td><a href="../vi/bu-vb-pc77.html">Not to arouse remorse, doubts or anguish in another bhikkhu's mind.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc78.html">78:</a></td>
+  <td><a href="../vi/bu-vb-pc78.html">Not to eavesdrop on a conflict between bhikkhus.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc79.html">79:</a></td>
+  <td><a href="../vi/bu-vb-pc79.html">Not to contest a decision taken after having given one's agreement (chanda).</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc80.html">80:</a></td>
+  <td><a href="../vi/bu-vb-pc80.html">Not to absent oneself without having given agreement (chanda), during a meeting of the saṇgha.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc81.html">81:</a></td>
+  <td><a href="../vi/bu-vb-pc81.html">Not to accuse a bhikkhu of assigning a robe belonging to the saṇgha according to favouritism.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc82.html">82:</a></td>
+  <td><a href="../vi/bu-vb-pc82.html">Not to appropriate a gift to the saṇgha.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc83.html">83:</a></td>
+  <td><a href="../vi/bu-vb-pc83.html">Not to enter the king's chamber without warning.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc84.html">84:</a></td>
+  <td><a href="../vi/bu-vb-pc84.html">Not to pick up a precious object except for safekeeping.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc85.html">85:</a></td>
+  <td><a href="../vi/bu-vb-pc85.html">Not to enter a town or village after noon without having asked for permission.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc86.html">86:</a></td>
+  <td><a href="../vi/bu-vb-pc86.html">Not to make or have made a needle box in ivory, bone or horn.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc87.html">87:</a></td>
+  <td><a href="../vi/bu-vb-pc87.html">Not to make, cause to be made or use beds or chairs of a height greater than 65 centimetres.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc88.html">88:</a></td>
+  <td><a href="../vi/bu-vb-pc88.html">Not to use mattresses, cushions or cloths filled with cotton or kapok.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc89.html">89:</a></td>
+  <td><a href="../vi/bu-vb-pc89.html">Not to use an oversize sitting cloth.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc90.html">90:</a></td>
+  <td><a href="../vi/bu-vb-pc90.html">Not to make or have made an oversized "bandage cloth".</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc91.html">91:</a></td>
+  <td><a href="../vi/bu-vb-pc91.html">Not to make or have made an oversized rains bathing cloth.</a></td>
+</tr>
+<tr>
+  <td><a href="../vi/bu-vb-pc92.html">92:</a></td>
+  <td><a href="../vi/bu-vb-pc92.html">Not to make or have made an oversized robe.</a></td>
+</tr>
+</table>
+
+<p></p>
+</div>
+
+<div id="nextprev"><a id="previous-sutta" href="../vi/bu-vb-np30.html"></a><a id="next-sutta" href="../vi/bu-vb-pc1.html"></a></div>
+
+</div><!--content-->
+<footer>
+<div id="breadcrumbs">
+<a href="../home/index.html">Home</a><a href="../vi/vi.html">Vinaya Pitaka</a><a href="../vi/bu-vb.html">Bhikkhu Vibhanga</a>Pācittiyas
+</div>
+<a id="bottom"></a>
+</footer>
+<script src="../js/footer.js"></script>
+</div><!--container-->
+</body>
+</html>

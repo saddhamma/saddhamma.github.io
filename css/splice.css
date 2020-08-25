@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+[lang=pi], .meaning a{
+    font-family: gentium book basic;
+	font-size: 24px;
+}
+
+[lang=en], .meaning{
+    font-family: "Segoe UI", Helvetica,"DejaVu Sans",Geneva,"Arial Unicode MS",Tahoma,Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    vertical-align: top;
+}
+
+td {width:50%; border-top:1px solid gray;}
+
+.note .details {
+    position:absolute;
+    visibility:hidden;
+    opacity:0;
+    background: palegoldenrod;
+    border: 2px solid goldenrod;
+    transition: 0.12s;
+    font-size: 90%;
+    max-width: 20em;
+}
+
+.note:hover .details {
+    visibility:visible;
+    opacity: 1;
+    transition: 0.12s;
+}
+
+p, .p {
+    display: block;
+    padding:0.5em;
+}
+
+/* Pali Lookup */
+
+.meaning {
+    position:absolute;
+    visibility: hidden;
+    display:inline-block;
+    opacity: 0;
+    border: 1px solid lightpink;
+    background: pink;
+    border-radius: 5px;
+    font-size:15px;
+    font-weight:normal;
+    font-style:normal;
+    text-decoration: none;
+    text-align: left;
+    padding: 0.1em 0.5em;
+    
+    margin-left:-15em;
+    margin-top:1em;
+    min-width:10em;
+    max-width:20em;
+}
+
+.lookup:hover .meaning {
+    visibility:visible;
+    opacity: 1;
+}
+
+.lookup a {
+    font-weight: bold;
+}
+
+.pts_pn {
+    color:gray;
+    font-size:90%;
+}
+.pts_pn:before {
+    content: "[";
+}
+.pts_pn:after {
+    content: "]";
+}

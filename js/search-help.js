@@ -1,0 +1,1 @@
+document.write('<div id="eng_searchlink"><span><a href="../home/engsearch.html">Search English Content</a></span></div><div id="pali_searchlink"> <span><a href="../home/palisearch.html" >Search Pali Content</a></span></div><div id="help"><span><a href="../home/help.html"><img src="../images/help_icon.png" title="Help" alt="Help"></a></span></div>')

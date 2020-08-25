@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8>
+<link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+<title>Vibhanga (Bhikkhu) - Pācittiya 83</title>
+<script src="../js/jquery-1.10.2.min.js"></script>
+<link rel="stylesheet" href="../css/menu.css">
+<link rel="stylesheet" href="../css/css.css">
+</head>
+<body>
+<div id="container">
+<header>
+<div id="eng_searchlink"> <span><a href="../home/engsearch.html" >Search English Content</a></span></div>
+<div id="pali_searchlink"> <span><a href="../home/palisearch.html" >Search Pali Content</a></span></div>
+
+<div class="logotext">
+<a href="../home/index.html"><span>The True Dhamma</span></a>
+</div>
+<nav>
+<div id="navbar">
+<ul id="css3menu0" >
+<li class="topfirst" id="home"><a href="../home/index.html">Home</a></li>
+<li class="topmenu" id="dn"><a href="../dn/dn.html">Digha Nikaya</a></li>
+<li class="topmenu" id="mn"><a href="../mn/mn.html">Majjhima Nikaya</a></li>
+	<li class="topmenu" id="sn"><a href="../sn/sn.html">↓ Samyutta Nikaya</a>
+		<ul>
+		<li><a href="../sn/sn01.html">Part 1 - The Book with Verses</a></li>
+			<li><a href="../sn/sn02.html">Part 2 - The Book of Causation</a></li>
+			<li><a href="../sn/sn03.html">Part 3 - The Book of the Aggregates</a></li>
+			<li><a href="../sn/sn04.html">Part 4 - The Book of the Six Sense Bases</a></li>
+			<li><a href="../sn/sn05.html" title="Part 5 - The Great Book">Part 5 - The Great Book</a></li>
+		</ul>
+	</li>
+		<li class="topmenu" id="an"><a href="../an/an.html">↓ Anguttara Nikaya</a>
+			<ul>
+			<li><a href="../an/an1.html">The Ones</a></li>
+			<li><a href="../an/an2.html">The Twos</a></li>
+			<li><a href="../an/an3.html">The Threes</a></li>
+			<li><a href="../an/an4.html">The Fours</a></li>
+			<li><a href="../an/an5.html">The Fives</a></li>
+			<li><a href="../an/an6.html">The Sixes</a></li>
+			<li><a href="../an/an7.html">The Sevens</a></li>
+			<li><a href="../an/an8.html">The Eights</a></li>
+			<li><a href="../an/an9.html">The Nines</a></li>
+			<li><a href="../an/an10.html">The Tens</a></li>
+			<li><a href="../an/an11.html">The Elevens</a></li>
+			</ul>
+		</li>
+	<li class="topmenu" id="kn"><a href="../kn/kn.html">↓ Khuddaka Nikaya</a>
+			<ul>
+			<li><a href="../dhp/dhp.html" title="The Dhammapada">The Dhammapada</a></li>
+			<li><a href="../snp/snp.html">Sutta Nipata</a></li>
+			<li><a href="../ud/ud.html">Udana</a></li>
+			<li><a href="../it/it.html">Itivuttaka</a></li>
+			<li><a href="../tha/tha.html">The Theragatha</a></li>
+			<li><a href="../thi/thi.html">The Therigatha</a></li>
+			</ul>
+	</li>
+	<li class="toplast" id="vi"><a class="pressed" href="../vi/vi.html">↓ Vinaya Pitaka</a>
+			<ul>
+			<li><a href="../vi/kd.html">Khandaka</a></li>
+<li><a class="pressed" href="../vi/bu-vb.html" title="Monk’s Rules">Bhikkhu Vibhanga</a></li>
+<li><a href="../vi/bu-pt.html" title="Bhikkhu Pātimokkha">Bhikkhu Pātimokkha</a></li>
+			<li><a href="../vi/bi-pt.html" title="Bhikkhunī Pātimokkha">Bhikkhunī Patimokkha</a></li>
+			<li><a href="../vi/bi-vb.html" title="Nuns Rules">Bhikkhuni Vibhanga</a></li>
+			<li><a href="../bmc/bmc.html">Buddhist Monastic Code I</a></li>
+      <li><a href="../bmc/bmc2.html">Buddhist Monastic Code 2</a></li>
+			</ul>
+	</li>
+</ul>
+</div> <!--navbar-->
+</nav>
+<div class="controlpanel" id="controlpanel"><!--controlpanel-->
+<ul>
+	<li>
+	<ul class="inner">
+		<li><a href="#" title="Page Top" >&nbsp;▲&nbsp;</a>
+		<li class="nextprev">
+			<button class="palitoggle"
+				id="pali"
+				type="button"
+				title="Display Pali and activate Lookup Dictionary"
+				style="width:2.8em; padding: 0 2px;">Pali</button>
+		</li>
+		<li><a href="#bottom" title="Page Bottom">&nbsp;▼&nbsp;</a>
+	</ul>
+	</li>
+</ul>
+</div> <!--controlpanel-->
+</header>
+<div id="content">
+<h2>Vinaya Pitaka - Monastic Rules</h2>
+
+	<ul id="vbnav">
+	 <li><a href="../vi/bu-vb-pj.html">Pārājikas</a></li>
+   <li><a href="../vi/bu-vb-sn.html">Sanghādisesas</a></li>
+   <li><a href="../vi/bu-vb-an.html">Aniyatas</a></li>
+   <li><a href="../vi/bu-vb-np.html">Nissaggiya Pācittiyas</a></li>
+   <li id="active"><a href="../vi/bu-vb-pc.html">Pācittiyas</a></li>
+   <li><a href="../vi/bu-vb-pd.html">Pāṭidesanīyas</a></li>
+   <li><a href="../vi/bu-vb-sk.html">Sekhiyas</a></li>
+	<li><a href="../vi/bu-vb-as.html">Adhikaraṇa-Samathās</a></li>
+	</ul>
+
+<h2>Bhikkhu Vibhanga - Pācittiya 83: Not to enter the king's chamber without warning.</h2>
+
+<div id="metaarea">
+<ul class="translator">
+<li>Translated from the Pali by Ebo Croffie (coming sooner or later).</li>
+<p><a class="pts_pn" id="Bu-Pc.83"></a>
+<a class="pts_pn" id="Bu-Pc.83.1"></a>
+<a class="pts_pn" id="Bu-Pc.83.1.1"></a>
+<a class="pts_pn" id="BD.3.70"></a>
+ … at Sāvatthī in the Jeta Grove in Anāthapiṇḍika’s monastery. Then King Pasenadi of Kosala enjoined the keeper of the pleasure ground, saying: "Good sir, go along, clear the pleasure ground, we will go to the pleasure ground."</p>
+
+<p>"Very well, sire," and the keeper of the pleasure ground, having answered King Pasenadi of Kosala, clearing the pleasure ground, saw the lord sitting at the foot of a certain tree, and seeing him, he approached King Pasenadi of Kosala, and having approached he spoke thus to King Pasenadi of Kosala:</p>
+
+<p>"Sire, the pleasure ground is cleared, but the lord is sitting there."</p>
+
+<p>
+"Good sir, let him be, we will pay homage to the lord." Then King Pasenadi of Kosala, having gone to the pleasure ground, approached the lord. Now at that time a certain lay follower was sitting down paying homage to the lord. King Pasenadi of Kosala saw that lay follower sitting down paying homage to the lord; seeing him he stood, afraid. Then it occurred to King Pasenadi of Kosala: "This man cannot be depraved, inasmuch as he is paying homage to the lord," (and) he approached the lord; having approached, having greeted the lord, he sat down at a respectful distance. Then that lay follower, out of respect for the lord,
+<a class="pts_pn" id="Vin.4.158"></a>
+neither greeted nor stood up for King Pasenadi
+<a class="pts_pn" id="BD.3.71"></a>
+ of Kosala. Then King Pasenadi of Kosala became displeased, saying: "How can this man, when I come neither greet (me) nor stand up?"</p>
+
+<p>Then the lord, knowing that King Pasenadi of Kosala was displeased, spoke thus to King Pasenadi of Kosala: "Sire, this lay follower is very learned, he is one to whom the tradition has been handed down, he is devoid of passion in respect of sense-pleasures."</p>
+
+<p>Then it occurred to King Pasenadi of Kosala: "This lay follower cannot be inferior, for the lord speaks praise of him," and he said to this lay follower: "You may say, lay follower, what will be of use."</p>
+
+<p>"Very well, sire."</p>
+
+<p>
+Then the lord … delighted King Pasenadi of Kosala with talk on
+<i lang="pi">dhamma</i>. Then King Pasenadi of Kosala having been … delighted by the lord with talk on <i lang="pi">dhamma</i>, rising up from his seat, having greeted the lord, departed keeping his right side towards him. Now at that time King Pasenadi of Kosala came to be on the upper storey of the palace. Then King Pasenadi of Kosala saw this lay follower going along the road, a sunshade in his hand; seeing him, having had him summoned, he spoke thus: "They say that you, lay follower, are very learned, one to whom the tradition has been handed down; it would be well, lay follower,
+<a class="pts_pn" id="BD.3.72"></a>
+ that you should teach <i lang="pi">dhamma</i> in our women’s apartments."</p>
+
+<p>
+"Sire, what I know is owing to the masters, only the masters shall teach <i lang="pi">dhamma</i> in the women’s apartments of the king."<br>
+<br>
+
+<p><a class="pts_pn" id="Bu-Pc.83.1.2"></a>
+Then King Pasenadi of Kosala, thinking: "What the lay follower says is true," approached the lord; having approached, having greeted the lord, he sat down at a respectful distance. As he was sitting down at a respectful distance, King Pasenadi of Kosala spoke thus to the lord:</p>
+
+<p>
+"It were well, lord, if the lord were to enjoin one monk who should teach <i lang="pi">dhamma</i> in our women’s apartments."</p>
+
+<p>
+Then the lord … delighted King Pasenadi of Kosala with talk on <i lang="pi">dhamma</i> … he departed keeping his right side towards him. Then the lord addressed the venerable Ānanda, saying: "Well now, Ānanda, do teach <i lang="pi">dhamma</i> in the King’s women’s apartments."</p>
+
+<p>
+"Very well, lord," and the venerable Ānanda having answered the lord, having gone in from time to time, spoke
+<i lang="pi">dhamma</i> in the King’s women’s apartments. Then the venerable Ānanda, dressing in the morning, taking his bowl and robe, approached the dwelling of King Pasenadi of Kosala. Now at that time King Pasenadi of Kosala was in bed with Queen Mallikā. Queen Mallikā saw the venerable Ānanda approaching from afar, and seeing him she got up hastily;
+<a class="pts_pn" id="Vin.4.159"></a>
+ her garments, burnished cloth of gold, slipped down. Then the venerable Ānanda, having turned back again from there, having gone to the monastery, told this matter to the monks. Those who were modest monks … spread it about, saying:</p>
+
+<p>"How can the venerable Ānanda, not announced beforehand, enter the King’s women’s apartments?" …
+</p>
+
+<p><a class="pts_pn" id="BD.3.73"></a>
+"Is it true, as is said, that you, Ānanda, not announced beforehand, entered the King’s women’s apartments?"</p>
+
+<p>"It is true, lord."</p>
+
+<p>The enlightened one, the lord, rebuked him, saying:</p>
+
+<p>"How can you, Ānanda, not announced beforehand, enter the King’s women’s apartments? It is not, Ānanda, for pleasing those who are not (yet) pleased … " and having rebuked him, having given reasoned talk, he addressed the monks, saying:<br>
+<br>
+<div class="sutta">
+
+<p><a class="pts_pn" id="Bu-Pc.83.1.3"></a>
+"Monks, there are these ten dangers of entering a king’s women’s quarters. What are the ten? Here, monks, the king is seated together with the chief consort; a monk enters there; either the chief consort, having seen the monk, smiles, or the monk, having seen the chief consort, smiles; then it occurs to the king: ‘Surely it is done by these, or they will do it.’ This, monks, is the first danger of entering a king’s women’s quarters.</p>
+
+<p>And again, monks, a king is very busy, with much to be done; having gone to a certain woman, he does not remember; she on account of this, conceives (a child); then it occurs to the king: ‘No one enters here except one who has gone forth; now can this be the deed of one who has gone forth?’ This, monks, is the second danger of entering a king’s women’s quarters.</p>
+
+<p>And again, monks, some jewel disappears in a king’s women’s quarters. Then it occurs to the king; ‘No one else enters here except one who has gone forth; now can this be the deed of one who has gone forth?’ This, monks, is the third danger …
+</p>
+
+<p>
+And again, monks, the secret plans within a king’s women’s quarters by being divulged abroad are spoiled. Then it occurs to the king: ‘No one else enters here except one who has gone forth; now can this be the <a class="pts_pn" id="BD.3.74"></a>
+deed of one who has gone forth?’ This, monks, is the fourth danger …
+</p>
+
+<p>And again, monks, in a king’s women’s apartments either a son asks for (his) father, or a father asks for (his) son; it occurs to these: ‘No one else enters here except one who has gone forth; now can this be the deed of one who has gone forth?’ This, monks, is the fifth danger …
+</p>
+
+<p>And again, monks, a king establishes in a high place one having a lowly position; it occurs to those to whom this is unpleasing: ‘The king is associating with one who has gone forth; now can this be the deed of one who has gone forth?’ This, monks, is the sixth danger …
+</p>
+
+<p>
+And again, monks, a king establishes in a lowly place one having a high position; it occurs to those … <a class="pts_pn" id="Vin.4.160"></a>
+This, monks, is the seventh danger …
+</p>
+
+<p>And again, monks, the king sends out the army at the wrong time. It occurs to those … This, monks, is the eighth danger …
+</p>
+
+<p>And again, monks, a king, having sent out the army at the right time, makes it turn back from the highroad; it occurs to those … This, monks, is the ninth danger …
+</p>
+
+<p>And again, monks, when a king’s women’s quarters are crowded with elephants, crowded with horses, crowded with chariots, there are forms, sounds, scents, tastes, tangible objects for causing delight, which are not suitable for one who has gone forth. This, monks, is the tenth danger of entering a king’s women’s quarters. Monks, these are the ten dangers of entering a king’s women’s quarters."</p>
+</div>
+
+<p><a class="pts_pn" id="BD.3.75"></a>
+Thus the lord, in many a figure having rebuked the venerable Ānanda on his difficulty in maintaining himself … " … And thus, monks, this rule of training should be set forth:</p>
+<hr>
+
+<p><span class="rule">"Whatever monk, not announced beforehand, should cross the threshold of an anointed king of noble class from which the king has not departed, from which the queen has not withdrawn, there is an offence of expiation."</span><br>
+<br>
+
+<p><a class="pts_pn" id="Bu-Pc.83.2"></a>
+<a class="pts_pn" id="Bu-Pc.83.2.1"></a>
+<span class="term">Whatever</span> means:
+<span class="gloss"> … monk is to be understood in this case.</span></p>
+
+<p><span class="term">Noble class</span> means:
+<span class="gloss">of pure birth on both the mother’s side and the father’s side back through seven generations, not open to criticism, unblemished in point of birth.</span></p>
+
+<p><span class="term">Anointed</span> means:
+<span class="gloss">he becomes anointed in accordance with the consecration of a noble.</span></p>
+
+<p><span class="term">From which the king has not departed</span> means:
+<span class="gloss">the king has not departed from the sleeping-room.</span></p>
+
+<p><span class="term">From which the queen has not withdrawn</span> means:
+<span class="gloss">the chief consort has not departed from the sleeping-room; or neither has departed.</span></p>
+
+<p><span class="term">Not announced beforehand</span> means:
+<span class="gloss">without having announced oneself beforehand.</span></p>
+
+<p><a class="pts_pn" id="BD.3.76"></a>
+<span class="term">Threshold</span> means:
+<span class="gloss">it is called the threshold of the sleeping-room.</span></p>
+
+<p><span class="term">Sleeping-room</span> means:
+<span class="gloss">there wherever the king’s bed is made ready, even if it is only surrounded by a screen-wall.</span></p>
+
+<p><span class="term">Should cross the threshold</span> means:
+<span class="gloss">if he makes the first foot cross the threshold, there is an offence of wrongdoing. If he makes the second foot cross, there is an offence of expiation.</span><br>
+<br>
+
+<p><a class="pts_pn" id="Bu-Pc.83.2.2"></a>
+If he thinks that he is not announced when he is not announced, (and) crosses the threshold, there is an offence of expiation. If he is in doubt as to whether he is not announced … If he thinks that he is announced when he is not announced … offence of expiation. If he thinks that he is not announced when he is announced, there is an offence of wrong-doing. If he is in doubt as to whether he is announced, there is an offence of wrong-doing. If he thinks that he is announced when he is announced, there is no offence.
+<a class="pts_pn" id="Vin.4.161"></a>
+</p>
+<hr>
+
+<p><a class="pts_pn" id="Bu-Pc.83.2.3"></a>
+There is no offence if he is announced; if he is not of noble class; if he is not anointed in accordance with the consecration of a noble; if the king has departed from the sleeping-room, if the chief consort has departed from the sleeping-room, or if both have departed; if it is not in the sleeping-room; if he is mad, if he is the first wrong-doer.</p>
+<p class="end"><a class="pts_pn" id="Bu-Pc.83.3"></a>
+<a class="pts_pn" id="Bu-Pc.83.3.1"></a>
+The First</p>
+</div><!--End English-->
+
+<div lang="pi"><!--Pali-->
+
+<p>
+<span class="parno">1</span>
+<a class="ms" id="p_2V_1448"></a>
+<a class="msdiv" id="msdiv494"></a>
+Tena samayena buddho bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa
+ārāme. Tena kho pana samayena rājā pasenadi kosalo uyyānapālaṃ āṇāpesi—
+"gaccha, bhaṇe, uyyānaṃ sodhehi. Uyyānaṃ gamissāmā"ti. "Evaṃ, devā"ti kho so
+uyyānapālo rañño pasenadissa kosalassa paṭissutvā uyyānaṃ sodhento addasa
+bhagavantaṃ aññatarasmiṃ rukkhamūle nisinnaṃ. Disvāna yena rājā pasenadi kosalo
+tenupasankami; upasankamitvā rājānaṃ pasenadiṃ kosalaṃ etadavoca—  "suddhaṃ,
+deva, uyyānaṃ. Api ca bhagavā tattha nisinno"ti. "Hotu, bhaṇe. Mayaṃ
+bhagavantaṃ payirupāsissāmā"ti.</p>
+
+<p>
+<span class="parno">2</span>
+<a class="ms" id="p_2V_1449"></a>
+Atha kho rājā pasenadi kosalo uyyānaṃ gantvā yena bhagavā tenupasankami. Tena
+kho pana samayena aññataro upāsako bhagavantaṃ payirupāsanto nisinno hoti.
+Addasā kho rājā pasenadi kosalo taṃ upāsakaṃ bhagavantaṃ payirupāsantaṃ
+nisinnaṃ. Disvāna bhīto aṭṭhāsi. Atha kho rañño pasenadissa kosalassa
+etadahosi—  "nārahatāyaṃ puriso pāpo hotuṃ, yathā bhagavantaṃ payirupāsatī"ti.
+Yena bhagavā tenupasankami; upasankamitvā bhagavantaṃ abhivādetvā ekamantaṃ
+nisīdi. Atha kho so upāsako bhagavato gāravena rājānaṃ pasenadiṃ kosalaṃ neva
+abhivādesi na paccuṭṭhāsi. Atha kho rājā pasenadi kosalo anattamano ahosi—
+"kathañhi nāmāyaṃ puriso mayi āgate neva abhivādessati na paccuṭṭhessatī"ti.
+Atha kho bhagavā rājānaṃ pasenadiṃ kosalaṃ anattamanaṃ viditvā rājānaṃ
+pasenadiṃ kosalaṃ etadavoca—  "eso kho, mahārāja, upāsako bahussuto āgatāgamo
+kāmesu vītarāgo"ti. Atha kho rañño pasenadissa kosalassa etadahosi—
+"nārahatāyaṃ upāsako orako hotuṃ, bhagavāpi imassa vaṇṇaṃ bhāsatī"ti. Taṃ
+upāsakaṃ etadavoca—  "vadeyyāsi, upāsaka, yena attho"ti. "Suṭṭhu, devā"ti. Atha
+kho bhagavā rājānaṃ pasenadiṃ kosalaṃ dhammiyā kathāya sandassesi samādapesi
+samuttejesi sampahaṃsesi. Atha kho rājā pasenadi kosalo bhagavatā dhammiyā
+kathāya sandassito samādapito samuttejito sampahaṃsito uṭṭhāyāsanā bhagavantaṃ
+abhivādetvā padakkhiṇaṃ katvā pakkāmi.</p>
+
+<p>
+<span class="parno">3</span>
+<a class="ms" id="p_2V_1450"></a>
+<a class="msdiv" id="msdiv495"></a>
+Tena kho pana samayena rājā pasenadi kosalo uparipāsādavaragato hoti. Addasā
+kho rājā pasenadi kosalo taṃ upāsakaṃ rathikāya chattapāṇiṃ gacchantaṃ. Disvāna
+pakkosāpetvā etadavoca—  "tvaṃ kira, upāsaka, bahussuto āgatāgamo. Sādhu,
+upāsaka, amhākaṃ itthāgāraṃ dhammaṃ vācehī"ti. "Yamahaṃ, deva, jānāmi ayyānaṃ
+vāhasā, ayyāva devassa itthāgāraṃ dhammaṃ vācessantī"ti. Atha kho rājā pasenadi
+kosalo—  "saccaṃ kho upāsako āhā"ti yena bhagavā tenupasankami; upasankamitvā
+bhagavantaṃ abhivādetvā ekamantaṃ nisīdi. Ekamantaṃ nisinno kho rājā pasenadi
+kosalo bhagavantaṃ etadavoca—  "sādhu, bhante, bhagavā ekaṃ bhikkhuṃ āṇāpetu yo
+amhākaṃ itthāgāraṃ dhammaṃ vācessatī"ti. Atha kho bhagavā rājānaṃ pasenadiṃ
+kosalaṃ dhammiyā kathāya sandassesi … pe …   padakkhiṇaṃ katvā pakkāmi. Atha kho
+bhagavā āyasmantaṃ ānandaṃ āmantesi—  "tenahānanda, rañño itthāgāraṃ dhammaṃ
+vācehī"ti. "Evaṃ, bhante"ti kho āyasmā ānando bhagavato paṭissutvā kālena kālaṃ
+pavisitvā rañño itthāgāraṃ dhammaṃ vāceti. Atha kho āyasmā ānando
+pubbaṇhasamayaṃ nivāsetvā pattacīvaramādāya yena rañño pasenadissa kosalassa
+nivesanaṃ tenupasankami.</p>
+
+<p>
+<span class="parno">4</span>
+<a class="ms" id="p_2V_1451"></a>
+<a class="msdiv" id="msdiv496"></a>
+Tena kho pana samayena rājā pasenadi kosalo mallikāya deviyā saddhiṃ sayanagato
+hoti. Addasā kho mallikā devī āyasmantaṃ ānandaṃ dūratova āgacchantaṃ. Disvāna
+sahasā vuṭṭhāsi; pītakamaṭṭhaṃ dussaṃ pabhassittha. Atha kho āyasmā ānando
+tatova paṭinivattitvā ārāmaṃ gantvā bhikkhūnaṃ etamatthaṃ ārocesi. Ye te
+bhikkhū appicchā … pe …   te ujjhāyanti khiyyanti vipācenti—  "kathañhi nāma āyasmā
+ānando pubbe appaṭisaṃvidito rañño antepuraṃ pavisissatī"ti … pe …   "saccaṃ kira
+tvaṃ, ānanda, pubbe appaṭisaṃvidito rañño antepuraṃ pavisasī"ti? "Saccaṃ,
+bhagavā"ti. Vigarahi buddho bhagavā … pe …   kathañhi nāma tvaṃ, ānanda, pubbe
+appaṭisaṃvidito rañño antepuraṃ pavisissasi. Netaṃ, ānanda, appasannānaṃ vā
+pasādāya … pe …   vigarahitvā … pe …   dhammiṃ kathaṃ katvā bhikkhū āmantesi— </p>
+
+<p>
+<span class="parno">5</span>
+<a class="ms" id="p_2V_1452"></a>
+<a class="msdiv" id="msdiv497"></a>
+"Dasayime, bhikkhave, ādīnavā rājantepurappavesane. Katame dasa? Idha,
+bhikkhave, rājā mahesiyā saddhiṃ nisinno hoti, tattha bhikkhu pavisati. Mahesī
+vā bhikkhuṃ disvā sitaṃ pātukaroti. Bhikkhu vā mahesiṃ disvā sitaṃ pātukaroti.
+Tattha rañño evaṃ hoti—  ‘addhā imesaṃ kataṃ vā karissanti vā’ti. Ayaṃ,
+bhikkhave, paṭhamo ādīnavo rājantepurappavesane.</p>
+
+<p>
+<span class="parno">6</span>
+<a class="ms" id="p_2V_1453"></a>
+Puna caparaṃ, bhikkhave, rājā bahukicco bahukaraṇīyo. Aññataraṃ itthiṃ gantvā
+nassarati. Sā tena gabbhaṃ gaṇhi. Tattha rañño evaṃ hoti—  ‘na kho idha añño
+koci pavisati aññatra pabbajitena. Siyā nu kho pabbajitassa kamman’ti. Ayaṃ,
+bhikkhave, dutiyo ādīnavo rājantepurappavesane.</p>
+
+<p>
+<span class="parno">7</span>
+<a class="ms" id="p_2V_1454"></a>
+Puna caparaṃ, bhikkhave, rañño antepure aññataraṃ ratanaṃ nassati. Tattha rañño
+evaṃ hoti—  ‘na kho idha añño koci pavisati aññatra pabbajitena. Siyā nu kho
+pabbajitassa kamman’ti. Ayaṃ, bhikkhave, tatiyo ādīnavo rājantepurappavesane.</p>
+
+<p>
+<span class="parno">8</span>
+<a class="ms" id="p_2V_1455"></a>
+Puna caparaṃ, bhikkhave, rañño antepure abbhantarā guyhamantā bahiddhā
+sambhedaṃ gacchanti. Tattha rañño evaṃ hoti—  ‘na kho idha añño koci pavisati
+aññatra pabbajitena. Siyā nu kho pabbajitassa kamman’ti. Ayaṃ, bhikkhave,
+catuttho ādīnavo rājantepurappavesane.</p>
+
+<p>
+<span class="parno">9</span>
+<a class="ms" id="p_2V_1456"></a>
+Puna caparaṃ, bhikkhave, rañño antepure putto vā pitaraṃ pattheti pitā vā
+puttaṃ pattheti. Tesaṃ evaṃ hoti—  ‘na kho idha añño koci pavisati aññatra
+pabbajitena. Siyā nu kho pabbajitassa kamman’ti. Ayaṃ, bhikkhave, pañcamo
+ādīnavo rājantepurappavesane.</p>
+
+<p>
+<span class="parno">10</span>
+<a class="ms" id="p_2V_1457"></a>
+Puna caparaṃ, bhikkhave, rājā nīcaṭṭhāniyaṃ ucce ṭhāne ṭhapeti. Yesaṃ taṃ
+amanāpaṃ tesaṃ evaṃ hoti—  ‘rājā kho pabbajitena saṃsaṭṭho. Siyā nu kho
+pabbajitassa kamman’ti. Ayaṃ, bhikkhave, chaṭṭho ādīnavo, rājantepurappavesane.</p>
+
+<p>
+<span class="parno">11</span>
+<a class="ms" id="p_2V_1458"></a>
+Puna caparaṃ, bhikkhave, rājā uccaṭṭhāniyaṃ nīce ṭhāne ṭhapeti. Yesaṃ taṃ
+amanāpaṃ tesaṃ evaṃ hoti—  ‘rājā kho pabbajitena saṃsaṭṭho. Siyā nu kho
+pabbajitassa kamman’ti. Ayaṃ, bhikkhave, sattamo ādīnavo rājantepurappavesane.</p>
+
+<p>
+<span class="parno">12</span>
+<a class="ms" id="p_2V_1459"></a>
+Puna caparaṃ, bhikkhave, rājā akāle senaṃ uyyojeti. Yesaṃ taṃ amanāpaṃ tesaṃ
+evaṃ hoti—  ‘rājā kho pabbajitena saṃsaṭṭho. Siyā nu kho pabbajitassa
+kamman’ti. Ayaṃ, bhikkhave, aṭṭhamo ādīnavo rājantepurappavesane.</p>
+
+<p>
+<span class="parno">13</span>
+<a class="ms" id="p_2V_1460"></a>
+Puna caparaṃ, bhikkhave, rājā kāle senaṃ uyyojetvā antarāmaggato nivattāpeti.
+Yesaṃ taṃ amanāpaṃ tesaṃ evaṃ hoti—  ‘rājā kho pabbajitena saṃsaṭṭho. Siyā nu
+kho pabbajitassa kamman’ti. Ayaṃ, bhikkhave, navamo ādīnavo
+rājantepurappavesane.</p>
+
+<p>
+<span class="parno">14</span>
+<a class="ms" id="p_2V_1461"></a>
+Puna caparaṃ, bhikkhave, rañño rājantepuraṃ hatthisammaddaṃ assasammaddaṃ
+rathasammaddaṃ rajanīyāni rūpasaddagandharasaphoṭṭhabbāni, yāni na pabbajitassa
+sāruppāni. Ayaṃ, bhikkhave, dasamo ādīnavo rājantepurappavesane. Ime kho,
+bhikkhave, dasa ādīnavā rājantepurappavesane"ti. Atha kho bhagavā āyasmantaṃ
+ānandaṃ anekapariyāyena vigarahitvā dubbharatāya … pe …   evañca pana, bhikkhave,
+imaṃ sikkhāpadaṃ uddiseyyātha— </p>
+<hr>
+
+<p>
+<span class="parno">15</span>
+<a class="ms" id="p_2V_1462"></a>
+<a class="msdiv" id="msdiv498"></a>
+<strong class="rule">"Yo pana bhikkhu rañño khattiyassa muddhāvasittassa
+anikkhantarājake aniggataratanake pubbe appaṭisaṃvidito indakhīlaṃ atikkāmeyya,
+pācittiyan"</strong>ti. (<em>83</em>:<strong>132</strong>)</p>
+
+<p>
+<span class="parno">16</span>
+<a class="ms" id="p_2V_1463"></a>
+<a class="msdiv" id="msdiv499"></a>
+<strong>Yo panā</strong>ti yo yādiso … pe …
+<strong>bhikkhū</strong>ti … pe …   ayaṃ imasmiṃ atthe adhippeto bhikkhūti.</p>
+
+<p>
+<span class="parno">17</span>
+<a class="ms" id="p_2V_1464"></a>
+<strong>Khattiyo</strong> nāma ubhato sujāto hoti, mātito ca pitito ca
+saṃsuddhagahaṇiko, yāva sattamā pitāmahayugā akkhitto anupakuṭṭho jātivādena.</p>
+
+<p>
+<span class="parno">18</span>
+<a class="ms" id="p_2V_1465"></a>
+<strong>Muddhāvasitto</strong> nāma khattiyābhisekena abhisitto hoti.</p>
+
+<p>
+<span class="parno">19</span>
+<a class="ms" id="p_2V_1466"></a>
+<strong>Anikkhantarājake</strong>ti rājā sayanigharā anikkhanto hoti.</p>
+
+<p>
+<span class="parno">20</span>
+<a class="ms" id="p_2V_1467"></a>
+<strong>Aniggataratanake</strong>ti mahesī sayanigharā anikkhantā hoti, ubho vā
+anikkhantā honti.</p>
+
+<p>
+<span class="parno">21</span>
+<a class="ms" id="p_2V_1468"></a>
+<strong>Pubbe appaṭisaṃvidito</strong>ti pubbe anāmantetvā.</p>
+
+<p>
+<span class="parno">22</span>
+<a class="ms" id="p_2V_1469"></a>
+<strong>Indakhīlo</strong> nāma sayanigharassa ummāro vuccati.</p>
+
+<p>
+<span class="parno">23</span>
+<a class="ms" id="p_2V_1470"></a>
+<strong>Sayanigharaṃ</strong> nāma yattha katthaci rañño sayanaṃ paññattaṃ
+hoti, antamaso sāṇipākāraparikkhittampi.</p>
+
+<p>
+<span class="parno">24</span>
+<a class="ms" id="p_2V_1471"></a>
+<strong>Indakhīlaṃ atikkāmeyyā</strong>ti paṭhamaṃ pādaṃ ummāraṃ atikkāmeti,
+āpatti dukkaṭassa. Dutiyaṃ pādaṃ atikkāmeti, āpatti pācittiyassa.</p>
+
+<p>
+<span class="parno">25</span>
+<a class="ms" id="p_2V_1472"></a>
+<a class="msdiv" id="msdiv500"></a>
+Appaṭisaṃvidite appaṭisaṃviditasaññī indakhīlaṃ atikkāmeti, āpatti
+pācittiyassa. Appaṭisaṃvidite vematiko indakhīlaṃ atikkāmeti, āpatti
+pācittiyassa. Appaṭisaṃvidite paṭisaṃviditasaññī indakhīlaṃ atikkāmeti, āpatti
+pācittiyassa.</p>
+
+<p>
+<span class="parno">26</span>
+<a class="ms" id="p_2V_1473"></a>
+Paṭisaṃvidite appaṭisaṃviditasaññī, āpatti dukkaṭassa. Paṭisaṃvidite vematiko,
+āpatti dukkaṭassa. Paṭisaṃvidite paṭisaṃviditasaññī, anāpatti.</p>
+<hr>
+
+<p>
+<span class="parno">27</span>
+<a class="ms" id="p_2V_1474"></a>
+<a class="msdiv" id="msdiv501"></a>
+Anāpatti—  paṭisaṃvidite, na khattiyo hoti, na khattiyābhisekena abhisitto
+hoti, rājā sayanigharā nikkhanto hoti, mahesī sayanigharā nikkhantā hoti, ubho
+vā nikkhantā honti, na sayanighare, ummattakassa, ādikammikassāti.</p>
+<p class="endsutta">
+<span class="parno">28</span>
+<a class="ms" id="p_2V_1475"></a>
+Antepurasikkhāpadaṃ niṭṭhitaṃ paṭhamaṃ.</p>
+
+</div><!--End Pali-->
+
+<div id="nextprev"><a id="previous-sutta" href="../vi/bu-vb-pc82.html"></a><a id="next-sutta" href="../vi/bu-vb-pc84.html"></a></div>
+</section>
+</div><!--content-->
+<footer>
+<div id="breadcrumbs">
+<a href="../home/index.html">Home</a><a href="../vi/vi.html">Vinaya Pitaka</a><a href="../vi/bu-vb.html">Bhikkhu Vibhanga</a><a href="../vi/bu-vb-pc.html">Pācittiyas</a>Pācittiya 83
+</div>
+<a id="bottom"></a>
+</footer>
+<script src="../js/footer.js"></script>
+</div><!--container-->
+</body>
+</html>

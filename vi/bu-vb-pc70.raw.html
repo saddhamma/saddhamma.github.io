@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8>
+<link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+<title>Vibhanga (Bhikkhu) - Pācittiya 70</title>
+<script src="../js/jquery-1.10.2.min.js"></script>
+<link rel="stylesheet" href="../css/menu.css">
+<link rel="stylesheet" href="../css/css.css">
+</head>
+<body>
+<div id="container">
+<header>
+<div id="eng_searchlink"> <span><a href="../home/engsearch.html" >Search English Content</a></span></div>
+<div id="pali_searchlink"> <span><a href="../home/palisearch.html" >Search Pali Content</a></span></div>
+
+<div class="logotext">
+<a href="../home/index.html"><span>The True Dhamma</span></a>
+</div>
+<nav>
+<div id="navbar">
+<ul id="css3menu0" >
+<li class="topfirst" id="home"><a href="../home/index.html">Home</a></li>
+<li class="topmenu" id="dn"><a href="../dn/dn.html">Digha Nikaya</a></li>
+<li class="topmenu" id="mn"><a href="../mn/mn.html">Majjhima Nikaya</a></li>
+	<li class="topmenu" id="sn"><a href="../sn/sn.html">↓ Samyutta Nikaya</a>
+		<ul>
+		<li><a href="../sn/sn01.html">Part 1 - The Book with Verses</a></li>
+			<li><a href="../sn/sn02.html">Part 2 - The Book of Causation</a></li>
+			<li><a href="../sn/sn03.html">Part 3 - The Book of the Aggregates</a></li>
+			<li><a href="../sn/sn04.html">Part 4 - The Book of the Six Sense Bases</a></li>
+			<li><a href="../sn/sn05.html" title="Part 5 - The Great Book">Part 5 - The Great Book</a></li>
+		</ul>
+	</li>
+		<li class="topmenu" id="an"><a href="../an/an.html">↓ Anguttara Nikaya</a>
+			<ul>
+			<li><a href="../an/an1.html">The Ones</a></li>
+			<li><a href="../an/an2.html">The Twos</a></li>
+			<li><a href="../an/an3.html">The Threes</a></li>
+			<li><a href="../an/an4.html">The Fours</a></li>
+			<li><a href="../an/an5.html">The Fives</a></li>
+			<li><a href="../an/an6.html">The Sixes</a></li>
+			<li><a href="../an/an7.html">The Sevens</a></li>
+			<li><a href="../an/an8.html">The Eights</a></li>
+			<li><a href="../an/an9.html">The Nines</a></li>
+			<li><a href="../an/an10.html">The Tens</a></li>
+			<li><a href="../an/an11.html">The Elevens</a></li>
+			</ul>
+		</li>
+	<li class="topmenu" id="kn"><a href="../kn/kn.html">↓ Khuddaka Nikaya</a>
+			<ul>
+			<li><a href="../dhp/dhp.html" title="The Dhammapada">The Dhammapada</a></li>
+			<li><a href="../snp/snp.html">Sutta Nipata</a></li>
+			<li><a href="../ud/ud.html">Udana</a></li>
+			<li><a href="../it/it.html">Itivuttaka</a></li>
+			<li><a href="../tha/tha.html">The Theragatha</a></li>
+			<li><a href="../thi/thi.html">The Therigatha</a></li>
+			</ul>
+	</li>
+	<li class="toplast" id="vi"><a class="pressed" href="../vi/vi.html">↓ Vinaya Pitaka</a>
+			<ul>
+			<li><a href="../vi/kd.html">Khandaka</a></li>
+<li><a class="pressed" href="../vi/bu-vb.html" title="Monk’s Rules">Bhikkhu Vibhanga</a></li>
+<li><a href="../vi/bu-pt.html" title="Bhikkhu Pātimokkha">Bhikkhu Pātimokkha</a></li>
+			<li><a href="../vi/bi-pt.html" title="Bhikkhunī Pātimokkha">Bhikkhunī Patimokkha</a></li>
+			<li><a href="../vi/bi-vb.html" title="Nuns Rules">Bhikkhuni Vibhanga</a></li>
+			<li><a href="../bmc/bmc.html">Buddhist Monastic Code I</a></li>
+      <li><a href="../bmc/bmc2.html">Buddhist Monastic Code 2</a></li>
+			</ul>
+	</li>
+</ul>
+</div> <!--navbar-->
+</nav>
+<div class="controlpanel" id="controlpanel"><!--controlpanel-->
+<ul>
+	<li>
+	<ul class="inner">
+		<li><a href="#" title="Page Top" >&nbsp;▲&nbsp;</a>
+		<li class="nextprev">
+			<button class="palitoggle"
+				id="pali"
+				type="button"
+				title="Display Pali and activate Lookup Dictionary"
+				style="width:2.8em; padding: 0 2px;">Pali</button>
+		</li>
+		<li><a href="#bottom" title="Page Bottom">&nbsp;▼&nbsp;</a>
+	</ul>
+	</li>
+</ul>
+</div> <!--controlpanel-->
+</header>
+<div id="content">
+<h2>Vinaya Pitaka - Monastic Rules</h2>
+
+	<ul id="vbnav">
+	 <li><a href="../vi/bu-vb-pj.html">Pārājikas</a></li>
+   <li><a href="../vi/bu-vb-sn.html">Sanghādisesas</a></li>
+   <li><a href="../vi/bu-vb-an.html">Aniyatas</a></li>
+   <li><a href="../vi/bu-vb-np.html">Nissaggiya Pācittiyas</a></li>
+   <li id="active"><a href="../vi/bu-vb-pc.html">Pācittiyas</a></li>
+   <li><a href="../vi/bu-vb-pd.html">Pāṭidesanīyas</a></li>
+   <li><a href="../vi/bu-vb-sk.html">Sekhiyas</a></li>
+	<li><a href="../vi/bu-vb-as.html">Adhikaraṇa-Samathās</a></li>
+	</ul>
+
+<h2>Bhikkhu Vibhanga - Pācittiya 70: Not to associate with a sāmaṇera who has erroneous views.</h2>
+
+<div id="metaarea">
+<ul class="translator">
+<li>Translated from the Pali by Ebo Croffie (coming sooner or later).</li>
+<p><a class="pts_pn" id="Bu-Pc.70"></a>
+<a class="pts_pn" id="Bu-Pc.70.1"></a>
+<a class="pts_pn" id="Bu-Pc.70.1.1"></a>
+<a class="pts_pn" id="BD.3.31"></a>
+ … at Sāvatthī in the Jeta Grove in Anāthapiṇḍika’s monastery. Now at that time a pernicious view had arisen to the novice Kaṇḍaka, like this: "In so far as I understand <i lang="pi">dhamma</i> taught by the lord, it is that in following those things called stumbling-blocks by the lord, there is no stumbling-block at all."</p>
+
+<p>
+Several monks heard: "A pernicious view has arisen to the novice Kaṇḍaka … " <span class="add">See
+<a class="cr" href="../vi/bu-vb-pc68.html#Bu-Pc.68.1"></a>.
+<em>Instead of</em> the monk Ariṭṭha, who was formerly a vulture-trainer,
+<em>read</em> the novice Kaṇḍaka;
+<em>instead of</em> Ariṭṭha, Kaṇḍaka;
+<em>in his reply to the monks read honoured sir instead of</em> your reverence.</span> …
+</p>
+
+<p>" … It is not, foolish man, for pleasing those who are not (yet) pleased … and it causes wavering in some."</p>
+
+<p>Having rebuked him, having given reasoned talk, he addressed the monks, saying:</p>
+
+<p>"Because of this, monks, let the Order expel the novice Kaṇḍaka. And thus, monks, should he be expelled: ‘From today forth, reverend Kaṇḍaka,
+<a class="pts_pn" id="Vin.4.139"></a>
+the lord can neither be referred to as your teacher, nor can that be yours of which other novices have the chance, namely the lying down to sleep for two or
+<a class="pts_pn" id="BD.3.32"></a>
+ three nights with monks. Get away with you, depart.’"</p>
+
+<p>Then the Order expelled the novice Kaṇḍaka. Now at that time the group of six monks knowingly encouraged and supported and ate with and lay down in a sleeping-place with the novice Kaṇḍaka, thus expelled. Those who were modest monks … spread it about, saying:</p>
+
+<p>"How can the group of six monks knowingly encourage and support and eat with and lie down in a sleeping-place with the novice Kaṇḍaka, thus expelled?" …
+
+</p>
+
+<p>"Is it true, as is said, that you, monks, knowingly encourage and support and eat with and lie down in a sleeping-place with the novice Kaṇḍaka, thus expelled?"</p>
+
+<p>"It is true, lord."</p>
+
+<p>The enlightened one, the lord, rebuked them, saying:</p>
+
+<p>"How can you, foolish men, knowingly encourage … thus expelled? It is not, foolish men, for pleasing those who are not (yet) pleased … And thus, monks, this rule of training should be set forth:</p>
+<hr>
+
+<p><span class="rule">"If even a novice should speak thus: ‘In so far as I understand
+<i lang="pi">dhamma</i> taught by the lord, it is that in following those things called stumbling-blocks by the
+<a class="pts_pn" id="BD.3.33"></a>
+ lord, there is no stumbling-block at all," that novice should be spoken to thus by the monks: ‘Do not speak thus, reverend novice; do not misrepresent the lord, misrepresentation of the lord is not at all seemly, and the lord certainly would not speak thus. Reverend novice, in many a figure are things that are stumbling-blocks called stumbling-blocks by the lord, and in following these, there is a veritable stumbling-block.’ And if that novice, when he has been spoken to thus by the monks, should persist as before, that novice should be spoken to thus by the monks: ‘From today forth, reverend novice, the lord can neither be referred to as your teacher, nor can that be yours of which other novices get the chance, namely, the lying down to sleep for two or three nights with monks. Get away with you, depart.’ Whatever monk should knowingly encourage or should support or should eat with or should lie down in a sleeping-place with a novice thus expelled, there is an offence of expiation."</span><br>
+<br>
+<a class="pts_pn" id="Bu-Pc.70.2"></a>
+<a class="pts_pn" id="Bu-Pc.70.2.1"></a>
+<span class="term">Novice</span> means:
+<span class="gloss">he is called a novice. </span></p>
+
+<p><span class="term">Should speak thus</span> means:
+<span class="gloss">he says: ‘In so far as I understand
+<i lang="pi">dhamma</i> taught by the lord … no stumbling-block at all.’
+<a class="pts_pn" id="Vin.4.140"></a>
+</span></p>
+
+<p><span class="term">That novice</span> means:
+<span class="gloss">the novice who speaks thus.</span></p>
+
+<p><span class="term">By the monks</span> means:
+<span class="gloss">by other monks, who see, who hear. He should be told by these: ‘Do not, reverend novice, speak thus … no stumbling-block at all.’ And a second time he should be told … And a third time he should be told … If he gives it up, that is good. If he does not give it up, that monk should be spoken to thus by the monies: ‘From today forth reverend novice … depart.’</span></p>
+
+<p><span class="term">Whatever</span> means:
+<span class="gloss"> … monk is to be understood in this case.</span></p>
+
+<p><span class="term">He knows</span> means:
+<span class="gloss">either he knows by himself, or others tell him, or (someone) tells him.</span></p>
+
+<p><a class="pts_pn" id="BD.3.34"></a>
+<span class="term">Thus expelled</span> means:
+<span class="gloss">so expelled.</span></p>
+
+<p><span class="term">Novice</span> means:
+<span class="gloss">he is called a novice.</span></p>
+
+<p><span class="term">Should encourage</span> means:
+<span class="gloss">if he encourages him, saying: ‘I will give him a bowl or a robe or a recitation or an interrogation,’ there is an offence of expiation.</span></p>
+
+<p><span class="term">Or should support</span> means:
+<span class="gloss">if he agrees to chunam or clay or a tooth-cleaner or water for the face for him, there is an offence of expiation.</span></p>
+
+<p><span class="term">Or should eat with</span> means:
+<span class="gloss">there are two kinds of eating: eating food and eating <i lang="pi">dhamma</i> … for every syllable there is an offence of expiation.</span></p>
+
+<p><span class="term">Or should lie down in a sleeping-place with</span> means:
+<span class="gloss">if a novice who is expelled is lying down and a monk lies down under one roof, there is an offence of expiation. If a monk is lying down and the novice who is expelled lies down, there is an offence of expiation. Or if both lie down, there is an offence of expiation. If, getting up, they lie down again and again, there is an offence of expiation,’</span><br>
+<br>
+
+<p><a class="pts_pn" id="Bu-Pc.70.2.2"></a>
+If he thinks that he is expelled when he is expelled, and encourages or supports (him) or eats with or lies down in a sleeping-place with him, there is an offence of expiation. If he is in doubt as to whether he is expelled … an offence of wrong-doing. If he thinks that he is not expelled when he is expelled … no offence. If he thinks that he is expelled when he is not expelled, there is an offence of wrong-doing. If he is in doubt as to whether he is not expelled, there is an offence of wrong-doing. If he thinks that he is not expelled when he is not expelled, there is no offence.</p>
+<hr>
+
+<p><a class="pts_pn" id="Bu-Pc.70.2.3"></a>
+<a class="pts_pn" id="BD.3.35"></a>
+There is no offence if he knows, "He is not expelled"; if he knows, "He has given up that view"; if he is mad, if he is the first wrong-doer.<br>
+<br>
+
+<p><a class="pts_pn" id="Bu-Pc.70.3"></a>
+<a class="pts_pn" id="Bu-Pc.70.3.1"></a>
+The Tenth</p>
+<hr>
+<blockquote>
+<strong>This is its key:</strong>
+
+<p>
+Intentional slaughter, with living things (in it), <br>
+opening up, concealment of what is very bad,<br>
+Under twenty, and a caravan, an arrangement, about Ariṭṭha,<br>
+Suspended, and Kaṇḍaka: just these ten rules of training.</p>
+</blockquote>
+<p class="end">
+The seventh Division: on what contains life. <a class="pts_pn" id="Vin.4.141"></a>
+</p>
+</div><!--End English-->
+
+<div lang="pi"><!--Pali-->
+
+<p>
+<span class="parno">1</span>
+<a class="ms" id="p_2V_1279"></a>
+<a class="msdiv" id="msdiv428"></a>
+Tena samayena buddho bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa
+ārāme. Tena kho pana samayena kaṇṭakassa nāma samaṇuddesassa evarūpaṃ pāpakaṃ
+diṭṭhigataṃ uppannaṃ hoti—  "tathāhaṃ bhagavatā dhammaṃ desitaṃ ājānāmi, yathā
+yeme antarāyikā dhammā vuttā bhagavatā te paṭisevato nālaṃ antarāyāyā"ti.
+Assosuṃ kho sambahulā bhikkhū kaṇṭakassa nāma kira samaṇuddesassa evarūpaṃ
+pāpakaṃ diṭṭhigataṃ uppannaṃ—  "tathāhaṃ bhagavatā dhammaṃ desitaṃ ājānāmi,
+yathā yeme antarāyikā dhammā vuttā bhagavatā, te paṭisevato nālaṃ
+antarāyāyā"ti. Atha kho te bhikkhū yena kaṇṭako samaṇuddeso tenupasankamiṃsu;
+upasankamitvā kaṇṭakaṃ samaṇuddesaṃ etadavocuṃ—  "saccaṃ kira te, āvuso
+kaṇṭaka, evarūpaṃ pāpakaṃ diṭṭhigataṃ uppannaṃ—  ‘tathāhaṃ bhagavatā dhammaṃ
+desitaṃ ājānāmi, yathā yeme antarāyikā dhammā vuttā bhagavatā te paṭisevato
+nālaṃ antarāyāyā’"ti? "Evaṃ byā kho ahaṃ, bhante, bhagavatā dhammaṃ desitaṃ
+ājānāmi—  ‘yathā yeme antarāyikā dhammā vuttā bhagavatā te paṭisevato nālaṃ
+antarāyāyā’"ti.</p>
+
+<p>
+<span class="parno">2</span>
+<a class="ms" id="p_2V_1280"></a>
+"Mā, āvuso kaṇṭaka, evaṃ avaca. Mā bhagavantaṃ abbhācikkhi. Na hi sādhu
+bhagavato abbhakkhānaṃ. Na hi bhagavā evaṃ vadeyya. Anekapariyāyenāvuso
+kaṇṭaka, antarāyikā dhammā antarāyikā vuttā bhagavatā. Alañca pana te
+paṭisevato antarāyāya. Appassādā kāmā vuttā bhagavatā bahudukkhā bahupāyāsā,
+ādīnavo ettha bhiyyo … pe …   evampi kho kaṇṭako samaṇuddeso tehi bhikkhūhi
+vuccamāno tatheva taṃ pāpakaṃ diṭṭhigataṃ thāmasā parāmāsā abhinivissa
+voharati—  "evaṃ byā kho ahaṃ, bhante, bhagavatā dhammaṃ desitaṃ ājānāmi—
+‘yathā yeme antarāyikā dhammā vuttā bhagavatā te paṭisevato nālaṃ
+antarāyāyā’"ti.</p>
+
+<p>
+<span class="parno">3</span>
+<a class="ms" id="p_2V_1281"></a>
+Yato ca kho te bhikkhū nāsakkhiṃsu kaṇṭakaṃ samaṇuddesaṃ etasmā pāpakā
+diṭṭhigatā vivecetuṃ, atha kho te bhikkhū yena bhagavā tenupasankamiṃsu;
+upasankamitvā bhagavato etamatthaṃ ārocesuṃ. Atha kho bhagavā etasmiṃ nidāne
+etasmiṃ pakaraṇe bhikkhusaṇghaṃ sannipātāpetvā kaṇṭakaṃ samaṇuddesaṃ
+paṭipucchi—  "saccaṃ kira te, kaṇṭaka, evarūpaṃ pāpakaṃ diṭṭhigataṃ uppannaṃ—
+‘tathāhaṃ bhagavatā dhammaṃ desitaṃ ājānāmi, yathā yeme antarāyikā dhammā vuttā
+bhagavatā te paṭisevato nālaṃ antarāyāyā’"ti? "Evaṃ byā kho ahaṃ, bhante,
+bhagavatā dhammaṃ desitaṃ ājānāmi—  ‘yathā yeme antarāyikā dhammā vuttā
+bhagavatā te paṭisevato nālaṃ antarāyāyā’"ti.</p>
+
+<p>
+<span class="parno">4</span>
+<a class="ms" id="p_2V_1282"></a>
+"Kassa nu kho nāma tvaṃ, moghapurisa, mayā evaṃ dhammaṃ desitaṃ ājānāsi? Nanu
+mayā, moghapurisa, anekapariyāyena antarāyikā dhammā antarāyikā vuttā, alañca
+pana te paṭisevato antarāyāya? Appassādā kāmā vuttā mayā bahudukkhā bahupāyāsā,
+ādīnavo ettha bhiyyo. Aṭṭhikankalūpamā kāmā vuttā mayā … pe …   sappasirūpamā kāmā
+vuttā mayā bahudukkhā bahupāyāsā, ādīnavo ettha bhiyyo. Atha ca pana tvaṃ,
+moghapurisa, attanā duggahitena amhe ceva abbhācikkhasi attānañca khaṇasi
+bahuñca apuññaṃ pasavasi. Tañhi te, moghapurisa, bhavissati dīgharattaṃ ahitāya
+dukkhāya. Netaṃ, moghapurisa, appasannānaṃ vā pasādāya … pe …   pasannānañca
+ekaccānaṃ aññathattāyā"ti. Vigarahitvā … pe …   dhammiṃ kathaṃ katvā bhikkhū
+āmantesi—  "tena hi, bhikkhave, saṇgho kaṇṭakaṃ samaṇuddesaṃ nāsetu. Evañca
+pana, bhikkhave, nāsetabbo—  ‘ajjatagge te, āvuso kaṇṭaka, na ceva so bhagavā
+satthā apadisitabbo. Yampi caññe samaṇuddesā labhanti bhikkhūhi saddhiṃ
+dirattatirattaṃ sahaseyyaṃ sāpi te natthi. Cara pire vinassā’"ti. Atha kho
+saṇgho kaṇṭakaṃ samaṇuddesaṃ nāsesi.</p>
+
+<p>
+<span class="parno">5</span>
+<a class="ms" id="p_2V_1283"></a>
+Tena kho pana samayena chabbaggiyā bhikkhū jānaṃ tathānāsitaṃ kaṇṭakaṃ
+samaṇuddesaṃ upalāpentipi upaṭṭhāpentipi sambhuñjantipi sahāpi seyyaṃ kappenti.
+Ye te bhikkhū appicchā … pe …   te ujjhāyanti khiyyanti vipācenti—  "kathañhi nāma
+chabbaggiyā bhikkhū jānaṃ tathānāsitaṃ kaṇṭakaṃ samaṇuddesaṃ upalāpessantipi
+upaṭṭhāpessantipi sambhuñjissantipi sahāpi seyyaṃ kappessantī"ti … pe …   "saccaṃ
+kira tumhe, bhikkhave, jānaṃ tathānāsitaṃ kaṇṭakaṃ samaṇuddesaṃ upalāpethāpi
+upaṭṭhāpethāpi sambhuñjathāpi sahāpi seyyaṃ kappethā"ti? "Saccaṃ, bhagavā"ti.
+Vigarahi buddho bhagavā … pe …   kathañhi nāma tumhe, moghapurisā, jānaṃ
+tathānāsitaṃ kaṇṭakaṃ samaṇuddesaṃ upalāpessathāpi upaṭṭhāpessathāpi
+sambhuñjissathāpi sahāpi seyyaṃ kappessatha. Netaṃ, moghapurisā, appasannānaṃ
+vā pasādāya … pe …   evañca pana, bhikkhave, imaṃ sikkhāpadaṃ uddiseyyātha— </p>
+<hr>
+
+<p>
+<span class="parno">6</span>
+<a class="ms" id="p_2V_1284"></a>
+<a class="msdiv" id="msdiv429"></a>
+<strong class="rule">"Samaṇuddesopi ce evaṃ vadeyya—  ‘tathāhaṃ bhagavatā
+dhammaṃ desitaṃ ājānāmi, yathā yeme antarāyikā dhammā vuttā bhagavatā te
+paṭisevato nālaṃ antarāyāyā’ti, so samaṇuddeso bhikkhūhi evamassa vacanīyo—
+‘māvuso samaṇuddesa, evaṃ avaca, mā bhagavantaṃ abbhācikkhi, na hi sādhu
+bhagavato abbhakkhānaṃ, na hi bhagavā evaṃ vadeyya. Anekapariyāyenāvuso
+samaṇuddesa, antarāyikā dhammā antarāyikā vuttā bhagavatā. Alañca pana te
+paṭisevato antarāyāyā’ti. Evañca so samaṇuddeso bhikkhūhi vuccamāno tatheva
+paggaṇheyya, so samaṇuddeso bhikkhūhi evamassa vacanīyo—  ‘ajjatagge te, āvuso
+samaṇuddesa, na ceva so bhagavā satthā apadisitabbo. Yampi caññe samaṇuddesā
+labhanti bhikkhūhi saddhiṃ dirattatirattaṃ sahaseyyaṃ sāpi te natthi. Cara pire
+vinassā’ti. Yo pana bhikkhu jānaṃ tathānāsitaṃ samaṇuddesaṃ upalāpeyya vā
+upaṭṭhāpeyya vā sambhuñjeyya vā saha vā seyyaṃ kappeyya, pācittiyan"</strong>ti.
+(<em>70</em>:<strong>119</strong>)</p>
+
+<p>
+<span class="parno">7</span>
+<a class="ms" id="p_2V_1285"></a>
+<a class="msdiv" id="msdiv430"></a>
+<strong>Samaṇuddeso</strong> nāma sāmaṇero vuccati.</p>
+
+<p>
+<span class="parno">8</span>
+<a class="ms" id="p_2V_1286"></a>
+<strong>Evaṃ vadeyyā</strong>ti—  "tathāhaṃ bhagavatā dhammaṃ desitaṃ ājānāmi,
+yathā yeme antarāyikā dhammā vuttā bhagavatā, te paṭisevato nālaṃ
+antarāyāyā"ti.</p>
+
+<p>
+<span class="parno">9</span>
+<a class="ms" id="p_2V_1287"></a>
+<strong>So samaṇuddeso</strong>ti yo so evaṃvādī samaṇuddeso.</p>
+
+<p>
+<span class="parno">10</span>
+<a class="ms" id="p_2V_1288"></a>
+<strong>Bhikkhūhī</strong>ti aññehi bhikkhūhi, ye passanti ye suṇanti tehi
+vattabbo—  "mā, āvuso samaṇuddesa, evaṃ avaca. Mā bhagavantaṃ abbhācikkhi. Na
+hi sādhu bhagavato abbhakkhānaṃ. Na hi bhagavā evaṃ vadeyya.
+Anekapariyāyenāvuso samaṇuddesa, antarāyikā dhammā antarāyikā vuttā bhagavatā.
+Alañca pana te paṭisevato antarāyāyā"ti. Dutiyampi vattabbo …   tatiyampi
+vattabbo …   sace paṭinissajjati iccetaṃ kusalaṃ, no ce paṭinissajjati so
+samaṇuddeso bhikkhūhi evamassa vacanīyo—  "ajjatagge te, āvuso samaṇuddesa, na
+ceva so bhagavā satthā apadisitabbo. Yampi caññe samaṇuddesā labhanti bhikkhūhi
+saddhiṃ dirattatirattaṃ sahaseyyaṃ sāpi te natthi. Cara pire vinassā"ti.</p>
+
+<p>
+<span class="parno">11</span>
+<a class="ms" id="p_2V_1289"></a>
+<strong>Yo panā</strong>ti yo yādiso … pe …
+<strong>bhikkhū</strong>ti … pe …   ayaṃ imasmiṃ atthe adhippeto bhikkhūti.</p>
+
+<p>
+<span class="parno">12</span>
+<a class="ms" id="p_2V_1290"></a>
+<strong>Jānāti</strong> nāma sāmaṃ vā jānāti, aññe vā tassa ārocenti, so vā
+āroceti.</p>
+
+<p>
+<span class="parno">13</span>
+<a class="ms" id="p_2V_1291"></a>
+<strong>Tathānāsitan</strong>ti evaṃ nāsitaṃ.</p>
+
+<p>
+<span class="parno">14</span>
+<a class="ms" id="p_2V_1292"></a>
+<strong>Samaṇuddeso</strong> nāma sāmaṇero vuccati.</p>
+
+<p>
+<span class="parno">15</span>
+<a class="ms" id="p_2V_1293"></a>
+<strong>Upalāpeyya vā</strong>ti tassa pattaṃ vā cīvaraṃ vā uddesaṃ vā
+paripucchaṃ vā dassāmīti upalāpeti, āpatti pācittiyassa.</p>
+
+<p>
+<span class="parno">16</span>
+<a class="ms" id="p_2V_1294"></a>
+<strong>Upaṭṭhāpeyya vā</strong>ti tassa cuṇṇaṃ vā mattikaṃ vā dantakaṭṭhaṃ vā
+mukhodakaṃ vā sādiyati, āpatti pācittiyassa.</p>
+
+<p>
+<span class="parno">17</span>
+<a class="ms" id="p_2V_1295"></a>
+<strong>Sambhuñjeyya vā</strong>ti sambhogo nāma dve sambhogā—  āmisasambhogo
+ca dhammasambhogo ca.
+<strong>Āmisasambhogo</strong> nāma āmisaṃ deti vā paṭiggaṇhāti vā, āpatti
+pācittiyassa.
+<strong>Dhammasambhogo</strong> nāma uddisati vā uddisāpeti vā, padena uddisati
+vā uddisāpeti vā, pade pade āpatti pācittiyassa. Akkharāya uddisati vā
+uddisāpeti vā, akkharakkharāya āpatti pācittiyassa.</p>
+
+<p>
+<span class="parno">18</span>
+<a class="ms" id="p_2V_1296"></a>
+<strong>Saha vā seyyaṃ kappeyyā</strong>ti ekacchanne nāsitake samaṇuddese
+nipanne bhikkhu nipajjati, āpatti pācittiyassa. Bhikkhu nipanne nāsitako
+samaṇuddeso nipajjati, āpatti pācittiyassa. Ubho vā nipajjanti, āpatti
+pācittiyassa. Uṭṭhahitvā punappunaṃ nipajjanti, āpatti pācittiyassa.</p>
+
+<p>
+<span class="parno">19</span>
+<a class="ms" id="p_2V_1297"></a>
+<a class="msdiv" id="msdiv431"></a>
+Nāsitake nāsitakasaññī upalāpeti vā upaṭṭhāpeti vā sambhuñjati vā saha vā
+seyyaṃ kappeti, āpatti pācittiyassa. Nāsitake vematiko upalāpeti vā upaṭṭhāpeti
+vā sambhuñjati vā saha vā seyyaṃ kappeti, āpatti dukkaṭassa. Nāsitake
+anāsitakasaññī upalāpeti vā upaṭṭhāpeti vā sambhuñjati vā saha vā seyyaṃ
+kappeti, anāpatti. Anāsitake nāsitakasaññī, āpatti dukkaṭassa. Anāsitake
+vematiko, āpatti dukkaṭassa. Anāsitake anāsitakasaññī, anāpatti.</p>
+<hr>
+
+<p>
+<span class="parno">20</span>
+<a class="ms" id="p_2V_1298"></a>
+<a class="msdiv" id="msdiv432"></a>
+Anāpatti—  anāsitakoti jānāti, taṃ diṭṭhiṃ paṭinissaṭṭhoti jānāti,
+ummattakassa, ādikammikassāti.</p>
+<p class="endsutta">
+<span class="parno">21</span>
+<a class="ms" id="p_2V_1299"></a>
+Kaṇṭakasikkhāpadaṃ niṭṭhitaṃ dasamaṃ.<br>
+Sappāṇakavaggo sattamo.</p>
+<p class="endsection summary">
+<span class="parno">22</span>
+<a class="ms" id="p_2V_1300"></a>
+Tassuddānaṃ</p>
+<hr>
+<blockquote class="uddanagatha">
+
+<p>
+<span class="parno">23</span>
+<a class="ms" id="p_2V_1301"></a>
+Sañciccavadhasappāṇaṃ,<br>
+ukkoṭaṃ duṭṭhullachādanaṃ;<br>
+Ūnavīsati satthañca,<br>
+saṃvidhānaṃ ariṭṭhakaṃ;<br>
+Ukkhittaṃ kaṇṭakañceva,<br>
+dasa sikkhāpadā imeti.<br></p>
+</blockquote>
+
+</div><!--End Pali-->
+
+<div id="nextprev"><a id="previous-sutta" href="../vi/bu-vb-pc69.html"></a><a id="next-sutta" href="../vi/bu-vb-pc71.html"></a></div>
+</section>
+</div><!--content-->
+<footer>
+<div id="breadcrumbs">
+<a href="../home/index.html">Home</a><a href="../vi/vi.html">Vinaya Pitaka</a><a href="../vi/bu-vb.html">Bhikkhu Vibhanga</a><a href="../vi/bu-vb-pc.html">Pācittiyas</a>Pācittiya 70
+</div>
+<a id="bottom"></a>
+</footer>
+<script src="../js/footer.js"></script>
+</div><!--container-->
+</body>
+</html>

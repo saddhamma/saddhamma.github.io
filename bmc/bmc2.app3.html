@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8>
+<link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+<title>BMC2 Appendix 3</title>
+</head>
+<body>
+<div id="container">
+<header>
+<script src="../js/jquery-1.10.2.min.js"></script>
+<link rel="stylesheet" href="../css/menu.css">
+<link rel="stylesheet" href="../css/css.css">
+<div id="eng_searchlink"> <span><a href="../home/engsearch.html" >Search English Content</a></span></div>
+<div id="pali_searchlink"> <span><a href="../home/palisearch.html" >Search Pali Content</a></span></div>
+
+<div class="logotext">
+<a href="../home/index.html"><span>The True Dhamma</span></a>
+</div>
+<nav>
+<div id="navbar">
+<ul id="css3menu0" >
+<li class="topfirst" id="home"><a href="../home/index.html">Home</a></li>
+<li class="topmenu" id="dn"><a href="../dn/dn.html">Digha Nikaya</a></li>
+<li class="topmenu" id="mn"><a href="../mn/mn.html">Majjhima Nikaya</a></li>
+	<li class="topmenu" id="sn"><a href="../sn/sn.html">↓ Samyutta Nikaya</a>
+		<ul>
+		<li><a href="../sn/sn1.html" title="Part 1 - The Book with Verses">Part 1 - The Book with Verses</a></li>
+			<li><a href="../sn/sn2.html" title="Part 2 - The Book of Causation">Part 2 - The Book of Causation</a></li>
+			<li><a href="../sn/sn3.html" title="Part 3 - The Book of the Aggregates">Part 3 - The Book of the Aggregates</a></li>
+			<li><a href="../sn/sn4.html" title="Part 4 - The Book of the Six Sense Bases">Part 4 - The Book of the Six Sense Bases</a></li>
+			<li><a href="../sn/sn5.html" title="Part 5 - The Great Book">Part 5 - The Great Book</a></li>
+		</ul>
+	</li>
+		<li class="topmenu" id="an"><a href="../an/an.html">↓ Anguttara Nikaya</a>
+			<ul>
+			<li><a href="../an/an1.html">The Ones</a></li>
+			<li><a href="../an/an2.html">The Twos</a></li>
+			<li><a href="../an/an3.html">The Threes</a></li>
+			<li><a href="../an/an4.html">The Fours</a></li>
+			<li><a href="../an/an5.html">The Fives</a></li>
+			<li><a href="../an/an6.html">The Sixes</a></li>
+			<li><a href="../an/an7.html">The Sevens</a></li>
+			<li><a href="../an/an8.html">The Eights</a></li>
+			<li><a href="../an/an9.html">The Nines</a></li>
+			<li><a href="../an/an10.html">The Tens</a></li>
+			<li><a href="../an/an11.html">The Elevens</a></li>
+			</ul>
+		</li>
+	<li class="topmenu" id="kn"><a href="../kn/kn.html">↓ Khuddaka Nikaya</a>
+			<ul>
+			<li><a href="../dhp/dhp.html" title="The Dhammapada">The Dhammapada</a></li>
+			<li><a href="../snp/snp.html">Sutta Nipata</a></li>
+			<li><a href="../ud/ud.html">Udana</a></li>
+			<li><a href="../it/it.html">Itivuttaka</a></li>
+			<li><a href="../tha/tha.html">The Theragatha</a></li>
+			<li><a href="../thi/thi.html">The Therigatha</a></li>
+			</ul>
+	</li>
+	<li class="toplast" id="vi"><a class="pressed" href="../vi/vi.html">↓ Vinaya Pitaka</a>
+			<ul>
+			<li><a href="../vi/kd.html">Khandaka</a></li>
+			<li><a href="../vi/bu-vb.html" title="Monk's Rules">Bhikkhu Vibhanga</a></li>
+			<li><a href="../vi/bu-pt.html" title="Bhikkhu Pātimokkha">Bhikkhu Pātimokkha</a></li>
+			<li><a href="../vi/bi-pt.html" title="Bhikkhunī Pātimokkha">Bhikkhunī Patimokkha</a></li>
+			<li><a href="../vi/bi-vb.html" title="Nuns Rules">Bhikkhuni Vibhanga</a></li>
+
+			<li><a class="pressed" href="../bmc/bmc.html" title="Buddhist Monastic Code">Buddhist Monastic Code</a></li>
+			</ul>
+	</li>
+</ul>
+</div> <!--navbar-->
+</nav>
+<div class="controlpanel" id="controlpanel"><!--controlpanel-->
+<ul>
+	<li>
+	<ul class="inner">
+		<li><a href="#" title="Page Top" >&nbsp;▲&nbsp;</a>
+		<li class="nextprev">
+			<button class="palitoggle"
+				id="pali"
+				type="button"
+				title="Display Pali and activate Lookup Dictionary"
+				style="width:2.8em; padding: 0 2px;">Pali</button>
+		</li>
+		<li><a href="#bottom" title="Page Bottom">&nbsp;▼&nbsp;</a>
+	</ul>
+	</li>
+</ul>
+</div> <!--controlpanel-->
+</header>
+<div id="content">
+<h2>Vinaya Pitaka - Monastic Rules</h2>
+<hr>
+<div id="wb_TabMenu" style="position:relative;left:6px;top:0px;width:930px;height:36px;z-index:0;">
+<div id="TabMenu">
+<ul>
+			<li ><a href="../vi/kd.html"><span>Khandaka</span></a></li>
+			<li><a href="../vi/bu-vb.html"><span>Bhikkhu Vibhanga</span></a></li>
+			<li><a href="../vi/bu-pt.html"><span>Bhikkhu Pāṭimokkha</span></a></li>
+			<li><a href="../vi/bi-pt.html"><span>Bhikkhunī Pāṭimokkha</span></a></li>
+			<li><a href="../vi/bi-vb.html"><span>Bhikkhunī Vibhanga</span></a></li>
+<li><a href="../bmc/bmc1.html"><span>BMC 1</span></a></li>
+			<li id="active"><a href="../bmc/bmc2.html"><span>BMC 2</span></a></li>
+			</ul>
+</div></div>
+
+<h3>Buddhist Monastic Code Book 2 - The Khandaka Rules Translated and Explained</h3>
+	<div id="metaarea">
+		<ul class="translator">
+		<li>By Thannissaro bhikkhu</li>
+		</ul>
+	</div>
+
+<h3>Appendix 3</h3>
+
+<p>It would be impossible to give examples for all the various permutations that could conceivably happen when a bhikkhu has committed a saṅghādisesa offense and must negotiate the vuṭṭhāna-vidhī. Here, only some of the more likely permutations are given. Others can be inferred from what is given here. The best way to use this appendix would be to read through the first few examples — which are given in full, with complete translations — to get a sense of their basic pattern. This pattern can then be applied to complete the later examples given in an incomplete form. For example, in some of the later cases, only the request for probation is given. The remaining statements for the vuṭṭhāna-vidhī in such cases can be inferred by comparing the request given in those cases with the request in an earlier, complete, example, noticing where the two differ, and then making appropriate adjustments in the remaining statements given in the complete example. Similarly, there are some cases where no translations are given. The translations here may be inferred from the translations included in earlier examples. For instance, the translation for the transaction statement granting penance for multiple unconcealed offenses may be inferred by comparing the translations given for the request for multiple unconcealed offenses with the translation for the transaction statement for granting penance for one unconcealed offense.</p>
+
+<h3>A. For One Unconcealed Offense</h3>
+<p>The basic example given here, and in most of the following cases, is for the offense of intentional emission of semen. The phrases specific to this offense are given in bold italic letters in the examples for one unconcealed offense. They are not put in bold italic in other examples, but should be recognizable. Variations for other offenses are given after the request. These may be inserted in the place of the bold italic phrases in the basic example. These variations can be used in other vuṭṭhāna-vidhī statements for single offenses as well.</p>
+
+<h4>Requesting penance (mānatta): (Cv.III.1.2)</h4>
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannaṃ. So'haṃ bhante saṅghaṃ ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya chārattaṃ mānattaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannaṃ. So'haṃ dutiyam-pi bhante saṅghaṃ ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya chārattaṃ mānattaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannaṃ. So'haṃ tatiyam-pi bhante saṅghaṃ ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya chārattaṃ mānattaṃ yācāmi.</p>
+
+<p><i>Venerable sirs, I have fallen into one offense, unconcealed, of intentional semen-emission. I ask the Community for the six-day penance for one offense, unconcealed, of intentional semen-emission.</i></p>
+
+<p><i>Venerable sirs... A second time... A third time, I ask the Community for the six-day penance for one offense, unconcealed, of intentional semen-emission.</i></p>
+
+<h4>For other offenses:</h4>
+<p><i>bodily contact:</i> <strong><i>kāya-saṃsaggaṃ / kāya-saṃsaggāya</i></strong></p>
+
+<p><i>lewd statement:</i> <strong><i>duṭṭhulla-vācaṃ / duṭṭhulla-vācāya</i></strong></p>
+
+<p><i>a statement (recommending) ministering to one's own sensual passion:</i> <strong><i>atta-kāma-pāricariyaṃ vācaṃ / atta-kāma-pāricariyāya vācāya</i></strong></p>
+
+<p><i>acting as a go-between:</i> <strong><i>sañcarittaṃ / sañcarittāya</i></strong></p>
+
+<h4>Transaction statement for granting penance: (Cv.III.1.3)</h4>
+<p>Suṇātu me bhante saṅgho. Ayaṃ Itthannāmo bhikkhu ekaṃ āpattiṃ āpajji <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannaṃ. So saṅghaṃ ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya chārattaṃ mānattaṃ yācati. Yadi saṅghassa pattakallaṃ, saṅgho Itthannāmassa bhikkhuno ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya chārattaṃ mānattaṃ dadeyya. Esā ñatti.</p>
+
+<p>Suṇātu me bhante saṅgho. Ayaṃ Itthannāmo bhikkhu ekaṃ āpattiṃ āpajji <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannaṃ. So saṅghaṃ ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya chārattaṃ mānattaṃ yācati. Saṅgho Itthannāmassa bhikkhuno ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya chārattaṃ mānattaṃ deti. Yass'āyasmato khamati, Itthannāmassa bhikkhuno ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya chārattaṃ mānattassa dānaṃ, so tuṇh'assa. Yassa nakkhamati, so bhāseyya.</p>
+
+<p>Dutiyam-pi etam-atthaṃ vadāmi. Suṇātu me bhante saṅgho... so bhāseyya.</p>
+
+<p>Tatiyam-pi etam-atthaṃ vadāmi. Suṇātu me bhante saṅgho... so bhāseyya.</p>
+
+<p>Dinnaṃ saṅghena Itthannāmassa bhikkhuno ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya chārattaṃ mānattaṃ. Khamati saṅghassa, tasmā tuṇhī. Evam-etaṃ dhārayāmi.</p>
+
+<p><i>Venerable sirs, may the Community listen to me. This Bhikkhu (name) has fallen into one offense, unconcealed, of intentional semen-emission. He asks the Community for the six-day penance for one offense, unconcealed, of intentional semen-emission. If the Community is ready, it should grant Bhikkhu (name) the six-day penance for one offense, unconcealed, of intentional semen-emission. This is the motion.</i></p>
+
+<p><i>Venerable sirs, may the Community listen to me. This Bhikkhu (name) has fallen into one offense, unconcealed, of intentional semen-emission. He asks the Community for the six-day penance for one offense, unconcealed, of intentional semen-emission. The Community is granting Bhikkhu (name) the six-day penance for one offense, unconcealed, of intentional semen-emission. He to whom the granting of the six-day penance to Bhikkhu (name) for one offense, unconcealed, of intentional semen-emission is agreeable should remain silent. He to whom it is not agreeable should speak.</i></p>
+
+<p><i>A second time ... A third time I speak about this matter...</i></p>
+
+<p><i>The six-day penance has been granted by the Community to Bhikkhu (name) for one offense, unconcealed, of intentional semen-emission. This is agreeable to the Community, therefore it is silent. Thus do I hold it.</i></p>
+
+<h4>Notifying other bhikkhus of one's penance:</h4>
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannaṃ. So'haṃ saṅghaṃ ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya chārattaṃ mānattaṃ yāciṃ. Tassa me saṅgho ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya chārattaṃ mānattaṃ adāsi. So'haṃ mānattaṃ carāmi. Vedayām'ahaṃ bhante, vedayatīti maṃ saṅgho dhāretu.</p>
+
+<p><i>Venerable sirs, I have fallen into one offense, unconcealed, of intentional semen-emission. I asked the Community for the six-day penance for one offense, unconcealed, of intentional semen-emission. The Community granted me the six-day penance for one offense, unconcealed, of intentional semen-emission. I am undergoing penance. I notify you (of this), venerable sirs. May the Community remember me as one who has notified.</i></p>
+
+<p>(<i>When notifying three bhikkhus, say — instead of</i> saṅgho dhāretu — āyasmanto dhārentu; <i>for two bhikkhus,</i> āyasmantā dhārentu; <i>for a single bhikkhu,</i> āyasmā dhāretu.)</p>
+
+<h4>Requesting rehabilitation (abbhāna): (Cv.III.2.2)</h4>
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannaṃ. So'haṃ saṅghaṃ ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya chārattaṃ mānattaṃ yāciṃ. Tassa me saṅgho ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya chārattaṃ mānattaṃ adāsi. So'haṃ bhante ciṇṇa-mānatto saṅghaṃ abbhānaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannaṃ... So'haṃ bhante ciṇṇa-mānatto dutiyam-pi saṅghaṃ abbhānaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannaṃ... So'haṃ bhante ciṇṇa-mānatto tatiyam-pi saṅghaṃ abbhānaṃ yācāmi.</p>
+
+<p><i>Venerable sirs, I have fallen into one offense, unconcealed, of intentional semen-emission. I asked the Community for the six-day penance for one offense, unconcealed, of intentional semen-emission. The Community granted me the six-day penance for one offense, unconcealed, of intentional semen-emission. I — having undergone penance — ask the Community for rehabilitation.</i></p>
+
+<p><i>Venerable sirs... A second time... A third time, I — having undergone penance — ask the Community for rehabilitation.</i></p>
+
+<h4>Transaction statement for granting rehabilitation: (Cv.III.2.3)</h4>
+<p>Suṇātu me bhante saṅgho. Ayaṃ Itthannāmo bhikkhu ekaṃ āpattiṃ āpajji <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannaṃ. So saṅghaṃ ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya chārattaṃ mānattaṃ yāci. Tassa saṅgho ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya chārattaṃ mānattaṃ adāsi. So ciṇṇa-mānatto saṅghaṃ abbhānaṃ yācati. Yadi saṅghassa pattakallaṃ, saṅgho Itthannāmaṃ bhikkhuṃ abbheyya. Esā ñatti.</p>
+
+<p>Suṇātu me bhante saṅgho. Ayaṃ Itthannāmo bhikkhu ekaṃ āpattiṃ āpajji <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannaṃ. So saṅghaṃ ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya chārattaṃ mānattaṃ yāci. Tassa saṅgho ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya chārattaṃ mānattaṃ adāsi. So ciṇṇa-mānatto saṅghaṃ abbhānaṃ yācati. Saṅgho Itthannāmaṃ bhikkhuṃ abbheti. Yass'āyasmato khamati, Itthannāmassa bhikkhuno abbhānaṃ, so tuṇh'assa. Yassa nakkhamati, so bhāseyya.</p>
+
+<p>Dutiyam-pi etam-atthaṃ vadāmi. Suṇātu me bhante saṅgho... so bhāseyya.</p>
+
+<p>Tatiyam-pi etam-atthaṃ vadāmi. Suṇātu me bhante saṅgho... so bhāseyya.</p>
+
+<p>Abbhito saṅghena Itthannāmo bhikkhu. Khamati saṅghassa, tasmā tuṇhī. Evam-etaṃ dhārayāmi.</p>
+
+<p><i>Venerable sirs, may the Community listen to me. This Bhikkhu (name) has fallen into one offense, unconcealed, of intentional semen-emission. He asked the Community for the six-day penance for one offense, unconcealed, of intentional semen-emission. The Community granted him the six-day penance for one offense, unconcealed, of intentional semen-emission. He — having undergone penance — asks the Community for rehabilitation. If the Community is ready, it should rehabilitate Bhikkhu (name). This is the motion.</i></p>
+
+<p><i>Venerable sirs, may the Community listen to me. This Bhikkhu (name) has fallen into one offense, unconcealed, of intentional semen-emission. He asked the Community for the six-day penance for one offense, unconcealed, of intentional semen-emission. The Community granted him the six-day penance for one offense, unconcealed, of intentional semen-emission. He — having undergone penance — asks the Community for rehabilitation. The Community is rehabilitating Bhikkhu</i> (<i>name). He to whom the rehabilitation of Bhikkhu (name) is agreeable should remain silent. He to whom it is not agreeable should speak.</i></p>
+
+<p><i>A second time ... A third time I speak about this matter...</i></p>
+
+<p><i>Bhikkhu (name) has been rehabilitated by the Community. This is agreeable to the Community, therefore it is silent. Thus do I hold it.</i></p>
+
+<h4>Alternate pattern:</h4>
+
+
+<p><i>Replace </i></p>
+
+<p>ekaṃ āpattiṃ āpajji(ṃ) <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannaṃ</p>
+
+<p><i>with</i></p>
+
+<p>ekaṃ saṅghādisesaṃ āpattiṃ āpajji(ṃ) apaṭicchannaṃ</p>
+
+<p>(<i>have/has fallen into one unconcealed saṅghādisesa offense</i>)</p>
+
+<p><i>and</i></p>
+
+<p>ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya</p>
+
+<p><i>with</i></p>
+
+<p>ekissā saṅghādisesāya āpattiyā apaṭicchannāya</p>
+
+<h3>B. For One Concealed Offense</h3>
+
+
+<p>The basic pattern is for an offense concealed five days. The compound for &quot;five days&quot; is given in bold italic letters. This may be replaced with the compound forms for other time periods, as necessary, listed after the request. These time-period expressions can be used in other vuṭṭhāna-vidhī statements as well.</p>
+
+<h4>Requesting probation (parivāsa): (Cv.III.3.2)</h4>
+
+
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ sañcetanikaṃ sukka-visaṭṭhiṃ <strong><i>pañcāha</i></strong>-paṭicchannaṃ. So'haṃ bhante saṅghaṃ ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya <strong><i>pañcāha</i></strong>-parivāsaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ sañcetanikaṃ sukka-visaṭṭhiṃ <strong><i>pañcāha</i></strong>- paṭicchannaṃ. So'haṃ dutiyam-pi bhante saṅghaṃ ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya <strong><i>pañcāha</i></strong>-parivāsaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ sañcetanikaṃ sukka-visaṭṭhiṃ <strong><i>pañcāha</i></strong>- paṭicchannaṃ. So'haṃ tatiyam-pi bhante saṅghaṃ ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya <strong><i>pañcāha</i></strong>-parivāsaṃ yācāmi.</p>
+
+<p><i>Venerable sirs, I have fallen into one offense of intentional semen-emission, concealed for five days. I ask the Community for five days of probation for one offense of intentional semen-emission, concealed for five days.</i></p>
+
+<p><i>Venerable sirs... A second time... A third time, I ask the Community for five days of probation for one offense of intentional semen-emission, concealed for five days.</i></p>
+
+<table class="suttalist"> <tr> <td> 1 day
+
+</td> <td> <strong><i>ekāha-</i></strong>
+
+</td> <td> 8 days
+
+</td> <td> <strong><i>aṭṭhāha</i></strong>
+
+</td> </tr> <tr> <td> 2 days
+
+</td> <td> <strong><i>dviha-</i></strong>
+
+</td> <td> 9 days
+
+</td> <td> <strong><i>navāha-</i></strong>
+
+</td> </tr> <tr> <td> 3 days
+
+</td> <td> <strong><i>tīha-</i></strong>
+
+</td> <td> 10 days
+
+</td> <td> <strong><i>dasāha-</i></strong>
+
+</td> </tr> <tr> <td> 4 days
+
+</td> <td> <strong><i>catūha-</i></strong>
+
+</td> <td> 11 days
+
+</td> <td> <strong><i>ekādasāha-</i></strong>
+
+</td> </tr> <tr> <td> 5 days
+
+</td> <td> <strong><i>pañcāha-</i></strong>
+
+</td> <td> 12 days
+
+</td> <td> <strong><i>dvādasāha-</i></strong>
+
+</td> </tr> <tr> <td> 6 days
+
+</td> <td> <strong><i>chāha-</i></strong>
+
+</td> <td> 13 days
+
+</td> <td> <strong><i>terasāha-</i></strong>
+
+</td> </tr> <tr> <td> 7 days
+
+</td> <td> <strong><i>sattāha-</i></strong>
+
+</td> <td> 14 days
+
+</td> <td> <strong><i>cuddasāha-</i></strong>
+
+</td> </tr> <tr> <td> A fortnight:
+
+</td> <td> <strong><i>pakkha-</i></strong>
+
+</td> <td></td> <td></td> </tr> <tr> <td> More than a fortnight:
+
+</td> <td> <strong><i>atireka-pakkha-</i></strong>
+
+</td> <td></td> <td></td> </tr> <tr> <td> A month:
+
+</td> <td> <strong><i>māsa-</i></strong>
+
+</td> <td></td> <td></td> </tr> <tr> <td> More than a month:
+
+</td> <td> <strong><i>atireka-māsa-</i></strong>
+
+</td> <td></td> <td></td> </tr> <tr> <td> More than 2 months:
+
+</td> <td> <strong><i>atireka-dvi-māsa-</i></strong>
+
+</td> <td></td> <td></td> </tr> </table>
+
+<p>(In each of the following examples, the option for &quot;more than <i>x</i>&quot; is expressed by adding the word <strong><i>atireka</i></strong>- in front of <i>x</i>.)</p>
+
+<table class="suttalist"> <tr> <td> 3 months:
+
+</td> <td> <strong><i>te-māsa-</i></strong>
+
+</td> </tr> <tr> <td> 4 months:
+
+</td> <td> <strong><i>catu-māsa-</i></strong>
+
+</td> </tr> <tr> <td> 5 months:
+
+</td> <td> <strong><i>pañca-māsa-</i></strong>
+
+</td> </tr> <tr> <td> 6 months:
+
+</td> <td> <strong><i>cha-māsa-</i></strong>
+
+</td> </tr> <tr> <td> 7 months:
+
+</td> <td> <strong><i>satta-māsa-</i></strong>
+
+</td> </tr> <tr> <td> 8 months:
+
+</td> <td> <strong><i>aṭṭha-māsa-</i></strong>
+
+</td> </tr> <tr> <td> 9 months:
+
+</td> <td> <strong><i>nava-māsa-</i></strong>
+
+</td> </tr> <tr> <td> 10 months:
+
+</td> <td> <strong><i>dasa-māsa-</i></strong>
+
+</td> </tr> <tr> <td> 11 months:
+
+</td> <td> <strong><i>ekādasa-māsa-</i></strong>
+
+</td> </tr> <tr> <td> 1 year:
+
+</td> <td> <strong><i>eka-saṃvacchara-</i></strong>
+
+</td> </tr> <tr> <td> 2 years:
+
+</td> <td> <strong><i>dvi-saṃvacchara-</i></strong>
+
+</td> </tr> <tr> <td> 3 years:
+
+</td> <td> <strong><i>te-saṃvacchara-</i></strong>
+
+</td> </tr> </table>
+
+<h4>Transaction statement for granting probation: (Cv.III.3.3)</h4>
+<p>Suṇātu me bhante saṅgho. Ayaṃ Itthannāmo bhikkhu ekaṃ āpattiṃ āpajji sañcetanikaṃ sukka-visaṭṭhiṃ <strong><i>pañcāha</i></strong>-paṭicchannaṃ. So saṅghaṃ ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya <strong><i>pañcāha</i></strong>-parivāsaṃ yācati. Yadi saṅghassa pattakallaṃ, saṅgho Itthannāmassa bhikkhuno ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya <strong><i>pañcāha</i></strong>-parivāsaṃ dadeyya. Esā ñatti.</p>
+
+<p>Suṇātu me bhante saṅgho. Ayaṃ Itthannāmo bhikkhu ekaṃ āpattiṃ āpajji sañcetanikaṃ sukka-visaṭṭhiṃ <strong><i>pañcāha</i></strong>-paṭicchannaṃ. So saṅghaṃ ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha-paṭ</i></strong>icchannāya <strong><i>pañcāha</i></strong>-parivāsaṃ yācati. Saṅgho Itthannāmassa bhikkhuno ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya <strong><i>pañcāha</i></strong>-parivāsaṃ deti. Yass'āyasmato khamati, Itthannāmassa bhikkhuno ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya <strong><i>pañcāha</i></strong>-parivāsassa dānaṃ, so tuṇh'assa. Yassa nakkhamati, so bhāseyya.</p>
+
+<p>Dutiyam-pi etam-atthaṃ vadāmi. Suṇātu me bhante saṅgho... so bhāseyya.</p>
+
+<p>Tatiyam-pi etam-atthaṃ vadāmi. Suṇātu me bhante saṅgho... so bhāseyya.</p>
+
+<p>Dinno saṅghena Itthannāmassa bhikkhuno ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya <strong><i>pañcāha</i></strong>-parivāso. Khamati saṅghassa, tasmā tuṇhī. Evam-etaṃ dhārayāmi.</p>
+
+<p><i>Venerable sirs, may the Community listen to me. This Bhikkhu (name) has fallen into one offense of intentional semen-emission, concealed for five days. He asks the Community for five days of probation for one offense of intentional semen-emission, concealed for five days. If the Community is ready, it should grant Bhikkhu (name) five days of probation for one offense of intentional semen-emission, concealed for five days. This is the motion.</i></p>
+
+<p><i>Venerable sirs, may the Community listen to me. This Bhikkhu (name) has fallen into one offense of intentional semen-emission, concealed for five days. He asks the Community for five days of probation for one offense of intentional semen-emission, concealed for five days. The Community is granting Bhikkhu (name) five days of probation for one offense of intentional semen-emission, concealed for five days. He to whom the granting of five days of probation to Bhikkhu (name) for for one offense of intentional semen-emission, concealed for five days, is agreeable should remain silent. He to whom it is not agreeable should speak.</i></p>
+
+<p><i>A second time ... A third time I speak about this matter...</i></p>
+
+<p><i>Five days of probation has been granted by the Community to Bhikkhu (name) for one offense of intentional semen-emission, concealed for five days. This is agreeable to the Community, therefore it is silent. Thus do I hold it.</i></p>
+
+<h4>Notifying other bhikkhus of one's probation:</h4>
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ sañcetanikaṃ sukka-visaṭṭhiṃ <strong><i>pañcāha</i></strong>-paṭicchannaṃ. So'haṃ saṅghaṃ ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya <strong><i>pañcāha</i></strong>-parivāsaṃ yāciṃ. Tassa me saṅgho ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya <strong><i>pañcāha</i></strong>-parivāsaṃ adāsi. So'haṃ parivasāmi. Vedayām'ahaṃ bhante, vedayatīti maṃ saṅgho dhāretu.</p>
+
+<p><i>Venerable sirs, I have fallen into one offense of intentional semen-emission, concealed for five days. I asked the Community for five days of probation for one offense of intentional semen-emission, concealed for five days. The Community granted me five days of probation for one offense of intentional semen-emission, concealed for five days. I am undergoing probation. I notify you (of this), venerable sirs. May the Community remember me as one who has notified.</i></p>
+
+<p>(<i>When notifying three bhikkhus, say — instead of</i> saṅgho dhāretu — āyasmanto dhārentu; <i>for two bhikkhus,</i> āyasmantā dhārentu; <i>for a single bhikkhu,</i> āyasmā dhāretu.)</p>
+
+<h4>Requesting penance: (Cv.III.4.2)</h4>
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ sañcetanikaṃ sukka-visaṭṭhiṃ <strong><i>pañcāha</i></strong>-paṭicchannaṃ. So'haṃ saṅghaṃ ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya <strong><i>pañcāha</i></strong>-parivāsaṃ yāciṃ. Tassa me saṅgho ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya <strong><i>pañcāha</i></strong>-parivāsaṃ adāsi. So'haṃ bhante parivuttha-parivāso saṅghaṃ ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya chārattaṃ mānattaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ sañcetanikaṃ sukka-visaṭṭhiṃ <strong><i>pañcāha</i></strong>-paṭicchannaṃ... So'haṃ bhante parivuttha-parivāso dutiyam-pi saṅghaṃ ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya chārattaṃ mānattaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ sañcetanikaṃ sukka-visaṭṭhiṃ <strong><i>pañcāha</i></strong>-paṭicchannaṃ... So'haṃ bhante parivuttha-parivāso tatiyam-pi saṅghaṃ ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya chārattaṃ mānattaṃ yācāmi.</p>
+
+<p><i>Venerable sirs, I have fallen into one offense of intentional semen-emission, concealed for five days. I asked the Community for five days of probation for one offense of intentional semen-emission, concealed for five days. The Community granted me five days of probation for one offense of intentional semen-emission, concealed for five days. Having completed probation, I ask the Community for the six-day penance for one offense of intentional semen-emission, concealed for five days.</i></p>
+
+<p><i>Venerable sirs... A second time... A third time, I ask the Community for the six-day penance for one offense of intentional semen-emission, concealed for five days.</i></p>
+
+<h4>Transaction statement for granting penance: (Cv.III.4.3)</h4>
+<p>Suṇātu me bhante saṅgho. Ayaṃ Itthannāmo bhikkhu ekaṃ āpattiṃ āpajji sañcetanikaṃ sukka-visaṭṭhiṃ <strong><i>pañcāha</i></strong>-paṭicchannaṃ. So saṅghaṃ ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya <strong><i>pañcāha</i></strong>-parivāsaṃ yāci. Tassa saṅgho ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya <strong><i>pañcāha</i></strong>-parivāsaṃ adāsi. So parivuttha-parivāso saṅghaṃ ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya chārattaṃ mānattaṃ yācati. Yadi saṅghassa pattakallaṃ, saṅgho Itthannāmassa bhikkhuno ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya chārattaṃ mānattaṃ dadeyya. Esā ñatti.</p>
+
+<p>Suṇātu me bhante saṅgho. Ayaṃ Itthannāmo bhikkhu ekaṃ āpattiṃ āpajji sañcetanikaṃ sukka-visaṭṭhiṃ <strong><i>pañcāha</i></strong>-paṭicchannaṃ. So saṅghaṃ ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya <strong><i>pañcāha</i></strong>-parivāsaṃ yāci. Tassa saṅgho ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya <strong><i>pañcāha</i></strong>-parivāsaṃ adāsi. So parivuttha-parivāso saṅghaṃ ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya chārattaṃ mānattaṃ yācati. Saṅgho Itthannāmassa bhikkhuno ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya chārattaṃ mānattaṃ deti. Yass'āyasmato khamati, Itthannāmassa bhikkhuno ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya chārattaṃ mānattassa dānaṃ, so tuṇh'assa. Yassa nakkhamati, so bhāseyya.</p>
+
+<p>Dutiyam-pi etam-atthaṃ vadāmi. Suṇātu me bhante saṅgho... so bhāseyya.</p>
+
+<p>Tatiyam-pi etam-atthaṃ vadāmi. Suṇātu me bhante saṅgho... so bhāseyya.</p>
+
+<p>Dinnaṃ saṅghena Itthannāmassa bhikkhuno ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya chārattaṃ mānattaṃ. Khamati saṅghassa, tasmā tuṇhī. Evam-etaṃ dhārayāmi.</p>
+
+<h4>Notifying other bhikkhus of one's penance:</h4>
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ sañcetanikaṃ sukka-visaṭṭhiṃ <strong><i>pañcāha</i></strong>-paṭicchannaṃ. So'haṃ saṅghaṃ ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya <strong><i>pañcāha</i></strong>-parivāsaṃ yāciṃ. Tassa me saṅgho ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya <strong><i>pañcāha</i></strong>-parivāsaṃ adāsi. So'haṃ bhante parivuttha-parivāso saṅghaṃ ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya chārattaṃ mānattaṃ yāciṃ. Tassa me saṅgho ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya chārattaṃ mānattaṃ adāsi. So'haṃ mānattaṃ carāmi. Vedayām'ahaṃ bhante, vedayatīti maṃ saṅgho dhāretu.</p>
+
+<p>(<i>When notifying three bhikkhus, say — instead of</i> saṅgho dhāretu — āyasmanto dhārentu; <i>for two bhikkhus,</i> āyasmantā dhārentu; <i>for a single bhikkhu,</i> āyasmā dhāretu.)</p>
+
+<h4>Requesting rehabilitation: (Cv.III.5.2)</h4>
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ sañcetanikaṃ sukka-visaṭṭhiṃ <strong><i>pañcāha</i></strong>-paṭicchannaṃ. So'haṃ saṅghaṃ ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya <strong><i>pañcāha</i></strong>-parivāsaṃ yāciṃ. Tassa me saṅgho ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya <strong><i>pañcāha</i></strong>-parivāsaṃ adāsi. So'haṃ bhante parivuttha-parivāso saṅghaṃ ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya chārattaṃ mānattaṃ yāciṃ. Tassa me saṅgho ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya chārattaṃ mānattaṃ adāsi. So'haṃ bhante ciṇṇa-mānatto saṅghaṃ abbhānaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ sañcetanikaṃ sukka-visaṭṭhiṃ <strong><i>pañcāha</i></strong>-paṭicchannaṃ... So'haṃ bhante ciṇṇa-mānatto dutiyam-pi saṅghaṃ abbhānaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ sañcetanikaṃ sukka-visaṭṭhiṃ <strong><i>pañcāha</i></strong>-paṭicchannaṃ... So'haṃ bhante ciṇṇa-mānatto tatiyam-pi saṅghaṃ abbhānaṃ yācāmi.</p>
+
+<h4>Transaction statement for granting rehabilitation: (Cv.III.5.3)</h4>
+<p>Suṇātu me bhante saṅgho. Ayaṃ Itthannāmo bhikkhu ekaṃ āpattiṃ āpajji sañcetanikaṃ sukka-visaṭṭhiṃ <strong><i>pañcāha</i></strong>-paṭicchannaṃ. So saṅghaṃ ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya <strong><i>pañcāha</i></strong>-parivāsaṃ yāci. Tassa saṅgho ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya <strong><i>pañcāha</i></strong>-parivāsaṃ adāsi. So parivuttha-parivāso saṅghaṃ ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya chārattaṃ mānattaṃ yāci. Tassa saṅgho ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya chārattaṃ mānattaṃ adāsi. So ciṇṇa-mānatto saṅghaṃ abbhānaṃ yācati. Yadi saṅghassa pattakallaṃ, saṅgho Itthannāmaṃ bhikkhuṃ abbheyya. Esā ñatti.</p>
+
+<p>Suṇātu me bhante saṅgho. Ayaṃ Itthannāmo bhikkhu ekaṃ āpattiṃ āpajji sañcetanikaṃ sukka-visaṭṭhiṃ <strong><i>pañcāha</i></strong>-paṭicchannaṃ. So saṅghaṃ ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya <strong><i>pañcāha</i></strong>-parivāsaṃ yāci. Tassa saṅgho ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya <strong><i>pañcāha</i></strong>-parivāsaṃ adāsi. So parivuttha-parivāso saṅghaṃ ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya chārattaṃ mānattaṃ yāci. Tassa saṅgho ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya chārattaṃ mānattaṃ adāsi. So ciṇṇa-mānatto saṅghaṃ abbhānaṃ yācati. Saṅgho Itthannāmaṃ bhikkhuṃ abbheti. Yass'āyasmato khamati, Itthannāmassa bhikkhuno abbhānaṃ, so tuṇh'assa. Yassa nakkhamati, so bhāseyya.</p>
+
+<p>Dutiyam-pi etam-atthaṃ vadāmi. Suṇātu me bhante saṅgho... so bhāseyya.</p>
+
+<p>Tatiyam-pi etam-atthaṃ vadāmi. Suṇātu me bhante saṅgho... so bhāseyya.</p>
+
+<p>Abbhito saṅghena Itthannāmo bhikkhu. Khamati saṅghassa, tasmā tuṇhī. Evam-etaṃ dhārayāmi.</p>
+
+<h4>Mid-course adjustment</h4> <h5>Request for extending probation when the period of concealment was originally understated: (Cv.III.24.3)</h5>
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ sañcetanikaṃ sukka-visaṭṭhiṃ <strong><i>dvemāsa-</i></strong>paṭicchannaṃ. Tassa me etadahosi. Ahaṃ kho ekaṃ āpattiṃ āpajjiṃ sañcetanikaṃ sukka-visaṭṭhiṃ <strong><i>dvemāsa-</i></strong>paṭicchannaṃ. Yannūnāhaṃ saṅghaṃ ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>dvemāsa-</i></strong>paṭicchannāya <strong><i>ekamāsa-</i></strong>parivāsaṃ yāceyyanti. So'haṃ saṅghaṃ ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>dvemāsa-</i></strong>paṭicchannāya <strong><i>ekamāsa-</i></strong>parivāsaṃ yāciṃ. Tassa me saṅgho ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>dvemāsa-</i></strong>paṭicchannāya <strong><i>ekamāsa-</i></strong>parivāsaṃ adāsi. Tassa me parivasantassa lajji-dhammo okkami, ahaṃ kho ekaṃ āpattiṃ āpajjiṃ sañcetanikaṃ sukka-visaṭṭhiṃ <strong><i>dvemāsa-</i></strong>paṭicchannaṃ. Tassa me etadahosi. Ahaṃ kho ekaṃ āpattiṃ āpajjiṃ sañcetanikaṃ sukka-visaṭṭhiṃ <strong><i>dvemāsa-</i></strong>paṭicchannaṃ. Yannūnāhaṃ saṅghaṃ ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>dvemāsa-</i></strong>paṭicchannāya <strong><i>ekamāsa-</i></strong>parivāsaṃ yāceyyanti. So'haṃ saṅghaṃ ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>dvemāsa-</i></strong>paṭicchannāya <strong><i>ekamāsa-</i></strong>parivāsaṃ yāciṃ. Tassa me saṅgho ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>dvemāsa-</i></strong>paṭicchannāya <strong><i>ekamāsa-</i></strong>parivāsaṃ adāsi. Tassa me parivasantassa lajji-dhammo okkami. Yannūnāhaṃ saṅghaṃ ekissā āpattiyā <strong><i>dvemāsa-</i></strong>paṭicchannāya itaram-pi <strong><i>māsa-</i></strong>parivāsaṃ yāceyyanti. So'haṃ bhante saṅghaṃ ekissā āpattiyā <strong><i>dvemāsa-</i></strong>paṭicchannāya itaram-pi <strong><i>māsa-</i></strong>parivāsaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ sañcetanikaṃ sukka-visaṭṭhiṃ <strong><i>dvemāsa-</i></strong>paṭicchannaṃ... So'haṃ dutiyam-pi bhante saṅghaṃ ekissā āpattiyā <strong><i>dvemāsa-</i></strong>paṭicchannāya itaram-pi <strong><i>māsa-</i></strong>parivāsaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ sañcetanikaṃ sukka-visaṭṭhiṃ <strong><i>dvemāsa-</i></strong>paṭicchannaṃ... So'haṃ tatiyam-pi bhante saṅghaṃ ekissā āpattiyā <strong><i>dvemāsa-</i></strong>paṭicchannāya itaram-pi <strong><i>māsa-</i></strong>parivāsaṃ yācāmi.</p>
+
+<p><i>Venerable sirs, I have fallen into one offense of intentional semen-emission, concealed for two months. The thought occurred to me, &quot;What if I were to ask the Community for one month of probation for one offense of intentional semen-emission concealed for two months?&quot; I asked the Community for one month of probation for one offense of intentional semen-emission, concealed for two months. The Community granted me one month of probation for one offense of intentional semen-emission, concealed for two months. While undergoing probation, I was hit by a feeling of shame: &quot;I actually fell into one offense of intentional semen-emission, concealed for two months... The Community granted me one month of probation for one offense of intentional semen-emission, concealed for two months. I have been hit by a feeling of shame. What if I were to ask the Community for one additional month of probation for one offense of intentional semen-emission, concealed for two months.&quot; I ask the Community for one additional month of probation for one offense of intentional semen-emission, concealed for two months.</i></p>
+
+<p><i>Venerable sirs... A second time... A third time, I ask the Community for one additional month of probation for one offense of intentional semen-emission, concealed for two months.</i></p>
+
+<h3>C. Aggha-samodhāna-parivāsa (Combined Probation):<br>
+ 1. For Multiple Unconcealed Offenses</h3>
+<p>The basic pattern is for &quot;many&quot; (<strong><i>sambahulā</i></strong>) offenses, the pattern used for four offenses or more. This may be replaced with two (<strong><i>dve</i></strong>) or three (<strong><i>tisso</i></strong>) wherever appropriate. The name of the offense — in this case, intentional emission of semen — is given in bold italic letters. The plural forms for other offenses are listed after the request. These may be inserted in the place of the name of the offense in the basic example. These variations can be used in other vuṭṭhāna-vidhī statements for multiple offenses as well.</p>
+
+<h4>Requesting penance:</h4>
+<p>Ahaṃ bhante sambahulā saṅghādisesā āpattiyo āpajjiṃ sañcetanikāyo sukka-visaṭṭhiyo apaṭicchannāyo. So'haṃ bhante saṅghaṃ tāsaṃ āpattīnaṃ <strong><i>sañcetanikānaṃ sukka-visaṭṭhīnaṃ</i></strong> apaṭicchannānaṃ chārattaṃ mānattaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante <strong><i>sambahulā</i></strong> saṅghādisesā āpattiyo āpajjiṃ <strong><i>sañcetanikāyo sukka-visaṭṭhiyo</i></strong> apaṭicchannāyo. So'haṃ dutiyam-pi bhante saṅghaṃ tāsaṃ āpattīnaṃ <strong><i>sañcetanikānaṃ sukka-visaṭṭhīnaṃ</i></strong> apaṭicchannānaṃ chārattaṃ mānattaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante <strong><i>sambahulā</i></strong> saṅghādisesā āpattiyo āpajjiṃ <strong><i>sañcetanikāyo sukka-visaṭṭ</i></strong> apaṭicchannāyo. So'haṃ tatiyam-pi bhante saṅghaṃ tāsaṃ āpattīnaṃ <strong><i>sañcetanikānaṃ sukka-visaṭṭhīnaṃ</i></strong> apaṭicchannānaṃ chārattaṃ mānattaṃ yācāmi.</p>
+
+<p><i>Venerable sirs, I have fallen into many offenses, unconcealed, of intentional semen-emission. I ask the Community for the six-day penance for many offenses, unconcealed, of intentional semen-emission.</i></p>
+
+<p><i>Venerable sirs... A second time... A third time, I ask the Community for the six-day penance for many offenses, unconcealed, of intentional semen-emission.</i></p>
+
+<p><i>bodily contact:</i> <strong><i>kāya-saṃsaggāyo / kāya-saṃsaggānaṃ</i></strong></p>
+
+<p><i>lewd statement:</i> <strong><i>duṭṭhulla-vācāyo / duṭṭhulla-vācānaṃ</i></strong></p>
+
+<p><i>statements (recommending) ministering to one's own sensual passion:</i> <strong><i>atta-kāma-pāricariyāyo vācāyo / atta-kāma-pāricariyānaṃ vācānaṃ</i></strong></p>
+
+<p><i>acting as a go-between:</i> <strong><i>sañcarittāyo / sañcarittānaṃ</i></strong></p>
+
+<h4>Transaction statement for granting penance</h4>
+<p>Suṇātu me bhante saṅgho. Ayaṃ Itthannāmo bhikkhu <strong><i>sambahulā</i></strong> saṅghādisesā āpattiyo āpajji <strong><i>sañcetanikāyo sukka-visaṭṭ</i></strong> apaṭicchannāyo. So saṅghaṃ tāsaṃ āpattīnaṃ <strong><i>sañcetanikānaṃ sukka-visaṭṭhīnaṃ</i></strong> apaṭicchannānaṃ chārattaṃ mānattaṃ yācati. Yadi saṅghassa pattakallaṃ, saṅgho Itthannāmassa bhikkhuno tāsaṃ āpattīnaṃ <strong><i>sañcetanikānaṃ sukka-visaṭṭhīnaṃ</i></strong> apaṭicchannānaṃ chārattaṃ mānattaṃ dadeyya. Esā ñatti.</p>
+
+<p>Suṇātu me bhante saṅgho. Ayaṃ Itthannāmo bhikkhu <strong><i>sambahulā</i></strong> saṅghādisesā āpattiyo āpajji <strong><i>sañcetanikāyo sukka-visaṭṭ</i></strong> apaṭicchannāyo. So saṅghaṃ tāsaṃ āpattīnaṃ <strong><i>sañcetanikānaṃ sukka-visaṭṭhīnaṃ</i></strong> apaṭicchannānaṃ chārattaṃ mānattaṃ yācati. Saṅgho Itthannāmassa bhikkhuno tāsaṃ āpattīnaṃ <strong><i>sañcetanikānaṃ sukka-visaṭṭhīnaṃ</i></strong> apaṭicchannānaṃ chārattaṃ mānattaṃ deti. Yass'āyasmato khamati, Itthannāmassa bhikkhuno tāsaṃ āpattīnaṃ <strong><i>sañcetanikānaṃ sukka-visaṭṭhīnaṃ</i></strong> apaṭicchannānaṃ chārattaṃ mānattassa dānaṃ, so tuṇh'assa. Yassa nakkhamati, so bhāseyya.</p>
+
+<p>Dutiyam-pi etam-atthaṃ vadāmi. Suṇātu me bhante saṅgho... so bhāseyya.</p>
+
+<p>Tatiyam-pi etam-atthaṃ vadāmi. Suṇātu me bhante saṅgho... so bhāseyya.</p>
+
+<p>Dinnaṃ saṅghena Itthannāmassa bhikkhuno tāsaṃ āpattīnaṃ <strong><i>sañcetanikānaṃ sukka-visaṭṭhīnaṃ</i></strong> apaṭicchannānaṃ chārattaṃ mānattaṃ. Khamati saṅghassa, tasmā tuṇhī. Evam-etaṃ dhārayāmi.</p>
+
+<h4>Notifying other bhikkhus of one's penance:</h4>
+<p>Ahaṃ bhante <strong><i>sambahulā</i></strong> saṅghādisesā āpattiyo āpajjiṃ <strong><i>sañcetanikāyo sukka-visaṭṭ</i></strong> apaṭicchannāyo. So'haṃ saṅghaṃ tāsaṃ āpattīnaṃ <strong><i>sañcetanikānaṃ sukka-visaṭṭhīnaṃ</i></strong> apaṭicchannānaṃ chārattaṃ mānattaṃ yāciṃ. Tassa me saṅgho tāsaṃ āpattīnaṃ <strong><i>sañcetanikānaṃ sukka-visaṭṭhīnaṃ</i></strong> apaṭicchannānaṃ chārattaṃ mānattaṃ adāsi. So'haṃ mānattaṃ carāmi. Vedayām'ahaṃ bhante, vedayatīti maṃ saṅgho dhāretu.</p>
+
+<p>(<i>When notifying three bhikkhus, say — instead of</i> saṅgho dhāretu — āyasmanto dhārentu; <i>for two bhikkhus,</i> āyasmantā dhārentu; <i>for a single bhikkhu,</i> āyasmā dhāretu.)</p>
+
+<h4>Requesting rehabilitation:</h4>
+<p>Ahaṃ bhante <strong><i>sambahulā</i></strong> saṅghādisesā āpattiyo āpajjiṃ <strong><i>sañcetanikāyo sukka-visaṭṭ</i></strong> apaṭicchannāyo. So'haṃ saṅghaṃ tāsaṃ āpattīnaṃ <strong><i>sañcetanikānaṃ sukka-visaṭṭhīnaṃ</i></strong> apaṭicchannānaṃ chārattaṃ mānattaṃ yāciṃ. Tassa me saṅgho tāsaṃ āpattīnaṃ <strong><i>sañcetanikānaṃ sukka-visaṭṭhīnaṃ</i></strong> apaṭicchannānaṃ chārattaṃ mānattaṃ adāsi. So'haṃ bhante ciṇṇa-mānatto saṅghaṃ abbhānaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante <strong><i>sambahulā</i></strong> saṅghādisesā āpattiyo āpajjiṃ <strong><i>sañcetanikāyo sukka-visaṭṭ</i></strong> apaṭicchannāyo. So'haṃ tāsaṃ āpattīnaṃ <strong><i>sañcetanikānaṃ sukka-visaṭṭhīnaṃ</i></strong> apaṭicchannānaṃ chārattaṃ mānattaṃ yāciṃ. Tassa me saṅgho tāsaṃ āpattīnaṃ <strong><i>sañcetanikānaṃ sukka-visaṭṭhīnaṃ</i></strong> apaṭicchannānaṃ chārattaṃ mānattaṃ adāsi. So'haṃ bhante ciṇṇa-mānatto dutiyam-pi saṅghaṃ abbhānaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante <strong><i>sambahulā</i></strong> saṅghādisesā āpattiyo āpajjiṃ <strong><i>sañcetanikāyo sukka-visaṭṭ</i></strong> apaṭicchannāyo. So'haṃ tāsaṃ āpattīnaṃ <strong><i>sañcetanikānaṃ sukka-visaṭṭhīnaṃ</i></strong> apaṭicchannānaṃ chārattaṃ mānattaṃ yāciṃ. Tassa me saṅgho tāsaṃ āpattīnaṃ <strong><i>sañcetanikānaṃ sukka-visaṭṭhīnaṃ</i></strong> apaṭicchannānaṃ chārattaṃ mānattaṃ adāsi. So'haṃ bhante ciṇṇa-mānatto tatiyam-pi saṅghaṃ abbhānaṃ yācāmi.</p>
+
+<h4>Transaction statement for granting rehabilitation:</h4>
+<p>Suṇātu me bhante saṅgho. Ayaṃ Itthannāmo bhikkhu <strong><i>sambahulā</i></strong> saṅghādisesā āpattiyo āpajji <strong><i>sañcetanikāyo sukka-visaṭṭhiyo</i></strong> apaṭicchannāyo. So saṅghaṃ tāsaṃ āpattīnaṃ <strong><i>sañcetanikānaṃ sukka-visaṭṭhīnaṃ</i></strong> apaṭicchannānaṃ chārattaṃ mānattaṃ yāci. Tassa saṅgho tāsaṃ āpattīnaṃ <strong><i>sañcetanikānaṃ sukka-visaṭṭhīnaṃ</i></strong> apaṭicchannānaṃ chārattaṃ mānattaṃ adāsi. So ciṇṇa-mānatto saṅghaṃ abbhānaṃ yācati. Yadi saṅghassa pattakallaṃ, saṅgho Itthannāmaṃ bhikkhuṃ abbheyya. Esā ñatti.</p>
+
+<p>Suṇātu me bhante saṅgho. Ayaṃ Itthannāmo bhikkhu <strong><i>sambahulā</i></strong> saṅghādisesā āpattiyo āpajji <strong><i>sañcetanikāyo sukka-visaṭṭ</i></strong> apaṭicchannāyo. So saṅghaṃ tāsaṃ āpattīnaṃ <strong><i>sañcetanikānaṃ sukka-visaṭṭhīnaṃ</i></strong> apaṭicchannānaṃ chārattaṃ mānattaṃ yāci. Tassa saṅgho tāsaṃ āpattīnaṃ <strong><i>sañcetanikānaṃ sukka-visaṭṭhīnaṃ</i></strong> apaṭicchannānaṃ chārattaṃ mānattaṃ adāsi. So ciṇṇa-mānatto saṅghaṃ abbhānaṃ yācati. Saṅgho Itthannāmaṃ bhikkhuṃ abbheti. Yass'āyasmato khamati, Itthannāmassa bhikkhuno abbhānaṃ, so tuṇh'assa. Yassa nakkhamati, so bhāseyya.</p>
+
+<p>Dutiyam-pi etam-atthaṃ vadāmi. Suṇātu me bhante saṅgho... so bhāseyya.</p>
+
+<p>Tatiyam-pi etam-atthaṃ vadāmi. Suṇātu me bhante saṅgho... so bhāseyya.</p>
+
+<p>Abbhito saṅghena Itthannāmo bhikkhu. Khamati saṅghassa, tasmā tuṇhī. Evam-etaṃ dhārayāmi.</p>
+
+<h3>2. For Combined Concealed &amp; Unconcealed Offenses</h3>
+<p><i>For the concealed offense, request probation and notify the other bhikkhus of one's probation as in the case of one concealed offense, above.</i></p>
+
+<h3>For two offenses, one unconcealed and one concealed for five days.</h3> <h4>Requesting penance:</h4>
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ sañcetanikaṃ sukka-visaṭṭhiṃ <strong><i>pañcāha</i></strong>-paṭicchannaṃ. So'haṃ saṅghaṃ ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya <strong><i>pañcāha</i></strong>-parivāsaṃ yāciṃ. Tassa me saṅgho ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya <strong><i>pañcāha</i></strong>-parivāsaṃ adāsi. So'haṃ parivuttha-parivāso.</p>
+
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ sañcetanikaṃ sukka-visaṭṭhiṃ apaṭicchannaṃ. So'haṃ bhante saṅghaṃ tāsaṃ āpattīnaṃ sañcetanikānaṃ sukka-visaṭṭhīnaṃ paṭicchannāya ca apaṭicchannāya ca chārattaṃ mānattaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ sañcetanikaṃ sukka-visaṭṭhiṃ <strong><i>pañcāha</i></strong>-paṭicchannaṃ... So'haṃ dutiyam-pi bhante saṅghaṃ tāsaṃ āpattīnaṃ sañcetanikānaṃ sukka-visaṭṭhīnaṃ paṭicchannāya ca apaṭicchannāya ca chārattaṃ mānattaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ sañcetanikaṃ sukka-visaṭṭhiṃ <strong><i>pañcāha</i></strong>-paṭicchannaṃ... So'haṃ tatiyam-pi bhante saṅghaṃ tāsaṃ āpattīnaṃ sañcetanikānaṃ sukka-visaṭṭhīnaṃ paṭicchannāya ca apaṭicchannāya ca chārattaṃ mānattaṃ yācāmi.</p>
+
+<p><i>Venerable sirs, I have fallen into one offense of intentional semen-emission, concealed for five days. I asked the Community for five days of probation for one offense of intentional semen-emission, concealed for five days. The Community granted me five days of probation for one offense of intentional semen-emission, concealed for five days. I have completed probation.</i></p>
+
+<p><i>Venerable sirs, I have fallen into one offense, unconcealed, of intentional semen-emission. I ask the Community for the six-day penance for those offenses of intentional semen-emission, concealed and unconcealed.</i></p>
+
+<p><i>Venerable sirs... A second time... A third time, I ask the Community for the six-day penance for those offenses of intentional semen-emission, concealed and unconcealed.</i></p>
+
+<h4>Transaction statement for granting penance:</h4>
+<p>Suṇātu me bhante saṅgho. Ayaṃ Itthannāmo bhikkhu ekaṃ āpattiṃ āpajji sañcetanikaṃ sukka-visaṭṭhiṃ <strong><i>pañcāha</i></strong>-paṭicchannaṃ. So saṅghaṃ ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya <strong><i>pañcāha</i></strong>-parivāsaṃ yāci. Tassa saṅgho ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya <strong><i>pañcāha</i></strong>-parivāsaṃ adāsi. So parivuttha-parivāso.</p>
+
+<p>Ayaṃ Itthannāmao bhikkhu ekaṃ āpattiṃ āpajji sañcetanikaṃ sukkha-visaṭṭhiṃ apaṭicchannaṃ. So saṅgham tāsaṃ āpattīnaṃ sañcetanikānaṃ sukka-visaṭṭhīnaṃ paṭicchannāya ca apaṭicchannāya ca chārattaṃ mānattaṃ yācati. Yadi saṅghassa pattakallaṃ, saṅgho Itthannāmassa bhikkhuno tāsaṃ āpattīnaṃ sañcetanikānaṃ sukka-visaṭṭhīnaṃ paṭicchannāya ca apaṭicchannāya ca chārattaṃ mānattaṃ dadeyya. Esā ñatti.</p>
+
+<p>Suṇātu me bhante saṅgho. Ayaṃ Itthannāmo bhikkhu ekaṃ āpattiṃ āpajji sañcetanikaṃ sukka-visaṭṭhiṃ <strong><i>pañcāha</i></strong>-paṭicchannaṃ. So saṅghaṃ ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya <strong><i>pañcāha</i></strong>-parivāsaṃ yāci. Tassa saṅgho ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya <strong><i>pañcāha</i></strong>-parivāsaṃ adāsi. So parivuttha-parivāso.</p>
+
+<p>Ayaṃ Itthannāmao bhikkhu ekaṃ āpattiṃ āpajji sañcetanikaṃ sukkha-visaṭṭhiṃ apaṭicchannaṃ. So saṅgham tāsaṃ āpattīnaṃ sañcetanikānaṃ sukka-visaṭṭhīnaṃ paṭicchannāya ca apaṭicchannāya ca chārattaṃ mānattaṃ yācati. Saṅgho Itthannāmassa bhikkhuno tāsaṃ āpattīnaṃ sañcetanikānaṃ sukka-visaṭṭhīnaṃ paṭicchannāya ca apaṭicchannāya ca chārattaṃ mānattaṃ deti. Yass'āyasmato khamati, Itthannāmassa bhikkhuno tāsaṃ āpattīnaṃ sañcetanikānaṃ sukka-visaṭṭhīnaṃ paṭicchannāya ca apaṭicchannāya ca chārattaṃ mānattassa dānaṃ, so tuṇh'assa. Yassa nakkhamati, so bhāseyya.</p>
+
+<p>Dutiyam-pi etam-atthaṃ vadāmi. Suṇātu me bhante saṅgho... so bhāseyya.</p>
+
+<p>Tatiyam-pi etam-atthaṃ vadāmi. Suṇātu me bhante saṅgho... so bhāseyya.</p>
+
+<p>Dinnaṃ saṅghena Itthannāmassa bhikkhuno tāsaṃ āpattīnaṃ sañcetanikānaṃ sukka-visaṭṭhīnaṃ paṭicchannāya ca apaṭicchannāya ca chārattaṃ mānattaṃ. Khamati saṅghassa, tasmā tuṇhī. Evam-etaṃ dhārayāmi.</p>
+
+<h4>Notifying other bhikkhus of one's penance:</h4>
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ sañcetanikaṃ sukka-visaṭṭhiṃ <strong><i>pañcāha</i></strong>-paṭicchannaṃ. So'haṃ saṅghaṃ ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya <strong><i>pañcāha</i></strong>-parivāsaṃ yāciṃ. Tassa me saṅgho ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya <strong><i>pañcāha</i></strong>-parivāsaṃ adāsi. So'haṃ bhante parivuttha-parivāso.</p>
+
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ sañcetanikaṃ sukka-visaṭṭhiṃ apaṭicchannaṃ. So'haṃ saṅghaṃ tāsaṃ āpattīnaṃ sañcetanikānaṃ sukka-visaṭṭhīnaṃ paṭicchannāya ca apaṭicchannāya ca chārattaṃ mānattaṃ yāciṃ. Tassa me saṅgho tāsaṃ āpattīnaṃ sañcetanikānaṃ sukka-visaṭṭhīnaṃ paṭicchannāya ca apaṭicchannāya ca chārattaṃ mānattaṃ adāsi. So'haṃ mānattaṃ carāmi. Vedayām'ahaṃ bhante, vedayatīti maṃ saṅgho dhāretu.</p>
+
+<h4>Requesting rehabilitation:</h4>
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ sañcetanikaṃ sukka-visaṭṭhiṃ <strong><i>pañcāha</i></strong>-paṭicchannaṃ. So'haṃ saṅghaṃ ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya <strong><i>pañcāha</i></strong>-parivāsaṃ yāciṃ. Tassa me saṅgho ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya <strong><i>pañcāha</i></strong>-parivāsaṃ adāsi. So'haṃ bhante parivuttha-parivāso.</p>
+
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ sañcetanikaṃ sukka-visaṭṭhiṃ apaṭicchannaṃ. So'haṃ saṅghaṃ tāsaṃ āpattīnaṃ sañcetanikānaṃ sukka-visaṭṭhīnaṃ paṭicchannāya ca apaṭicchannāya ca chārattaṃ mānattaṃ yāciṃ. Tassa me saṅgho tāsaṃ āpattīnaṃ sañcetanikānaṃ sukka-visaṭṭhīnaṃ paṭicchannāya ca apaṭicchannāya ca chārattaṃ mānattaṃ adāsi. So'haṃ bhante ciṇṇa-mānatto saṅghaṃ abbhānaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ sañcetanikaṃ sukka-visaṭṭhiṃ <strong><i>pañcāha</i></strong>-paṭicchannaṃ... So'haṃ bhante ciṇṇa-mānatto dutiyam-pi saṅghaṃ abbhānaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ sañcetanikaṃ sukka-visaṭṭhiṃ <strong><i>pañcāha</i></strong>-paṭicchannaṃ... So'haṃ bhante ciṇṇa-mānatto tatiyam-pi saṅghaṃ abbhānaṃ yācāmi.</p>
+
+<h4>Transaction statement for granting rehabilitation:</h4>
+<p>Suṇātu me bhante saṅgho. Ayaṃ Itthannāmo bhikkhu ekaṃ āpattiṃ āpajji sañcetanikaṃ sukka-visaṭṭhiṃ <strong><i>pañcāha</i></strong>-paṭicchannaṃ. So saṅghaṃ ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya <strong><i>pañcāha</i></strong>-parivāsaṃ yāci. Tassa saṅgho ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya <strong><i>pañcāha</i></strong>-parivāsaṃ adāsi. So parivuttha-parivāso.</p>
+
+<p>Ayaṃ Itthannāmao bhikkhu ekaṃ āpattiṃ āpajji sañcetanikaṃ sukkha-visaṭṭhiṃ apaṭicchannaṃ. So saṅgham tāsaṃ āpattīnaṃ sañcetanikānaṃ sukka-visaṭṭhīnaṃ paṭicchannāya ca apaṭicchannāya ca chārattaṃ mānattaṃ yāci. Tassa saṅgho tāsaṃ āpattīnaṃ sañcetanikānaṃ sukka-visaṭṭhīnaṃ paṭicchannāya ca apaṭicchannāya ca chārattaṃ mānattaṃ adāsi. So ciṇṇa-mānatto saṅghaṃ abbhānaṃ yācati. Yadi saṅghassa pattakallaṃ, saṅgho Itthannāmaṃ bhikkhuṃ abbheyya. Esā ñatti.</p>
+
+<p>Suṇātu me bhante saṅgho. Ayaṃ Itthannāmo bhikkhu ekaṃ āpattiṃ āpajji sañcetanikaṃ sukka-visaṭṭhiṃ <strong><i>pañcāha</i></strong>-paṭicchannaṃ. So saṅghaṃ ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya <strong><i>pañcāha</i></strong>-parivāsaṃ yāci. Tassa saṅgho ekissā āpattiyā sañcetanikāya sukka-visaṭṭhiyā <strong><i>pañcāha</i></strong>-paṭicchannāya <strong><i>pañcāha</i></strong>-parivāsaṃ adāsi. So parivuttha-parivāso.</p>
+
+<p>Ayaṃ Itthannāmao bhikkhu ekaṃ āpattiṃ āpajji sañcetanikaṃ sukkha-visaṭṭhiṃ apaṭicchannaṃ. So saṅgham tāsaṃ āpattīnaṃ sañcetanikānaṃ sukka-visaṭṭhīnaṃ paṭicchannāya ca apaṭicchannāya ca chārattaṃ mānattaṃ yāci. Tassa saṅgho tāsaṃ āpattīnaṃ sañcetanikānaṃ sukka-visaṭṭhīnaṃ paṭicchannāya ca apaṭicchannāya ca chārattaṃ mānattaṃ adāsi. So ciṇṇa-mānatto saṅghaṃ abbhānaṃ yācati. Saṅgho Itthannāmaṃ bhikkhuṃ abbheti. Yass'āyasmato khamati, Itthannāmassa bhikkhuno abbhānaṃ, so tuṇh'assa. Yassa nakkhamati, so bhāseyya.</p>
+
+<p>Dutiyam-pi etam-atthaṃ vadāmi. Suṇātu me bhante saṅgho... so bhāseyya.</p>
+
+<p>Tatiyam-pi etam-atthaṃ vadāmi. Suṇātu me bhante saṅgho... so bhāseyya.</p>
+
+<p>Abbhito saṅghena Itthannāmo bhikkhu. Khamati saṅghassa, tasmā tuṇhī. Evam-etaṃ dhārayāmi.</p>
+
+<h3>3. Combining Offenses Concealed Different Lengths Of Time</h3> <h3>For four offenses, one concealed one day, one concealed three days, one concealed five days, and one concealed seven days.</h3> <h4>Requesting probation:</h4>
+<p>Ahaṃ bhante <strong><i>sambahulā</i></strong> saṅghādisesā āpattiyo āpajjiṃ, ekā āpatti <strong><i>ekāha-</i></strong>paṭicchannā, ekā āpatti <strong><i>tīha-</i></strong>paṭicchannā, ekā āpatti <strong><i>pañcāha</i></strong>-paṭicchannā, ekā āpatti <strong><i>sattāha</i></strong>-paṭicchannā. So'haṃ bhante saṅghaṃ tāsaṃ āpattīnaṃ, yā āpatti <strong><i>sattāha-</i></strong>paṭicchannā, tassā agghena samodhāna-parivāsaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante <strong><i>sambahulā</i></strong> saṅghādisesā āpattiyo āpajjiṃ... So'haṃ dutiyam-pi bhante saṅghaṃ tāsaṃ āpattīnaṃ, yā āpatti <strong><i>sattāha-</i></strong>paṭicchannā, tassā agghena samodhāna-parivāsaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante <strong><i>sambahulā</i></strong> saṅghādisesā āpattiyo āpajjiṃ... So'haṃ tatiyam-pi bhante saṅghaṃ tāsaṃ āpattīnaṃ, yā āpatti <strong><i>sattāha-</i></strong>paṭicchannā, tassā agghena samodhāna-parivāsaṃ yācāmi.</p>
+
+<p><i>Venerable sirs, I have fallen into many offenses of intentional semen-emission — one offense concealed for one day, one for three days, one for five days, one for seven days. I ask the Community for a combined probation for those offenses at the rate of the offense concealed for seven days.</i></p>
+
+<p><i>Venerable sirs... A second time... A third time, I ask the Community for a combined probation for those offenses at the rate of the offense concealed for seven days.</i></p>
+
+<h4>Transaction statement for granting probation:</h4>
+<p>Suṇātu me bhante saṅgho. Ayaṃ Itthannāmo bhikkhu <strong><i>sambahulā</i></strong> saṅghādisesā āpattiyo āpajji, ekā āpatti <strong><i>ekāha-</i></strong>paṭicchannā, ekā āpatti <strong><i>tīha-</i></strong>paṭicchannā, ekā āpatti <strong><i>pañcāha</i></strong>-paṭicchannā, ekā āpatti <strong><i>sattāha-</i></strong>paṭicchannā. So saṅghaṃ tāsaṃ āpattīnaṃ, yā āpatti <strong><i>sattāha-</i></strong>paṭicchannā, tassā agghena samodhāna-parivāsaṃ yācati. Yadi saṅghassa pattakallaṃ, saṅgho Itthannāmassa bhikkhuno tāsaṃ āpattīnaṃ, yā āpatti <strong><i>sattāha-</i></strong>paṭicchannā, tassā agghena samodhāna-parivāsaṃ dadeyya. Esā ñatti.</p>
+
+<p>Suṇātu me bhante saṅgho. Ayaṃ Itthannāmo bhikkhu <strong><i>sambahulā</i></strong> saṅghādisesā āpattiyo āpajji, ekā āpatti <strong><i>ekāha-</i></strong> paṭicchannā, ekā āpatti <strong><i>tīha-</i></strong>paṭicchannā, ekā āpatti <strong><i>pañcāha</i></strong>-paṭicchannā, ekā āpatti <strong><i>sattāha-</i></strong>paṭicchannā. So saṅghaṃ tāsaṃ āpattīnaṃ, yā āpatti <strong><i>sattāha-</i></strong>paṭicchannā, tassā agghena samodhāna-parivāsaṃ yācati. Saṅgho Itthannāmassa bhikkhuno tāsaṃ āpattīnaṃ, yā āpatti <strong><i>sattāha-</i></strong>paṭicchannā, tassā agghena samodhāna-parivāsaṃ deti. Yass'āyasmato khamati, Itthannāmassa bhikkhuno tāsaṃ āpattīnaṃ, yā āpatti <strong><i>sattāha-</i></strong>paṭicchannā, tassā agghena samodhāna-parivāsassa dānaṃ, so tuṇh'assa. Yassa nakkhamati, so bhāseyya.</p>
+
+<p>Dutiyam-pi etam-atthaṃ vadāmi. Suṇātu me bhante saṅgho... so bhāseyya.</p>
+
+<p>Tatiyam-pi etam-atthaṃ vadāmi. Suṇātu me bhante saṅgho... so bhāseyya.</p>
+
+<p>Dinno saṅghena Itthannāmassa bhikkhuno tāsaṃ āpattīnaṃ, yā āpatti <strong><i>sattāha-</i></strong>paṭicchannā, tassā agghena samodhāna-parivāso. Khamati saṅghassa, tasmā tuṇhī. Evam-etaṃ dhārayāmi.</p>
+
+<h4>Notifying other bhikkhus of one's probation:</h4>
+<p>Ahaṃ bhante <strong><i>sambahulā</i></strong> saṅghādisesā āpattiyo āpajjiṃ, ekā āpatti <strong><i>ekāha-</i></strong>paṭicchannā, ekā āpatti <strong><i>tīha-</i></strong>paṭicchannā, ekā āpatti <strong><i>pañcāha</i></strong>-paṭicchannā, ekā āpatti <strong><i>sattāha-</i></strong>paṭicchannā. So'haṃ saṅghaṃ tāsaṃ āpattīnaṃ, yā āpatti <strong><i>sattāha-</i></strong>paṭicchannā, tassā agghena samodhāna-parivāsaṃ yāciṃ. Tassa me saṅgho tāsaṃ āpattīnaṃ, yā āpatti <strong><i>sattāha-</i></strong>paṭicchannā, tassā agghena samodhāna-parivāsaṃ adāsi. So'haṃ parivasāmi. Vedayām'ahaṃ bhante, vedayatīti maṃ saṅgho dhāretu.</p>
+
+<h4>Requesting penance:</h4>
+<p>Ahaṃ bhante <strong><i>sambahulā</i></strong> saṅghādisesā āpattiyo āpajjiṃ, ekā āpatti <strong><i>ekāha-</i></strong>paṭicchannā, ekā āpatti <strong><i>tīha-</i></strong>paṭicchannā, ekā āpatti <strong><i>pañcāha</i></strong>-paṭicchannā, ekā āpatti <strong><i>sattāha-</i></strong>paṭicchannā. So'haṃ bhante saṅghaṃ tāsaṃ āpattīnaṃ, yā āpatti <strong><i>sattāha-</i></strong>paṭicchannā, tassā agghena samodhāna-parivāsaṃ yāciṃ. Tassa me saṅgho tāsaṃ āpattīnaṃ, yā āpatti <strong><i>sattāha-</i></strong>paṭicchannā, tassā agghena samodhāna-parivāsaṃ adāsi. So'haṃ bhante parivuttha-parivāso saṅghaṃ tāsaṃ āpattīnaṃ paṭicchannānaṃ chārattaṃ mānattaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante <strong><i>sambahulā</i></strong> saṅghādisesā āpattiyo āpajjiṃ... So'haṃ bhante parivuttha-parivāso dutiyam-pi saṅghaṃ tāsaṃ āpattīnaṃ paṭicchannānaṃ chārattaṃ mānattaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante <strong><i>sambahulā</i></strong> saṅghādisesā āpattiyo āpajjiṃ... So'haṃ bhante parivuttha-parivāso tatiyam-pi saṅghaṃ tāsaṃ āpattīnaṃ paṭicchannānaṃ chārattaṃ mānattaṃ yācāmi.</p>
+
+<h4>Transaction statement for granting penance:</h4>
+<p>Suṇātu me bhante saṅgho. Ayaṃ Itthannāmo bhikkhu <strong><i>sambahulā</i></strong> saṅghādisesā āpattiyo āpajji, ekā āpatti <strong><i>ekāha-</i></strong>paṭicchannā, ekā āpatti <strong><i>tīha-</i></strong>paṭicchannā, ekā āpatti <strong><i>pañcāha</i></strong>-paṭicchannā, ekā āpatti <strong><i>sattāha-</i></strong>paṭicchannā. So saṅghaṃ tāsaṃ āpattīnaṃ, yā āpatti <strong><i>sattāha-</i></strong>paṭicchannā, tassā agghena samodhāna-parivāsaṃ yāci. Saṅgho Itthannāmassa bhikkhuno tāsaṃ āpattīnaṃ, yā āpatti <strong><i>sattāha-</i></strong>paṭicchannā, tassā agghena samodhāna-parivāsaṃ adāsi. So parivuttha-parivāso saṅghaṃ tāsaṃ āpattīnaṃ paṭicchannānaṃ chārattaṃ mānattaṃ yācati. Yadi saṅghassa pattakallaṃ, saṅgho Itthannāmassa bhikkhuno tāsaṃ āpattīnaṃ paṭicchannānaṃ chārattaṃ mānattaṃ dadeyya. Esā ñatti.</p>
+
+<p>Suṇātu me bhante saṅgho. Ayaṃ Itthannāmo bhikkhu <strong><i>sambahulā</i></strong> saṅghādisesā āpattiyo āpajji, ekā āpatti <strong><i>ekāha-</i></strong>paṭicchannā, ekā āpatti <strong><i>tīha-</i></strong>paṭicchannā, ekā āpatti <strong><i>pañcāha</i></strong>-paṭicchannā, ekā āpatti <strong><i>sattāha-</i></strong>paṭicchannā. So saṅghaṃ tāsaṃ āpattīnaṃ, yā āpatti <strong><i>sattāha-</i></strong>paṭicchannā, tassā agghena samodhāna-parivāsaṃ yāci. Saṅgho Itthannāmassa bhikkhuno tāsaṃ āpattīnaṃ, yā āpatti <strong><i>sattāha-</i></strong>paṭicchannā, tassā agghena samodhāna-parivāsaṃ adāsi. So parivuttha-parivāso saṅghaṃ tāsaṃ āpattīnaṃ paṭicchannānaṃ chārattaṃ mānattaṃ yācati. Saṅgho Itthannāmassa bhikkhuno tāsaṃ āpattīnaṃ paṭicchannānaṃ chārattaṃ mānattaṃ deti. Yass'āyasmato khamati, Itthannāmassa bhikkhuno tāsaṃ āpattīnaṃ paṭicchannānaṃ chārattaṃ mānattassa dānaṃ, so tuṇh'assa. Yassa nakkhamati, so bhāseyya.</p>
+
+<p>Dutiyam-pi etam-atthaṃ vadāmi. Suṇātu me bhante saṅgho... so bhāseyya.</p>
+
+<p>Tatiyam-pi etam-atthaṃ vadāmi. Suṇātu me bhante saṅgho... so bhāseyya.</p>
+
+<p>Dinnaṃ saṅghena Itthannāmassa bhikkhuno tāsaṃ āpattīnaṃ paṭicchannānaṃ chārattaṃ mānattaṃ. Khamati saṅghassa, tasmā tuṇhī. Evam-etaṃ dhārayāmi.</p>
+
+<h4>Notifying other bhikkhus of one's penance:</h4>
+<p>Ahaṃ bhante <strong><i>sambahulā</i></strong> saṅghādisesā āpattiyo āpajjiṃ, ekā āpatti <strong><i>ekāha-</i></strong>paṭicchannā, ekā āpatti <strong><i>tīha-</i></strong>paṭicchannā, ekā āpatti <strong><i>pañcāha</i></strong>-paṭicchannā, ekā āpatti <strong><i>sattāha-</i></strong>paṭicchannā. So'haṃ saṅghaṃ tāsaṃ āpattīnaṃ, yā āpatti <strong><i>sattāha-</i></strong>paṭicchannā, tassā agghena samodhāna-parivāsaṃ yāciṃ. Tassa me saṅgho tāsaṃ āpattīnaṃ, yā āpatti <strong><i>sattāha-</i></strong>paṭicchannā, tassā agghena samodhāna-parivāsaṃ adāsi. So'haṃ bhante parivuttha-parivāso saṅghaṃ tāsaṃ āpattīnaṃ paṭicchannānaṃ chārattaṃ mānattaṃ yāciṃ. Tassa me saṅgho tāsaṃ āpattīnaṃ paṭicchannānaṃ chārattaṃ mānattaṃ adāsi. So'haṃ mānattaṃ carāmi. Vedayām'ahaṃ bhante, vedayatīti maṃ saṅgho dhāretu.</p>
+
+<h4>Requesting rehabilitation:</h4>
+<p>Ahaṃ bhante <strong><i>sambahulā</i></strong> saṅghādisesā āpattiyo āpajjiṃ, ekā āpatti <strong><i>ekāha-</i></strong>paṭicchannā, ekā āpatti <strong><i>tīha-</i></strong>paṭicchannā, ekā āpatti <strong><i>pañcāha</i></strong>-paṭicchannā, ekā āpatti <strong><i>sattāha-</i></strong>paṭicchannā. So'haṃ bhante saṅghaṃ tāsaṃ āpattīnaṃ, yā āpatti <strong><i>sattāha-</i></strong>paṭicchannā, tassā agghena samodhāna-parivāsaṃ yāciṃ. Tassa me saṅgho tāsaṃ āpattīnaṃ, yā āpatti <strong><i>sattāha-</i></strong>paṭicchannā, tassā agghena samodhāna-parivāsaṃ adāsi. So'haṃ bhante parivuttha-parivāso saṅghaṃ tāsaṃ āpattīnaṃ paṭicchannānaṃ chārattaṃ mānattaṃ yāciṃ. Tassa me saṅgho tāsaṃ āpattīnaṃ paṭicchannānaṃ chārattaṃ mānattaṃ adāsi. So'haṃ bhante ciṇṇa-mānatto saṅghaṃ abbhānaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante <strong><i>sambahulā</i></strong> saṅghādisesā āpattiyo āpajjiṃ... So'haṃ bhante ciṇṇa-mānatto dutiyam-pi saṅghaṃ abbhānaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante <strong><i>sambahulā</i></strong> saṅghādisesā āpattiyo āpajjiṃ... So'haṃ bhante ciṇṇa-mānatto tatiyam-pi saṅghaṃ abbhānaṃ yācāmi.</p>
+
+<h4>Transaction statement for granting rehabilitation:</h4>
+<p>Suṇātu me bhante saṅgho. Ayaṃ Itthannāmo bhikkhu <strong><i>sambahulā</i></strong> saṅghādisesā āpattiyo āpajji, ekā āpatti <strong><i>ekāha-</i></strong>paṭicchannā, ekā āpatti <strong><i>tīha-</i></strong>paṭicchannā, ekā āpatti <strong><i>pañcāha</i></strong>-paṭicchannā, ekā āpatti <strong><i>sattāha-</i></strong>paṭicchannā. So saṅghaṃ tāsaṃ āpattīnaṃ, yā āpatti <strong><i>sattāha-</i></strong>paṭicchannā, tassā agghena samodhāna-parivāsaṃ yāci. Saṅgho Itthannāmassa bhikkhuno tāsaṃ āpattīnaṃ, yā āpatti <strong><i>sattāha-</i></strong>paṭicchannā, tassā agghena samodhāna-parivāsaṃ adāsi. So parivuttha-parivāso saṅghaṃ tāsaṃ āpattīnaṃ paṭicchannānaṃ chārattaṃ mānattaṃ yāci. Tassa saṅgho tāsaṃ āpattīnaṃ paṭicchannānaṃ chārattaṃ mānattaṃ adāsi. So ciṇṇa-mānatto saṅghaṃ abbhānaṃ yācati. Yadi saṅghassa pattakallaṃ, saṅgho Itthannāmaṃ bhikkhuṃ abbheyya. Esā ñatti.</p>
+
+<p>Suṇātu me bhante saṅgho. Ayaṃ Itthannāmo bhikkhu <strong><i>sambahulā</i></strong> saṅghādisesā āpattiyo āpajji, ekā āpatti <strong><i>ekāha-</i></strong>paṭicchannā, ekā āpatti <strong><i>tīha-</i></strong>paṭicchannā, ekā āpatti <strong><i>pañcāha</i></strong>-paṭicchannā, ekā āpatti <strong><i>sattāha-</i></strong>paṭicchannā. So saṅghaṃ tāsaṃ āpattīnaṃ, yā āpatti <strong><i>sattāha-</i></strong>paṭicchannā, tassā agghena samodhāna-parivāsaṃ yāci. Saṅgho Itthannāmassa bhikkhuno tāsaṃ āpattīnaṃ, yā āpatti <strong><i>sattāha-</i></strong>paṭicchannā, tassā agghena samodhāna-parivāsaṃ adāsi. So parivuttha-parivāso saṅghaṃ tāsaṃ āpattīnaṃ paṭicchannānaṃ chārattaṃ mānattaṃ yāci. Tassa saṅgho tāsaṃ āpattīnaṃ paṭicchannānaṃ chārattaṃ mānattaṃ adāsi. So ciṇṇa-mānatto saṅghaṃ abbhānaṃ yācati. Saṅgho Itthannāmaṃ bhikkhuṃ abbheti. Yass'āyasmato khamati, Itthannāmassa bhikkhuno abbhānaṃ, so tuṇh'assa. Yassa nakkhamati, so bhāseyya.</p>
+
+<p>Dutiyam-pi etam-atthaṃ vadāmi. Suṇātu me bhante saṅgho... so bhāseyya.</p>
+
+<p>Tatiyam-pi etam-atthaṃ vadāmi. Suṇātu me bhante saṅgho... so bhāseyya.</p>
+
+<p>Abbhito saṅghena Itthannāmo bhikkhu. Khamati saṅghassa, tasmā tuṇhī. Evam-etaṃ dhārayāmi.</p>
+
+<h4>Mid-course adjustments</h4> <h5>Requesting increased probation (adding an offense not originally remembered):</h5>
+<p>Ahaṃ bhante <strong><i>sambahulā</i></strong> saṅghādisesā āpattiyo āpajjiṃ, ekā āpatti <strong><i>ekāha-</i></strong>paṭicchannā, ekā āpatti <strong><i>tīha-</i></strong>paṭicchannā, ekā āpatti <strong><i>pañcāha</i></strong>-paṭicchannā, ekā āpatti <strong><i>sattāha-</i></strong>paṭicchannā. So'haṃ bhante saṅghaṃ tāsaṃ āpattīnaṃ, yā āpatti <strong><i>sattāha-</i></strong>paṭicchannā, tassā agghena samodhāna-parivāsaṃ yāciṃ. Tassa me saṅgho tāsaṃ āpattīnaṃ, yā āpatti <strong><i>sattāha-</i></strong>paṭicchannā, tassā agghena samodhāna-parivāsaṃ adāsi. So'haṃ parivasanto itaram-pi āpattiṃ sariṃ <strong><i>dasāha-</i></strong>paṭicchannaṃ. So'haṃ bhante saṅghaṃ tāsaṃ āpattīnaṃ yā āpatti <strong><i>dasāha-</i></strong>paṭicchannā tassā agghena samodhāna-parivāsaṃ yācāmi.</p>
+
+<p><i>Venerable sirs, I have fallen into many offenses of intentional semen-emission — one offense concealed for one day, one for three days, one for five days, one for seven days. I asked the Community for a combined probation for those offenses at the rate of the offense concealed for seven days. The Community granted me a combined probation for those offenses at the rate of the offense concealed for seven days. While undergoing probation I remembered an additional offense concealed for ten days. I ask the Community for a combined probation for those offenses at the rate of the offense concealed for ten days.</i></p>
+
+<p><i>Venerable sirs... A second time... A third time, I ask the Community for a combined probation for those offenses at the rate of the offense concealed for ten days.</i></p>
+
+<h4>Transaction statement:</h4>
+<p>Suṇātu me bhante saṅgho. Ayaṃ Itthannāmo bhikkhu <strong><i>sambahulā</i></strong> saṅghādisesā āpattiyo āpajji, ekā āpatti <strong><i>ekāha-</i></strong> paṭicchannā, ekā āpatti <strong><i>tīha-</i></strong>paṭicchannā, ekā āpatti <strong><i>pañcāha</i></strong>-paṭicchannā, ekā āpatti <strong><i>sattāha-</i></strong>paṭicchannā. So saṅghaṃ tāsaṃ āpattīnaṃ, yā āpatti <strong><i>sattāha-</i></strong>paṭicchannā, tassā agghena samodhāna-parivāsaṃ yāci. Saṅgho Itthannāmassa bhikkhuno tāsaṃ āpattīnaṃ, yā āpatti <strong><i>sattāha-</i></strong>paṭicchannā, tassā agghena samodhāna-parivāsaṃ adāsi. So parivasanto itaram-pi āpattiṃ sari <strong><i>dasāha-</i></strong>paṭicchannaṃ. So saṅghaṃ tāsaṃ āpattīnaṃ yā āpatti <strong><i>dasāha-</i></strong>paṭicchannā tassā agghena samodhāna-parivāsaṃ yācati. Yadi saṅghassa pattakallaṃ, saṅgho Itthannāmassa bhikkhuno tāsaṃ āpattīnaṃ, yā āpatti <strong><i>dasāha-</i></strong>paṭicchannā, tassā agghena samodhāna-parivāsaṃ dadeyya. Esā ñatti.</p>
+
+<h4>Request for adding an offense not originally admitted (having originally asked for probation for one offense when in actuality having committed two offenses): (Cv.III.22.3)</h4>
+<p>Ahaṃ bhante <strong><i>dve</i></strong> saṅghādisesā āpattiyo āpajjiṃ <strong><i>dvemāsa-</i></strong>paṭicchannāyo. Tassa me etadahosi, ahaṃ kho <strong><i>dve</i></strong> saṅghādisesā āpattiyo āpajjiṃ <strong><i>dvemāsa-</i></strong>paṭicchannāyo. Yannūnāhaṃ saṅghaṃ ekissā āpattiyā <strong><i>dvemāsa-</i></strong>paṭicchannāya <strong><i>dvemāsa-</i></strong>parivāsaṃ yāceyyanti. So'haṃ saṅghaṃ ekissā saṅghādisesāya āpattiyā <strong><i>dvemāsa-</i></strong>paṭicchannāya <strong><i>dvemāsa-</i></strong>parivāsaṃ yāciṃ. Tassa me saṅgho ekissā saṅghādisesāya āpattiyā <strong><i>dvemāsa-</i></strong>paṭicchannāya <strong><i>dvemāsa-</i></strong>parivāsaṃ adāsi. Tassa me parivasantassa lajji-dhammo okkami, ahaṃ kho <strong><i>dve</i></strong> saṅghādisesā āpattiyo āpajjiṃ <strong><i>dvemāsa-</i></strong>paṭicchannāyo. Tassa me etadahosi, ahaṃ kho <strong><i>dve</i></strong> saṅghādisesā āpattiyo āpajjiṃ <strong><i>dvemāsa-</i></strong>paṭicchannāyo. Yannūnāhaṃ saṅghaṃ ekissā āpattiyā <strong><i>dvemāsa-</i></strong>paṭicchannāya <strong><i>dvemāsa-</i></strong>parivāsaṃ yāceyyanti. So'haṃ saṅghaṃ ekissā saṅghādisesāya āpattiyā <strong><i>dvemāsa-</i></strong>paṭicchannāya <strong><i>dvemāsa-</i></strong>parivāsaṃ yāciṃ. Tassa me saṅgho ekissā saṅghādisesāya āpattiyā <strong><i>dvemāsa-</i></strong>paṭicchannāya <strong><i>dvemāsa-</i></strong>parivāsaṃ adāsi. Tassa me parivasantassa lajji-dhammo okkami. Yannūnāhaṃ saṅghaṃ itarissā-pi āpattiyā <strong><i>dvemāsa-</i></strong>paṭicchannāya <strong><i>dvemāsa-</i></strong>parivāsaṃ yāceyyanti. So'haṃ bhante saṅghaṃ itarissā-pi āpattiyā āpattiyā <strong><i>dvemāsa-</i></strong>paṭicchannāya <strong><i>dvemāsa-</i></strong>parivāsaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante <strong><i>dve</i></strong> saṅghādisesā āpattiyo āpajjiṃ <strong><i>dvemāsa-</i></strong>paṭicchannāyo... So'haṃ dutiyam-pi bhante saṅghaṃ itarissā-pi āpattiyā āpattiyā <strong><i>dvemāsa-</i></strong>paṭicchannāya <strong><i>dvemāsa-</i></strong>parivāsaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante <strong><i>dve</i></strong> saṅghādisesā āpattiyo āpajjiṃ <strong><i>dvemāsa-</i></strong>paṭicchannāyo... So'haṃ tatiyam-pi bhante saṅghaṃ itarissā-pi āpattiyā āpattiyā <strong><i>dvemāsa-</i></strong>paṭicchannāya <strong><i>dvemāsa-</i></strong>parivāsaṃ yācāmi.</p>
+
+<p><i>Venerable sirs, I have fallen into two offenses of intentional semen-emission, concealed for two months. The thought occurred to me, &quot;What if I were to ask the Community for two months of probation for one offense of intentional semen-emission concealed for two months?&quot; I asked the Community for two months of probation for one offense of intentional semen-emission, concealed for two months. The Community granted me two months of probation for one offense of intentional semen-emission, concealed for two months. While undergoing probation, I was hit by a feeling of shame: &quot;I actually fell into two offenses of intentional semen-emission, concealed for two months... The Community granted me two months of probation for one offense of intentional semen-emission, concealed for two months. I have been hit by a feeling of shame. What if I were to ask the Community for two months of probation for the additional one offense of intentional semen-emission, concealed for two months?&quot; I ask the Community for two months of probation for the additional one offense of intentional semen-emission, concealed for two months.</i></p>
+
+<p><i>Venerable sirs... A second time... A third time, I ask the Community for two months of probation for the additional one offense of intentional semen-emission, concealed for two months.</i></p>
+
+<h3>D. Missaka-samodhāna-parivāsa<br>
+ (Mixed Combination for Offenses of Different Bases)</h3> <h4>Requesting probation (for one offense of lustful bodily contact, concealed two days, and one offense of lewd speech, concealed four days):</h4>
+<p>Ahaṃ bhante <strong><i>dve</i></strong> āpattiyo āpajjiṃ <strong><i>ekaṃ kāya-saṃsaggaṃ dvīha-</i></strong>paṭicchannaṃ <strong><i>EKAṃ DUṭṭHULLA- VāCAṃ catūha-</i></strong>paṭicchannaṃ. So'haṃ bhante saṅghaṃ <strong><i>dvinnaṃ</i></strong> āpattīnaṃ nānā-vatthukānaṃ yā āpatti <strong><i>catūha-</i></strong>paṭicchannā tassā agghena samodhāna-parivāsaṃ yācāmi.</p>
+
+<p><i>Venerable sirs, I have fallen into two offenses, one of bodily contact, concealed for two days, and one of lewd statements, concealed for four days. I ask the Community for a combined probation for those two offenses of different bases at the rate of the offense concealed for four days.</i></p>
+
+<p><i>Venerable sirs... A second time... A third time, I ask the Community for a combined probation for those two offenses of different bases at the rate of the offense concealed for four days.</i></p>
+
+<h4>Alternate request:</h4>
+<p>Ahaṃ bhante <strong><i>dve</i></strong> saṅghādisesā āpattiyo āpajjiṃ nānā-vatthukāyo <strong><i>ekā</i></strong> āpatti <strong><i>dvīha-</i></strong>paṭicchannaṃ <strong><i>ekā</i></strong> āpatti <strong><i>catūha-</i></strong>paṭicchannaṃ. So'haṃ bhante saṅghaṃ <strong><i>dvinnaṃ</i></strong> āpattīnaṃ nānā-vatthukānaṃ yā āpatti <strong><i>catūha-</i></strong>paṭicchannā tassā agghena samodhāna-parivāsaṃ yācāmi.</p>
+
+<p><i>Venerable sirs, I have fallen into two saṅghādisesa offenses of different bases, one concealed for two days, and one concealed for four days. I ask the Community for a combined probation for those two offenses of different bases at the rate of the offense concealed for four days.</i></p>
+
+<p><i>Venerable sirs... A second time... A third time, I ask the Community for a combined probation for those two offenses of different bases at the rate of the offense concealed for four days.</i></p>
+
+<h3>E. Odhāna-samodhāna (Nullifying Combination)<br>
+ ( = Mūlāya-paṭikassanā — Sending Back to the Beginning)<br>
+ 1. For An Unconcealed Offense Committed While Undergoing Penance For An Unconcealed Offense (Cv.III.10)</h3> <h4>Request to be sent back to the beginning:</h4>
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannaṃ. So'haṃ saṅghaṃ ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya chārattaṃ mānattaṃ yāciṃ. Tassa me saṅgho ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya chārattaṃ mānattaṃ adāsi. So'haṃ bhante mānattaṃ caranto antarā ekaṃ āpattiṃ āpajjiṃ <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannaṃ. So'haṃ bhante saṅghaṃ antarā ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya mūlāya paṭikassanaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ ... So'haṃ dutiyam-pi bhante saṅghaṃ antarā ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya mūlāya paṭikassanaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ ... So'haṃ tatiyam-pi bhante saṅghaṃ antarā ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya mūlāya paṭikassanaṃ yācāmi.</p>
+
+<p><i>Venerable sirs, I have fallen into one offense, unconcealed, of intentional semen-emission. I asked the Community for the six-day penance for one offense, unconcealed, of intentional semen-emission. The Community granted me the six-day penance for one offense, unconcealed, of intentional semen-emission. While undergoing penance I fell into one interim offense, unconcealed, of intentional semen-emission. I ask the Community for a sending-back-to-the-beginning for the one interim offense, unconcealed, of intentional semen-emission.</i></p>
+
+<p><i>Venerable sirs... A second time... A third time, I ask the Community for a sending-back-to-the-beginning for the one interim offense, unconcealed, of intentional semen-emission.</i></p>
+
+<h4>Transaction statement for sending back to the beginning:</h4>
+<p>Suṇātu me bhante saṅgho. Ayaṃ Itthannāmo bhikkhu ekaṃ āpattiṃ āpajji <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannaṃ. So saṅghaṃ ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya chārattaṃ mānattaṃ yāci. Tassa saṅgho ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya chārattaṃ mānattaṃ adāsi. So mānattaṃ caranto antarā ekaṃ āpattiṃ āpajji <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannaṃ. So saṅghaṃ antarā ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya mūlāya paṭikassanaṃ yācati. Yadi saṅghassa pattakallaṃ, saṅgho Itthannānaṃ bhikkhuṃ antarā ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya mūlāya paṭikasseyya. Esā ñatti.</p>
+
+<p>Suṇātu me bhante saṅgho. Ayaṃ Itthannāmo bhikkhu ekaṃ āpattiṃ āpajji <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannaṃ. So saṅghaṃ ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya chārattaṃ mānattaṃ yāci. Tassa saṅgho ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya chārattaṃ mānattaṃ adāsi. So mānattaṃ caranto antarā ekaṃ āpattiṃ āpajji <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannaṃ. So saṅghaṃ antarā ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya mūlāya paṭikassanaṃ yācati. Saṅgho Itthannānaṃ bhikkhuṃ antarā ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya mūlāya paṭikassati. Yass'āyasmato khamati, Itthannāmassa bhikkhuno antarā ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya mūlāya paṭikassanā, so tuṇh'assa. Yassa nakkhamati, so bhāseyya.</p>
+
+<p>Dutiyam-pi etam-atthaṃ vadāmi. Suṇātu me bhante saṅgho... so bhāseyya.</p>
+
+<p>Tatiyam-pi etam-atthaṃ vadāmi. Suṇātu me bhante saṅgho... so bhāseyya.</p>
+
+<p>Paṭikassito saṅghena Itthannāmo bhikkhu antarā ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya mūlāya. Khamati saṅghassa, tasmā tuṇhī. Evam-etaṃ dhārayāmi.</p>
+
+<h4>Requesting penance: (Cv.III.12.2)</h4>
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannaṃ. So'haṃ ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya chārattaṃ mānattaṃ yāciṃ. Tassa me saṅgho ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya chārattaṃ mānattaṃ adāsi. So'haṃ bhante mānattaṃ caranto antarā ekaṃ āpattiṃ āpajjiṃ <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannaṃ. So'haṃ bhante saṅghaṃ antarā ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya mūlāya paṭikassanaṃ yāciṃ. Taṃ maṃ saṅgho antarā ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya mūlāya paṭikassi. So'haṃ bhante saṅghaṃ antarā ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya chārattaṃ mānattaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ ... So'haṃ dutiyam-pi bhante saṅghaṃ antarā ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya chārattaṃ mānattaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ ... So'haṃ tatiyam-pi bhante saṅghaṃ antarā ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya chārattaṃ mānattaṃ yācāmi.</p>
+
+<h3>2. For An Unconcealed Offense Committed While Undergoing Probation For A Concealed Offense</h3>
+<p>(In the example, the original offense was concealed for a fortnight.)</p>
+
+<h4>Request to be sent back to the beginning: (Cv.III.7.2)</h4>
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> <strong><i>pakkha-</i></strong>paṭicchannaṃ. So'haṃ ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> <strong><i>pakkha-</i></strong>paṭicchannāya <strong><i>pakkha-</i></strong>parivāsaṃ yāciṃ. Tassa me saṅgho ekissā ... <strong><i>pakkha-</i></strong>paṭicchannāya <strong><i>pakkha-</i></strong>parivāsaṃ adāsi. So'haṃ bhante parivasanto antarā ekaṃ āpattiṃ āpajjiṃ <strong><i>sañcetanikaṃ sukka-visaṭṭhiṃ</i></strong> apaṭicchannaṃ. So'haṃ bhante saṅghaṃ antarā ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya mūlāya paṭikassanaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ ... So'haṃ dutiyam-pi bhante saṅghaṃ antarā ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya mūlāya paṭikassanaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ ... So'haṃ tatiyam-pi bhante saṅghaṃ antarā ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya mūlāya paṭikassanaṃ yācāmi.</p>
+
+<p><i>Venerable sirs, I have fallen into one offense of intentional semen-emission, concealed for a fortnight. I asked the Community for a fortnight of probation for one offense of intentional semen-emission, concealed for a fortnight. The Community granted me a fortnight of probation for one offense of intentional semen-emission, concealed for a fortnight. While undergoing probation I fell into one interim offense, unconcealed, of intentional semen-emission. I ask the Community for a sending-back-to-the-beginning for the one interim offense, unconcealed, of intentional semen-emission.</i></p>
+
+<p><i>Venerable sirs... A second time... A third time, I ask the Community for a sending-back-to-the-beginning for the one interim offense, unconcealed, of intentional semen-emission.</i></p>
+
+<h4>Transaction statement for sending back to the beginning: (Cv.III.7.3)</h4>
+<p>Suṇātu me bhante saṅgho. Ayaṃ Itthannāmo bhikkhu ekaṃ āpattiṃ āpajji <strong><i>sañcetanikaṃ sukka-visaṭṭhiṃ</i></strong> <strong><i>pakkha-</i></strong>paṭicchannaṃ. So saṅghaṃ ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> <strong><i>pakkha-</i></strong>paṭicchannāya <strong><i>pakkha-</i></strong>parivāsaṃ yāci. Tassa saṅgho ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> <strong><i>pakkha-</i></strong>paṭicchannāya <strong><i>pakkha-</i></strong>parivāsaṃ adāsi. So parivasanto antarā ekaṃ āpattiṃ āpajji <strong><i>sañcetanikaṃ sukka-visaṭṭhiṃ</i></strong> apaṭicchannaṃ. So saṅghaṃ antarā ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya mūlāya paṭikassanaṃ yācati. Yadi saṅghassa pattakallaṃ, saṅgho Itthannānaṃ bhikkhuṃ antarā ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya mūlāya paṭikasseyya. Esā ñatti.</p>
+
+<p>Suṇātu me bhante saṅgho. Ayaṃ Itthannāmo bhikkhu ekaṃ āpattiṃ āpajji <strong><i>sañcetanikaṃ sukka-visaṭṭhiṃ</i></strong> <strong><i>pakkha-</i></strong>paṭicchannaṃ. So'haṃ ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> <strong><i>pakkha-</i></strong>paṭicchannāya <strong><i>pakkha-</i></strong>parivāsaṃ yāci. Tassa saṅgho ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> <strong><i>pakkha-</i></strong>paṭicchannāya <strong><i>pakkha-</i></strong>parivāsaṃ adāsi. So parivasanto antarā ekaṃ āpattiṃ āpajji <strong><i>sañcetanikaṃ sukka-visaṭṭhiṃ</i></strong> apaṭicchannaṃ. So saṅghaṃ antarā ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya mūlāya paṭikassanaṃ yācati. Saṅgho Itthannānaṃ bhikkhuṃ antarā ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya mūlāya paṭikassati. Yass'āyasmato khamati, Itthannāmassa bhikkhuno antarā ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya mūlāya paṭikassanā, so tuṇh'assa. Yassa nakkhamati, so bhāseyya.</p>
+
+<p>Dutiyam-pi etam-atthaṃ vadāmi. Suṇātu me bhante saṅgho... so bhāseyya.</p>
+
+<p>Tatiyam-pi etam-atthaṃ vadāmi. Suṇātu me bhante saṅgho... so bhāseyya.</p>
+
+<p>Paṭikassito saṅghena Itthannāmo bhikkhu antarā ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya mūlāya. Khamati saṅghassa, tasmā tuṇhī. Evam-etaṃ dhārayāmi.</p>
+
+<h4>Notifying the bhikkhus of one's probation:</h4>
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ <strong><i>sañcetanikaṃ sukka-visaṭṭhiṃ</i></strong> <strong><i>pakkha-</i></strong>paṭicchannaṃ. So'haṃ ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> <strong><i>pakkha-</i></strong>paṭicchannāya <strong><i>pakkha-</i></strong>parivāsaṃ yāciṃ. Tassa me saṅgho ekissā ... <strong><i>pakkha-</i></strong>paṭicchannāya <strong><i>pakkha-</i></strong>parivāsaṃ adāsi. So'haṃ bhante parivasanto antarā ekaṃ āpattiṃ āpajjiṃ <strong><i>sañcetanikaṃ sukka-visaṭṭhiṃ</i></strong> apaṭicchannaṃ. So'haṃ bhante saṅghaṃ antarā ekissā ... apaṭicchannāya mūlāya paṭikassanaṃ yāci. Taṃ maṃ saṅgho antarā ekissā ... apaṭicchannāya mūlāya paṭikassi. So'haṃ parivasāmi. Vedayām'ahaṃ bhante, vedayatīti maṃ saṅgho dhāretu.</p>
+
+<h3>Requesting penance: (Cv.III.9.2)</h3>
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ <strong><i>sañcetanikaṃ sukka-visaṭṭhiṃ</i></strong> <strong><i>pakkha-</i></strong>paṭicchannaṃ. So'haṃ ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> <strong><i>pakkha-</i></strong>paṭicchannāya <strong><i>pakkha-</i></strong>parivāsaṃ yāciṃ. Tassa me saṅgho ekissā ... <strong><i>pakkha-</i></strong>paṭicchannāya <strong><i>pakkha-</i></strong>parivāsaṃ adāsi. So'haṃ bhante parivasanto antarā ekaṃ āpattiṃ āpajjiṃ <strong><i>sañcetanikaṃ sukka-visaṭṭhiṃ</i></strong> apaṭicchannaṃ. So'haṃ bhante saṅghaṃ antarā ekissā ... apaṭicchannāya mūlāya paṭikassanaṃ yāci. Taṃ maṃ saṅgho antarā ekissā ... apaṭicchannāya mūlāya paṭikassi. So'haṃ bhante parivuttha-parivāso saṅghaṃ dvinnaṃ āpattīnaṃ chārattaṃ mānattaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ ... So'haṃ dutiyam-pi bhante parivuttha-parivāso saṅghaṃ dvinnaṃ āpattīnaṃ chārattaṃ mānattaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ ... So'haṃ tatiyam-pi bhante parivuttha-parivāso saṅghaṃ dvinnaṃ āpattīnaṃ chārattaṃ mānattaṃ yācāmi.</p>
+
+<h3>3. For An Unconcealed Offense Committed While Undergoing Penance After Having Undergone Probation</h3>
+<p>(As in the preceding example, the original offense was concealed for a fortnight.)</p>
+
+<h4>Request to be sent back to the beginning:</h4>
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ <strong><i>sañcetanikaṃ sukka-visaṭṭhiṃ</i></strong> <strong><i>pakkha-</i></strong>paṭicchannaṃ. So'haṃ ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> <strong><i>pakkha-</i></strong>paṭicchannāya <strong><i>pakkha-</i></strong>parivāsaṃ yāciṃ. Tassa me saṅgho ekissā ... <strong><i>pakkha-</i></strong>paṭicchannāya <strong><i>pakkha-</i></strong>parivāsaṃ adāsi. So'haṃ parivuttha-parivāso saṅghaṃ ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> <strong><i>pakkha-</i></strong>paṭicchannāya chārattaṃ mānattaṃ yāciṃ. Tassa me saṅgho ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> <strong><i>pakkha-</i></strong>paṭicchannāya chārattaṃ mānattaṃ adāsi. So'haṃ mānattaṃ caranto antarā ekaṃ āpattiṃ āpajjiṃ <strong><i>sañcetanikaṃ sukka-visaṭṭhIṃ</i></strong> apaṭicchannaṃ. So'haṃ bhante saṅghaṃ antarā ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> apaṭicchannāya mūlāya paṭikassanaṃ yācāmi.</p>
+
+<h3>4. For A Concealed Offense Committed While Undergoing Probation For A Concealed Offense</h3>
+<p>(In this example, the original offense was concealed for a fortnight, while the new offense was concealed for two days.)</p>
+
+<h4>Request to be sent back to the beginning: (Cv.III.14.2)</h4>
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ <strong><i>sañcetanikaṃ sukka-visaṭṭhiṃ</i></strong> <strong><i>pakkha-</i></strong>paṭicchannaṃ. So'haṃ ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> <strong><i>pakkha-</i></strong>paṭicchannāya <strong><i>pakkha-</i></strong>parivāsaṃ yāciṃ. Tassa me saṅgho ekissā ... <strong><i>pakkha-</i></strong>paṭicchannāya <strong><i>pakkha-</i></strong>parivāsaṃ adāsi. So'haṃ bhante parivasanto antarā ekaṃ āpattiṃ āpajjiṃ <strong><i>sañcetanikaṃ sukka-visaṭṭhiṃ</i></strong> <strong><i>dvīha-</i></strong>-paṭicchannaṃ. So'haṃ bhante saṅghaṃ antarā ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> <strong><i>dvīha-</i></strong>-paṭicchannāya mūlāya paṭikassanaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ ... So'haṃ dutiyam-pi bhante saṅghaṃ antarā ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> <strong><i>dvīha-</i></strong>-paṭicchannāya mūlāya paṭikassanaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ ... So'haṃ tatiyam-pi bhante saṅghaṃ antarā ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> <strong><i>dvīha-</i></strong>-paṭicchannāya mūlāya paṭikassanaṃ yācāmi.</p>
+
+<p><i>Venerable sirs, I have fallen into one offense of intentional semen-emission, concealed for a fortnight. I asked the Community for a fortnight of probation for one offense of intentional semen-emission, concealed for a fortnight. The Community granted me a fortnight of probation for one offense of intentional semen-emission, concealed for a fortnight. While undergoing probation I fell into one interim offense of intentional semen-emission, concealed for two days. I ask the Community for a sending-back-to-the-beginning for the one interim offense of intentional semen-emission, concealed for two days.</i></p>
+
+<p><i>Venerable sirs... A second time... A third time, I ask the Community for a sending-back-to-the-beginning for the one interim offense of intentional semen-emission, concealed for two days.</i></p>
+
+<h4>Requesting combined probation:</h4>
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ <strong><i>sañcetanikaṃ sukka-visaṭṭhiṃ</i></strong> <strong><i>pakkha-</i></strong>paṭicchannaṃ. So'haṃ ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> <strong><i>pakkha-</i></strong>paṭicchannāya <strong><i>pakkha-</i></strong>parivāsaṃ yāciṃ. Tassa me saṅgho ekissā ... <strong><i>pakkha-</i></strong>paṭicchannāya <strong><i>pakkha-</i></strong>parivāsaṃ adāsi. So'haṃ bhante parivasanto antarā ekaṃ āpattiṃ āpajjiṃ <strong><i>sañcetanikaṃ sukka-visaṭṭhiṃ</i></strong> <strong><i>dvīha-</i></strong>-paṭicchannaṃ. So'haṃ bhante saṅghaṃ antarā ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> <strong><i>dvīha-</i></strong>-paṭicchannāya mūlāya paṭikassanaṃ yāciṃ. Taṃ maṃ saṅgho antarā ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> <strong><i>dvīha-</i></strong>-paṭicchannāya mūlāya paṭikassi. So'haṃ bhante saṅghaṃ antarā ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> <strong><i>dvīha-</i></strong>-paṭicchannāya purimāya āpattiyā samodhāna-parivāsaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ ... So'haṃ dutiyam-pi bhante saṅghaṃ antarā ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> <strong><i>dvīha-</i></strong>paṭicchannāya purimāya āpattiyā samodhāna-parivāsaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante ekaṃ āpattiṃ āpajjiṃ ... So'haṃ tatiyam-pi bhante saṅghaṃ antarā ekissā āpattiyā <strong><i>sañcetanikāya sukka-visaṭṭhiyā</i></strong> <strong><i>dvīha-</i></strong>-paṭicchannāya purimāya āpattiyā samodhāna-parivāsaṃ yācāmi.</p>
+
+<p><i>Venerable sirs, I have fallen into one offense of intentional semen-emission, concealed for a fortnight. I asked the Community for a fortnight of probation for one offense of intentional semen-emission, concealed for a fortnight. The Community granted me a fortnight of probation for one offense of intentional semen-emission, concealed for a fortnight. While undergoing probation I fell into one interim offense of intentional semen-emission, concealed for two days. I asked the Community for a sending-back-to-the-beginning for the one interim offense of intentional semen-emission, concealed for two days. The Community gave me a sending-back-to-the-beginning for the one interim offense of intentional semen-emission, concealed for two days. I ask the Community for a combined probation for the one interim offense of intentional semen-emission, concealed for two days, together with the earlier offense.</i></p>
+
+<p><i>Venerable sirs... A second time... A third time, I ask the Community for a combined probation for the one interim offense of intentional semen-emission, concealed for two days, together with the earlier offense.</i></p>
+
+<h3>F. Suddhanta-parivāsa (Purifying Probation)<br>
+ 1. Cūḷa-suddhanta</h3> <h4>Requesting probation: (Cv.III.26.2)</h4>
+<p>Ahaṃ bhante sambahulā saṅghādisesā āpattiyo āpajjiṃ, āpatti-pariyantaṃ ekaccaṃ jānāmi ekaccaṃ na jānāmi, ratti-pariyantaṃ ekaccaṃ jānāmi ekaccaṃ na jānāmi, āpatti-pariyantaṃ ekaccaṃ sarāmi ekaccaṃ na sarāmi, ratti-pariyantaṃ ekaccaṃ sarāmi ekaccaṃ na sarāmi, āpatti-pariyante ekacce vematiko ekacce nibbematiko, ratti-pariyante ekacce vematiko ekacce nibbematiko. So'haṃ bhante saṅghaṃ tāsaṃ āpattīnaṃ suddhanta-parivāsaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante sambahulā saṅghādisesā āpattiyo āpajjiṃ... ratti-pariyante ekacce vematiko ekacce nibbematiko. So'haṃ dutiyam-pi bhante saṅghaṃ tāsaṃ āpattīnaṃ suddhanta-parivāsaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante sambahulā saṅghādisesā āpattiyo āpajjiṃ... ratti-pariyante ekacce vematiko ekacce nibbematiko. So'haṃ tatiyam-pi bhante saṅghaṃ tāsaṃ āpattīnaṃ suddhanta-parivāsaṃ yācāmi.</p>
+
+<p><i>Venerable sirs, I have fallen into many saṅghādisesa offenses. I know the number of offenses in some cases, but not in others. I know the number of nights (concealed) in some cases, but not in others. I remember the number of offenses in some cases, but not in others. I remember the number of nights (concealed) in some cases, but not in others. I am doubtful about the number of offenses in some cases, but not in others. I am doubtful about the number of nights (concealed) in some cases, but not in others. I ask the Community for a purifying probation for those offenses.</i></p>
+
+<p><i>Venerable sirs... A second time... A third time, I ask the Community for a purifying probation for those offenses.</i></p>
+
+<h4>Transaction statement for granting probation:</h4>
+<p>Suṇātu me bhante saṅgho. Ayaṃ Itthannāmo bhikkhu sambahulā saṅghādisesā āpattiyo āpajji, āpatti-pariyantaṃ ekaccaṃ jānāti ekaccaṃ na jānāti, ratti-pariyantaṃ ekaccaṃ jānāti ekaccaṃ na jānāti, āpatti-pariyantaṃ ekaccaṃ sarati ekaccaṃ na sarati, ratti-pariyantaṃ ekaccaṃ sarati ekaccaṃ na sarati, āpatti-pariyante ekacce vematiko ekacce nibbematiko, ratti-pariyante ekacce vematiko ekacce nibbematiko. So saṅghaṃ tāsaṃ āpattīnaṃ suddhanta-parivāsaṃ yācati. Yadi saṅghassa pattakallaṃ, saṅgho Itthannāmassa bhikkhuno tāsaṃ āpattīnaṃ suddhanta-parivāsaṃ dadeyya. Esā ñatti.</p>
+
+<p>Suṇātu me bhante saṅgho. Ayaṃ Itthannāmo bhikkhu sambahulā saṅghādisesā āpattiyo āpajji, āpatti-pariyantaṃ ekaccaṃ jānāti ekaccaṃ na jānāti... ratti-pariyante ekacce vematiko ekacce nibbematiko. So saṅghaṃ tāsaṃ āpattīnaṃ suddhanta-parivāsaṃ yācati. Saṅgho Itthannāmassa bhikkhuno tāsaṃ āpattīnaṃ suddhanta-parivāsaṃ deti. Yass'āyasmato khamati, Itthannāmassa bhikkhuno tāsaṃ āpattīnaṃ suddhanta-parivāsassa dānaṃ, so tuṇh'assa. Yassa nakkhamati, so bhāseyya.</p>
+
+<p>Dutiyam-pi etam-atthaṃ vadāmi. Suṇātu me bhante saṅgho... so bhāseyya.</p>
+
+<p>Tatiyam-pi etam-atthaṃ vadāmi. Suṇātu me bhante saṅgho... so bhāseyya.</p>
+
+<p>Dinno saṅghena Itthannāmassa bhikkhuno tāsaṃ āpattīnaṃ suddhanta-parivāso. Khamati saṅghassa, tasmā tuṇhī. Evam-etaṃ dhārayāmi.</p>
+
+<h4>Notifying other bhikkhus of one's probation:</h4>
+<p>Ahaṃ bhante sambahulā saṅghādisesā āpattiyo āpajjiṃ, āpatti-pariyantaṃ ekaccaṃ jānāmi ekaccaṃ na jānāmi... ratti-pariyante ekacce vematiko ekacce nibbematiko. So'haṃ bhante saṅghaṃ tāsaṃ āpattīnaṃ suddhanta-parivāsaṃ yāciṃ. Tassa me saṅgho tāsaṃ āpattīnaṃ suddhanta-parivāsaṃ adāsi. So'haṃ parivasāmi. Vedayām'ahaṃ bhante, vedayatīti maṃ saṅgho dhāretu.</p>
+
+<h4>Requesting penance:</h4>
+<p>Ahaṃ bhante sambahulā saṅghādisesā āpattiyo āpajjiṃ, āpatti-pariyantaṃ ekaccaṃ jānāmi ekaccaṃ na jānāmi... ratti-pariyante ekacce vematiko ekacce nibbematiko. So'haṃ bhante saṅghaṃ tāsaṃ āpattīnaṃ suddhanta-parivāsaṃ yāciṃ. Tassa me saṅgho tāsaṃ āpattīnaṃ suddhanta-parivāsaṃ adāsi. So'haṃ bhante parivuttha-parivāso saṅghaṃ tāsaṃ āpattīnaṃ paṭicchannānaṃ chārattaṃ mānattaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante sambahulā saṅghādisesā āpattiyo āpajjiṃ... So'haṃ bhante parivuttha-parivāso dutiyam-pi saṅghaṃ tāsaṃ āpattīnaṃ paṭicchannānaṃ chārattaṃ mānattaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante sambahulā saṅghādisesā āpattiyo āpajjiṃ... So'haṃ bhante parivuttha-parivāso tatiyam-pi saṅghaṃ tāsaṃ āpattīnaṃ paṭicchannānaṃ chārattaṃ mānattaṃ yācāmi.</p>
+
+<h4>Transaction statement for granting penance:</h4>
+<p>Suṇātu me bhante saṅgho. Ayaṃ Itthannāmo bhikkhu sambahulā saṅghādisesā āpattiyo āpajji, āpatti-pariyantaṃ ekaccaṃ jānāti ekaccaṃ na jānāti... ratti-pariyante ekacce vematiko ekacce nibbematiko. So saṅghaṃ tāsaṃ āpattīnaṃ suddhanta-parivāsaṃ yāci. Saṅgho Itthannāmassa bhikkhuno tāsaṃ āpattīnaṃ suddhanta-parivāsaṃ adāsi. So parivuttha-parivāso saṅghaṃ tāsaṃ āpattīnaṃ chārattaṃ mānattaṃ yācati. Yadi saṅghassa pattakallaṃ, saṅgho Itthannāmassa bhikkhuno tāsaṃ āpattīnaṃ chārattaṃ mānattaṃ dadeyya. Esā ñatti.</p>
+
+<p>Suṇātu me bhante saṅgho. Ayaṃ Itthannāmo bhikkhu sambahulā saṅghādisesā āpattiyo āpajji, āpatti-pariyantaṃ ekaccaṃ jānāti ekaccaṃ na jānāti... ratti-pariyante ekacce vematiko ekacce nibbematiko. So saṅghaṃ tāsaṃ āpattīnaṃ suddhanta-parivāsaṃ yāci. Saṅgho Itthannāmassa bhikkhuno tāsaṃ āpattīnaṃ suddhanta-parivāsaṃ adāsi. So parivuttha-parivāso saṅghaṃ tāsaṃ āpattīnaṃ chārattaṃ mānattaṃ yācati. Saṅgho Itthannāmassa bhikkhuno tāsaṃ āpattīnaṃ chārattaṃ mānattaṃ deti. Yass'āyasmato khamati, Itthannāmassa bhikkhuno tāsaṃ āpattīnaṃ chārattaṃ mānattassa dānaṃ, so tuṇh'assa. Yassa nakkhamati, so bhāseyya.</p>
+
+<p>Dutiyam-pi etam-atthaṃ vadāmi. Suṇātu me bhante saṅgho... so bhāseyya.</p>
+
+<p>Tatiyam-pi etam-atthaṃ vadāmi. Suṇātu me bhante saṅgho... so bhāseyya.</p>
+
+<p>Dinnaṃ saṅghena Itthannāmassa bhikkhuno tāsaṃ āpattīnaṃ chārattaṃ mānattaṃ. Khamati saṅghassa, tasmā tuṇhī. Evam-etaṃ dhārayāmi.</p>
+
+<h4>Notifying other bhikkhus of one's penance:</h4>
+<p>Ahaṃ bhante sambahulā saṅghādisesā āpattiyo āpajjiṃ, āpatti-pariyantaṃ ekaccaṃ jānāmi ekaccaṃ na jānāmi... ratti-pariyante ekacce vematiko ekacce nibbematiko. So'haṃ bhante saṅghaṃ tāsaṃ āpattīnaṃ suddhanta-parivāsaṃ yāciṃ. Tassa me saṅgho tāsaṃ āpattīnaṃ suddhanta-parivāsaṃ adāsi. So'haṃ bhante parivuttha-parivāso saṅghaṃ tāsaṃ āpattīnaṃ chārattaṃ mānattaṃ yāciṃ. Tassa me saṅgho tāsaṃ āpattīnaṃ chārattaṃ mānattaṃ adāsi. So'haṃ mānattaṃ carāmi. Vedayām'ahaṃ bhante, vedayatīti maṃ saṅgho dhāretu.</p>
+
+<h4>Requesting rehabilitation:</h4>
+<p>Ahaṃ bhante sambahulā saṅghādisesā āpattiyo āpajjiṃ, āpatti-pariyantaṃ ekaccaṃ jānāmi ekaccaṃ na jānāmi... ratti-pariyante ekacce vematiko ekacce nibbematiko. So'haṃ bhante saṅghaṃ tāsaṃ āpattīnaṃ suddhanta-parivāsaṃ yāciṃ. Tassa me saṅgho tāsaṃ āpattīnaṃ suddhanta-parivāsaṃ adāsi. So'haṃ bhante parivuttha-parivāso saṅghaṃ tāsaṃ āpattīnaṃ chārattaṃ mānattaṃ yāciṃ. Tassa me saṅgho tāsaṃ āpattīnaṃ chārattaṃ mānattaṃ adāsi. So'haṃ bhante ciṇṇa-mānatto saṅghaṃ abbhānaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante sambahulā saṅghādisesā āpattiyo āpajjiṃ... So'haṃ bhante ciṇṇa-mānatto dutiyam-pi saṅghaṃ abbhānaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante sambahulā saṅghādisesā āpattiyo āpajjiṃ... So'haṃ bhante ciṇṇa-mānatto tatiyam-pi saṅghaṃ abbhānaṃ yācāmi.</p>
+
+<h4>Transaction statement for granting rehabilitation:</h4>
+<p>Suṇātu me bhante saṅgho. Ayaṃ Itthannāmo bhikkhu sambahulā saṅghādisesā āpattiyo āpajji, āpatti-pariyantaṃ ekaccaṃ jānāti ekaccaṃ na jānāti... ratti-pariyante ekacce vematiko ekacce nibbematiko. So saṅghaṃ tāsaṃ āpattīnaṃ suddhanta-parivāsaṃ yāci. Saṅgho Itthannāmassa bhikkhuno tāsaṃ āpattīnaṃ suddhanta-parivāsaṃ adāsi. So parivuttha-parivāso saṅghaṃ tāsaṃ āpattīnaṃ chārattaṃ mānattaṃ yāci. Tassa saṅgho tāsaṃ āpattīnaṃ chārattaṃ mānattaṃ adāsi. So ciṇṇa-mānatto saṅghaṃ abbhānaṃ yācati. Yadi saṅghassa pattakallaṃ, saṅgho Itthannāmaṃ bhikkhuṃ abbheyya. Esā ñatti.</p>
+
+<p>Suṇātu me bhante saṅgho. Ayaṃ Itthannāmo bhikkhu sambahulā saṅghādisesā āpattiyo āpajji, āpatti-pariyantaṃ ekaccaṃ jānāti ekaccaṃ na jānāti... ratti-pariyante ekacce vematiko ekacce nibbematiko. So saṅghaṃ tāsaṃ āpattīnaṃ suddhanta-parivāsaṃ yāci. Saṅgho Itthannāmassa bhikkhuno tāsaṃ āpattīnaṃ suddhanta-parivāsaṃ adāsi. So parivuttha-parivāso saṅghaṃ tāsaṃ āpattīnaṃ chārattaṃ mānattaṃ yāci. Tassa saṅgho tāsaṃ āpattīnaṃ chārattaṃ mānattaṃ adāsi. So ciṇṇa-mānatto saṅghaṃ abbhānaṃ yācati. Saṅgho Itthannāmaṃ bhikkhuṃ abbheti. Yass'āyasmato khamati, Itthannāmassa bhikkhuno abbhānaṃ, so tuṇh'assa. Yassa nakkhamati, so bhāseyya.</p>
+
+<p>Dutiyam-pi etam-atthaṃ vadāmi. Suṇātu me bhante saṅgho... so bhāseyya.</p>
+
+<p>Tatiyam-pi etam-atthaṃ vadāmi. Suṇātu me bhante saṅgho... so bhāseyya.</p>
+
+<p>Abbhito saṅghena Itthannāmo bhikkhu. Khamati saṅghassa, tasmā tuṇhī. Evam-etaṃ dhārayāmi.</p>
+
+<h3>2. Mahā-Suddhanta</h3> <h4>Requesting probation: (Cv.III.26.2)</h4>
+<p>Ahaṃ bhante sambahulā saṅghādisesā āpattiyo āpajjiṃ, āpatti-pariyantaṃ na jānāmi, ratti-pariyantaṃ na jānāmi, āpatti-pariyantaṃ na sarāmi, ratti-pariyantaṃ na sarāmi, āpatti-pariyante vematiko, ratti-pariyante vematiko. So'haṃ bhante saṅghaṃ tāsaṃ āpattīnaṃ suddhanta-parivāsaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante sambahulā saṅghādisesā āpattiyo āpajjiṃ... ratti-pariyante vematiko. So'haṃ dutiyam-pi bhante saṅghaṃ tāsaṃ āpattīnaṃ suddhanta-parivāsaṃ yācāmi.</p>
+
+<p>Ahaṃ bhante sambahulā saṅghādisesā āpattiyo āpajjiṃ... ratti-pariyante vematiko. So'haṃ tatiyam-pi bhante saṅghaṃ tāsaṃ āpattīnaṃ suddhanta-parivāsaṃ yācāmi.</p>
+
+<p><i>Venerable sirs, I have fallen into many saṅghādisesa offenses. I don't know the number of offenses, I don't know the number of nights (concealed). I don't remember the number of offenses, I don't remember the number of nights (concealed). I am doubtful about the number of offenses, I am doubtful about the number of nights (concealed). I ask the Community for a purifying probation for those offenses.</i></p>
+
+<p><i>Venerable sirs... A second time... A third time, I ask the Community for a purifying probation for those offenses.</i></p>
+
+<p>(The remaining statements for this option may be inferred from the statements for the cūḷa-suddhanta-parivāsa.)</p>
+
+<br>
+
+<div id="nextprev"><a id="previous-sutta" href="../bmc/bmc2.app2.html"></a><a id="next-sutta" href="../bmc/bmc2.app4.html"></a></div>
+</div><!--content-->
+<footer>
+<div id="breadcrumbs">
+<a href="../home/index.html">Home</a><a href="../vi/vi.html">Vinaya Pitaka</a><a href="../bmc/bmc.html">Buddhist Monastic Code</a><a href="../bmc/bmc2.html">BMC 2</a>Appendix 3</div>
+<a id="bottom"></a>
+</footer>
+<script src="../js/footer.js"></script>
+</div><!--container-->
+</body>
+</html>
