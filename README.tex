@@ -1,0 +1,84 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage{standalone}
+\standalonetrue
+\usepackage{natbib}
+\usepackage{html}
+\usepackage{latexsym}
+\usepackage{makeidx}
+
+\usepackage{color}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+    linktoc=all
+}
+
+\newcommand{\dvdate}{2020/09/07}
+\newcommand{\dvversion}{Alpha 0.0}
+
+\usepackage{polyglossia}
+\setdefaultlanguage{english}
+\setotherlanguage{pali}
+\enablehyphenation
+
+\pghyphenation{english}{
+   bhik-khus
+   dham-ma
+   san-gha
+}
+
+%Hyperlinks:
+\usepackage{hyperref}
+\hypersetup{pdftex,colorlinks=true,allcolors=blue,pdfpagemode=UseOutlines}
+\usepackage{hypcap}
+%%%%%%%%%%%%%%%
+\usepackage[final]{microtype}
+\usepackage{changepage}
+\usepackage{tocloft}
+\usepackage{luatexbase}
+\usepackage{currfile}
+\setmainfont{Charis SIL}
+\newfontfamily\palifont{DejaVu Serif}
+
+\begin{document}
+
+\ifstandalone
+\title{Saddhamma Translation}
+\author{Ebo Croffie}
+
+\date{\dvdate \qquad \dvversion\\
+\footnotesize (\textsc{pdf} file generated on \today)}
+
+\maketitle
+
+\fi
+
+\begin{fussy}
+\large\textenglish{
+\paragraph{1.} The Saddhamma Translation (translate-saddhamma.git) project is a translation of selected
+suttas by Ebo Croffie for a weekly \htmladdnormallink{Saddhamma Study Group}
+{mailto:saddhammastudygroup@gmail.com} readings and discussions.
+
+\paragraph{2.} These translations are designed to preserve the right {\em meaning and
+phrasing (sātthaṃ sabyañjanaṃ)} as much as possible, in hopes that they
+will help reveal the life of purity that is utterly perfect and pure to the
+study group participants who practice accordingly, as expected of the Dhamma
+that is beautiful in the beginning, beautiful in the middle and beautiful in the end, with
+the {\em right meaning and phrasing}. However, the reader should keep in mind
+that even with these best efforts at preserving translation fidelity, some loss
+of phrasing and consequently, loss in meaning is unavoidable due to English
+language limitations. The reader is therefore advised to become familiar enough
+with the original Pali texts to enable cross-checking translations with the Pali
+to avoid being misled.
+
+\paragraph{3.} The website framework (designed by the
+\htmladdnormallink{The Buddha's Words} {mailto:buddhaswords2@gmail.com} team)
+used for hosting these translations makes such cross-checking easily
+accessible with side-by-side Pali and English renderings. It also features
+built-in Pali dictionary and Pali/English search capabilities for referencing
+other suttas with similar phrasing.
+}
+\end{fussy}
+\end{document}
