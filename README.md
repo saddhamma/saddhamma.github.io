@@ -1,9 +1,12 @@
-The Saddhamma Translation (translate-saddhamma.git) project is a
+Saddhamma Translation
+---------------------
+
+1. The Saddhamma Translation submodule (translate-saddhamma.git) is a
 translation of selected suttas by Ebo Croffie for a weekly Saddhamma
 Study Group mailto:saddhammastudygroup@gmail.com readings and
 discussions.
 
-These translations are designed to preserve the right *meaning and
+2. These translations are designed to preserve the right *meaning and
 phrasing (sātthaṃ sabyañjanaṃ)* as much as possible, in hopes that they
 will help reveal the life of purity that is utterly perfect and pure to
 the study group participants who practice accordingly, as expected of
@@ -16,7 +19,7 @@ limitations. The reader is therefore advised to become familiar enough
 with the original Pali texts to enable cross-checking translations with
 the Pali to avoid being misled.
 
-The website framework (designed by the The Buddha’s Words
+3. The website framework (designed by the The Buddha’s Words
 mailto:buddhaswords2@gmail.com team) used for hosting these translations
 makes such cross-checking easily accessible with side-by-side Pali and
 English renderings. It also features built-in Pali dictionary and
