@@ -2,7 +2,7 @@ Saddhamma Translation
 ---------------------
 
 1. The Saddhamma Translation submodule (translate-saddhamma.git) is a
-translation of selected suttas by Ebo Croffie for a weekly Saddhamma
+translation of selected suttas for a weekly Saddhamma
 Study Group mailto:saddhammastudygroup@gmail.com readings and
 discussions.
 
