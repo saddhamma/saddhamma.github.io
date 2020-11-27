@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8>
+<link rel="icon" type="image/x-icon" href="../images/buddha.jpg">
+<title>Samyutta Nikāya - Connected Discourses with Mara 4.23</title>
+</head>
+<body>
+<div id="container">
+<header>
+<script src="../js/jquery-1.10.2.min.js"></script>
+<link rel="stylesheet" href="../css/menu.css">
+<link rel="stylesheet" href="../css/css.css">
+<link rel="stylesheet" href="../css/diff.css" type="text/css">
+<div id="eng_searchlink"> <span><a href="../home/engsearch.html" >Search English Content</a></span></div>
+<div id="pali_searchlink"> <span><a href="../home/palisearch.html" >Search Pali Content</a></span></div>
+
+<div class="logotext"><a href="../home/index.html"><span>The True Dhamma</span></a></div>
+<nav>
+<div id="navbar">
+<ul id="css3menu0" >
+<li class="topfirst" id="home"><a href="../home/index.html">Home</a></li>
+<li class="topmenu" id="ssg"><a href="../ssg/ssg.html">↓ Study Guides</a>
+<li class="topmenu" id="dn"><a href="../dn/dn.html">Digha Nikaya</a></li>
+<li class="topmenu" id="mn"><a href="../mn/mn.html">Majjhima Nikaya</a></li>
+	<li class="topmenu" id="sn"><a class="pressed" href="../sn/sn.html">↓ Samyutta Nikaya</a>
+		<ul>
+			<li><a class="pressed" href="../sn/sn01.html" title="Part 1 - The Book with Verses">Part 1 - The Book with Verses</a></li>
+			<li><a href="../sn/sn02.html">Part 2 - The Book of Causation</a></li>
+			<li><a href="../sn/sn03.html">Part 3 - The Book of the Aggregates</a></li>
+			<li><a href="../sn/sn04.html">Part 4 - The Book of the Six Sense Bases</a></li>
+			<li><a href="../sn/sn05.html" title="Part 5 - The Great Book">Part 5 - The Great Book</a></li>
+		</ul>
+	</li>
+		<li class="topmenu" id="an"><a href="../an/an.html">↓ Anguttara Nikaya</a>
+			<ul>
+			<li><a href="../an/an1.html">The Ones</a></li>
+			<li><a href="../an/an2.html">The Twos</a></li>
+			<li><a href="../an/an3.html">The Threes</a></li>
+			<li><a href="../an/an4.html">The Fours</a></li>
+			<li><a href="../an/an5.html">The Fives</a></li>
+			<li><a href="../an/an6.html">The Sixes</a></li>
+			<li><a href="../an/an7.html">The Sevens</a></li>
+			<li><a href="../an/an8.html">The Eights</a></li>
+			<li><a href="../an/an9.html">The Nines</a></li>
+			<li><a href="../an/an10.html">The Tens</a></li>
+			<li><a href="../an/an11.html">The Elevens</a></li>
+			</ul>
+		</li>
+	<li class="topmenu" id="kn"><a href="../kn/kn.html">↓ Khuddaka Nikaya</a>
+			<ul>
+			<li><a href="../dhp/dhp.html" title="The Dhammapada">The Dhammapada</a></li>
+			<li><a href="../snp/snp.html">Sutta Nipata</a></li>
+			<li><a href="../ud/ud.html">Udana</a></li>
+			<li><a href="../it/it.html">Itivuttaka</a></li>
+			<li><a href="../tha/tha.html">The Theragatha</a></li>
+			<li><a href="../thi/thi.html">The Therigatha</a></li>
+			</ul>
+	</li>
+	<li class="toplast" id="vi"><a href="../vi/vi.html">↓ Vinaya Pitaka</a>
+		<ul>
+			<li><a href="../vi/kd.html">Khandaka</a></li>
+			<li><a href="../vi/bu-vb.html" title="Monk's Rules">Bhikkhu Vibhanga</a></li>
+			<li><a href="../vi/bu-pt.html" title="Bhikkhu Pātimokkha">Bhikkhu Pātimokkha</a></li>
+			<li><a href="../vi/bi-pt.html" title="Bhikkhunī Pātimokkha">Bhikkhunī Patimokkha</a></li>
+			<li><a href="../vi/bi-vb.html" title="Nuns Rules">Bhikkhuni Vibhanga</a></li>
+			<li><a href="../bmc/bmc.html">Buddhist Monastic Code 1</a></li>
+      <li><a href="../bmc/bmc2.html">Buddhist Monastic Code 2</a></li>
+		</ul>
+	</li>
+</ul>
+</div> <!--navbar-->
+</nav>
+<div class="controlpanel" id="controlpanel"><!--controlpanel-->
+<ul>
+	<li>
+	<ul class="inner">
+		<li><a href="#" title="Page Top" >&nbsp;▲&nbsp;</a>
+		<li class="nextprev">
+			<button class="palitoggle"
+				id="pali"
+				type="button"
+				title="Display Pali and activate Lookup Dictionary"
+				style="width:2.8em; padding: 0 2px;">Pali</button>
+		</li>
+		<li><a href="#bottom" title="Page Bottom">&nbsp;▼&nbsp;</a>
+	</ul>
+	</li>
+</ul>
+</div> <!--controlpanel-->
+</header>
+<div id="content">
+<h2>Saṃyutta Nikāya - The Connected Discourses</h2>
+<div id="wb_TabMenu" style="position:relative;left:6px;top:0px;width:930px;height:36px;z-index:0;">
+<div id="TabMenu">
+<ul>
+<li><a href="../sn/sn01.html"><span>Part 1: 1-11</span></a></li>
+<li><a href="../sn/sn02.html"><span>Part 2: 12-21</span></a></li>
+<li><a href="../sn/sn03.html"><span>Part 3: 22-34</span></a></li>
+<li><a href="../sn/sn04.html"><span>Part 4: 35-44</span></a></li>
+<li><a href="../sn/sn05.html"><span>Part 5: 45-56</span></a></li>
+</ul>
+</div></div>
+<h2>Connected Discourses with Mara: SN4:23 Godhika</h2>
+
+<div id="metaarea">
+<ul class="translator">
+<li><span>A Saddhamma Study Group translation from the Pāḷi text.
+<br>Get PDFs: <a href="../sn/eBook/sn4.23.biv.pdf">Side-by-side</a> | <a href="../sn/eBook/sn4.23.bih.pdf">Par-by-par</a> | <a href="../sn/eBook/sn4.23.bip.pdf">Facing pages</a> | <a href="../sn/eBook/sn4.23.eng.pdf">English only</a> | <a href="../sn/eBook/sn4.23.pli.pdf">Pali only</a>.<br></li>
+</li>
+</ul>
+</div>
+<section class="raw_sutta">
+<div lang="en">
+
+<p><span class="parno">1</span>
+Thus was heard by me. At one time, the Auspicious One was living at Rājagaha
+at the Bamboo Grove, the Squirrel's Feeding Place. At that time the
+venerable Godhika was living at the Black Rock on the Isigili Slope. It so
+happened that while the venerable Godhika was dwelling ever vigilant, ardent
+and resolute, he attained a temporary liberation by state of mind. Then the
+venerable Godhika fell away from that temporary liberation by state of mind.
+
+<p><span class="parno">2</span>
+Also for a second time, while the venerable Godhika was dwelling ever
+vigilant, ardent and resolute, he attained a temporary liberation by state
+of mind. Also for a second time, the venerable Godhika fell away from that
+temporary liberation by state of mind. Also for a third time, the venerable
+Godhika fell away from that temporary liberation by state of mind. Also for
+a fourth time, the venerable Godhika fell away from that temporary
+liberation by state of mind. Also for a fifth time, the venerable Godhika
+fell away from that temporary liberation by state of mind. Also for a sixth
+time, the venerable Godhika fell away from that temporary liberation by
+state of mind.
+
+<p><span class="parno">3</span>
+Also for a seventh time, while the venerable Godhika was dwelling ever
+vigilant, ardent and resolute, he attained a temporary liberation by state
+of mind. Then of the venerable Godhika, this occured to him: Indeed I fallen
+away from temporary liberation by state of mind as much as the sixth
+time. What if I were to use the knife?
+
+<p><span class="parno">4</span>
+So then, Mara the evil one, having known the reflection in the venerable
+Godhika's mind with his own mind, by which [way led to] the Auspicious One,
+by that way he approached. Having approached, he addressed the Auspicious
+One in verses:
+
+<blockquote>
+<p><span class="parno"></span>
+
+   “O great hero, one of great wisdom,<br> shining with psychic powers and
+glory;<br> One who has overcome all enmity and fear,<br> I pay homage at your
+feet, O All-seeing One.
+</p>
+
+<p><span class="parno"></span>
+
+   Your disciple O great hero,<br> it is death, O conqueror of death;<br> he wishes
+for and thinks of,<br> prevent him from that O Luminous One.
+</p>
+
+<p><span class="parno"></span>
+
+   How indeed O Auspicious One, of yours<br> a disciple who delights in the
+dispensation,<br> one in higher training who has not obtained his intention<br>
+take his own life, O widely famed.”
+</p>
+
+<p><span class="parno">5</span>
+By that time the venerable Godhika had used the knife.
+
+<p><span class="parno">6</span>
+So then the Auspicious One having known, this is Mara, the evil one,
+addressed Mara, the evil one, in verse thus:
+
+<p><span class="parno"></span>
+
+   “Thus indeed [is how] the wise ones act,<br> they do not wish to strive
+after life;<br> Having removed the root of craving,<br> Godhika has attained
+nibbana.”
+</p>
+
+<p><span class="parno">7</span>
+Then the Auspicious One addressed the bhikkhus: “Come, O bhikkhus, by
+which [way leads to] the Black Rock on Isigili Slope, by that way let us
+approach where the young clansman, Godhika, has used the knife.”
+“Yes Bhante,” those bhikkhus replied to the Auspicious One. So
+then, by which [way led to] the Black Rock on Isigili Slope, by that way the
+Auspicious One approached with many bhikkhus. The Auspicious One saw the
+venerable Godhika from a distant lying down on a small bed with his body
+turned around.
+
+<p><span class="parno">8</span>
+At that time, a [cloud of] darkness, clouding over, just moved to the
+eastern direction, moved to the western direction, moved to the northern
+direction, moved to the southern direction, moved above, moved below, moved
+to the intermediate directions.
+
+<p><span class="parno">9</span>
+Then the Auspicious One addressed the bhikkhus: Do you see O bhikkhus, this
+[cloud of] darkness, clouding over, as it moves to the eastern direction,
+moves to the western direction, moves to the northern direction, moves to
+the southern direction, moves above, moves below, moves to the intermediate
+directions? “Yes Bhante.” O bhikkhus, it is really Mara, the
+evil one, searching for the consciousness of the young clansman, Godhika;
+[wondering:] “Where is the consciousness of the young clansman, Godhika,
+established?” “But with consciousness unestablished, O bhikkhus,
+the young clansman, Godhika has attained nibbana.”
+
+<p><span class="parno">10</span>
+Later on, Mara the evil one, having taken a yellow beluva lute, by which
+[way led to] the Auspicious One, by that way he approached. Having
+approached, he addressed the Auspicious One in a verse:
+
+<p><span class="parno"></span>
+
+   Above, below and across,<br> in the [four] quarters and the intermediate
+directions;<br> I have been searching for but cannot find,<br> where Godhika has
+arrived at.
+</p>
+
+<p><span class="parno"></span>
+
+   (the Auspicious One:)<br> That wise man, one excelling in energy,<br> a
+meditator always delighting in jhana;<br> endeavoring accordingly day and
+night<br> with no desires [even] for life.
+</p>
+
+<p><span class="parno"></span>
+
+   Having cut off the army of death,<br> not having returned to birth in a new
+existence;<br> With that root of craving removed,<br> Godhika has attained
+nibbana.”
+</p>
+
+<p><span class="parno"></span>
+
+   (therā:)<br> “Of him [thus] overcome with grief,<br> his lute fell down from
+his armpit;<br> thence that spirit [being] sad,<br> disappeared right
+there.”
+</p>
+</blockquote>
+</div>
+
+<div lang="pi">
+<p>
+<span class="parno"><span class="diff-html-added" previous="removed-diff-26" changeId="added-diff-30" next="changed-diff-0" onclick="return tipA(constructToolTipA(this));">1</span></span><span class="diff-html-added" previous="removed-diff-26" changeId="added-diff-30" next="changed-diff-0" onclick="return tipA(constructToolTipA(this));"> evaṃ me sutaṃ: ekaṃ samayaṃ bhagavā rājagahe viharati veḷuvane kalandakanivāpe </span>tena kho pana samayena āyasmā godhiko isigilipasse viharati kāḷasilāyaṃ. atha kho āyasmā godhiko appamatto ātāpī pahitatto viharanto <span class="var" title="sāmādhikaṃ-pts, sāmāyikaṃ-syā."><span class="diff-html-changed" id="changed-diff-0" changes="Moved to a <b>span</b> with class var and title <br/>sāmādhikaṃ-pts, sāmāyikaṃ-syā.." previous="added-diff-30" changeId="changed-diff-0" next="removed-diff-27" onclick="return tipC(constructToolTipC(this));">sāmayikaṃ</span></span><span class="diff-html-changed" changes="Moved to a <b>span</b> with class var and title <br/>sāmādhikaṃ-pts, sāmāyikaṃ-syā.." previous="added-diff-30" changeId="changed-diff-0" next="removed-diff-27" onclick="return tipC(constructToolTipC(this));"> </span>cetovimuttiṃ phusi. atha kho āyasmā godhiko <span class="diff-html-removed" id="removed-diff-27" previous="changed-diff-0" changeId="removed-diff-27" next="added-diff-31" onclick="return tipR(constructToolTipR(this));">tamhā </span><span class="var" title="tamhā."><span class="diff-html-added" id="added-diff-31" previous="removed-diff-27" changeId="added-diff-31" next="added-diff-32" onclick="return tipA(constructToolTipA(this));">tāya</span></span><span class="diff-html-added" previous="removed-diff-27" changeId="added-diff-31" next="added-diff-32" onclick="return tipA(constructToolTipA(this));"> </span>sāmayikāya cetovimuttiyā parihāyi. <span class="diff-html-added" id="added-diff-32" previous="added-diff-31" changeId="added-diff-32" next="removed-diff-28" onclick="return tipA(constructToolTipA(this));"></span>
+</p>
+<p>
+<span class="parno"><span class="diff-html-added" previous="added-diff-31" changeId="added-diff-32" next="removed-diff-28" onclick="return tipA(constructToolTipA(this));">2</span></span><span class="diff-html-added" previous="added-diff-31" changeId="added-diff-32" next="removed-diff-28" onclick="return tipA(constructToolTipA(this));"> </span>dutiyampi kho āyasmā godhiko appamatto ātāpī pahitatto viharanto sāmayikaṃ cetovimuttiṃ phusi. dutiyampi kho āyasmā godhiko <span class="diff-html-removed" id="removed-diff-28" previous="added-diff-32" changeId="removed-diff-28" next="added-diff-33" onclick="return tipR(constructToolTipR(this));">tamhā </span><span class="diff-html-added" id="added-diff-33" previous="removed-diff-28" changeId="added-diff-33" next="removed-diff-29" onclick="return tipA(constructToolTipA(this));">tāya </span>sāmayikāya cetovimuttiyā parihāyi. tatiyampi kho āyasmā godhiko <span class="diff-html-removed" id="removed-diff-29" previous="added-diff-33" changeId="removed-diff-29" next="added-diff-34" onclick="return tipR(constructToolTipR(this));">appamatto ātāpī pahitatto viharanto sāmayikaṃ cetovimuttiṃ phusi. tatiyampi kho āyasmā godhiko tamhā &hellip; pe &hellip; </span><span class="diff-html-added" id="added-diff-34" previous="removed-diff-29" changeId="added-diff-34" next="removed-diff-30" onclick="return tipA(constructToolTipA(this));">tāya sāmayikāya cetovimuttiyā </span>parihāyi. catutthampi kho āyasmā godhiko <span class="diff-html-removed" id="removed-diff-30" previous="added-diff-34" changeId="removed-diff-30" next="added-diff-35" onclick="return tipR(constructToolTipR(this));">appamatto &hellip; pe &hellip; vimuttiṃ phusi. catutthampi kho āyasmā godhiko tamhā &hellip; pe &hellip; </span><span class="diff-html-added" id="added-diff-35" previous="removed-diff-30" changeId="added-diff-35" next="removed-diff-31" onclick="return tipA(constructToolTipA(this));">tāya sāmayikāya cetovimuttiyā </span>parihāyi. pa&ntilde;camampi kho āyasmā godhiko <span class="diff-html-removed" id="removed-diff-31" previous="added-diff-35" changeId="removed-diff-31" next="added-diff-36" onclick="return tipR(constructToolTipR(this));">&hellip; pe &hellip; cetovimuttiṃ phusi. pa&ntilde;camampi kho āyasmā &hellip; pe &hellip; vimuttiyā </span><span class="diff-html-added" id="added-diff-36" previous="removed-diff-31" changeId="added-diff-36" next="removed-diff-32" onclick="return tipA(constructToolTipA(this));">tāya sāmayikāya cetovimuttiyā </span>parihāyi. chaṭṭhampi kho āyasmā godhiko <span class="diff-html-removed" id="removed-diff-32" previous="added-diff-36" changeId="removed-diff-32" next="added-diff-37" onclick="return tipR(constructToolTipR(this));">appamatto ātāpī pahitatto viharanto sāmayikaṃ cetovimuttiṃ phusi. chaṭṭhampi kho āyasmā godhiko tamhā </span><span class="diff-html-added" id="added-diff-37" previous="removed-diff-32" changeId="added-diff-37" next="added-diff-38" onclick="return tipA(constructToolTipA(this));">tāya </span>sāmayikāya cetovimuttiyā parihāyi.<span class="note"><span class="diff-html-added" previous="added-diff-37" changeId="added-diff-38" next="removed-diff-33" onclick="return tipA(constructToolTipA(this));"> </span><span class="details"><span class="p"><span class="diff-html-added" id="added-diff-38" previous="added-diff-37" changeId="added-diff-38" next="removed-diff-33" onclick="return tipA(constructToolTipA(this));">pts page 121</span></span></span></span><span class="diff-html-added" previous="added-diff-37" changeId="added-diff-38" next="removed-diff-33" onclick="return tipA(constructToolTipA(this));"> </span>
+</p>
+<p>
+<span class="parno"><span class="diff-html-added" previous="added-diff-37" changeId="added-diff-38" next="removed-diff-33" onclick="return tipA(constructToolTipA(this));">3</span></span><span class="diff-html-added" previous="added-diff-37" changeId="added-diff-38" next="removed-diff-33" onclick="return tipA(constructToolTipA(this));"> </span>sattamampi kho āyasmā godhiko appamatto ātāpī pahitatto viharanto sāmayikaṃ cetovimuttiṃ phusi. <span class="diff-html-removed" id="removed-diff-33" previous="added-diff-38" changeId="removed-diff-33" next="removed-diff-34" onclick="return tipR(constructToolTipR(this));"></span><span class="parno"><span class="diff-html-removed" previous="added-diff-38" changeId="removed-diff-33" next="removed-diff-34" onclick="return tipR(constructToolTipR(this));">2</span></span><span class="diff-html-removed" previous="added-diff-38" changeId="removed-diff-33" next="removed-diff-34" onclick="return tipR(constructToolTipR(this));"> </span>atha kho āyasmato godhikassa etadahosi: <span class="diff-html-removed" id="removed-diff-34" previous="removed-diff-33" changeId="removed-diff-34" next="removed-diff-35" onclick="return tipR(constructToolTipR(this));">&nbsp; "</span> yāva chaṭṭhaṃ khvāhaṃ sāmayikāya cetovimuttiyā parihīno. yannūnāhaṃ satthaṃ <span class="diff-html-removed" id="removed-diff-35" previous="removed-diff-34" changeId="removed-diff-35" next="added-diff-39" onclick="return tipR(constructToolTipR(this));">āhareyyan"ti</span><span class="diff-html-added" id="added-diff-39" previous="removed-diff-35" changeId="added-diff-39" next="added-diff-40" onclick="return tipA(constructToolTipA(this));">āhareyyanti</span>. <span class="diff-html-added" id="added-diff-40" previous="added-diff-39" changeId="added-diff-40" next="removed-diff-36" onclick="return tipA(constructToolTipA(this));"></span>
+</p>
+<p>
+<span class="parno"><span class="diff-html-added" previous="added-diff-39" changeId="added-diff-40" next="removed-diff-36" onclick="return tipA(constructToolTipA(this));">4</span></span><span class="diff-html-added" previous="added-diff-39" changeId="added-diff-40" next="removed-diff-36" onclick="return tipA(constructToolTipA(this));"> </span>atha kho māro pāpimā āyasmato godhikassa cetasā <span class="diff-html-removed" id="removed-diff-36" previous="added-diff-40" changeId="removed-diff-36" next="added-diff-41" onclick="return tipR(constructToolTipR(this));">cetoparivitakkama&ntilde;&ntilde;āya </span><span class="diff-html-added" id="added-diff-41" previous="removed-diff-36" changeId="added-diff-41" next="removed-diff-37" onclick="return tipA(constructToolTipA(this));">ceto parivitakkama&ntilde;&ntilde;āya </span>yena bhagavā <span class="diff-html-removed" id="removed-diff-37" previous="added-diff-41" changeId="removed-diff-37" next="added-diff-42" onclick="return tipR(constructToolTipR(this));">tenupasankami; upasankamitvā </span><span class="diff-html-added" id="added-diff-42" previous="removed-diff-37" changeId="added-diff-42" next="removed-diff-38" onclick="return tipA(constructToolTipA(this));">tenupasaṅkami. upasaṅkamitvā </span>bhagavantaṃ gāthāhi ajjhabhāsi: <span class="diff-html-removed" id="removed-diff-38" previous="added-diff-42" changeId="removed-diff-38" next="removed-diff-39" onclick="return tipR(constructToolTipR(this));">&nbsp;</span>
+</p>
+<blockquote>
+<p>
+<span class="parno"></span> <span class="parno"><span class="diff-html-removed" id="removed-diff-39" previous="removed-diff-38" changeId="removed-diff-39" next="removed-diff-40" onclick="return tipR(constructToolTipR(this));">3</span></span><span class="diff-html-removed" previous="removed-diff-38" changeId="removed-diff-39" next="removed-diff-40" onclick="return tipR(constructToolTipR(this));"> "</span> mahāvīra mahāpa&ntilde;&ntilde;a,<br> iddhiyā yasasā <span class="diff-html-removed" id="removed-diff-40" previous="removed-diff-39" changeId="removed-diff-40" next="added-diff-43" onclick="return tipR(constructToolTipR(this));">jala</span><span class="diff-html-added" previous="removed-diff-40" changeId="added-diff-43" next="removed-diff-41" onclick="return tipA(constructToolTipA(this));"> </span><span class="var" title="jala-machasaṃ, syā."><span class="diff-html-added" id="added-diff-43" previous="removed-diff-40" changeId="added-diff-43" next="removed-diff-41" onclick="return tipA(constructToolTipA(this));">jalaṃ</span></span>;<br> sabbaverabhayātīta,<br> pāde vandāmi cakkhuma. </p>
+<p>
+<span class="parno"></span> <span class="parno"><span class="diff-html-removed" id="removed-diff-41" previous="added-diff-43" changeId="removed-diff-41" next="removed-diff-42" onclick="return tipR(constructToolTipR(this));">4</span></span><span class="diff-html-removed" previous="added-diff-43" changeId="removed-diff-41" next="removed-diff-42" onclick="return tipR(constructToolTipR(this));"> </span>sāvako te mahāvīra,<br> maraṇaṃ <span class="diff-html-removed" id="removed-diff-42" previous="removed-diff-41" changeId="removed-diff-42" next="added-diff-44" onclick="return tipR(constructToolTipR(this));">maraṇābhibhū</span><span class="diff-html-added" id="added-diff-44" previous="removed-diff-42" changeId="added-diff-44" next="removed-diff-43" onclick="return tipA(constructToolTipA(this));">maraṇābhibhu</span>;<br>
+<span class="diff-html-removed" previous="added-diff-44" changeId="removed-diff-43" next="added-diff-45" onclick="return tipR(constructToolTipR(this));"> </span><span class="diff-html-removed" id="removed-diff-43" previous="added-diff-44" changeId="removed-diff-43" next="added-diff-45" onclick="return tipR(constructToolTipR(this));">ākankhati </span><span class="diff-html-added" id="added-diff-45" previous="removed-diff-43" changeId="added-diff-45" next="removed-diff-44" onclick="return tipA(constructToolTipA(this));">ākaṅkhati </span>cetayati,<br> taṃ nisedha jutindhara. </p>
+<p>
+<span class="parno"></span> <span class="parno"><span class="diff-html-removed" id="removed-diff-44" previous="added-diff-45" changeId="removed-diff-44" next="added-diff-46" onclick="return tipR(constructToolTipR(this));">5</span></span><span class="diff-html-removed" previous="added-diff-45" changeId="removed-diff-44" next="added-diff-46" onclick="return tipR(constructToolTipR(this));"> katha&ntilde;hi </span><span class="diff-html-added" id="added-diff-46" previous="removed-diff-44" changeId="added-diff-46" next="removed-diff-45" onclick="return tipA(constructToolTipA(this));">kathaṃ hi </span>bhagavā tuyhaṃ<span class="diff-html-removed" id="removed-diff-45" previous="added-diff-46" changeId="removed-diff-45" next="removed-diff-46" onclick="return tipR(constructToolTipR(this));">,</span>
+<br> sāvako sāsane rato<span class="diff-html-removed" id="removed-diff-46" previous="removed-diff-45" changeId="removed-diff-46" next="added-diff-47" onclick="return tipR(constructToolTipR(this));">;</span><span class="diff-html-added" id="added-diff-47" previous="removed-diff-46" changeId="added-diff-47" next="removed-diff-47" onclick="return tipA(constructToolTipA(this));">,</span>
+<br> appattamānaso <span class="diff-html-removed" id="removed-diff-47" previous="added-diff-47" changeId="removed-diff-47" next="added-diff-48" onclick="return tipR(constructToolTipR(this));">sekkho,</span><span class="diff-html-added" id="added-diff-48" previous="removed-diff-47" changeId="added-diff-48" next="removed-diff-48" onclick="return tipA(constructToolTipA(this));">sekho</span>
+<br> kālaṃ kayirā <span class="diff-html-removed" id="removed-diff-48" previous="added-diff-48" changeId="removed-diff-48" next="added-diff-49" onclick="return tipR(constructToolTipR(this));">janesutā"ti</span><span class="diff-html-added" id="added-diff-49" previous="removed-diff-48" changeId="added-diff-49" next="removed-diff-49" onclick="return tipA(constructToolTipA(this));">janesutāti</span>. </p>
+</blockquote>
+<span class="parno"><span class="diff-html-removed" id="removed-diff-49" previous="added-diff-49" changeId="removed-diff-49" next="added-diff-50" onclick="return tipR(constructToolTipR(this));">6</span></span><span class="diff-html-removed" previous="added-diff-49" changeId="removed-diff-49" next="added-diff-50" onclick="return tipR(constructToolTipR(this));"> </span>
+<blockquote>
+<p>
+<span class="parno"><span class="diff-html-added" id="added-diff-50" previous="removed-diff-49" changeId="added-diff-50" next="changed-diff-1" onclick="return tipA(constructToolTipA(this));">5</span></span><span class="diff-html-added" previous="removed-diff-49" changeId="added-diff-50" next="changed-diff-1" onclick="return tipA(constructToolTipA(this));"> </span><span class="diff-html-changed" id="changed-diff-1" changes="Moved to a <b>quote</b>." previous="added-diff-50" changeId="changed-diff-1" next="added-diff-51" onclick="return tipC(constructToolTipC(this));">tena kho pana samayena āyasmatā godhikena satthaṃ āharitaṃ hoti. </span><span class="diff-html-added" id="added-diff-51" previous="changed-diff-1" changeId="added-diff-51" next="changed-diff-2" onclick="return tipA(constructToolTipA(this));"></span>
+</p>
+<p>
+<span class="parno"><span class="diff-html-added" previous="changed-diff-1" changeId="added-diff-51" next="changed-diff-2" onclick="return tipA(constructToolTipA(this));">6</span></span><span class="diff-html-added" previous="changed-diff-1" changeId="added-diff-51" next="changed-diff-2" onclick="return tipA(constructToolTipA(this));"> </span><span class="diff-html-changed" id="changed-diff-2" changes="Moved to a <b>quote</b>." previous="added-diff-51" changeId="changed-diff-2" next="removed-diff-50" onclick="return tipC(constructToolTipC(this));">atha kho bhagavā </span>
+</p>
+</blockquote>
+<span class="diff-html-removed" previous="changed-diff-2" changeId="removed-diff-50" next="changed-diff-3" onclick="return tipR(constructToolTipR(this));"> </span><span class="diff-html-removed" id="removed-diff-50" previous="changed-diff-2" changeId="removed-diff-50" next="changed-diff-3" onclick="return tipR(constructToolTipR(this));">"</span>
+<blockquote>
+<p>
+<span class="diff-html-changed" changes="Moved to a <b>quote</b>." previous="removed-diff-50" changeId="changed-diff-3" next="removed-diff-51" onclick="return tipC(constructToolTipC(this));"> </span><span class="diff-html-changed" id="changed-diff-3" changes="Moved to a <b>quote</b>." previous="removed-diff-50" changeId="changed-diff-3" next="removed-diff-51" onclick="return tipC(constructToolTipC(this));">māro ayaṃ pāpimā </span>
+</p>
+</blockquote>
+<span class="diff-html-removed" id="removed-diff-51" previous="changed-diff-3" changeId="removed-diff-51" next="changed-diff-4" onclick="return tipR(constructToolTipR(this));">" </span>
+<blockquote>
+<p>
+<span class="diff-html-changed" changes="Moved to a <b>quote</b>." previous="removed-diff-51" changeId="changed-diff-4" next="removed-diff-52" onclick="return tipC(constructToolTipC(this));"> </span><span class="diff-html-changed" id="changed-diff-4" changes="Moved to a <b>quote</b>." previous="removed-diff-51" changeId="changed-diff-4" next="removed-diff-52" onclick="return tipC(constructToolTipC(this));">iti viditvā māraṃ pāpimantaṃ gāthāya ajjhabhāsi:</span>
+</p>
+</blockquote>
+<span class="diff-html-removed" id="removed-diff-52" previous="changed-diff-4" changeId="removed-diff-52" next="added-diff-52" onclick="return tipR(constructToolTipR(this));">&nbsp;</span>
+<blockquote>
+<p>
+<span class="parno"><span class="diff-html-removed" previous="changed-diff-4" changeId="removed-diff-52" next="added-diff-52" onclick="return tipR(constructToolTipR(this));">7</span></span><span class="diff-html-removed" previous="changed-diff-4" changeId="removed-diff-52" next="added-diff-52" onclick="return tipR(constructToolTipR(this));"> "eva&ntilde;hi </span><span class="note"><span class="details"><span class="p"><span class="diff-html-added" id="added-diff-52" previous="removed-diff-52" changeId="added-diff-52" next="removed-diff-53" onclick="return tipA(constructToolTipA(this));">bjt page 222</span></span></span></span><span class="diff-html-added" previous="removed-diff-52" changeId="added-diff-52" next="removed-diff-53" onclick="return tipA(constructToolTipA(this));"></span>
+</p>
+<p>
+<span class="parno"></span> <span class="diff-html-added" previous="removed-diff-52" changeId="added-diff-52" next="removed-diff-53" onclick="return tipA(constructToolTipA(this));">evaṃ hi </span>dhīrā kubbanti,<br>
+<span class="diff-html-removed" previous="added-diff-52" changeId="removed-diff-53" next="added-diff-53" onclick="return tipR(constructToolTipR(this));"> </span><span class="diff-html-removed" id="removed-diff-53" previous="added-diff-52" changeId="removed-diff-53" next="added-diff-53" onclick="return tipR(constructToolTipR(this));">nāvakankhanti </span><span class="diff-html-added" id="added-diff-53" previous="removed-diff-53" changeId="added-diff-53" next="removed-diff-54" onclick="return tipA(constructToolTipA(this));">nāvakaṅkhanti </span>jīvitaṃ;<br> samūlaṃ <span class="diff-html-removed" id="removed-diff-54" previous="added-diff-53" changeId="removed-diff-54" next="added-diff-54" onclick="return tipR(constructToolTipR(this));">taṇhamabbuyha</span><span class="diff-html-added" id="added-diff-54" previous="removed-diff-54" changeId="added-diff-54" next="removed-diff-55" onclick="return tipA(constructToolTipA(this));">taṇhaṃ </span><span class="var" title="kaṇhamabbuyha-machasaṃ."><span class="diff-html-added" previous="removed-diff-54" changeId="added-diff-54" next="removed-diff-55" onclick="return tipA(constructToolTipA(this));">abbuyha</span></span>,<br> godhiko parinibbuto<span class="diff-html-removed" id="removed-diff-55" previous="added-diff-54" changeId="removed-diff-55" next="added-diff-55" onclick="return tipR(constructToolTipR(this));">"</span><span class="diff-html-added" id="added-diff-55" previous="removed-diff-55" changeId="added-diff-55" next="removed-diff-56" onclick="return tipA(constructToolTipA(this));">'</span>ti. </p>
+</blockquote>
+<span class="parno"><span class="diff-html-removed" id="removed-diff-56" previous="added-diff-55" changeId="removed-diff-56" next="added-diff-56" onclick="return tipR(constructToolTipR(this));">8</span></span><span class="diff-html-removed" previous="added-diff-55" changeId="removed-diff-56" next="added-diff-56" onclick="return tipR(constructToolTipR(this));"> </span>
+<blockquote>
+<p>
+<span class="parno"><span class="diff-html-added" id="added-diff-56" previous="removed-diff-56" changeId="added-diff-56" next="changed-diff-5" onclick="return tipA(constructToolTipA(this));">7</span></span><span class="diff-html-added" previous="removed-diff-56" changeId="added-diff-56" next="changed-diff-5" onclick="return tipA(constructToolTipA(this));"> </span><span class="diff-html-changed" id="changed-diff-5" changes="Moved to a <b>quote</b>." previous="added-diff-56" changeId="changed-diff-5" next="removed-diff-57" onclick="return tipC(constructToolTipC(this));">atha kho bhagavā bhikkhū āmantesi: </span>
+</p>
+</blockquote>
+<span class="diff-html-removed" id="removed-diff-57" previous="changed-diff-5" changeId="removed-diff-57" next="changed-diff-6" onclick="return tipR(constructToolTipR(this));">&nbsp; "</span>
+<blockquote>
+<p>
+<span class="diff-html-changed" changes="Moved to a <b>quote</b>." previous="removed-diff-57" changeId="changed-diff-6" next="removed-diff-58" onclick="return tipC(constructToolTipC(this));"> </span><span class="diff-html-changed" id="changed-diff-6" changes="Moved to a <b>quote</b>." previous="removed-diff-57" changeId="changed-diff-6" next="removed-diff-58" onclick="return tipC(constructToolTipC(this));">āyāma </span>
+</p>
+</blockquote>
+<span class="diff-html-removed" id="removed-diff-58" previous="changed-diff-6" changeId="removed-diff-58" next="changed-diff-7" onclick="return tipR(constructToolTipR(this));">, </span>
+<blockquote>
+<p>
+<span class="diff-html-changed" changes="Moved to a <b>quote</b>." previous="removed-diff-58" changeId="changed-diff-7" next="removed-diff-59" onclick="return tipC(constructToolTipC(this));"> </span><span class="diff-html-changed" id="changed-diff-7" changes="Moved to a <b>quote</b>." previous="removed-diff-58" changeId="changed-diff-7" next="removed-diff-59" onclick="return tipC(constructToolTipC(this));">bhikkhave </span>
+</p>
+</blockquote>
+<span class="diff-html-removed" id="removed-diff-59" previous="changed-diff-7" changeId="removed-diff-59" next="changed-diff-8" onclick="return tipR(constructToolTipR(this));">, </span>
+<blockquote>
+<p>
+<span class="diff-html-changed" changes="Moved to a <b>quote</b>." previous="removed-diff-59" changeId="changed-diff-8" next="removed-diff-60" onclick="return tipC(constructToolTipC(this));"> </span><span class="diff-html-changed" id="changed-diff-8" changes="Moved to a <b>quote</b>." previous="removed-diff-59" changeId="changed-diff-8" next="removed-diff-60" onclick="return tipC(constructToolTipC(this));">yena isigilipassaṃ kāḷasilā </span>
+</p>
+</blockquote>
+<span class="diff-html-removed" previous="changed-diff-8" changeId="removed-diff-60" next="added-diff-57" onclick="return tipR(constructToolTipR(this));"> </span><span class="diff-html-removed" id="removed-diff-60" previous="changed-diff-8" changeId="removed-diff-60" next="added-diff-57" onclick="return tipR(constructToolTipR(this));">tenupasankamissāma </span>
+<blockquote>
+<p>
+<span class="diff-html-added" id="added-diff-57" previous="removed-diff-60" changeId="added-diff-57" next="changed-diff-9" onclick="return tipA(constructToolTipA(this));">tenupasaṅkamissāma, </span><span class="diff-html-changed" id="changed-diff-9" changes="Moved to a <b>quote</b>." previous="added-diff-57" changeId="changed-diff-9" next="removed-diff-61" onclick="return tipC(constructToolTipC(this));">yattha godhikena kulaputtena satthaṃ </span>
+</p>
+</blockquote>
+<span class="diff-html-removed" previous="changed-diff-9" changeId="removed-diff-61" next="added-diff-58" onclick="return tipR(constructToolTipR(this));"> </span><span class="diff-html-removed" id="removed-diff-61" previous="changed-diff-9" changeId="removed-diff-61" next="added-diff-58" onclick="return tipR(constructToolTipR(this));">āharitan"ti. "evaṃ, bhante"ti </span>
+<blockquote>
+<p>
+<span class="diff-html-added" id="added-diff-58" previous="removed-diff-61" changeId="added-diff-58" next="changed-diff-10" onclick="return tipA(constructToolTipA(this));">āharita'nti. evaṃ bhanteti </span><span class="diff-html-changed" id="changed-diff-10" changes="Moved to a <b>quote</b>." previous="added-diff-58" changeId="changed-diff-10" next="removed-diff-62" onclick="return tipC(constructToolTipC(this));">kho te bhikkhū bhagavato paccassosuṃ. </span>
+</p>
+</blockquote>
+<span class="diff-html-removed" id="removed-diff-62" previous="changed-diff-10" changeId="removed-diff-62" next="changed-diff-11" onclick="return tipR(constructToolTipR(this));"></span><span class="parno"><span class="diff-html-removed" previous="changed-diff-10" changeId="removed-diff-62" next="changed-diff-11" onclick="return tipR(constructToolTipR(this));">9</span></span><span class="diff-html-removed" previous="changed-diff-10" changeId="removed-diff-62" next="changed-diff-11" onclick="return tipR(constructToolTipR(this));"> </span>
+<blockquote>
+<p>
+<span class="diff-html-changed" changes="Moved to a <b>quote</b>." previous="removed-diff-62" changeId="changed-diff-11" next="removed-diff-63" onclick="return tipC(constructToolTipC(this));"> </span><span class="diff-html-changed" id="changed-diff-11" changes="Moved to a <b>quote</b>." previous="removed-diff-62" changeId="changed-diff-11" next="removed-diff-63" onclick="return tipC(constructToolTipC(this));">atha kho bhagavā sambahulehi bhikkhūhi saddhiṃ yena isigilipassaṃ kāḷasilā </span>
+</p>
+</blockquote>
+<span class="diff-html-removed" previous="changed-diff-11" changeId="removed-diff-63" next="added-diff-59" onclick="return tipR(constructToolTipR(this));"> </span><span class="diff-html-removed" id="removed-diff-63" previous="changed-diff-11" changeId="removed-diff-63" next="added-diff-59" onclick="return tipR(constructToolTipR(this));">tenupasankami</span>
+<blockquote>
+<p>
+<span class="diff-html-added" id="added-diff-59" previous="removed-diff-63" changeId="added-diff-59" next="changed-diff-12" onclick="return tipA(constructToolTipA(this));">tenupasaṅkami</span><span class="diff-html-changed" id="changed-diff-12" changes="Moved to a <b>quote</b>." previous="added-diff-59" changeId="changed-diff-12" next="removed-diff-64" onclick="return tipC(constructToolTipC(this));">. addasā kho bhagavā āyasmantaṃ godhikaṃ </span>
+</p>
+</blockquote>
+<span class="diff-html-removed" previous="changed-diff-12" changeId="removed-diff-64" next="added-diff-60" onclick="return tipR(constructToolTipR(this));"> </span><span class="diff-html-removed" id="removed-diff-64" previous="changed-diff-12" changeId="removed-diff-64" next="added-diff-60" onclick="return tipR(constructToolTipR(this));">dūratova </span>
+<blockquote>
+<p>
+<span class="diff-html-added" id="added-diff-60" previous="removed-diff-64" changeId="added-diff-60" next="changed-diff-13" onclick="return tipA(constructToolTipA(this));">dūrato'va </span><span class="diff-html-changed" id="changed-diff-13" changes="Moved to a <b>quote</b>." previous="added-diff-60" changeId="changed-diff-13" next="changed-diff-14" onclick="return tipC(constructToolTipC(this));">ma&ntilde;cake vivattakkhandhaṃ </span><span class="var" title="seyyamānaṃ-syā, soppamānaṃ-sīmu. 1."><span class="diff-html-changed" id="changed-diff-14" changes="<ul class='changelist'><li>Moved to a <b>quote</b>.</li><li>Moved to a <b>span</b> with class var and title <br/>seyyamānaṃ-syā, soppamānaṃ-sīmu. 1..</li></ul>" previous="changed-diff-13" changeId="changed-diff-14" next="changed-diff-15" onclick="return tipC(constructToolTipC(this));">semānaṃ</span></span><span class="diff-html-changed" id="changed-diff-15" changes="Moved to a <b>quote</b>." previous="changed-diff-14" changeId="changed-diff-15" next="added-diff-61" onclick="return tipC(constructToolTipC(this));">. </span><span class="diff-html-added" id="added-diff-61" previous="changed-diff-15" changeId="added-diff-61" next="changed-diff-16" onclick="return tipA(constructToolTipA(this));"></span>
+</p>
+<p>
+<span class="parno"><span class="diff-html-added" previous="changed-diff-15" changeId="added-diff-61" next="changed-diff-16" onclick="return tipA(constructToolTipA(this));">8</span></span><span class="diff-html-added" previous="changed-diff-15" changeId="added-diff-61" next="changed-diff-16" onclick="return tipA(constructToolTipA(this));"> </span><span class="diff-html-changed" id="changed-diff-16" changes="Moved to a <b>quote</b>." previous="added-diff-61" changeId="changed-diff-16" next="added-diff-62" onclick="return tipC(constructToolTipC(this));">tena kho pana samayena dhūmāyitattaṃ timirāyitattaṃ gacchateva purimaṃ disaṃ, gacchati pacchimaṃ disaṃ, gacchati uttaraṃ disaṃ, gacchati dakkhiṇaṃ disaṃ, gacchati uddhaṃ, gacchati adho, gacchati anudisaṃ.</span><span class="note"><span class="diff-html-added" previous="changed-diff-16" changeId="added-diff-62" next="changed-diff-17" onclick="return tipA(constructToolTipA(this));"> </span><span class="details"><span class="p"><span class="diff-html-added" id="added-diff-62" previous="changed-diff-16" changeId="added-diff-62" next="changed-diff-17" onclick="return tipA(constructToolTipA(this));">pts page 122</span></span></span></span><span class="diff-html-added" previous="changed-diff-16" changeId="added-diff-62" next="changed-diff-17" onclick="return tipA(constructToolTipA(this));"> </span><span class="diff-html-changed" id="changed-diff-17" changes="Moved to a <b>quote</b>." previous="added-diff-62" changeId="changed-diff-17" next="removed-diff-65" onclick="return tipC(constructToolTipC(this));"></span>
+</p>
+</blockquote>
+<span class="parno"><span class="diff-html-removed" id="removed-diff-65" previous="changed-diff-17" changeId="removed-diff-65" next="added-diff-63" onclick="return tipR(constructToolTipR(this));">10</span></span><span class="diff-html-removed" previous="changed-diff-17" changeId="removed-diff-65" next="added-diff-63" onclick="return tipR(constructToolTipR(this));"> </span>
+<blockquote>
+<p>
+<span class="parno"><span class="diff-html-added" id="added-diff-63" previous="removed-diff-65" changeId="added-diff-63" next="changed-diff-18" onclick="return tipA(constructToolTipA(this));">9</span></span><span class="diff-html-added" previous="removed-diff-65" changeId="added-diff-63" next="changed-diff-18" onclick="return tipA(constructToolTipA(this));"> </span><span class="diff-html-changed" id="changed-diff-18" changes="Moved to a <b>quote</b>." previous="added-diff-63" changeId="changed-diff-18" next="removed-diff-66" onclick="return tipC(constructToolTipC(this));">atha kho bhagavā bhikkhū āmantesi: </span>
+</p>
+</blockquote>
+<span class="diff-html-removed" id="removed-diff-66" previous="changed-diff-18" changeId="removed-diff-66" next="changed-diff-19" onclick="return tipR(constructToolTipR(this));">&nbsp; "</span>
+<blockquote>
+<p>
+<span class="diff-html-changed" changes="Moved to a <b>quote</b>." previous="removed-diff-66" changeId="changed-diff-19" next="removed-diff-67" onclick="return tipC(constructToolTipC(this));"> </span><span class="diff-html-changed" id="changed-diff-19" changes="Moved to a <b>quote</b>." previous="removed-diff-66" changeId="changed-diff-19" next="removed-diff-67" onclick="return tipC(constructToolTipC(this));">passatha no tumhe </span>
+</p>
+</blockquote>
+<span class="diff-html-removed" id="removed-diff-67" previous="changed-diff-19" changeId="removed-diff-67" next="changed-diff-20" onclick="return tipR(constructToolTipR(this));">, </span>
+<blockquote>
+<p>
+<span class="diff-html-changed" changes="Moved to a <b>quote</b>." previous="removed-diff-67" changeId="changed-diff-20" next="removed-diff-68" onclick="return tipC(constructToolTipC(this));"> </span><span class="diff-html-changed" id="changed-diff-20" changes="Moved to a <b>quote</b>." previous="removed-diff-67" changeId="changed-diff-20" next="removed-diff-68" onclick="return tipC(constructToolTipC(this));">bhikkhave </span>
+</p>
+</blockquote>
+<span class="diff-html-removed" id="removed-diff-68" previous="changed-diff-20" changeId="removed-diff-68" next="changed-diff-21" onclick="return tipR(constructToolTipR(this));">, </span>
+<blockquote>
+<p>
+<span class="diff-html-changed" changes="Moved to a <b>quote</b>." previous="removed-diff-68" changeId="changed-diff-21" next="added-diff-64" onclick="return tipC(constructToolTipC(this));"> </span><span class="diff-html-changed" id="changed-diff-21" changes="Moved to a <b>quote</b>." previous="removed-diff-68" changeId="changed-diff-21" next="added-diff-64" onclick="return tipC(constructToolTipC(this));">etaṃ dhūmāyitattaṃ timirāyitattaṃ</span><span class="diff-html-added" id="added-diff-64" previous="changed-diff-21" changeId="added-diff-64" next="changed-diff-22" onclick="return tipA(constructToolTipA(this));">. </span><span class="diff-html-changed" id="changed-diff-22" changes="Moved to a <b>quote</b>." previous="added-diff-64" changeId="changed-diff-22" next="removed-diff-69" onclick="return tipC(constructToolTipC(this));">gacchateva purimaṃ disaṃ, gacchati pacchimaṃ disaṃ, gacchati uttaraṃ disaṃ, gacchati dakkhiṇaṃ disaṃ, gacchati uddhaṃ, gacchati adho, gacchati </span>
+</p>
+</blockquote>
+<span class="diff-html-removed" previous="changed-diff-22" changeId="removed-diff-69" next="added-diff-65" onclick="return tipR(constructToolTipR(this));"> </span><span class="diff-html-removed" id="removed-diff-69" previous="changed-diff-22" changeId="removed-diff-69" next="added-diff-65" onclick="return tipR(constructToolTipR(this));">anudisan"ti? "evaṃ, bhante". "</span>
+<blockquote>
+<p>
+<span class="diff-html-added" id="added-diff-65" previous="removed-diff-69" changeId="added-diff-65" next="changed-diff-23" onclick="return tipA(constructToolTipA(this));">anudisanti. evaṃ bhante. </span><span class="diff-html-changed" id="changed-diff-23" changes="Moved to a <b>quote</b>." previous="added-diff-65" changeId="changed-diff-23" next="removed-diff-70" onclick="return tipC(constructToolTipC(this));">eso kho </span>
+</p>
+</blockquote>
+<span class="diff-html-removed" id="removed-diff-70" previous="changed-diff-23" changeId="removed-diff-70" next="changed-diff-24" onclick="return tipR(constructToolTipR(this));">, </span>
+<blockquote>
+<p>
+<span class="diff-html-changed" changes="Moved to a <b>quote</b>." previous="removed-diff-70" changeId="changed-diff-24" next="removed-diff-71" onclick="return tipC(constructToolTipC(this));"> </span><span class="diff-html-changed" id="changed-diff-24" changes="Moved to a <b>quote</b>." previous="removed-diff-70" changeId="changed-diff-24" next="removed-diff-71" onclick="return tipC(constructToolTipC(this));">bhikkhave </span>
+</p>
+</blockquote>
+<span class="diff-html-removed" id="removed-diff-71" previous="changed-diff-24" changeId="removed-diff-71" next="changed-diff-25" onclick="return tipR(constructToolTipR(this));">, </span>
+<blockquote>
+<p>
+<span class="diff-html-changed" changes="Moved to a <b>quote</b>." previous="removed-diff-71" changeId="changed-diff-25" next="removed-diff-72" onclick="return tipC(constructToolTipC(this));"> </span><span class="diff-html-changed" id="changed-diff-25" changes="Moved to a <b>quote</b>." previous="removed-diff-71" changeId="changed-diff-25" next="removed-diff-72" onclick="return tipC(constructToolTipC(this));">māro pāpimā godhikassa kulaputtassa vi&ntilde;&ntilde;āṇaṃ </span>
+</p>
+</blockquote>
+<span class="diff-html-removed" previous="changed-diff-25" changeId="removed-diff-72" next="added-diff-66" onclick="return tipR(constructToolTipR(this));"> </span><span class="diff-html-removed" id="removed-diff-72" previous="changed-diff-25" changeId="removed-diff-72" next="added-diff-66" onclick="return tipR(constructToolTipR(this));">samanvesati:&nbsp; &lsquo;kattha </span>
+<blockquote>
+<p>
+<span class="diff-html-added" previous="removed-diff-72" changeId="added-diff-66" next="changed-diff-26" onclick="return tipA(constructToolTipA(this));"> </span><span class="var" title="samanvesati-machasaṃ, pts."><span class="diff-html-added" id="added-diff-66" previous="removed-diff-72" changeId="added-diff-66" next="changed-diff-26" onclick="return tipA(constructToolTipA(this));">samannesati</span></span><span class="diff-html-added" previous="removed-diff-72" changeId="added-diff-66" next="changed-diff-26" onclick="return tipA(constructToolTipA(this));">, kattha </span><span class="diff-html-changed" id="changed-diff-26" changes="Moved to a <b>quote</b>." previous="added-diff-66" changeId="changed-diff-26" next="removed-diff-73" onclick="return tipC(constructToolTipC(this));">godhikassa kulaputtassa vi&ntilde;&ntilde;āṇaṃ </span>
+</p>
+</blockquote>
+<span class="diff-html-removed" previous="changed-diff-26" changeId="removed-diff-73" next="added-diff-67" onclick="return tipR(constructToolTipR(this));"> </span><span class="diff-html-removed" id="removed-diff-73" previous="changed-diff-26" changeId="removed-diff-73" next="added-diff-67" onclick="return tipR(constructToolTipR(this));">patiṭṭhitan&rsquo;ti? </span>
+<blockquote>
+<p>
+<span class="diff-html-added" id="added-diff-67" previous="removed-diff-73" changeId="added-diff-67" next="changed-diff-27" onclick="return tipA(constructToolTipA(this));">patiṭṭhita'nti. </span><span class="diff-html-changed" id="changed-diff-27" changes="Moved to a <b>quote</b>." previous="added-diff-67" changeId="changed-diff-27" next="removed-diff-74" onclick="return tipC(constructToolTipC(this));">appatiṭṭhitena ca </span>
+</p>
+</blockquote>
+<span class="diff-html-removed" id="removed-diff-74" previous="changed-diff-27" changeId="removed-diff-74" next="changed-diff-28" onclick="return tipR(constructToolTipR(this));">, </span>
+<blockquote>
+<p>
+<span class="diff-html-changed" changes="Moved to a <b>quote</b>." previous="removed-diff-74" changeId="changed-diff-28" next="removed-diff-75" onclick="return tipC(constructToolTipC(this));"> </span><span class="diff-html-changed" id="changed-diff-28" changes="Moved to a <b>quote</b>." previous="removed-diff-74" changeId="changed-diff-28" next="removed-diff-75" onclick="return tipC(constructToolTipC(this));">bhikkhave </span>
+</p>
+</blockquote>
+<span class="diff-html-removed" id="removed-diff-75" previous="changed-diff-28" changeId="removed-diff-75" next="changed-diff-29" onclick="return tipR(constructToolTipR(this));">, </span>
+<blockquote>
+<p>
+<span class="diff-html-changed" changes="Moved to a <b>quote</b>." previous="removed-diff-75" changeId="changed-diff-29" next="removed-diff-76" onclick="return tipC(constructToolTipC(this));"> </span><span class="diff-html-changed" id="changed-diff-29" changes="Moved to a <b>quote</b>." previous="removed-diff-75" changeId="changed-diff-29" next="removed-diff-76" onclick="return tipC(constructToolTipC(this));">vi&ntilde;&ntilde;āṇena godhiko kulaputto parinibbuto</span>
+</p>
+</blockquote>
+<span class="diff-html-removed" id="removed-diff-76" previous="changed-diff-29" changeId="removed-diff-76" next="added-diff-68" onclick="return tipR(constructToolTipR(this));">"</span>
+<blockquote>
+<p>
+<span class="diff-html-added" id="added-diff-68" previous="removed-diff-76" changeId="added-diff-68" next="changed-diff-30" onclick="return tipA(constructToolTipA(this));">'</span><span class="diff-html-changed" id="changed-diff-30" changes="Moved to a <b>quote</b>." previous="added-diff-68" changeId="changed-diff-30" next="added-diff-69" onclick="return tipC(constructToolTipC(this));">ti. </span><span class="diff-html-added" id="added-diff-69" previous="changed-diff-30" changeId="added-diff-69" next="changed-diff-31" onclick="return tipA(constructToolTipA(this));"></span>
+</p>
+<p>
+<span class="parno"><span class="diff-html-added" previous="changed-diff-30" changeId="added-diff-69" next="changed-diff-31" onclick="return tipA(constructToolTipA(this));">10</span></span><span class="diff-html-added" previous="changed-diff-30" changeId="added-diff-69" next="changed-diff-31" onclick="return tipA(constructToolTipA(this));"> </span><span class="diff-html-changed" id="changed-diff-31" changes="Moved to a <b>quote</b>." previous="added-diff-69" changeId="changed-diff-31" next="removed-diff-77" onclick="return tipC(constructToolTipC(this));">atha kho māro pāpimā </span>
+</p>
+</blockquote>
+<span class="diff-html-removed" previous="changed-diff-31" changeId="removed-diff-77" next="added-diff-70" onclick="return tipR(constructToolTipR(this));"> </span><span class="diff-html-removed" id="removed-diff-77" previous="changed-diff-31" changeId="removed-diff-77" next="added-diff-70" onclick="return tipR(constructToolTipR(this));">beluvapaṇḍuvīṇaṃ ādāya </span>
+<blockquote>
+<p>
+<span class="diff-html-added" id="added-diff-70" previous="removed-diff-77" changeId="added-diff-70" next="changed-diff-32" onclick="return tipA(constructToolTipA(this));">beluvapaṇaḍuvīṇamādāya </span><span class="diff-html-changed" id="changed-diff-32" changes="Moved to a <b>quote</b>." previous="added-diff-70" changeId="changed-diff-32" next="removed-diff-78" onclick="return tipC(constructToolTipC(this));">yena bhagavā </span>
+</p>
+</blockquote>
+<span class="diff-html-removed" previous="changed-diff-32" changeId="removed-diff-78" next="added-diff-71" onclick="return tipR(constructToolTipR(this));"> </span><span class="diff-html-removed" id="removed-diff-78" previous="changed-diff-32" changeId="removed-diff-78" next="added-diff-71" onclick="return tipR(constructToolTipR(this));">tenupasankami; upasankamitvā </span>
+<blockquote>
+<p>
+<span class="diff-html-added" id="added-diff-71" previous="removed-diff-78" changeId="added-diff-71" next="changed-diff-33" onclick="return tipA(constructToolTipA(this));">tenupasaṅkami. upasaṅkamitvā </span><span class="diff-html-changed" id="changed-diff-33" changes="Moved to a <b>quote</b>." previous="added-diff-71" changeId="changed-diff-33" next="removed-diff-79" onclick="return tipC(constructToolTipC(this));">bhagavantaṃ gāthāya ajjhabhāsi: </span>
+</p>
+</blockquote>
+<span class="diff-html-removed" id="removed-diff-79" previous="changed-diff-33" changeId="removed-diff-79" next="changed-diff-34" onclick="return tipR(constructToolTipR(this));">&nbsp;</span>
+<blockquote>
+<p>
+<span class="diff-html-changed" id="changed-diff-34" changes="Moved to a <b>quote</b>." previous="removed-diff-79" changeId="changed-diff-34" next="removed-diff-80" onclick="return tipC(constructToolTipC(this));"></span>
+</p>
+<p>
+<span class="parno"></span> <span class="parno"><span class="diff-html-removed" id="removed-diff-80" previous="changed-diff-34" changeId="removed-diff-80" next="removed-diff-81" onclick="return tipR(constructToolTipR(this));">11</span></span><span class="diff-html-removed" previous="changed-diff-34" changeId="removed-diff-80" next="removed-diff-81" onclick="return tipR(constructToolTipR(this));"> "</span> uddhaṃ adho ca <span class="diff-html-removed" id="removed-diff-81" previous="removed-diff-80" changeId="removed-diff-81" next="added-diff-72" onclick="return tipR(constructToolTipR(this));">tiriyaṃ,</span><span class="diff-html-added" id="added-diff-72" previous="removed-diff-81" changeId="added-diff-72" next="removed-diff-82" onclick="return tipA(constructToolTipA(this));">tiriya&ntilde;ca</span>
+<br> disā <span class="diff-html-removed" id="removed-diff-82" previous="added-diff-72" changeId="removed-diff-82" next="added-diff-73" onclick="return tipR(constructToolTipR(this));">anudisā svahaṃ;</span><span class="diff-html-added" id="added-diff-73" previous="removed-diff-82" changeId="added-diff-73" next="removed-diff-83" onclick="return tipA(constructToolTipA(this));">anudisāsvahaṃ,</span>
+<br> anvesaṃ nādhigacchāmi<span class="diff-html-removed" id="removed-diff-83" previous="added-diff-73" changeId="removed-diff-83" next="removed-diff-84" onclick="return tipR(constructToolTipR(this));">,</span>
+<br> godhiko so kuhiṃ <span class="diff-html-removed" id="removed-diff-84" previous="removed-diff-83" changeId="removed-diff-84" next="added-diff-74" onclick="return tipR(constructToolTipR(this));">gato"ti. </span><span class="parno"><span class="diff-html-removed" previous="removed-diff-83" changeId="removed-diff-84" next="added-diff-74" onclick="return tipR(constructToolTipR(this));">12</span></span><span class="diff-html-removed" previous="removed-diff-83" changeId="removed-diff-84" next="added-diff-74" onclick="return tipR(constructToolTipR(this));"> "yo dhīro dhitisampanno,</span><span class="diff-html-added" id="added-diff-74" previous="removed-diff-84" changeId="added-diff-74" next="removed-diff-85" onclick="return tipA(constructToolTipA(this));">gatoti? </span>
+</p>
+<p>
+<span class="parno"></span> <span class="diff-html-added" previous="removed-diff-84" changeId="added-diff-74" next="removed-diff-85" onclick="return tipA(constructToolTipA(this));">(bhagavā:)</span>
+<br>
+<span class="diff-html-added" previous="removed-diff-84" changeId="added-diff-74" next="removed-diff-85" onclick="return tipA(constructToolTipA(this));"></span>
+</br>
+<span class="diff-html-added" previous="removed-diff-84" changeId="added-diff-74" next="removed-diff-85" onclick="return tipA(constructToolTipA(this));"> so dhīro dhitisampanno</span>
+<br> jhāyī jhānarato sadā<span class="diff-html-removed" id="removed-diff-85" previous="added-diff-74" changeId="removed-diff-85" next="added-diff-75" onclick="return tipR(constructToolTipR(this));">;</span><span class="diff-html-added" id="added-diff-75" previous="removed-diff-85" changeId="added-diff-75" next="removed-diff-86" onclick="return tipA(constructToolTipA(this));">,</span>
+<br> ahorattaṃ anuyu&ntilde;jaṃ<span class="diff-html-removed" id="removed-diff-86" previous="added-diff-75" changeId="removed-diff-86" next="removed-diff-87" onclick="return tipR(constructToolTipR(this));">,</span>
+<br> jīvitaṃ anikāmayaṃ. </p>
+<p>
+<span class="parno"></span> <span class="parno"><span class="diff-html-removed" id="removed-diff-87" previous="removed-diff-86" changeId="removed-diff-87" next="added-diff-76" onclick="return tipR(constructToolTipR(this));">13</span></span><span class="diff-html-removed" previous="removed-diff-86" changeId="removed-diff-87" next="added-diff-76" onclick="return tipR(constructToolTipR(this));"> jetvāna </span><span class="diff-html-added" id="added-diff-76" previous="removed-diff-87" changeId="added-diff-76" next="removed-diff-88" onclick="return tipA(constructToolTipA(this));">chetvāna </span>maccuno senaṃ<span class="diff-html-removed" id="removed-diff-88" previous="added-diff-76" changeId="removed-diff-88" next="removed-diff-89" onclick="return tipR(constructToolTipR(this));">,</span>
+<br> anāgantvā punabbhavaṃ<span class="diff-html-removed" id="removed-diff-89" previous="removed-diff-88" changeId="removed-diff-89" next="added-diff-77" onclick="return tipR(constructToolTipR(this));">;</span><span class="diff-html-added" id="added-diff-77" previous="removed-diff-89" changeId="added-diff-77" next="removed-diff-90" onclick="return tipA(constructToolTipA(this));">,</span>
+<br> samūlaṃ taṇhamabbuyha<span class="diff-html-removed" id="removed-diff-90" previous="added-diff-77" changeId="removed-diff-90" next="removed-diff-91" onclick="return tipR(constructToolTipR(this));">,</span>
+<br> godhiko parinibbuto<span class="diff-html-removed" id="removed-diff-91" previous="removed-diff-90" changeId="removed-diff-91" next="added-diff-78" onclick="return tipR(constructToolTipR(this));">"</span><span class="diff-html-added" id="added-diff-78" previous="removed-diff-91" changeId="added-diff-78" next="removed-diff-92" onclick="return tipA(constructToolTipA(this));">'</span>ti. </p>
+<p>
+<span class="parno"></span> <span class="parno"><span class="diff-html-removed" id="removed-diff-92" previous="added-diff-78" changeId="removed-diff-92" next="added-diff-79" onclick="return tipR(constructToolTipR(this));">14</span></span><span class="diff-html-removed" previous="added-diff-78" changeId="removed-diff-92" next="added-diff-79" onclick="return tipR(constructToolTipR(this));"> </span><span class="diff-html-added" id="added-diff-79" previous="removed-diff-92" changeId="added-diff-79" next="removed-diff-93" onclick="return tipA(constructToolTipA(this));">(therā:)</span>
+<br>
+<span class="diff-html-added" previous="removed-diff-92" changeId="added-diff-79" next="removed-diff-93" onclick="return tipA(constructToolTipA(this));"></span>
+</br> tassa sokaparetassa<span class="diff-html-removed" id="removed-diff-93" previous="added-diff-79" changeId="removed-diff-93" next="removed-diff-94" onclick="return tipR(constructToolTipR(this));">,</span>
+<br> vīṇā kacchā abhassatha<span class="diff-html-removed" id="removed-diff-94" previous="removed-diff-93" changeId="removed-diff-94" next="added-diff-80" onclick="return tipR(constructToolTipR(this));">;</span><span class="diff-html-added" id="added-diff-80" previous="removed-diff-94" changeId="added-diff-80" next="removed-diff-95" onclick="return tipA(constructToolTipA(this));">,</span>
+<br> tato so dummano yakkho<span class="diff-html-removed" id="removed-diff-95" previous="added-diff-80" changeId="removed-diff-95" next="changed-diff-35" onclick="return tipR(constructToolTipR(this));">,</span>
+<br>
+<span class="diff-html-changed" changes="Moved to a <b>span</b> with class var and title <br/>tatthevantaradhāyithāti-syā.." previous="removed-diff-95" changeId="changed-diff-35" next="last-diff" onclick="return tipC(constructToolTipC(this));"> </span><span class="var" title="tatthevantaradhāyithāti-syā."><span class="diff-html-changed" id="changed-diff-35" changes="Moved to a <b>span</b> with class var and title <br/>tatthevantaradhāyithāti-syā.." previous="removed-diff-95" changeId="changed-diff-35" next="last-diff" onclick="return tipC(constructToolTipC(this));">tatthevantaradhāyathāti</span></span>. </p>
+</blockquote>
+</div>
+</section>
+<div id="nextprev"><a id="previous-sutta" href="./sn4.22.html"></a><a id="next-sutta" href="./sn4.24.html"></a></div>
+</div><!--content-->
+<footer>
+<div id="breadcrumbs">
+<a href="../home/index.html">Home</a><a href="../sn/sn.html">Saṃyutta Nikāya</a><a href="../sn/sn4.html">Connected Discourses with Mara</a>SN4:23 Godhika
+</div>
+<a id="bottom"></a>
+</footer>
+</div><!--container--><script src="../js/footer.js"></script>
+</body>
+</html>
