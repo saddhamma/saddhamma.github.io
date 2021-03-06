@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8>
+<link rel="icon" type="image/x-icon" href="../images/buddha.jpg">
+<title>Khandaka 1</title>
+<script src="../js/jquery-1.10.2.min.js"></script>
+<link rel="stylesheet" href="../css/menu.css">
+<link rel="stylesheet" href="../css/css.css">
+</head>
+<body>
+<div id="container">
+<header>
+<div id="eng_searchlink"> <span><a href="../home/engsearch.html" >Search English Content</a></span></div>
+<div id="pali_searchlink"> <span><a href="../home/palisearch.html" >Search Pali Content</a></span></div>
+
+<div class="logotext">
+<a href="../home/index.html"><span>The True Dhamma</span></a>
+</div>
+<nav>
+<div id="navbar">
+<ul id="css3menu0" >
+<li class="topfirst" id="home"><a href="../home/index.html">Home</a></li>
+<li class="topmenu" id="ssg"><a href="../ssg/ssg.html">↓ Study Guides</a>
+<li class="topmenu" id="dn"><a href="../dn/dn.html">Digha Nikaya</a></li>
+<li class="topmenu" id="mn"><a href="../mn/mn.html">Majjhima Nikaya</a></li>
+	<li class="topmenu" id="sn"><a href="../sn/sn.html">↓ Samyutta Nikaya</a>
+		<ul>
+		<li><a href="../sn/sn01.html">Part 1 - The Book with Verses</a></li>
+			<li><a href="../sn/sn02.html">Part 2 - The Book of Causation</a></li>
+			<li><a href="../sn/sn03.html">Part 3 - The Book of the Aggregates</a></li>
+			<li><a href="../sn/sn04.html">Part 4 - The Book of the Six Sense Bases</a></li>
+			<li><a href="../sn/sn05.html" title="Part 5 - The Great Book">Part 5 - The Great Book</a></li>
+		</ul>
+	</li>
+		<li class="topmenu" id="an"><a href="../an/an.html">↓ Anguttara Nikaya</a>
+			<ul>
+			<li><a href="../an/an1.html">The Ones</a></li>
+			<li><a href="../an/an2.html">The Twos</a></li>
+			<li><a href="../an/an3.html">The Threes</a></li>
+			<li><a href="../an/an4.html">The Fours</a></li>
+			<li><a href="../an/an5.html">The Fives</a></li>
+			<li><a href="../an/an6.html">The Sixes</a></li>
+			<li><a href="../an/an7.html">The Sevens</a></li>
+			<li><a href="../an/an8.html">The Eights</a></li>
+			<li><a href="../an/an9.html">The Nines</a></li>
+			<li><a href="../an/an10.html">The Tens</a></li>
+			<li><a href="../an/an11.html">The Elevens</a></li>
+			</ul>
+		</li>
+	<li class="topmenu" id="kn"><a href="../kn/kn.html">↓ Khuddaka Nikaya</a>
+			<ul>
+			<li><a href="../kp/kp.html">The Khuddakapatha</a></li>
+			<li><a href="../dhp/dhp.html" title="The Dhammapada">The Dhammapada</a></li>
+			<li><a href="../snp/snp.html">Sutta Nipata</a></li>
+			<li><a href="../ud/ud.html">Udana</a></li>
+			<li><a href="../it/it.html">Itivuttaka</a></li>
+			<li><a href="../tha/tha.html">The Theragatha</a></li>
+			<li><a href="../thi/thi.html">The Therigatha</a></li>
+			</ul>
+	</li>
+	<li class="toplast" id="vi"><a class="pressed" href="../vi/vi.html">↓ Vinaya Pitaka</a>
+			<ul>
+			<li><a class="pressed" href="../vi/kd.html">Khandaka</a></li>
+			<li><a href="../vi/bu-vb.html" title="Monk’s Rules">Bhikkhu Vibhanga</a></li>
+<li><a href="../vi/bu-pt.html" title="Bhikkhu Pātimokkha">Bhikkhu Pātimokkha</a></li>
+
+			<li><a href="../vi/bi-pt.html" title="Bhikkhunī Pātimokkha">Bhikkhunī Patimokkha</a></li>
+			<li><a href="../vi/bi-vb.html" title="Nuns Rules">Bhikkhuni Vibhanga</a></li>
+			<li><a href="../bmc/bmc.html">Buddhist Monastic Code I</a></li>
+      <li><a href="../bmc/bmc2.html">Buddhist Monastic Code 2</a></li>
+			</ul>
+	</li>
+</ul>
+</div> <!--navbar-->
+</nav>
+<div class="controlpanel" id="controlpanel"><!--controlpanel-->
+<ul>
+	<li>
+	<ul class="inner">
+		<li><a href="#" title="Page Top" >&nbsp;▲&nbsp;</a>
+		<li class="nextprev">
+			<button class="palitoggle"
+				id="pali"
+				type="button"
+				title="Display Pali and activate Lookup Dictionary"
+				style="width:2.8em; padding: 0 2px;">Pali</button>
+		</li>
+		<li><a href="#bottom" title="Page Bottom">&nbsp;▼&nbsp;</a>
+	</ul>
+	</li>
+</ul>
+</div> <!--controlpanel-->
+</header>
+<div id="content">
+<h2>Vinaya Pitaka - Monastic Rules</h2>
+<hr>
+
+<h2>Khandaka <span class="minor">( and Mahāvagga)</span> 1 - Ordination</h2>
+
+<div id="metaarea">
+<ul class="translator">
+<li><span>A Saddhamma Study Group translation from the Pāḷi text.</li>
+<br>Get PDFs: <a href="../vi/eBook/vi1.14.biv.pdf">Side-by-side</a> | <a href="../vi/eBook/vi1.14.bih.pdf">Par-by-par</a> | <a href="../vi/eBook/vi1.14.bip.pdf">Facing pages</a> | <a href="../vi/eBook/vi1.14.eng.pdf">English only</a> | <a href="../vi/eBook/vi1.14.pli.pdf">Pali only</a>.<br></li>
+</ul>
+</div>
+
+<section class="raw_sutta">
+<div lang="en">
+
+<p><span class="parno">12</span>
+At that time Sanjaya, the wanderer was dwelling in Rajagaha with a large
+assembly of wanderers, with two hundred and fifty wanderers. At that time
+Sariputta and Moggallana were living the life of purity under Sanjaya, the
+wanderer. They had made an agreement: “He who attains the deathless
+first, he must inform the other of it.” Then in the morning, the
+venerable Assaji, having dressed, having taken bowl and robe, entered
+Rajagaha for alms food. With eyes down cast, he was endowed with deportment:
+Graceful when stepping forwards, when stepping backwards, when looking
+forwards, when looking backwards, when bending back, when stretching out.
+
+<p><span class="parno">13</span>
+Sariputta, the wanderer saw the venerable Assaji wandering in Rajagaha for
+alms food with eyes down cast, endowed with deportment: Graceful when
+stepping forwards, when stepping backwards, when looking forwards, when
+looking backwards, when bending back, when stretching out. Having seen, it
+occurred to him: “Surely, this bhikkhu is one of those who are arahants
+in the world, or have entered upon the path to arahantship. What if, having
+approached this bhikkhu, I might ask: On account of whom, O friend, have you
+gone forth? Who is your Teacher? Whose dhamma do you prefer?”
+
+<p><span class="parno">14</span>
+It then occurred to Sariputta, the wanderer: “It is the wrong time to ask
+this bhikkhu, he has entered among the houses, wandering for alms food. What
+if I were to pursue this bhikkhu closely behind to find out the path [I am]
+seeking for.” Then the venerable Assaji, having wandered in
+Rajagaha for alms food, having taken alms food, returned. Then, by which way
+[led to] the venerable Assaji, by that way Sariputta, the wanderer
+approached. Having approached the venerable Assaji, they exchanged friendly
+greetings. Having exchanged friendly greetings and cordial talk, he stood at
+one side. Having stood at one side, Sariputta, the wanderer said this to the
+venerable Assaji: “O friend, your faculties are very clear, your
+complexion is pure and bright. On account of whom, O friend, have you gone
+forth? Who is your teacher? Whose dhamma do you prefer?”
+
+<p><span class="parno">15</span>
+“There is, O friend, the Great Samana, son of the Sakyans, one gone forth
+from the Sakyan clan. I have gone forth on account of that Auspicious
+One. That Auspicious One is my Teacher, and I prefer the Dhamma of the
+Auspicious One.” “But, what is the doctrine of the venerable's
+Teacher?  What does he declare?” “I, O friend, am new, not long
+gone forth, just arrived at this Dhammavinaya. That is, I am not able to
+teach the dhamma with details. Nevertheless, I will say for you the meaning
+in brief.” So then, Sariputta, the wanderer said this to the
+venerable Assaji: Let that be, O friend.
+
+<blockquote>
+<p><span class="parno"></span>
+
+   “You speak little or much,<br> say to me just [enough] to know the
+meaning,<br> the meaning, just the meaning for me,<br> what will many words
+do?”
+</p>
+
+Then the venerable Assaji spoke this dhamma discourse for Sariputta, the
+wanderer:
+
+<p><span class="parno"></span>
+
+   “Those dhammas which arise from a cause,<br> of those the Tathagata has
+told the cause,<br> and that which is their cessation,<br> thus is the doctrine
+of the Great Samana.”
+</p>
+
+<p><span class="parno">16</span>
+Then Sariputta, the wanderer, having heard this dhamma discourse, the
+stainless, spotless dhamma eye arose: “Whatever is liable to arising, all
+that is liable to cessation.”
+
+<p><span class="parno"></span>
+
+   “Just this is the Dhamma, which when penetrated,<br> at that moment
+[reveals] the sorrowless path,<br> gone by unseen,<br> by which many aeons have
+come to be.”
+</p>
+
+<p><span class="parno">17</span>
+Then by which way [led to] Moggallana, the wanderer, by that way Sariputta,
+the wanderer approached. Moggallana, the wanderer saw Sariputta, the
+wanderer approaching from afar. Having seen Sariputta, the wanderer, he said
+this: “O friend, your faculties are very clear, your complexion is pure
+and bright. Perhaps, O friend, you have attained the deathless for
+us?” “We, O friend, have attained the deathless.”
+“But how, O friend, how did you attain the deathless?” Here I, O
+friend, saw the bhikkhu Assaji in Rajagaha wandering for alms food, with
+eyes down cast, endowed with deportment: Graceful when stepping forwards,
+when stepping backwards, when looking forwards, when looking backwards, when
+bending back, when stretching out. Having seen, it occurred to me:
+“Surely, this bhikkhu is one of those who are arahants in the world, or
+have entered upon the path to arahantship. What if, having approached this
+bhikkhu, I might ask: On account of whom, O friend, have you gone forth? Who
+is your Teacher? Whose dhamma do you prefer?” It then occurred to
+me: “It is the wrong time to ask this bhikkhu, he has entered among the
+houses, wandering for alms food. What if I were to pursue this bhikkhu
+closely behind to find out the path [I am] seeking for.”
+
+<p><span class="parno">18</span>
+Then the bhikkhu Assaji, having wandered in Rajagaha for alms food, having
+taken alms food, returned. Then, by which way [led to] the bhikkhu Assaji,
+by that way I approached. Having approached the bhikkhu Assaji, we exchanged
+friendly greetings. Having exchanged friendly greetings and cordial talk, I
+stood at one side. Having stood at one side, I said this to the bhikkhu
+Assaji: “O friend, your faculties are very clear, your complexion is pure
+and bright. On account of whom, O friend, have you gone forth? Who is your
+teacher? Whose dhamma do you prefer?”
+
+<p><span class="parno">19</span>
+“There is, O friend, the Great Samana, son of the Sakyans, the one gone
+forth from the Sakyan clan. I have gone forth on account of that Auspicious
+One. That Auspicious One is my Teacher, and I prefer the Dhamma of the
+Auspicious One.” “But what is the doctrine of the venerable's
+Teacher? What does he declare?” “I, O friend, am new, one not
+long gone forth, just arrived at this Dhammavinaya. That is, I am not able
+to teach the dhamma with details. Nevertheless, I will say for you the
+meaning in brief.”
+
+<p><span class="parno"></span>
+
+   “You speak little or much,<br> say to me just [enough] to know the
+meaning,<br> the meaning, just the meaning for me,<br> what will many words
+do?”
+</p>
+
+<p><span class="parno">20</span>
+Then, O friend, this is the dhamma discourse the bhikkhu Assaji spoke:
+
+<p><span class="parno"></span>
+
+   “Those dhammas which arise from a cause,<br> of those the Tathagata has
+told the cause,<br> and that which is their cessation,<br> thus is the doctrine
+of the Great Samana.”
+</p>
+
+<p><span class="parno">21</span>
+Then Moggallana, the wanderer, having heard this dhamma discourse, the
+stainless, spotless dhamma eye arose: “Whatever is liable to arising, all
+that is liable to cessation.”
+
+<p><span class="parno"></span>
+
+   “Just this is the Dhamma, which when penetrated,<br> at that moment
+[reveals] the sorrowless path,<br> gone by unseen,<br> by which many aeons have
+come to be.”
+</p>
+
+<p><span class="parno">22</span>
+So then, Moggallana, the wanderer said this to Sariputta, the wanderer:
+“We must go, O friend, to the presence of the Auspicious One. He is our
+Teacher, the Auspicious One.” “These two hundred and fifty
+wanderers, O friend, they dwell in dependence on us, looking up to us
+here. At least let us obtain permission from them. So they can do as they
+think [fit].”
+
+<p><span class="parno">23</span>
+So then, by which way [led to] those wanderers, by that way Sariputta and
+Moggallana approached. Having approached those wanderers, they said this:
+“We must go, O friends, to the presence of the Auspicious One. He is our
+Teacher, the Auspicious One.” “We dwell in dependence on the
+venerables, looking up to the venerables here.  If the venerables will live
+the life of purity under the Great Samana, then we will all also live the
+life of purity under the Great Samana.”
+
+<p><span class="parno">24</span>
+So then, by which way [led to] Sanjaya, the wanderer, by that way Sariputta
+and Moggallana approached. Having approached Sanjaya, the wanderer, they
+said this: “We must go, O friend, to the presence of the Auspicious
+One. He is our Teacher, the Auspicious One.” “Enough, O friends,
+do not go. Just all three [of us], we will look after this group.”
+
+<p><span class="parno">25</span>
+Also for a second time, Sariputta and Moggallana said this to Sanjaya, the
+wanderer: “We must go, O friend, to the presence of the Auspicious
+One. He is our Teacher, the Auspicious One.” “Enough, O friends,
+do not go. Just all three [of us], we will look after this group.”
+
+<p><span class="parno">26</span>
+Also for a third time, Sariputta and Moggallana said this to Sanjaya, the
+wanderer: “We must go, O friend, to the presence of the Auspicious
+One. He is our Teacher, the Auspicious One.” “Enough, O friends,
+do not go. Just all three [of us], we will look after this group.”
+
+<p><span class="parno">27</span>
+Then Sariputta and Moggallana, having taking the two hundred and fifty
+wanderers, by which way [led to] the Bamboo Grove, by that way they
+approached. But hot blood issued from the mouth of Sanjaya, the wanderer,
+just there.
+
+<p><span class="parno">28</span>
+The Auspicious One saw Sariputta and Moggallana coming from afar. Having
+seen, he announced to the bhikkhus: “O bhikkhus, these two friends that
+are coming, Kolita and Upatissa, they will be my chief disciples, the
+foremost auspicious pair.”
+
+<p><span class="parno"></span>
+
+   Then the Teacher explained more:<br> After [they have] attained liberation at
+the Bamboo Grove,<br> the deep sphere of knowledge,<br> the unsurpassed
+destruction of appropriations,
+</p>
+
+<p><span class="parno"></span>
+
+   “these two friends,<br> that are coming, Kolita and Upatissa,<br> they will
+be my chief disciples,<br> the foremost auspicious pair.”
+</p>
+</blockquote>
+
+<p><span class="parno">29</span>
+So then, by which way [led to] the Auspicious One , by that way Sariputta
+and Moggallana approached. Having approached, having bowed down with their
+head at the Auspicious One's feet, they said this to the Auspicious One:
+“O Bhante, may we gain the going forth in the presence of the Auspicious
+One, may we gain the higher ordination.” The Auspicious One said:
+“Come, you bhikkhus.” “Well-proclaimed is the Dhamma. Live
+the life of purity for rightly making an end of suffering.” Just
+[this] was those venerable ones' higher ordination.
+</div><!--End English-->
+
+<div lang="pi"><!--Pali-->
+
+<p><span class="parno">12</span>
+tena kho pana samayena sañjayo paribbājako jājagahe paṭivasati mahatiyā
+paribbājakaparisāya saddhiṃ aḍḍhateyyehi paribbājakasatehi. tena kho pana
+samayena sāriputtamoggallānā sañjaye paribbājake brahmacariyaṃ caranti. tehi
+katikā katā hoti: "yo paṭhamaṃ amataṃ adhigacchati, so itarassa
+ārocetu"ti. atha kho āyasmā assaji pubbaṇhasamayaṃ nivāsetvā
+pattacīvaramādāya rājagahaṃ piṇḍāya pāvisi. pāsādikena abhikkantena
+paṭikkantena ālokitena vilokitena sammiñjitena pasāritena okkhittacakkhu
+iriyāpathasampanno.
+
+<p><span class="parno">13</span>
+addasā kho sāriputto paribbājako āyasmantaṃ assajiṃ rājagahe piṇḍāya
+carantaṃ pāsādikena abhikkantena paṭikkantena ālokitena vilokitena
+sammiñjitena pasāritena okkhittacakkhuṃ iriyāpathasampannaṃ disvānassa
+etadahosi: "ye vata loke arahanto vā arahattamaggaṃ vā samāpannā, ayaṃ tesaṃ
+bhikkhu aññataro. yannūnāhaṃ imaṃ bhikkhuṃ upasaṅkamitvā puccheyyaṃ, kaṃ'si
+tvaṃ āvuso, uddissa pabbajito? ko vā te satthā? kassa vā tvaṃ dhammaṃ
+rocesī?"ti.<span class="note"> <span class="details"><span class="p">pts page 040</span></span></span>
+
+<p><span class="parno">14</span>
+atha kho sāriputassa paribbājakassa etadahosi: "akālo kho imaṃ bhikkhuṃ
+pucchituṃ, antaragharaṃ paviṭṭho piṇḍāya carati. yannūnāhaṃ imaṃ bhikkhuṃ
+piṭṭhito piṭṭhito anubandheyyaṃ. atthikehi upaññātaṃ magga"nti. atha kho
+āyasmā assaji rājagahe piṇḍāya caritvā piṇḍapātaṃ ādāya paṭikkami. atha kho
+<span class="var" title="sāriputtopi - machasaṃ.">sāriputato</span> paribbājako yenāyasmā assaji,
+tenupasaṅkami. upasaṅkamitvā ayāsmatā assajinā saddhiṃ sammodi. sammodanīyaṃ
+kathaṃ sāraṇīyaṃ vītisāretvā ekamantaṃ aṭṭhāsi. ekamantaṃ ṭhito kho
+sāriputto paribbājako āyasmantaṃ assajiṃ etadavoca: "vippasannāni kho te
+āvuso, indriyāni. parisuddho chavivaṇṇo pariyodāto. kaṃ'si tvaṃ āvuso,
+uddissa pabbajito? ko vā te satvā? kassa vā tvaṃ dhammaṃ
+rocesī?"ti.<span class="note"> <span class="details"><span class="p">bjt page 084</span></span></span>
+
+<p><span class="parno">15</span>
+" atthāvuso mahāsamaṇo sakyaputo sakyakulā pabbajito. tāhaṃ bhagavantaṃ
+uddissa pabbajito. so ca me bhagavā satthā tassa cāhaṃ bhagavato dhammaṃ
+rocemī"ti. "kiṃvādī panāyasmato satthā kimakkhāyī?" "ahaṃ kho āvuso, navo
+acirapabbajito. adhunāgato imaṃ dhammavinayaṃ na tāhaṃ sakkomi vitthārena
+dhammaṃ desetuṃ. api ca te saṅkhittena atthaṃ vakkhāmī"ti. atha kho
+sāriputto paribbājako "āyasmantaṃ assajiṃ etadavoca: "hotu āvuso
+
+<blockquote>
+<p><span class="parno"></span>
+
+   "appaṃ vā bahuṃ vā bhāsassu,<br> atthaññeva me brūhi,<br> attheneva me attho,<br>
+kiṃ kāhasi vyañjanaṃ bahu"nti.
+</p>
+
+atha kho āyasmā assaji sāriputtassa paribbājakassa imaṃ dhammapariyāyaṃ
+abhāsi:
+
+<p><span class="parno"></span>
+
+   ye dhammā hetuppabhavā,<br> tesaṃ hetuṃ tathāgato āha,<br> tesañca yo nirodho,<br>
+evaṃvādī mahāsamaṇo"ti.
+</p>
+
+<p><span class="parno">16</span>
+atha kho sāriputtassa paribbājakassa imaṃ dhammapariyāyaṃ sutvā virajaṃ
+vītamalaṃ dhammacakkhuṃ udapādi: "yaṃ kiñci samudayadhammaṃ, sabbaṃ taṃ
+nirodhadhamma"nti.
+
+<p><span class="parno"></span>
+
+   "eseva dhammo yadi tāvadeva,<br> <span class="var" title="paccabyattha - machasaṃ.">paccabyathā</span> padamasokaṃ,<br> adiṭṭhaṃ abbhatītaṃ,<br> bahukehi kappanhutehī"ti.
+</p>
+
+<p><span class="parno">17</span>
+atha kho sāriputto paribbājako yena moggallāno paribbājako tenupasaṅkamitvā
+addasā kho moggallāno paribbājako sāriputtaṃ paribbājakaṃ dūratova
+āgacchantaṃ. disvāna sāriputtaṃ paribbājakaṃ etadavoca: "vippasannāni kho te
+āvuso, indriyāni. parisuddho chavivaṇeṇā. pariyodāto. kacci no
+<span class="var" title="kaccinu tvaṃ - pts.">tvaṃ</span> - āvuso, amatamadhigato?"ti. "āmāvuso,
+amataṃ adhigato"ti. "yathā kathampana tvaṃ āvuso, amataṃ
+adhigato?"ti. "idhāhaṃ āvuso, addasaṃ assajiṃ bhikkhuṃ rājagahe piṇḍāya
+carantaṃ pāsādikena abhikkantena paṭikkantena ālokitena vilokitena
+sammiñjitena pasāritena okkhittacakkhuṃ iriyāpathasampannaṃ. disvāna me
+etadahosi: "ye vata loke arahanto vā arahantamaggaṃ vā samāpannā. ayaṃ tesaṃ
+bhikkhu aññataro. yannūnāhaṃ imaṃ bhikkhuṃ upasaṅkamitvā puccheyyaṃ: kaṃ'si
+tvaṃ āvuso, uddissa pabbajito? ko vā te satthā? kassa vā tvaṃ dhammaṃ
+rocesi?"ti. tassa mayhaṃ āvuso etadahosi: "akālo kho imaṃ bhikkhuṃ
+pucchituṃ, antaragharaṃ paviṭṭho piṇḍāya carati. yannūnāhaṃ imaṃ bhikkhuṃ
+piṭṭhito piṭṭhito anubandheyyaṃ. atthikehi upaññātaṃ
+magga"nti.<span class="note"> <span class="details"><span class="p">pts page 041</span></span></span>
+
+<p><span class="parno">18</span>
+atha kho āvuso assaji bhikkhu rājagahe piṇḍāya caritvā piṇḍapātaṃ ādāya
+paṭikkami. atha khvāhaṃ āvuso, yena assaji bhikkhu tenupasaṅkami
+upasaṅkamitvā assajinā bhikkhunā saddhiṃ sammodiṃ sammodanīyaṃ kathaṃ
+sāraṇīyaṃ vītisāretvā ekamantaṃ aṭṭhāsiṃ. ekamantaṃ ṭhito kho ahaṃ āvuso
+assajiṃ bhikkhuṃ etadavocaṃ: "vippasannāni kho te āvuso,
+indriyāni. parisuddho chavivaṇeṇā. pariyodāto. kaṃ'si tvaṃ āvuso, uddissa
+pabbajito? ko vā te satthā? kassa vā tvaṃ dhammaṃ rocesī?"ti.<span class="note"> <span class="details"><span class="p">bjt page 086</span></span></span>
+
+<p><span class="parno">19</span>
+'atthāvuso mahāsamaṇo sakyaputto sakyakulā pabbajito. tāhaṃ bhagavantaṃ
+uddissa pabbajito. so ca me bhagavā satthā. tassa cāhaṃ bhagavato dhammaṃ
+rocemī"ti. "kiṃvādī panāyasmato satthā? kimakkhāyī?"ti. "ahaṃ kho āvuso,
+navo acirapabbajito. adhunāgato imaṃ dhammavinayaṃ, na tāhaṃ sakkomi
+vitthārena dhammaṃ desetuṃ. api ca te saṅkhittena atthaṃ vakkhāmī"ti.
+
+<p><span class="parno"></span>
+
+   "appaṃ vā bahuṃ vā bhāsassu,<br> atthaññeva me brūhi,<br> attheneva me attho,<br>
+kiṃ kāhasi vyañjanaṃ bahu"nti.
+</p>
+
+<p><span class="parno">20</span>
+atha kho āvuso, assaji <span class="var" title="āyasmā assaji bhikkhu - ma, nu, pa; to, vi.">bhikkhu</span> - imaṃ dhammapariyāyaṃ abhāsi:
+
+<p><span class="parno"></span>
+
+   ye dhammā hetuppabhavā,<br> tesaṃ hetuṃ tathāgato āha,<br> tesañca yo nirodho,<br>
+evaṃvādī mahāsamaṇo"ti.
+</p>
+
+<p><span class="parno">21</span>
+atha akhā moggallānassa paribbājakassa imaṃ dhammapariyāyaṃ sutvā virajaṃ
+vītamalaṃ dhammacakkhuṃ udapādi: "yaṃ kiñci samudayadhammaṃ sabbaṃ taṃ
+nirodhadhamma"nti.<span class="note"> <span class="details"><span class="p">pts page 042</span></span></span>
+
+<p><span class="parno"></span>
+
+   "eseva dhammo yadi tāvadeva,<br> <span class="var" title="paccabyattha - machasaṃ.">paccabyathā</span> padamasokaṃ,<br> adiṭṭhaṃ abbhatītaṃ,<br> bahukehi kappanhutehī"ti.
+</p>
+
+<p><span class="parno">22</span>
+atha kho moggallāno paribbājako sāriputtaṃ paribbājakaṃ etadavoca: "gacchāma
+mayaṃ āvuso, bhagavato santike. so no bhagavā satthā"ti. imāni kho āvuso
+aḍḍhateyyāti paribbājakasatāni amhe nissāya amhe sampassantā idha
+viharanti. te'pi tāva <span class="var" title="apalokāma - ma. nu. pa.">apalokema</span> - yathā te
+maññissanti, tathā karissantī"ti.<span class="note"> <span class="details"><span class="p">bjt page 088</span></span></span>
+
+<p><span class="parno">23</span>
+atha kho sāriputtamoggallānā yena te paribbājakā,
+tenupasaṅkamiṃsu. upasaṅkamitvā te paribbājake etadavocuṃ: "gacchāma mayaṃ
+āvuso, bhagavato santike. so no bhagavā satthā"ti "mayaṃ āyasmante nissāya
+āyasmante sasmapassantā idha viharāma. sace āyasmantā mahāsamaṇe
+brahmacariyaṃ carissanti, sabbeva mayaṃ mahāsamaṇe brahmacariyaṃ
+carissāmā"ti.
+
+<p><span class="parno">24</span>
+atha kho sāriputtamoggallānā yena sañjayo paribbājakā,
+tenupasaṅkamiṃsu. upasaṅkamitvā sañjayaṃ paribbājakaṃ etadavocuṃ: "gacchāma
+mayaṃ āvuso, bhagavato santike. so no bhagavā satthā"ti "alaṃ āvuso, mā
+gamittha, sabbeva tayo imaṃ gaṇaṃ pariharissāmā"ti.
+
+<p><span class="parno">25</span>
+dutiyampi kho sāriputtamoggallānā sañjayaṃ paribbājakaṃ, etadavocuṃ:
+"gacchāma mayaṃ āvuso, bhagavato santike. so no bhagavā satthā"ti "alaṃ
+āvuso, mā gamittha, sabbeva tayo imaṃ gaṇaṃ pariharissāmā"ti.
+
+<p><span class="parno">26</span>
+tatiyampi kho sāriputtamoggallānā sañjayaṃ paribbājakaṃ, etadavocuṃ:
+"gacchāma mayaṃ āvuso, bhagavato santike. so no bhagavā satthā"ti "alaṃ
+āvuso, mā gamittha, sabbeva tayo imaṃ gaṇaṃ pariharissāmā"ti.
+
+<p><span class="parno">27</span>
+atha kho sāriputtamoggallānā tāni aḍḍhateyyāni paribbājakasatāni ādāya yena
+veḷuvanaṃ tenupasaṅkamiṃsu. sañjayassa pana paribbājakassa nattheva uṇhaṃ
+lohitaṃ mukhato uggañachi.
+
+<p><span class="parno">28</span>
+addāsā kho bhagavā sāriputtamoggallāne dūratova āgacchante. disvāna bhikkhū
+āmantesī: "ete bhikkhave dve sahāyā āgacchanti kolito upatisso ca. etaṃ me
+sāvakayugaṃ bhavissati aggaṃ bhaddayuga"nti.<span class="note"> <span class="details"><span class="p">pts page 043</span></span></span>
+
+<p><span class="parno"></span>
+
+   "gambhīre ñāṇavisaye,<br> anuttare upadhisaṅkhaye,<br> vimutte appatte
+veḷuvanaṃ,<br> atha ne satthā byākāsi.
+</p>
+
+<p><span class="parno"></span>
+
+   ete dve sahāyā,<br> <span class="var" title="anena - machasaṃ.">āgacchanti</span> - kolito upatisso
+ca,<br> etaṃ me sāvakayugaṃ,<br> bhavissati aggaṃ bhaddayuga"ntita
+</p>
+</blockquote>
+
+<p><span class="parno">29</span>
+atha kho sāriputtamoggallānā yena bhagavā tenupasaṅkamiṃsu. upasaṅkamitvā
+bhagavato pādesu sirasā nipatitvā bhagavantaṃ etadavocuṃ- "labheyyāma mayaṃ
+bhante, bhagavato santike pabbajjaṃ. labheyyāma upasampada"nti. "etha
+bhikkhavo"ti bhagavā avoca. "svakkhāto dhammo caratha brahmacariyaṃ sammā
+dukkhassa antakiriyāyā"ti. sova tesaṃ āyasmantānaṃ upasampadā
+ahosi.<span class="note"> <span class="details"><span class="p">bjt page 090</span></span></span>
+</div><!--End Pali-->
+</section>
+
+<div id="nextprev"><a id="previous-sutta" href="../vi/kd.html"></a><a id="next-sutta" href="../vi/kd2.html"></a></div>
+
+</div><!--content-->
+<footer>
+<div id="breadcrumbs">
+<a href="../home/index.html">Home</a><a href="../vi/vi.html">Vinaya Pitaka</a><a href="../vi/kd.html">Khandaka</a>Khandaka 1 - Ordination
+</div>
+<a id="bottom"></a>
+</footer>
+<script src="../js/footer.js"></script>
+</div><!--container-->
+</body>
+</html>

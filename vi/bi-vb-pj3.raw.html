@@ -1,0 +1,1719 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8>
+<link rel="icon" type="image/x-icon" href="../images/buddha.jpg">
+<title>Vibhanga (Bhikkhuni) - Pārājika 3</title>
+<script src="../js/jquery-1.10.2.min.js"></script>
+<link rel="stylesheet" href="../css/menu.css">
+<link rel="stylesheet" href="../css/css.css">
+</head>
+<body>
+<div id="container">
+<header>
+<div id="eng_searchlink"> <span><a href="../home/engsearch.html" >Search English Content</a></span></div>
+<div id="pali_searchlink"> <span><a href="../home/palisearch.html" >Search Pali Content</a></span></div>
+
+<div class="logotext">
+<a href="../home/index.html"><span>The True Dhamma</span></a>
+</div>
+<nav>
+<div id="navbar">
+<ul id="css3menu0" >
+<li class="topfirst" id="home"><a href="../home/index.html">Home</a></li>
+<li class="topmenu" id="ssg"><a href="../ssg/ssg.html">↓ Study Guides</a>
+<li class="topmenu" id="dn"><a href="../dn/dn.html">Digha Nikaya</a></li>
+<li class="topmenu" id="mn"><a href="../mn/mn.html">Majjhima Nikaya</a></li>
+	<li class="topmenu" id="sn"><a href="../sn/sn.html">↓ Samyutta Nikaya</a>
+		<ul>
+		<li><a href="../sn/sn01.html">Part 1 - The Book with Verses</a></li>
+			<li><a href="../sn/sn02.html">Part 2 - The Book of Causation</a></li>
+			<li><a href="../sn/sn03.html">Part 3 - The Book of the Aggregates</a></li>
+			<li><a href="../sn/sn04.html">Part 4 - The Book of the Six Sense Bases</a></li>
+			<li><a href="../sn/sn05.html" title="Part 5 - The Great Book">Part 5 - The Great Book</a></li>
+		</ul>
+	</li>
+		<li class="topmenu" id="an"><a href="../an/an.html">↓ Anguttara Nikaya</a>
+			<ul>
+			<li><a href="../an/an1.html">The Ones</a></li>
+			<li><a href="../an/an2.html">The Twos</a></li>
+			<li><a href="../an/an3.html">The Threes</a></li>
+			<li><a href="../an/an4.html">The Fours</a></li>
+			<li><a href="../an/an5.html">The Fives</a></li>
+			<li><a href="../an/an6.html">The Sixes</a></li>
+			<li><a href="../an/an7.html">The Sevens</a></li>
+			<li><a href="../an/an8.html">The Eights</a></li>
+			<li><a href="../an/an9.html">The Nines</a></li>
+			<li><a href="../an/an10.html">The Tens</a></li>
+			<li><a href="../an/an11.html">The Elevens</a></li>
+			</ul>
+		</li>
+	<li class="topmenu" id="kn"><a href="../kn/kn.html">↓ Khuddaka Nikaya</a>
+			<ul>
+			<li><a href="../kp/kp.html">The Khuddakapatha</a></li>
+			<li><a href="../dhp/dhp.html" title="The Dhammapada">The Dhammapada</a></li>
+			<li><a href="../snp/snp.html">Sutta Nipata</a></li>
+			<li><a href="../ud/ud.html">Udana</a></li>
+			<li><a href="../it/it.html">Itivuttaka</a></li>
+			<li><a href="../tha/tha.html">The Theragatha</a></li>
+			<li><a href="../thi/thi.html">The Therigatha</a></li>
+			</ul>
+	</li>
+	<li class="toplast" id="vi"><a class="pressed" href="../vi/vi.html">↓ Vinaya Pitaka</a>
+			<ul>
+			<li><a href="../vi/kd.html">Khandaka</a></li>
+			<li><a href="../vi/bu-vb.html" title="Monk’s Rules">Bhikkhu Vibhanga</a></li>
+			<li><a href="../vi/bu-pt.html" title="Bhikkhu Pātimokkha">Bhikkhu Pātimokkha</a></li>
+			<li><a href="../vi/bi-pt.html" title="Bhikkhunī Pātimokkha">Bhikkhunī Patimokkha</a></li>
+			<li><a class="pressed" href="../vi/bi-vb.html" title="Nuns Rules">Bhikkhuni Vibhanga</a></li>
+			<li><a href="../bmc/bmc.html">Buddhist Monastic Code I</a></li>
+      <li><a href="../bmc/bmc2.html">Buddhist Monastic Code 2</a></li>
+			</ul>
+	</li>
+</ul>
+</div> <!--navbar-->
+</nav>
+<div class="controlpanel" id="controlpanel"><!--controlpanel-->
+<ul>
+	<li>
+	<ul class="inner">
+		<li><a href="#" title="Page Top" >&nbsp;▲&nbsp;</a>
+		<li class="nextprev">
+			<button class="palitoggle"
+				id="pali"
+				type="button"
+				title="Display Pali and activate Lookup Dictionary"
+				style="width:2.8em; padding: 0 2px;">Pali</button>
+		</li>
+		<li><a href="#bottom" title="Page Bottom">&nbsp;▼&nbsp;</a>
+	</ul>
+	</li>
+</ul>
+</div> <!--controlpanel-->
+</header>
+<div id="content">
+<h2>Vinaya Pitaka - Monastic Rules</h2>
+
+<div>
+	<ul id="vbnav">
+	 <li id="active"><a href="../vi/bi-vb-pj.html">Pārājikas</a></li>
+   <li><a href="../vi/bi-vb-sn.html">Sanghādisesas</a></li>
+   <li><a href="../vi/bi-vb-an.html">Aniyatas</a></li>
+   <li><a href="../vi/bi-vb-np.html">Nissaggiya Pācittiyas</a></li>
+   <li><a href="../vi/bi-vb-pc.html">Pācittiyas</a></li>
+   <li><a href="../vi/bi-vb-pd.html">Pāṭidesanīyas</a></li>
+   <li><a href="../vi/bi-vb-sk.html">Sekhiyas</a></li>
+	<li><a href="../vi/bi-vb-as.html">Adhikaraṇa-Samathās</a></li>
+	</ul>
+</div>
+
+<h2>Bhikkhuni Vibhanga - Pārājika 3: Killing A Human</h2>
+
+<div id="metaarea">
+	<ul class="translator">
+		<li>(The same as the bhikkhu's Pārājika 3)</li>
+		<li><span>A Saddhamma Study Group translation from the Pāḷi text (coming sooner or later).</span></li>
+	</ul>
+</div>
+
+<h2>Origin story</h2>
+<h3>First sub-story</h3>
+<section class="raw_sutta">
+<div lang="en">
+</div><!--End English-->
+
+<div lang="pi"><!--Pali-->
+
+<p>
+<span class="parno">1</span>
+<a class="ms" id="p_1v_376"></a>
+<a class="msdiv" id="msdiv162"></a>
+tena samayena buddho bhagavā vesāliyaṃ viharati mahāvane kūṭāgārasālāyaṃ. tena
+kho pana samayena bhagavā bhikkhūnaṃ anekapariyāyena asubhakathaṃ katheti,
+asubhāya vaṇṇaṃ bhāsati, asubhabhāvanāya vaṇṇaṃ bhāsati, ādissa ādissa
+asubhasamāpattiyā vaṇṇaṃ bhāsati.</p>
+
+<hr>
+
+<p>
+<span class="parno">2</span>
+<a class="ms" id="p_1v_377"></a>
+atha kho bhagavā bhikkhū āmantesi—  "icchāmahaṃ, bhikkhave, addhamāsaṃ
+paṭisallīyituṃ. namhi kenaci upasankamitabbo, aññatra ekena
+piṇḍapātanīhārakenā"ti. "evaṃ, bhante"ti, kho te bhikkhū bhagavato paṭissuṇitvā
+nāssudha koci bhagavantaṃ upasankamati, aññatra ekena piṇḍapātanīhārakena.</p>
+
+<hr>
+
+<p>
+<span class="parno">3</span>
+<a class="ms" id="p_1v_378"></a>
+bhikkhū—  "bhagavā kho anekapariyāyena asubhakathaṃ katheti, asubhāya vaṇṇaṃ
+bhāsati, asubhabhāvanāya vaṇṇaṃ bhāsati, ādissa ādissa asubhasamāpattiyā vaṇṇaṃ
+bhāsatī"ti, te anekākāravokāraṃ asubhabhāvanānuyogamanuyuttā viharanti. te
+sakena kāyena aṭṭīyanti harāyanti jigucchanti. seyyathāpi nāma itthī vā puriso
+vā daharo yuvā maṇḍanakajātiko sīsaṃnhāto ahikuṇapena vā kukkurakuṇapena vā
+manussakuṇapena vā kaṇṭhe āsattena aṭṭīyeyya harāyeyya jiguccheyya; evameva te
+bhikkhū sakena kāyena aṭṭīyantā harāyantā jigucchantā attanāpi attānaṃ jīvitā
+voropenti, aññamaññampi jīvitā voropenti, migalaṇḍikampi samaṇakuttakaṃ
+upasankamitvā evaṃ vadanti—  "sādhu no, āvuso, jīvitā voropehi. idaṃ te
+pattacīvaraṃ bhavissatī"ti. atha kho migalaṇḍiko samaṇakuttako pattacīvarehi
+bhaṭo sambahule bhikkhū jīvitā voropetvā lohitakaṃ asiṃ ādāya yena vaggumudā
+nadī tenupasankami.</p>
+
+<hr>
+
+<p>
+<span class="parno">4</span>
+<a class="ms" id="p_1v_379"></a>
+<a class="msdiv" id="msdiv163"></a>
+atha kho migalaṇḍikassa samaṇakuttakassa lohitakaṃ taṃ asiṃ dhovantassa ahudeva
+kukkuccaṃ ahu vippaṭisāro—  "alābhā vata me, na vata me lābhā; dulladdhaṃ vata
+me, na vata me suladdhaṃ. bahuṃ vata mayā apuññaṃ pasutaṃ, yohaṃ bhikkhū
+sīlavante kalyāṇadhamme jīvitā voropesin"ti. atha kho aññatarā mārakāyikā
+devatā abhijjamāne udake āgantvā migalaṇḍikaṃ samaṇakuttakaṃ etadavoca—  "sādhu
+sādhu, sappurisa, lābhā te, sappurisa, suladdhaṃ te, sappurisa. bahuṃ tayā,
+sappurisa, puññaṃ pasutaṃ, yaṃ tvaṃ atiṇṇe tāresī"ti.</p>
+
+<hr>
+
+<p>
+<span class="parno">5</span>
+<a class="ms" id="p_1v_380"></a>
+atha kho migalaṇḍiko samaṇakuttako—  "lābhā kira me, suladdhaṃ kira me, bahuṃ
+kira mayā puññaṃ pasutaṃ, atiṇṇe kirāhaṃ tāremī"ti, tiṇhaṃ asiṃ ādāya vihārena
+vihāraṃ pariveṇena pariveṇaṃ upasankamitvā evaṃ vadeti—  "ko atiṇṇo, kaṃ
+tāremī"ti? tattha ye te bhikkhū avītarāgā tesaṃ tasmiṃ samaye hotiyeva bhayaṃ
+hoti chambhitattaṃ hoti lomahaṃso. ye pana te bhikkhū vītarāgā tesaṃ tasmiṃ
+samaye na hoti bhayaṃ na hoti chambhitattaṃ na hoti lomahaṃso.</p>
+<hr>
+
+<p>
+<span class="parno">6</span>
+<a class="ms" id="p_1v_381"></a>
+atha kho migalaṇḍiko samaṇakuttako ekampi bhikkhuṃ ekāhena jīvitā voropesi,
+dvepi bhikkhū ekāhena jīvitā voropesi, tayopi bhikkhū ekāhena jīvitā voropesi,
+cattāropi bhikkhū ekāhena jīvitā voropesi, pañcapi bhikkhū ekāhena jīvitā
+voropesi, dasapi bhikkhū ekāhena jīvitā voropesi, vīsampi bhikkhū ekāhena
+jīvitā voropesi, tiṃsampi bhikkhū ekāhena jīvitā voropesi, cattālīsampi bhikkhū
+ekāhena jīvitā voropesi, paññāsampi bhikkhū ekāhena jīvitā voropesi, saṭṭhimpi
+bhikkhū ekāhena jīvitā voropesi.</p>
+
+<hr>
+
+<p>
+<span class="parno">7. p_1v_382 msdiv164</span>
+atha kho bhagavā tassa addhamāsassa accayena paṭisallānā vuṭṭhito āyasmantaṃ
+ānandaṃ āmantesi—  "kiṃ nu kho, ānanda, tanubhūto viya bhikkhusangho"ti? "tathā
+hi pana, bhante, bhagavā bhikkhūnaṃ anekapariyāyena asubhakathaṃ katheti,
+asubhāya vaṇṇaṃ bhāsati, asubhabhāvanāya vaṇṇaṃ bhāsati, ādissa ādissa
+asubhasamāpattiyā vaṇṇaṃ bhāsati. te ca, bhante, bhikkhū—  ‘bhagavā kho
+anekapariyāyena asubhakathaṃ katheti, asubhāya vaṇṇaṃ bhāsati, asubhabhāvanāya
+vaṇṇaṃ bhāsati, ādissa ādissa asubhasamāpattiyā vaṇṇaṃ bhāsatī’ti, te
+anekākāravokāraṃ asubhabhāvanānuyogamanuyuttā viharanti. te sakena kāyena
+aṭṭīyanti harāyanti jigucchanti. seyyathāpi nāma itthī vā puriso vā daharo yuvā
+maṇḍanakajātiko sīsaṃnhāto ahikuṇapena vā kukkurakuṇapena vā manussakuṇapena
+vā kaṇṭhe āsattena aṭṭīyeyya harāyeyya jiguccheyya; evameva te bhikkhū sakena
+kāyena aṭṭīyantā harāyantā jigucchantā attanāpi attānaṃ jīvitā voropenti,
+aññamaññampi jīvitā voropenti, migalaṇḍikampi samaṇakuttakaṃ upasankamitvā evaṃ
+vadanti—  ‘sādhu no, āvuso, jīvitā voropehi. idaṃ te pattacīvaraṃ
+bhavissatī’ti. atha kho, bhante, migalaṇḍiko samaṇakuttako pattacīvarehi bhaṭo
+ekampi bhikkhuṃ ekāhena jīvitā voropesi … pe …   saṭṭhimpi bhikkhū ekāhena jīvitā
+voropesi. sādhu, bhante, bhagavā aññaṃ pariyāyaṃ ācikkhatu yathāyaṃ
+bhikkhusangho aññāya saṇṭhaheyyā"ti. "tenahānanda, yāvatikā bhikkhū vesāliṃ
+upanissāya viharanti te sabbe upaṭṭhānasālāyaṃ sannipātehī"ti. "evaṃ,
+bhante"ti, kho āyasmā ānando bhagavato paṭissuṇitvā yāvatikā bhikkhū vesāliṃ
+upanissāya viharanti te sabbe upaṭṭhānasālāyaṃ sannipātetvā yena bhagavā
+tenupasankami; upasankamitvā bhagavantaṃ etadavoca—  "sannipatito, bhante,
+bhikkhusangho; yassadāni, bhante, bhagavā kālaṃ maññatī"ti.</p>
+
+<hr>
+
+<p>
+<span class="parno">8. p_1v_383, msdiv165</span>
+atha kho bhagavā yena upaṭṭhānasālā tenupasankami; upasankamitvā paññatte āsane
+nisīdi. nisajja kho bhagavā bhikkhū āmantesi— </p>
+
+<hr>
+
+<p>
+<span class="parno">9. p_1v_384</span>
+"ayampi kho, bhikkhave, ānāpānassatisamādhi bhāvito bahulīkato santo ceva
+paṇīto ca asecanako ca sukho ca vihāro uppannuppanne ca pāpake akusale dhamme
+ṭhānaso antaradhāpeti vūpasameti. seyyathāpi, bhikkhave, gimhānaṃ pacchime māse
+uhataṃ rajojallaṃ tamenaṃ mahāakālamegho ṭhānaso antaradhāpeti vūpasameti;
+evameva kho, bhikkhave, ānāpānassatisamādhi bhāvito bahulīkato santo ceva
+paṇīto ca asecanako ca sukho ca vihāro uppannuppanne ca pāpake akusale dhamme
+ṭhānaso antaradhāpeti vūpasameti.</p>
+
+<hr>
+
+<p>
+<span class="parno">10</span>
+<a class="ms" id="p_1v_385"></a>
+kathaṃ bhāvito ca, bhikkhave, ānāpānassatisamādhi kathaṃ bahulīkato santo ceva
+paṇīto ca asecanako ca sukho ca vihāro uppannuppanne ca pāpake akusale dhamme
+ṭhānaso antaradhāpeti vūpasameti? idha, bhikkhave, bhikkhu araññagato vā
+rukkhamūlagato vā suññāgāragato vā nisīdati pallankaṃ ābhujitvā ujuṃ kāyaṃ
+paṇidhāya parimukhaṃ satiṃ upaṭṭhapetvā. so satova assasati sato passasati.</p>
+
+<hr>
+
+<p>
+<span class="parno">11</span>
+<a class="ms" id="p_1v_386"></a>
+dīghaṃ vā assasanto dīghaṃ assasāmīti pajānāti, dīghaṃ vā passasanto dīghaṃ
+passasāmīti pajānāti. rassaṃ vā assasanto rassaṃ assasāmīti pajānāti, rassaṃ vā
+passasanto rassaṃ passasāmīti pajānāti. sabbakāyappaṭisaṃvedī assasissāmīti
+sikkhati. sabbakāyappaṭisaṃvedī passasissāmīti sikkhati. passambhayaṃ
+kāyasankhāraṃ assasissāmīti sikkhati. passambhayaṃ kāyasankhāraṃ passasissāmīti
+sikkhati.</p>
+
+<hr>
+
+<p>
+<span class="parno">12</span>
+<a class="ms" id="p_1v_387"></a>
+pītippaṭisaṃvedī assasissāmīti sikkhati. pītippaṭisaṃvedī passasissāmīti
+sikkhati. sukhappaṭisaṃvedī assasissāmīti sikkhati. sukhappaṭisaṃvedī
+passasissāmīti sikkhati. cittasankhārappaṭisaṃvedī assasissāmīti sikkhati.
+cittasankhārappaṭisaṃvedī passasissāmīti sikkhati. passambhayaṃ cittasankhāraṃ
+assasissāmīti sikkhati. passambhayaṃ cittasankhāraṃ passasissāmīti sikkhati.
+cittappaṭisaṃvedī assasissāmīti sikkhati. cittappaṭisaṃvedī passasissāmīti
+sikkhati. abhippamodayaṃ cittaṃ … pe …   samādahaṃ cittaṃ … pe …   vimocayaṃ cittaṃ … pe …</p>
+
+<hr>
+
+<p>
+<span class="parno">13</span>
+<a class="ms" id="p_1v_388"></a>
+aniccānupassī … pe …   virāgānupassī … pe …   nirodhānupassī … pe …   paṭinissaggānupassī
+assasissāmīti sikkhati. paṭinissaggānupassī passasissāmīti sikkhati.</p>
+
+<hr>
+
+<p>
+<span class="parno">14</span>
+<a class="ms" id="p_1v_389"></a>
+evaṃ bhāvito kho, bhikkhave, ānāpānassatisamādhi evaṃ bahulīkato santo ceva
+paṇīto ca asecanako ca sukho ca vihāro uppannuppanne ca pāpake akusale dhamme
+ṭhānaso antaradhāpeti vūpasametī"ti.</p>
+
+<p>
+<span class="parno">15</span>
+<a class="ms" id="p_1v_390"></a>
+<a class="msdiv" id="msdiv166"></a>
+atha kho bhagavā etasmiṃ nidāne etasmiṃ pakaraṇe bhikkhusanghaṃ sannipātāpetvā
+bhikkhū paṭipucchi—  "saccaṃ kira, bhikkhave, bhikkhū attanāpi attānaṃ jīvitā
+voropenti, aññamaññampi jīvitā voropenti migalaṇḍikampi samaṇakuttakaṃ
+upasankamitvā evaṃ vadanti—  ‘sādhu no, āvuso, jīvitā voropehi, idaṃ te
+pattacīvaraṃ bhavissatī’"ti? "saccaṃ, bhagavā"ti. vigarahi buddho bhagavā—
+"ananucchavikaṃ, bhikkhave, tesaṃ bhikkhūnaṃ ananulomikaṃ appaṭirūpaṃ
+assāmaṇakaṃ akappiyaṃ akaraṇīyaṃ. kathañhi nāma te, bhikkhave, bhikkhū attanāpi
+attānaṃ jīvitā voropessanti, aññamaññampi jīvitā voropessanti, migalaṇḍikampi
+samaṇakuttakaṃ upasankamitvā evaṃ vakkhanti—  ‘sādhu no, āvuso, jīvitā
+voropehi, idaṃ te pattacīvaraṃ bhavissatī’ti. netaṃ, bhikkhave, appasannānaṃ vā
+pasādāya … pe …   evañca pana, bhikkhave, imaṃ sikkhāpadaṃ uddiseyyātha— </p>
+
+<hr>
+
+<p>
+<span class="parno">16</span>
+<a class="ms" id="p_1v_391"></a>
+<a class="msdiv" id="msdiv167"></a>
+<strong class="rule">"yo pana bhikkhu sañcicca manussaviggahaṃ jīvitā voropeyya
+satthahārakaṃ vāssa pariyeseyya, ayampi pārājiko hoti asaṃvāso"</strong>ti.</p>
+
+<hr>
+
+<p>
+<span class="parno">17</span>
+<a class="ms" id="p_1v_392"></a>
+evañcidaṃ bhagavatā bhikkhūnaṃ sikkhāpadaṃ paññattaṃ hoti.</p>
+
+<hr>
+
+<p>
+<span class="parno">18</span>
+<a class="ms" id="p_1v_393"></a>
+<a class="msdiv" id="msdiv168"></a>
+tena kho pana samayena aññataro upāsako gilāno hoti. tassa pajāpati abhirūpā
+hoti dassanīyā pāsādikā. chabbaggiyā bhikkhū tassā itthiyā paṭibaddhacittā
+honti. atha kho chabbaggiyānaṃ bhikkhūnaṃ etadahosi—  "sace kho so, āvuso,
+upāsako jīvissati na mayaṃ taṃ itthiṃ labhissāma. handa mayaṃ, āvuso, tassa
+upāsakassa maraṇavaṇṇaṃ saṃvaṇṇemā"ti. atha kho chabbaggiyā bhikkhū yena so
+upāsako tenupasankamiṃsu; upasankamitvā taṃ upāsakaṃ etadavocuṃ—  "tvaṃ khosi,
+upāsaka, katakalyāṇo katakusalo katabhīruttāṇo akatapāpo akataluddo
+akatakibbiso. kataṃ tayā kalyāṇaṃ, akataṃ tayā pāpaṃ. kiṃ tuyhiminā pāpakena
+dujjīvitena. mataṃ te jīvitā seyyo. ito tvaṃ kālankato kāyassa bhedā paraṃ
+maraṇā sugatiṃ saggaṃ lokaṃ upapajjissasi. tattha dibbehi pañcahi kāmaguṇehi
+samappito samangībhūto paricāressasī"ti.</p>
+
+<hr>
+
+<p>
+<span class="parno">19</span>
+<a class="ms" id="p_1v_394"></a>
+<a class="msdiv" id="msdiv169"></a>
+atha kho so upāsako—  "saccaṃ kho ayyā āhaṃsu. ahañhi katakalyāṇo katakusalo
+katabhīruttāṇo akatapāpo akataluddo akatakibbiso. kataṃ mayā kalyāṇaṃ, akataṃ
+mayā pāpaṃ. kiṃ mayhiminā pāpakena dujjīvitena. mataṃ me jīvitā seyyo. ito ahaṃ
+kālankato kāyassa bhedā paraṃ maraṇā sugatiṃ saggaṃ lokaṃ upapajjissāmi.
+tattha dibbehi pañcahi kāmaguṇehi samappito samangībhūto paricāressāmī"ti, so
+asappāyāni ceva bhojanāni bhuñji asappāyāni ca khādanīyāni khādi asappāyāni ca
+sāyanīyāni sāyi asappāyāni ca pānāni pivi. tassa asappāyāni ceva bhojanāni
+bhuñjato asappāyāni ca khādanīyāni khādato asappāyāni ca sāyanīyāni sāyato
+asappāyāni ca pānāni pivato kharo ābādho uppajji. so teneva ābādhena
+kālamakāsi. tassa pajāpati ujjhāyati khiyyati vipāceti—  "alajjino ime samaṇā
+sakyaputtiyā dussīlā musāvādino. ime hi nāma dhammacārino samacārino
+brahmacārino saccavādino sīlavanto kalyāṇadhammā paṭijānissanti. natthi imesaṃ
+sāmaññaṃ natthi imesaṃ brahmaññaṃ, naṭṭhaṃ imesaṃ sāmaññaṃ naṭṭhaṃ imesaṃ
+brahmaññaṃ, kuto imesaṃ sāmaññaṃ kuto imesaṃ brahmaññaṃ, apagatā ime sāmaññā
+apagatā ime brahmaññā. ime me sāmikassa maraṇavaṇṇaṃ saṃvaṇṇesuṃ. imehi me
+sāmiko mārito"ti. aññepi manussā ujjhāyanti khiyyanti vipācenti—  "alajjino ime
+samaṇā sakyaputtiyā dussīlā musāvādino. ime hi nāma dhammacārino samacārino
+brahmacārino saccavādino sīlavanto kalyāṇadhammā paṭijānissanti. natthi imesaṃ
+sāmaññaṃ natthi imesaṃ brahmaññaṃ, naṭṭhaṃ imesaṃ sāmaññaṃ naṭṭhaṃ imesaṃ
+brahmaññaṃ, kuto imesaṃ sāmaññaṃ kuto imesaṃ brahmaññaṃ, apagatā ime sāmaññā
+apagatā ime brahmaññā. ime upāsakassa maraṇavaṇṇaṃ saṃvaṇṇesuṃ. imehi upāsako
+mārito"ti.</p>
+
+<hr>
+
+<p>
+<span class="parno">20</span>
+<a class="ms" id="p_1v_395"></a>
+assosuṃ kho bhikkhū tesaṃ manussānaṃ ujjhāyantānaṃ khiyyantānaṃ vipācentānaṃ.
+ye te bhikkhū appicchā … pe …   te ujjhāyanti khiyyanti vipācenti—  "kathañhi nāma
+chabbaggiyā bhikkhū upāsakassa maraṇavaṇṇaṃ saṃvaṇṇissantī"ti.</p>
+
+<hr>
+
+<p>
+<span class="parno">21</span>
+<a class="ms" id="p_1v_396"></a>
+<a class="msdiv" id="msdiv170"></a>
+atha kho te bhikkhū chabbaggiye bhikkhū anekapariyāyena vigarahitvā bhagavato
+etamatthaṃ ārocesuṃ … pe …   "saccaṃ kira tumhe, bhikkhave, upāsakassa maraṇavaṇṇaṃ
+saṃvaṇṇethā"ti? "saccaṃ, bhagavā"ti. vigarahi buddho bhagavā—
+"ananucchavikaṃ, moghapurisā, ananulomikaṃ appaṭirūpaṃ assāmaṇakaṃ akappiyaṃ
+akaraṇīyaṃ. kathañhi nāma tumhe, moghapurisā, upāsakassa maraṇavaṇṇaṃ
+saṃvaṇṇissatha. netaṃ, moghapurisā, appasannānaṃ vā pasādāya … pe …   evañca pana,
+bhikkhave, imaṃ sikkhāpadaṃ uddiseyyātha— </p>
+
+<hr>
+
+<p>
+<span class="parno">22</span>
+<a class="ms" id="p_1v_397"></a>
+<a class="msdiv" id="msdiv171"></a>
+<strong class="rule">"yo pana bhikkhu sañcicca manussaviggahaṃ jīvitā voropeyya
+satthahārakaṃ vāssa pariyeseyya maraṇavaṇṇaṃ vā saṃvaṇṇeyya maraṇāya vā
+samādapeyya—  ‘ambho purisa, kiṃ tuyhiminā pāpakena dujjīvitena, mataṃ te
+jīvitā seyyo’ti, iti cittamano cittasankappo anekapariyāyena maraṇavaṇṇaṃ vā
+saṃvaṇṇeyya, maraṇāya vā samādapeyya, ayampi pārājiko hoti asaṃvāso"</strong>ti.
+(<em>3</em>:<strong>3</strong>)</p>
+
+	<h3> </h3>
+
+<hr>
+
+<p>
+<span class="parno">23</span>
+<a class="ms" id="p_1v_398"></a>
+<a class="msdiv" id="msdiv172"></a>
+<strong>yo panā</strong>ti yo yādiso … pe …
+<strong>bhikkhū</strong>ti … pe …   ayaṃ imasmiṃ atthe adhippeto bhikkhūti.</p>
+
+<hr>
+
+<p>
+<span class="parno">24</span>
+<a class="ms" id="p_1v_399"></a>
+<strong>sañciccā</strong>ti jānanto sañjānanto cecca abhivitaritvā vītikkamo.</p>
+
+<hr>
+
+<p>
+<span class="parno">25</span>
+<a class="ms" id="p_1v_400"></a>
+<strong>manussaviggaho</strong> nāma yaṃ mātukucchismiṃ paṭhamaṃ cittaṃ
+uppannaṃ paṭhamaṃ viññāṇaṃ pātubhūtaṃ, yāva maraṇakālā etthantare eso
+manussaviggaho nāma.</p>
+
+<hr>
+
+<p>
+<span class="parno">26</span>
+<a class="ms" id="p_1v_401"></a>
+<strong>jīvitā voropeyyā</strong>ti jīvitindriyaṃ upacchindati uparodheti
+santatiṃ vikopeti.</p>
+
+<hr>
+
+<p>
+<span class="parno">27</span>
+<a class="ms" id="p_1v_402"></a>
+<strong>satthahārakaṃ vāssa pariyeseyyā</strong>ti asiṃ vā sattiṃ vā bheṇḍiṃ vā
+laguḷaṃ vā pāsāṇaṃ vā satthaṃ vā visaṃ vā rajjuṃ vā.</p>
+
+<hr>
+
+<p>
+<span class="parno">28</span>
+<a class="ms" id="p_1v_403"></a>
+<strong>maraṇavaṇṇaṃ vā saṃvaṇṇeyyā</strong>ti jīvite ādīnavaṃ dasseti, maraṇe
+vaṇṇaṃ bhaṇati.</p>
+
+<hr>
+
+<p>
+<span class="parno">29</span>
+<a class="ms" id="p_1v_404"></a>
+<strong>maraṇāya vā samādapeyyā</strong>ti satthaṃ vā āhara, visaṃ vā khāda,
+rajjuyā vā ubbandhitvā kālaṃ karohīti.</p>
+
+<hr>
+
+<p>
+<span class="parno">30</span>
+<a class="ms" id="p_1v_405"></a>
+<strong>ambho purisā</strong>ti ālapanādhivacanametaṃ.</p>
+
+<hr>
+
+<p>
+<span class="parno">31</span>
+<a class="ms" id="p_1v_406"></a>
+<strong>kiṃ tuyhiminā pāpakena dujjīvitenā</strong>ti pāpakaṃ nāma jīvitaṃ
+aḍḍhānaṃ jīvitaṃ upādāya daliddānaṃ jīvitaṃ pāpakaṃ lāmakaṃ, sadhanānaṃ jīvitaṃ
+upādāya adhanānaṃ jīvitaṃ pāpakaṃ, devānaṃ jīvitaṃ upādāya manussānaṃ jīvitaṃ
+pāpakaṃ.</p>
+
+<hr>
+
+<p>
+<span class="parno">32</span>
+<a class="ms" id="p_1v_407"></a>
+<strong>dujjīvitaṃ</strong> nāma hatthacchinnassa pādacchinnassa
+hatthapādacchinnassa kaṇṇacchinnassa nāsacchinnassa kaṇṇanāsacchinnassa, iminā
+ca pāpakena iminā ca dujjīvitena mataṃ te jīvitā seyyoti.</p>
+
+<hr>
+
+<p>
+<span class="parno">33</span>
+<a class="ms" id="p_1v_408"></a>
+<strong>iti cittamano</strong>ti yaṃ cittaṃ taṃ mano, yaṃ mano taṃ cittaṃ.</p>
+
+<hr>
+
+<p>
+<span class="parno">34</span>
+<a class="ms" id="p_1v_409"></a>
+<strong>cittasankappo</strong>ti maraṇasaññī maraṇacetano maraṇādhippāyo.</p>
+
+<hr>
+
+<p>
+<span class="parno">35</span>
+<a class="ms" id="p_1v_410"></a>
+<strong>anekapariyāyenā</strong>ti uccāvacehi ākārehi.</p>
+
+<hr>
+
+<p>
+<span class="parno">36</span>
+<a class="ms" id="p_1v_411"></a>
+<strong>maraṇavaṇṇaṃ vā saṃvaṇṇeyyā</strong>ti jīvite ādīnavaṃ dasseti, maraṇe
+vaṇṇaṃ bhaṇati—  "ito tvaṃ kālankato kāyassa bhedā paraṃ maraṇā sugatiṃ saggaṃ
+lokaṃ upapajjissasi, tattha dibbehi pañcahi kāmaguṇehi samappito samangībhūto
+paricāressasī"ti.</p>
+
+<hr>
+
+<p>
+<span class="parno">37</span>
+<a class="ms" id="p_1v_412"></a>
+<strong>maraṇāya vā samādapeyyā</strong>ti satthaṃ vā āhara, visaṃ vā khāda,
+rajjuyā vā ubbandhitvā kālaṃ karohi, sobbhe vā narake vā papāte vā papatāti.</p>
+
+<hr>
+
+<p>
+<span class="parno">38</span>
+<a class="ms" id="p_1v_413"></a>
+<strong>ayampī</strong>ti purime upādāya vuccati.</p>
+
+<hr>
+
+<p>
+<span class="parno">39</span>
+<a class="ms" id="p_1v_414"></a>
+<strong>pārājiko hotī</strong>ti seyyathāpi nāma puthusilā dvidhā bhinnā
+appaṭisandhikā hoti, evameva bhikkhu sañcicca manussaviggahaṃ jīvitā voropetvā
+assamaṇo hoti asakyaputtiyo. tena vuccati—  "pārājiko hotī"ti.</p>
+
+<hr>
+
+<p>
+<span class="parno">40</span>
+<a class="ms" id="p_1v_415"></a>
+<strong>asaṃvāso</strong>ti saṃvāso nāma ekakammaṃ ekuddeso samasikkhatā—  eso
+saṃvāso nāma. so tena saddhiṃ natthi, tena vuccati asaṃvāsoti.</p>
+
+<hr>
+
+<p><span class="parno">41</span>
+<a class="ms" id="p_1v_416"></a>
+<a class="msdiv" id="msdiv173"></a>
+sāmaṃ, adhiṭṭhāya, dūtena, dūtaparamparāya, visakkiyena dūtena, gatapaccāgatena
+dūtena, araho rahosaññī, raho arahosaññī, araho arahosaññī, raho rahosaññī
+kāyena saṃvaṇṇeti, vācāya saṃvaṇṇeti, kāyena vācāya saṃvaṇṇeti, dūtena
+saṃvaṇṇeti, lekhāya saṃvaṇṇeti, opātaṃ apassenaṃ, upanikkhipanaṃ, bhesajjaṃ,
+rūpūpahāro, saddūpahāro, gandhūpahāro, rasūpahāro, phoṭṭhabbūpahāro,
+dhammūpahāro, ācikkhanā, anusāsanī, sanketakammaṃ, nimittakammanti.</p>
+
+<hr>
+
+<p>
+<span class="parno">42</span>
+<a class="ms" id="p_1v_417"></a>
+<a class="msdiv" id="msdiv174"></a>
+<strong>sāman</strong>ti sayaṃ hanati kāyena vā kāyapaṭibaddhena vā
+nissaggiyena vā.</p>
+
+<hr>
+
+<p>
+<span class="parno">43</span>
+<a class="ms" id="p_1v_418"></a>
+<strong>adhiṭṭhāyā</strong>ti adhiṭṭhahitvā āṇāpeti—  "evaṃ vijjha, evaṃ
+pahara, evaṃ ghātehī"ti.</p>
+
+<hr>
+
+<p>
+<span class="parno">44</span>
+<a class="ms" id="p_1v_419"></a>
+bhikkhu bhikkhuṃ āṇāpeti—  "itthannāmaṃ jīvitā voropehī"ti, āpatti dukkaṭassa.
+so taṃ maññamāno taṃ jīvitā voropeti, āpatti ubhinnaṃ pārājikassa.</p>
+
+<hr>
+
+<p>
+<span class="parno">45</span>
+<a class="ms" id="p_1v_420"></a>
+bhikkhu bhikkhuṃ āṇāpeti—  "itthannāmaṃ jīvitā voropehī"ti, āpatti dukkaṭassa.
+so taṃ maññamāno aññaṃ jīvitā voropeti, mūlaṭṭhassa anāpatti. vadhakassa āpatti
+pārājikassa.</p>
+
+<hr>
+
+<p>
+<span class="parno">46</span>
+<a class="ms" id="p_1v_421"></a>
+bhikkhu bhikkhuṃ āṇāpeti—  "itthannāmaṃ jīvitā voropehī"ti, āpatti dukkaṭassa.
+so aññaṃ maññamāno taṃ jīvitā voropeti, āpatti ubhinnaṃ pārājikassa.</p>
+
+<hr>
+
+<p>
+<span class="parno">47</span>
+<a class="ms" id="p_1v_422"></a>
+bhikkhu bhikkhuṃ āṇāpeti—  "itthannāmaṃ jīvitā voropehī"ti, āpatti dukkaṭassa.
+so aññaṃ maññamāno aññaṃ jīvitā voropeti; mūlaṭṭhassa anāpatti, vadhakassa
+āpatti pārājikassa.</p>
+
+<hr>
+
+<p>
+<span class="parno">48</span>
+<a class="ms" id="p_1v_423"></a>
+bhikkhu bhikkhuṃ āṇāpeti—  "itthannāmassa pāvada—  ‘itthannāmo itthannāmassa
+pāvadatu—  itthannāmo itthannāmaṃ jīvitā voropetū’"ti, āpatti dukkaṭassa. so
+itarassa āroceti, āpatti dukkaṭassa. vadhako paṭiggaṇhāti, mūlaṭṭhassa āpatti
+thullaccayassa. so taṃ jīvitā voropeti, āpatti sabbesaṃ pārājikassa.</p>
+
+<hr>
+
+<p>
+<span class="parno">49</span>
+<a class="ms" id="p_1v_424"></a>
+bhikkhu bhikkhuṃ āṇāpeti—  "itthannāmassa pāvada—  ‘itthannāmo itthannāmassa
+pāvadatu—  itthannāmo itthannāmaṃ jīvitā voropetū’"ti, āpatti dukkaṭassa. so
+aññaṃ āṇāpeti, āpatti dukkaṭassa. vadhako paṭiggaṇhāti, āpatti dukkaṭassa. so
+taṃ jīvitā voropeti, mūlaṭṭhassa anāpatti; āṇāpakassa ca vadhakassa ca āpatti
+pārājikassa.</p>
+
+<hr>
+
+<p>
+<span class="parno">50</span>
+<a class="ms" id="p_1v_425"></a>
+bhikkhu bhikkhuṃ āṇāpeti—  "itthannāmaṃ jīvitā voropehī"ti, āpatti dukkaṭassa.
+so gantvā puna paccāgacchati—  "nāhaṃ sakkomi taṃ jīvitā voropetun"ti. so puna
+āṇāpeti—  "yadā sakkosi tadā taṃ jīvitā voropehī"ti, āpatti dukkaṭassa. so taṃ
+jīvitā voropeti, āpatti ubhinnaṃ pārājikassa.</p>
+
+<hr>
+
+<p>
+<span class="parno">51</span>
+<a class="ms" id="p_1v_426"></a>
+bhikkhu bhikkhuṃ āṇāpeti—  "itthannāmaṃ jīvitā voropehī"ti, āpatti dukkaṭassa.
+so āṇāpetvā vippaṭisārī na sāveti—  "mā ghātehī"ti. so taṃ jīvitā voropeti,
+āpatti ubhinnaṃ pārājikassa.</p>
+
+<hr>
+
+<p>
+<span class="parno">52</span>
+<a class="ms" id="p_1v_427"></a>
+bhikkhu bhikkhuṃ āṇāpeti—  "itthannāmaṃ jīvitā voropehī"ti, āpatti dukkaṭassa.
+so āṇāpetvā vippaṭisārī sāveti—  "mā ghātehī"ti. so—  "āṇatto ahaṃ tayā"ti taṃ
+jīvitā voropeti, mūlaṭṭhassa anāpatti. vadhakassa āpatti pārājikassa.</p>
+
+<hr>
+
+<p>
+<span class="parno">53</span>
+<a class="ms" id="p_1v_428"></a>
+bhikkhu bhikkhuṃ āṇāpeti—  "itthannāmaṃ jīvitā voropehī"ti, āpatti dukkaṭassa.
+so āṇāpetvā vippaṭisārī sāveti—  "mā ghātehī"ti. so sādhūti oramati, ubhinnaṃ
+anāpatti.</p>
+
+<hr>
+
+<p>
+<span class="parno">54</span>
+<a class="ms" id="p_1v_429"></a>
+<a class="msdiv" id="msdiv175"></a>
+araho rahosaññī ullapati—  "aho itthannāmo hato assā"ti, āpatti dukkaṭassa.
+raho arahosaññī ullapati—  "aho itthannāmo hato assā"ti, āpatti dukkaṭassa.
+araho arahosaññī ullapati—  "aho itthannāmo hato assā"ti, āpatti dukkaṭassa.
+raho rahosaññī ullapati—  "aho itthannāmo hato assā"ti, āpatti dukkaṭassa.</p>
+
+<hr>
+
+<p>
+<span class="parno">55</span>
+<a class="ms" id="p_1v_430"></a>
+<strong>kāyena saṃvaṇṇeti</strong> nāma kāyena vikāraṃ karoti—  "yo evaṃ marati
+so dhanaṃ vā labhati yasaṃ vā labhati saggaṃ vā gacchatī"ti, āpatti
+dukkaṭassa. tāya saṃvaṇṇanāya marissāmīti dukkhaṃ vedanaṃ uppādeti, āpatti
+thullaccayassa. marati, āpatti pārājikassa.</p>
+
+<hr>
+
+<p>
+<span class="parno">56</span>
+<a class="ms" id="p_1v_431"></a>
+<strong>vācāya saṃvaṇṇeti</strong> nāma vācāya bhaṇati—  "yo evaṃ marati so
+dhanaṃ vā labhati yasaṃ vā labhati saggaṃ vā gacchatī"ti, āpatti dukkaṭassa.
+tāya saṃvaṇṇanāya marissāmīti dukkhaṃ vedanaṃ uppādeti, āpatti thullaccayassa.
+marati, āpatti pārājikassa.</p>
+
+<hr>
+
+<p>
+<span class="parno">57</span>
+<a class="ms" id="p_1v_432"></a>
+<strong>kāyena vācāya saṃvaṇṇeti</strong> nāma kāyena ca vikāraṃ karoti, vācāya
+ca bhaṇati—  "yo evaṃ marati so dhanaṃ vā labhati yasaṃ vā labhati saggaṃ vā
+gacchatī"ti, āpatti dukkaṭassa. tāya saṃvaṇṇanāya marissāmīti dukkhaṃ vedanaṃ
+uppādeti, āpatti thullaccayassa. marati, āpatti pārājikassa.</p>
+
+<hr>
+
+<p>
+<span class="parno">58</span>
+<a class="ms" id="p_1v_433"></a>
+<strong>dūtena saṃvaṇṇeti</strong> nāma dūtassa sāsanaṃ āroceti—  "yo evaṃ
+marati so dhanaṃ vā labhati yasaṃ vā labhati saggaṃ vā gacchatī"ti, āpatti
+dukkaṭassa. dūtassa sāsanaṃ sutvā marissāmīti dukkhaṃ vedanaṃ uppādeti, āpatti
+thullaccayassa. marati, āpatti pārājikassa.</p>
+
+<hr>
+
+<p>
+<span class="parno">59</span>
+<a class="ms" id="p_1v_434"></a>
+<a class="msdiv" id="msdiv176"></a>
+<strong>lekhāya saṃvaṇṇeti</strong> nāma lekhaṃ chindati—  "yo evaṃ marati so
+dhanaṃ vā labhati yasaṃ vā labhati saggaṃ vā gacchatī"ti, akkharakkharāya
+āpatti dukkaṭassa. lekhaṃ passitvā marissāmīti dukkhaṃ vedanaṃ uppādeti, āpatti
+thullaccayassa. marati, āpatti pārājikassa.</p>
+
+<hr>
+
+<p>
+<span class="parno">60</span>
+<a class="ms" id="p_1v_435"></a>
+<strong>opātaṃ</strong> nāma manussaṃ uddissa opātaṃ khanati—  "papatitvā
+marissatī"ti, āpatti dukkaṭassa. papatite dukkhā vedanā uppajjati, āpatti
+thullaccayassa. marati, āpatti pārājikassa. anodissa opātaṃ khanati—  "yo koci
+papatitvā marissatī"ti, āpatti dukkaṭassa. manusso tasmiṃ papatati, āpatti
+dukkaṭassa. papatite dukkhā vedanā uppajjati, āpatti thullaccayassa. marati,
+āpatti pārājikassa. yakkho vā peto vā tiracchānagatamanussaviggaho vā tasmiṃ
+papatati, āpatti dukkaṭassa. papatite dukkhā vedanā uppajjati, āpatti
+dukkaṭassa. marati, āpatti thullaccayassa. tiracchānagato tasmiṃ papatati,
+āpatti dukkaṭassa. papatite dukkhā vedanā uppajjati, āpatti dukkaṭassa. marati,
+āpatti pācittiyassa.</p>
+
+<hr>
+
+<p>
+<span class="parno">61</span>
+<a class="ms" id="p_1v_436"></a>
+<a class="msdiv" id="msdiv177"></a>
+<strong>apassenaṃ</strong> nāma apassene satthaṃ vā ṭhapeti visena vā makkheti
+dubbalaṃ vā karoti sobbhe vā narake vā papāte vā ṭhapeti—  "papatitvā
+marissatī"ti, āpatti dukkaṭassa. satthena vā visena vā papatitena vā dukkhā
+vedanā uppajjati, āpatti thullaccayassa. marati, āpatti pārājikassa.</p>
+
+<hr>
+
+<p>
+<span class="parno">62</span>
+<a class="ms" id="p_1v_437"></a>
+<strong>upanikkhipanaṃ</strong> nāma asiṃ vā sattiṃ vā bheṇḍiṃ vā laguḷaṃ vā
+pāsāṇaṃ vā satthaṃ vā visaṃ vā rajjuṃ vā upanikkhipati—  "iminā marissatī"ti,
+āpatti dukkaṭassa. "tena marissāmī"ti dukkhaṃ vedanaṃ uppādeti, āpatti
+thullaccayassa. marati, āpatti pārājikassa.</p>
+
+<hr>
+
+<p>
+<span class="parno">63</span>
+<a class="ms" id="p_1v_438"></a>
+<strong>bhesajjaṃ</strong> nāma sappiṃ vā navanītaṃ vā telaṃ vā madhuṃ vā
+phāṇitaṃ vā deti—  "imaṃ sāyitvā marissatī"ti, āpatti dukkaṭassa. taṃ sāyite
+dukkhā vedanā uppajjati, āpatti thullaccayassa. marati, āpatti pārājikassa.</p>
+
+<hr>
+
+<p>
+<span class="parno">64</span>
+<a class="ms" id="p_1v_439"></a>
+<a class="msdiv" id="msdiv178"></a>
+<strong>rūpūpahāro</strong> nāma amanāpikaṃ rūpaṃ upasaṃharati bhayānakaṃ
+bheravaṃ—  "imaṃ passitvā uttasitvā marissatī"ti, āpatti dukkaṭassa. taṃ
+passitvā uttasati, āpatti thullaccayassa. marati, āpatti pārājikassa. manāpikaṃ
+rūpaṃ upasaṃharati—  "imaṃ passitvā alābhakena sussitvā marissatī"ti, āpatti
+dukkaṭassa. taṃ passitvā alābhakena sussati, āpatti thullaccayassa. marati,
+āpatti pārājikassa.</p>
+<hr>
+
+<p>
+<span class="parno">65</span>
+<a class="ms" id="p_1v_440"></a>
+<strong>saddūpahāro</strong> nāma amanāpikaṃ saddaṃ upasaṃharati bhayānakaṃ
+bheravaṃ—  "imaṃ sutvā uttasitvā marissatī"ti, āpatti dukkaṭassa. taṃ sutvā
+uttasati, āpatti thullaccayassa. marati, āpatti pārājikassa. manāpikaṃ saddaṃ
+upasaṃharati pemanīyaṃ hadayangamaṃ—  "imaṃ sutvā alābhakena sussitvā
+marissatī"ti, āpatti dukkaṭassa. taṃ sutvā alābhakena sussati, āpatti
+thullaccayassa. marati, āpatti pārājikassa.</p>
+<hr>
+
+<p>
+<span class="parno">66</span>
+<a class="ms" id="p_1v_441"></a>
+<strong>gandhūpahāro</strong> nāma amanāpikaṃ gandhaṃ upasaṃharati jegucchaṃ
+pāṭikulyaṃ—  "imaṃ ghāyitvā jegucchatā pāṭikulyatā marissatī"ti, āpatti
+dukkaṭassa. taṃ ghāyite jegucchatā pāṭikulyatā dukkhā vedanā uppajjati, āpatti
+thullaccayassa. marati, āpatti pārājikassa. manāpikaṃ gandhaṃ upasaṃharati—
+"imaṃ ghāyitvā alābhakena sussitvā marissatī"ti, āpatti dukkaṭassa. taṃ
+ghāyitvā alābhakena sussati, āpatti thullaccayassa. marati, āpatti pārājikassa.</p>
+<hr>
+
+<p>
+<span class="parno">67</span>
+<a class="ms" id="p_1v_442"></a>
+<strong>rasūpahāro</strong> nāma amanāpikaṃ rasaṃ upasaṃharati jegucchaṃ
+pāṭikulyaṃ—  "imaṃ sāyitvā jegucchatā pāṭikulyatā marissatī"ti, āpatti
+dukkaṭassa. taṃ sāyite jegucchatā pāṭikulyatā dukkhā vedanā uppajjati, āpatti
+thullaccayassa. marati, āpatti pārājikassa. manāpikaṃ rasaṃ upasaṃharati—
+"imaṃ sāyitvā alābhakena sussitvā marissatī"ti, āpatti dukkaṭassa. taṃ sāyitvā
+alābhakena sussati, āpatti thullaccayassa. marati, āpatti pārājikassa.</p>
+<hr>
+
+<p>
+<span class="parno">68</span>
+<a class="ms" id="p_1v_443"></a>
+<strong>phoṭṭhabbūpahāro</strong> nāma amanāpikaṃ phoṭṭhabbaṃ upasaṃharati
+dukkhasamphassaṃ kharasamphassaṃ—  "iminā phuṭṭho marissatī"ti, āpatti
+dukkaṭassa. tena phuṭṭhassa dukkhā vedanā uppajjati, āpatti thullaccayassa.
+marati, āpatti pārājikassa. manāpikaṃ phoṭṭhabbaṃ upasaṃharati sukhasamphassaṃ
+mudusamphassaṃ—  "iminā phuṭṭho alābhakena sussitvā marissatī"ti, āpatti
+dukkaṭassa. tena phuṭṭho alābhakena sussati, āpatti thullaccayassa. marati,
+āpatti pārājikassa.</p>
+<hr>
+
+<p>
+<span class="parno">69</span>
+<a class="ms" id="p_1v_444"></a>
+<strong>dhammūpahāro</strong> nāma nerayikassa nirayakathaṃ katheti—  "imaṃ
+sutvā uttasitvā marissatī"ti, āpatti dukkaṭassa. taṃ sutvā uttasati, āpatti
+thullaccayassa. marati, āpatti pārājikassa. kalyāṇakammassa saggakathaṃ
+katheti—  "imaṃ sutvā adhimutto marissatī"ti, āpatti dukkaṭassa. taṃ sutvā
+adhimutto marissāmīti dukkhaṃ vedanaṃ uppādeti, āpatti thullaccayassa. marati,
+āpatti pārājikassa.</p>
+<hr>
+
+<p>
+<span class="parno">70</span>
+<a class="ms" id="p_1v_445"></a>
+<a class="msdiv" id="msdiv179"></a>
+<strong>ācikkhanā</strong> nāma puṭṭho bhaṇati—  "evaṃ marassu. yo evaṃ marati
+so dhanaṃ vā labhati yasaṃ vā labhati saggaṃ vā gacchatī"ti, āpatti dukkaṭassa.
+tāya ācikkhanāya marissāmīti dukkhaṃ vedanaṃ uppādeti, āpatti thullaccayassa.
+marati, āpatti pārājikassa.</p>
+<hr>
+
+<p>
+<span class="parno">71</span>
+<a class="ms" id="p_1v_446"></a>
+<strong>anusāsanī</strong> nāma apuṭṭho bhaṇati—  "evaṃ marassu. yo evaṃ marati
+so dhanaṃ vā labhati yasaṃ vā labhati saggaṃ vā gacchatī"ti, āpatti
+dukkaṭassa. tāya anusāsaniyā marissāmīti dukkhaṃ vedanaṃ uppādeti, āpatti
+thullaccayassa. marati, āpatti pārājikassa.</p>
+<hr>
+
+<p>
+<span class="parno">72</span>
+<a class="ms" id="p_1v_447"></a>
+<strong>sanketakammaṃ</strong> nāma sanketaṃ karoti purebhattaṃ vā
+pacchābhattaṃ vā rattiṃ vā divā vā—  "tena sanketena taṃ jīvitā voropehī"ti,
+āpatti dukkaṭassa. tena sanketena taṃ jīvitā voropeti, āpatti ubhinnaṃ
+pārājikassa. taṃ sanketaṃ pure vā pacchā vā taṃ jīvitā voropeti, mūlaṭṭhassa
+anāpatti, vadhakassa āpatti pārājikassa.</p>
+<hr>
+
+<p>
+<span class="parno">73</span>
+<a class="ms" id="p_1v_448"></a>
+<strong>nimittakammaṃ</strong> nāma nimittaṃ karoti—  "akkhiṃ vā nikhaṇissāmi
+bhamukaṃ vā ukkhipissāmi sīsaṃ vā ukkhipissāmi, tena nimittena taṃ jīvitā
+voropehī"ti, āpatti dukkaṭassa. tena nimittena taṃ jīvitā voropeti, āpatti
+ubhinnaṃ pārājikassa. taṃ nimittaṃ pure vā pacchā vā taṃ jīvitā voropeti,
+mūlaṭṭhassa anāpatti, vadhakassa āpatti pārājikassa.</p>
+
+<hr>
+
+<p>
+<span class="parno">74</span>
+<a class="ms" id="p_1v_449"></a>
+anāpatti—  asañcicca ajānantassa namaraṇādhippāyassa ummattakassa
+ādikammikassāti.</p>
+
+<hr>
+<p class="endsutta">
+<span class="parno">75</span>
+<a class="ms" id="p_1v_450"></a>
+manussaviggahapārājikamhi paṭhamabhāṇavāro niṭṭhito.</p>
+
+<h2>3.1 vinītavatthuuddānagāthā</h2>
+<h3> </h3>
+<hr>
+<blockquote>
+<p>
+<span class="parno">76</span>
+<a class="ms" id="p_1v_451"></a>
+saṃvaṇṇanā nisīdanto,<br>
+musalodukkhalena ca;<br>
+vuḍḍhapabbajitābhisanno,<br>
+aggavīmaṃsanāvisaṃ.<br> <br></p>
+</blockquote>
+<hr>
+
+<blockquote>
+<p>
+<span class="parno">77</span>
+<a class="ms" id="p_1v_452"></a>
+tayo ca vatthukammehi,<br>
+iṭṭhakāhipare tayo;<br>
+vāsī gopānasī ceva,<br>
+aṭṭakotaraṇaṃ pati.<br></p>
+</blockquote>
+
+<hr>
+<blockquote>
+
+<p>
+<span class="parno">78</span>
+<a class="ms" id="p_1v_453"></a>
+sedaṃ natthuñca sambāho,<br>
+nhāpanabbhañjanena ca;<br>
+uṭṭhāpento nipātento,<br>
+annapānena māraṇaṃ.<br> <br></p>
+</blockquote>
+<hr>
+
+<blockquote>
+
+<p>
+<span class="parno">79</span>
+<a class="ms" id="p_1v_454"></a>
+jāragabbho sapattī ca,<br>
+mātā puttaṃ ubho vadhi;<br>
+ubho na miyyare maddā,<br>
+tāpaṃ vañjhā vijāyinī.<br></p>
+</blockquote>
+
+<hr>
+
+<blockquote>
+<p>
+<span class="parno">80</span>
+<a class="ms" id="p_1v_455"></a>
+patodaṃ niggahe yakkho,<br>
+vāḷayakkhañca pāhiṇi;<br>
+taṃ maññamāno pahari,<br>
+saggañca nirayaṃ bhaṇe.<br></p>
+</blockquote>
+<hr>
+
+<blockquote>
+<p>
+<span class="parno">81</span>
+<a class="ms" id="p_1v_456"></a>
+āḷaviyā tayo rukkhā,<br>
+dāyehi apare tayo;<br>
+mā kilamesi na tuyhaṃ,<br>
+takkaṃ sovīrakena cāti.<br></p>
+</blockquote>
+
+<h3>3.2 vinītavatthu</h3>
+<hr>
+
+<p>
+<span class="parno">82</span>
+<a class="ms" id="p_1v_457"></a>
+<a class="msdiv" id="msdiv180"></a>
+tena kho pana samayena aññataro bhikkhu gilāno hoti. tassa bhikkhū kāruññena
+maraṇavaṇṇaṃ saṃvaṇṇesuṃ. so bhikkhu kālamakāsi. tesaṃ kukkuccaṃ ahosi
+"bhagavatā sikkhāpadaṃ paññattaṃ, kacci nu kho mayaṃ pārājikaṃ āpattiṃ
+āpannā"ti? bhagavato etamatthaṃ ārocesuṃ. "āpattiṃ tumhe, bhikkhave, āpannā
+pārājikan"ti. (1)</p>
+<hr>
+
+<p>
+<span class="parno">83</span>
+<a class="ms" id="p_1v_458"></a>
+tena kho pana samayena aññataro piṇḍacāriko bhikkhu pīṭhake pilotikāya
+paṭicchannaṃ dārakaṃ nisīdanto ottharitvā māresi. tassa kukkuccaṃ ahosi
+"bhagavatā sikkhāpadaṃ paññattaṃ, kacci nu kho ahaṃ pārājikaṃ āpattiṃ
+āpanno"ti? bhagavato etamatthaṃ ārocesi. "anāpatti, bhikkhu, pārājikassa. na
+ca, bhikkhave, appaṭivekkhitvā āsane nisīditabbaṃ; yo nisīdeyya, āpatti
+dukkaṭassā"ti. (2)</p>
+<hr>
+
+<p>
+<span class="parno">84</span>
+<a class="ms" id="p_1v_459"></a>
+tena kho pana samayena aññataro bhikkhu bhattagge antaraghare āsanaṃ paññapento
+musale ussite ekaṃ musalaṃ aggahesi. dutiyo musalo paripatitvā aññatarassa
+dārakassa matthake avatthāsi. so kālamakāsi. tassa kukkuccaṃ ahosi … pe …
+"kiṃcitto tvaṃ, bhikkhū"ti? "asañcicca ahaṃ, bhagavā"ti. "anāpatti, bhikkhu,
+asañciccā"ti. (3)</p>
+<hr>
+
+<p>
+<span class="parno">85</span>
+<a class="ms" id="p_1v_460"></a>
+tena kho pana samayena aññataro bhikkhu bhattagge antaraghare āsanaṃ paññapento
+udukkhalabhaṇḍikaṃ akkamitvā pavaṭṭesi. aññataraṃ dārakaṃ ottharitvā māresi.
+tassa kukkuccaṃ ahosi … pe …   "anāpatti, bhikkhu, asañciccā"ti. (4)</p>
+<hr>
+
+<p>
+<span class="parno">86</span>
+<a class="ms" id="p_1v_461"></a>
+tena kho pana samayena pitāputtā bhikkhūsu pabbajitā honti. kāle ārocite putto
+pitaraṃ etadavoca—  "gaccha, bhante, sangho taṃ patimānetī"ti piṭṭhiyaṃ gahetvā
+paṇāmesi. so papatitvā kālamakāsi. tassa kukkuccaṃ ahosi … pe …   "kiṃcitto tvaṃ,
+bhikkhū"ti? "nāhaṃ, bhagavā, maraṇādhippāyo"ti. "anāpatti, bhikkhu,
+namaraṇādhippāyassā"ti. (5)</p>
+
+<hr>
+
+<p>
+<span class="parno">87</span>
+<a class="ms" id="p_1v_462"></a>
+tena kho pana samayena pitāputtā bhikkhūsu pabbajitā honti. kāle ārocite putto
+pitaraṃ etadavoca—  "gaccha, bhante, sangho taṃ patimānetī"ti maraṇādhippāyo
+piṭṭhiyaṃ gahetvā paṇāmesi. so papatitvā kālamakāsi. tassa kukkuccaṃ ahosi … pe …
+"āpattiṃ tvaṃ, bhikkhu, āpanno pārājikan"ti. (6)</p>
+<hr>
+
+<p>
+<span class="parno">88</span>
+<a class="ms" id="p_1v_463"></a>
+tena kho pana samayena pitāputtā bhikkhūsu pabbajitā honti. kāle ārocite putto
+pitaraṃ etadavoca—  "gaccha, bhante, sangho taṃ patimānetī"ti maraṇādhippāyo
+piṭṭhiyaṃ gahetvā paṇāmesi. so papatitvā na kālamakāsi. tassa kukkuccaṃ
+ahosi … pe …   "anāpatti, bhikkhu, pārājikassa; āpatti thullaccayassā"ti. (7)</p>
+<hr>
+
+<p>
+<span class="parno">89</span>
+<a class="ms" id="p_1v_464"></a>
+<a class="msdiv" id="msdiv181"></a>
+tena kho pana samayena aññatarassa bhikkhuno bhuñjantassa maṃsaṃ kaṇṭhe
+vilaggaṃ hoti. aññataro bhikkhu tassa bhikkhuno gīvāyaṃ pahāraṃ adāsi.
+salohitaṃ maṃsaṃ pati. so bhikkhu kālamakāsi. tassa kukkuccaṃ ahosi … pe …
+"anāpatti, bhikkhu, namaraṇādhippāyassā"ti. (8)</p>
+<hr>
+
+<p>
+<span class="parno">90</span>
+<a class="ms" id="p_1v_465"></a>
+tena kho pana samayena aññatarassa bhikkhuno bhuñjantassa maṃsaṃ kaṇṭhe
+vilaggaṃ hoti. aññataro bhikkhu maraṇādhippāyo tassa bhikkhuno gīvāyaṃ pahāraṃ
+adāsi. salohitaṃ maṃsaṃ pati. so bhikkhu kālamakāsi. tassa kukkuccaṃ ahosi … pe …
+"āpattiṃ tvaṃ, bhikkhu, āpanno pārājikan"ti. (9)</p>
+<hr>
+
+<p>
+<span class="parno">91</span>
+<a class="ms" id="p_1v_466"></a>
+tena kho pana samayena aññatarassa bhikkhuno bhuñjantassa maṃsaṃ kaṇṭhe
+vilaggaṃ hoti. aññataro bhikkhu maraṇādhippāyo tassa bhikkhuno gīvāyaṃ pahāraṃ
+adāsi. salohitaṃ maṃsaṃ pati. so bhikkhu na kālamakāsi. tassa kukkuccaṃ
+ahosi … pe …   "anāpatti, bhikkhu, pārājikassa; āpatti thullaccayassā"ti. (10)</p>
+<hr>
+
+<p>
+<span class="parno">92</span>
+<a class="ms" id="p_1v_467"></a>
+tena kho pana samayena aññataro piṇḍacāriko bhikkhu visagataṃ piṇḍapātaṃ
+labhitvā paṭikkamanaṃ haritvā bhikkhūnaṃ aggakārikaṃ adāsi. te bhikkhū
+kālamakaṃsu. tassa kukkuccaṃ ahosi … pe …   "kiṃcitto tvaṃ, bhikkhū"ti? "nāhaṃ,
+bhagavā, jānāmī"ti. "anāpatti, bhikkhu, ajānantassā"ti. (11)</p>
+<hr>
+
+<p>
+<span class="parno">93</span>
+<a class="ms" id="p_1v_468"></a>
+tena kho pana samayena aññataro bhikkhu vīmaṃsādhippāyo aññatarassa bhikkhuno
+visaṃ adāsi. so bhikkhu kālamakāsi. tassa kukkuccaṃ ahosi … pe …   "kiṃcitto tvaṃ,
+bhikkhū"ti? "vīmaṃsādhippāyo ahaṃ, bhagavā"ti. "anāpatti, bhikkhu, pārājikassa;
+āpatti thullaccayassā"ti. (12)</p>
+<hr>
+
+<p>
+<span class="parno">94</span>
+<a class="ms" id="p_1v_469"></a>
+<a class="msdiv" id="msdiv182"></a>
+tena kho pana samayena āḷavakā bhikkhū vihāravatthuṃ karonti. aññataro bhikkhu
+heṭṭhā hutvā silaṃ uccāresi. uparimena bhikkhunā duggahitā silā heṭṭhimassa
+bhikkhuno matthake avatthāsi. so bhikkhu kālamakāsi. tassa kukkuccaṃ ahosi … pe …
+"anāpatti, bhikkhu, asañciccā"ti. (13)</p>
+<hr>
+
+<p>
+<span class="parno">95</span>
+<a class="ms" id="p_1v_470"></a>
+tena kho pana samayena āḷavakā bhikkhū vihāravatthuṃ karonti. aññataro bhikkhu
+heṭṭhā hutvā silaṃ uccāresi. uparimo bhikkhu maraṇādhippāyo heṭṭhimassa
+bhikkhuno matthake silaṃ muñci. so bhikkhu kālamakāsi … pe …   so bhikkhu na
+kālamakāsi. tassa kukkuccaṃ ahosi … pe …   "anāpatti, bhikkhu, pārājikassa; āpatti
+thullaccayassā"ti. (14 –⁠15)</p>
+<hr>
+
+<p>
+<span class="parno">96</span>
+<a class="ms" id="p_1v_471"></a>
+tena kho pana samayena āḷavakā bhikkhū vihārassa kuṭṭaṃ uṭṭhāpenti. aññataro
+bhikkhu heṭṭhā hutvā iṭṭhakaṃ uccāresi. uparimena bhikkhunā duggahitā iṭṭhakā
+heṭṭhimassa bhikkhuno matthake avatthāsi. so bhikkhu kālamakāsi. tassa
+kukkuccaṃ ahosi … pe …   "anāpatti, bhikkhu, asañciccā"ti. (16)</p>
+<hr>
+
+<p>
+<span class="parno">97</span>
+<a class="ms" id="p_1v_472"></a>
+tena kho pana samayena āḷavakā bhikkhū vihārassa kuṭṭaṃ uṭṭhāpenti. aññataro
+bhikkhu heṭṭhā hutvā iṭṭhakaṃ uccāresi. uparimo bhikkhu maraṇādhippāyo
+heṭṭhimassa bhikkhuno matthake iṭṭhakaṃ muñci. so bhikkhu kālamakāsi … pe …   so
+bhikkhu na kālamakāsi. tassa kukkuccaṃ ahosi … pe …   "anāpatti, bhikkhu,
+pārājikassa; āpatti thullaccayassā"ti. (17 –⁠18)</p>
+
+<hr>
+
+<p>
+<span class="parno">98</span>
+<a class="ms" id="p_1v_473"></a>
+<a class="msdiv" id="msdiv183"></a>
+tena kho pana samayena āḷavakā bhikkhū navakammaṃ karonti. aññataro bhikkhu
+heṭṭhā hutvā vāsiṃ uccāresi. uparimena bhikkhunā duggahitā vāsī heṭṭhimassa
+bhikkhuno matthake avatthāsi. so bhikkhu kālamakāsi. tassa kukkuccaṃ ahosi … pe …
+"anāpatti, bhikkhu, asañciccā"ti. (19)</p>
+
+<hr>
+
+<p>
+<span class="parno">99</span>
+<a class="ms" id="p_1v_474"></a>
+tena kho pana samayena āḷavakā bhikkhū navakammaṃ karonti. aññataro bhikkhu
+heṭṭhā hutvā vāsiṃ uccāresi. uparimo bhikkhu maraṇādhippāyo heṭṭhimassa
+bhikkhuno matthake vāsiṃ muñci. so bhikkhu kālamakāsi … pe …   so bhikkhu na
+kālamakāsi. tassa kukkuccaṃ ahosi … pe …   "anāpatti, bhikkhu, pārājikassa; āpatti
+thullaccayassā"ti. (20 –⁠21)</p>
+<hr>
+
+<p>
+<span class="parno">100</span>
+<a class="ms" id="p_1v_475"></a>
+tena kho pana samayena āḷavakā bhikkhū navakammaṃ karonti. aññataro bhikkhu
+heṭṭhā hutvā gopānasiṃ uccāresi. uparimena bhikkhunā duggahitā gopānasī
+heṭṭhimassa bhikkhuno matthake avatthāsi. so bhikkhu kālamakāsi. tassa
+kukkuccaṃ ahosi … pe …   "anāpatti, bhikkhu, asañciccā"ti. (22)</p>
+
+<hr>
+
+<p>
+<span class="parno">101</span>
+<a class="ms" id="p_1v_476"></a>
+tena kho pana samayena āḷavakā bhikkhū navakammaṃ karonti. aññataro bhikkhu
+heṭṭhā hutvā gopānasiṃ uccāresi. uparimo bhikkhu maraṇādhippāyo heṭṭhimassa
+bhikkhuno matthake gopānasiṃ muñci. so bhikkhu kālamakāsi … pe …   so bhikkhu na
+kālamakāsi. tassa kukkuccaṃ ahosi … pe …   "anāpatti, bhikkhu, pārājikassa; āpatti
+thullaccayassā"ti. (23 –⁠24)</p>
+<hr>
+
+<p>
+<span class="parno">102</span>
+<a class="ms" id="p_1v_477"></a>
+tena kho pana samayena āḷavakā bhikkhū navakammaṃ karontā aṭṭakaṃ bandhanti.
+aññataro bhikkhu aññataraṃ bhikkhuṃ etadavoca—  "āvuso, atraṭṭhito bandhāhī"ti.
+so tatraṭṭhito bandhanto paripatitvā kālamakāsi. tassa kukkuccaṃ ahosi … pe …
+"kiṃcitto tvaṃ, bhikkhū"ti? "nāhaṃ, bhagavā, maraṇādhippāyo"ti. "anāpatti,
+bhikkhu, namaraṇādhippāyassā"ti. (25)</p>
+<hr>
+
+<p>
+<span class="parno">103</span>
+<a class="ms" id="p_1v_478"></a>
+tena kho pana samayena āḷavakā bhikkhū navakammaṃ karontā aṭṭakaṃ bandhanti.
+aññataro bhikkhu maraṇādhippāyo aññataraṃ bhikkhuṃ etadavoca—  "āvuso,
+atraṭṭhito bandhāhī"ti. so tatraṭṭhito bandhanto paripatitvā kālamakāsi … pe …
+paripatitvā na kālamakāsi. tassa kukkuccaṃ ahosi … pe …   "anāpatti, bhikkhu,
+pārājikassa; āpatti thullaccayassā"ti. (26 –⁠27)</p>
+<hr>
+
+<p>
+<span class="parno">104</span>
+<a class="ms" id="p_1v_479"></a>
+tena kho pana samayena aññataro bhikkhu vihāraṃ chādetvā otarati. aññataro
+bhikkhu taṃ bhikkhuṃ etadavoca—  "āvuso, ito otarāhī"ti. so tena otaranto
+paripatitvā kālamakāsi. tassa kukkuccaṃ ahosi … pe …   "anāpatti, bhikkhu,
+namaraṇādhippāyassā"ti. (28)</p>
+<hr>
+
+<p>
+<span class="parno">105</span>
+<a class="ms" id="p_1v_480"></a>
+tena kho pana samayena aññataro bhikkhu vihāraṃ chādetvā otarati. aññataro
+bhikkhu maraṇādhippāyo taṃ bhikkhuṃ etadavoca—  "āvuso, ito otarāhī"ti. so tena
+otaranto paripatitvā kālamakāsi … pe …   paripatitvā na kālamakāsi. tassa
+kukkuccaṃ ahosi … pe …   "anāpatti, bhikkhu, pārājikassa; āpatti thullaccayassā"ti.
+(29 –⁠30)</p>
+
+<hr>
+
+<p>
+<span class="parno">106</span>
+<a class="ms" id="p_1v_481"></a>
+tena kho pana samayena aññataro bhikkhu anabhiratiyā pīḷito gijjhakūṭaṃ
+pabbataṃ abhiruhitvā papāte papatanto aññataraṃ vilīvakāraṃ ottharitvā māresi.
+tassa kukkuccaṃ ahosi … pe …   "anāpatti, bhikkhu, pārājikassa. na ca, bhikkhave,
+attānaṃ pātetabbaṃ. yo pāteyya, āpatti dukkaṭassā"ti. (31)</p>
+
+<hr>
+
+<p>
+<span class="parno">107</span>
+<a class="ms" id="p_1v_482"></a>
+tena kho pana samayena chabbaggiyā bhikkhū gijjhakūṭaṃ pabbataṃ abhiruhitvā
+davāya silaṃ pavijjhiṃsu. sā aññataraṃ gopālakaṃ ottharitvā māresi. tesaṃ
+kukkuccaṃ ahosi … pe …   "anāpatti, bhikkhave, pārājikassa. na ca, bhikkhave,
+davāya silā pavijjhitabbā. yo pavijjheyya, āpatti dukkaṭassā"ti. (32)</p>
+<hr>
+
+<p>
+<span class="parno">108</span>
+<a class="ms" id="p_1v_483"></a>
+<a class="msdiv" id="msdiv184"></a>
+tena kho pana samayena aññataro bhikkhu gilāno hoti. taṃ bhikkhū sedesuṃ. so
+bhikkhu kālamakāsi. tesaṃ kukkuccaṃ ahosi … pe …   "anāpatti, bhikkhave,
+namaraṇādhippāyassā"ti. (33)</p>
+<hr>
+
+<p>
+<span class="parno">109</span>
+<a class="ms" id="p_1v_484"></a>
+tena kho pana samayena aññataro bhikkhu gilāno hoti. taṃ bhikkhū maraṇādhippāyā
+sedesuṃ. so bhikkhu kālamakāsi. … pe …   so bhikkhu na kālamakāsi. tesaṃ
+kukkuccaṃ ahosi … pe …   "anāpatti, bhikkhave, pārājikassa; āpatti
+thullaccayassā"ti. (34 –⁠35)</p>
+
+<hr>
+
+<p>
+<span class="parno">110</span>
+<a class="ms" id="p_1v_485"></a>
+tena kho pana samayena aññatarassa bhikkhuno sīsābhitāpo hoti. tassa bhikkhū
+natthuṃ adaṃsu. so bhikkhu kālamakāsi. tesaṃ kukkuccaṃ ahosi … pe …   "anāpatti,
+bhikkhave, namaraṇādhippāyassā"ti. (36)</p>
+
+<hr>
+
+<p>
+<span class="parno">111</span>
+<a class="ms" id="p_1v_486"></a>
+tena kho pana samayena aññatarassa bhikkhuno sīsābhitāpo hoti. tassa bhikkhū
+maraṇādhippāyā natthuṃ adaṃsu. so bhikkhu kālamakāsi … pe …   so bhikkhu na
+kālamakāsi. tesaṃ kukkuccaṃ ahosi … pe …   "anāpatti, bhikkhave, pārājikassa;
+āpatti thullaccayassā"ti. (37 –⁠38)</p>
+
+<hr>
+
+<p>
+<span class="parno">112</span>
+<a class="ms" id="p_1v_487"></a>
+tena kho pana samayena aññataro bhikkhu gilāno hoti. taṃ bhikkhū sambāhesuṃ. so
+bhikkhu kālamakāsi. tesaṃ kukkuccaṃ ahosi … pe …   "anāpatti, bhikkhave,
+namaraṇādhippāyassā"ti. (39)</p>
+
+<p>
+<span class="parno">113</span>
+<a class="ms" id="p_1v_488"></a>
+tena kho pana samayena aññataro bhikkhu gilāno hoti. taṃ bhikkhū maraṇādhippāyā
+sambāhesuṃ. so bhikkhu kālamakāsi … pe …   so bhikkhu na kālamakāsi. tesaṃ
+kukkuccaṃ ahosi … pe …   "anāpatti, bhikkhave, pārājikassa; āpatti
+thullaccayassā"ti. (40 –⁠41)</p>
+
+<hr>
+
+<p>
+<span class="parno">114</span>
+<a class="ms" id="p_1v_489"></a>
+tena kho pana samayena aññataro bhikkhu gilāno hoti. taṃ bhikkhū nhāpesuṃ. so
+bhikkhu kālamakāsi. tesaṃ kukkuccaṃ ahosi … pe …   "anāpatti, bhikkhave,
+namaraṇādhippāyassā"ti. (42)</p>
+
+<p>
+<span class="parno">115</span>
+<a class="ms" id="p_1v_490"></a>
+tena kho pana samayena aññataro bhikkhu gilāno hoti. taṃ bhikkhū maraṇādhippāyā
+nhāpesuṃ. so bhikkhu kālamakāsi … pe …   so bhikkhu na kālamakāsi. tesaṃ kukkuccaṃ
+ahosi … pe …   "anāpatti, bhikkhave, pārājikassa; āpatti thullaccayassā"ti.
+(43 –⁠44)</p>
+
+<hr>
+
+<p>
+<span class="parno">116</span>
+<a class="ms" id="p_1v_491"></a>
+tena kho pana samayena aññataro bhikkhu gilāno hoti. taṃ bhikkhū telena
+abbhañjiṃsu. so bhikkhu kālamakāsi. tesaṃ kukkuccaṃ ahosi … pe …   "anāpatti,
+bhikkhave, namaraṇādhippāyassā"ti. (45)</p>
+
+<p>
+<span class="parno">117</span>
+<a class="ms" id="p_1v_492"></a>
+tena kho pana samayena aññataro bhikkhu gilāno hoti. taṃ bhikkhū maraṇādhippāyā
+telena abbhañjiṃsu. so bhikkhu kālamakāsi … pe …   so bhikkhu na kālamakāsi. tesaṃ
+kukkuccaṃ ahosi … pe …   "anāpatti, bhikkhave, pārājikassa; āpatti
+thullaccayassā"ti. (46 –⁠47)</p>
+
+<hr>
+
+<p>
+<span class="parno">118</span>
+<a class="ms" id="p_1v_493"></a>
+<a class="msdiv" id="msdiv185"></a>
+tena kho pana samayena aññataro bhikkhu gilāno hoti. taṃ bhikkhū uṭṭhāpesuṃ. so
+bhikkhu kālamakāsi. tesaṃ kukkuccaṃ ahosi … pe …   "anāpatti, bhikkhave,
+namaraṇādhippāyassā"ti. (48)</p>
+
+<p>
+<span class="parno">119</span>
+<a class="ms" id="p_1v_494"></a>
+tena kho pana samayena aññataro bhikkhu gilāno hoti. taṃ bhikkhū maraṇādhippāyā
+uṭṭhāpesuṃ. so bhikkhu kālamakāsi … pe …   so bhikkhu na kālamakāsi. tesaṃ
+kukkuccaṃ ahosi … pe …   "anāpatti, bhikkhave, pārājikassa; āpatti
+thullaccayassā"ti. (49 –⁠50)</p>
+
+<hr>
+
+<p>
+<span class="parno">120</span>
+<a class="ms" id="p_1v_495"></a>
+tena kho pana samayena aññataro bhikkhu gilāno hoti. taṃ bhikkhū nipātesuṃ. so
+bhikkhu kālamakāsi. tesaṃ kukkuccaṃ ahosi … pe …   "anāpatti, bhikkhave,
+namaraṇādhippāyassā"ti. (51)</p>
+
+<p>
+<span class="parno">121</span>
+<a class="ms" id="p_1v_496"></a>
+tena kho pana samayena aññataro bhikkhu gilāno hoti. taṃ bhikkhū maraṇādhippāyā
+nipātesuṃ. so bhikkhu kālamakāsi … pe …   so bhikkhu na kālamakāsi. tesaṃ
+kukkuccaṃ ahosi … pe …   "anāpatti, bhikkhave, pārājikassa; āpatti
+thullaccayassā"ti. (52 –⁠53)</p>
+
+<hr>
+
+<p>
+<span class="parno">122</span>
+<a class="ms" id="p_1v_497"></a>
+tena kho pana samayena aññataro bhikkhu gilāno hoti. tassa bhikkhū annaṃ
+adaṃsu. so bhikkhu kālamakāsi. tesaṃ kukkuccaṃ ahosi … pe …   "anāpatti, bhikkhave,
+namaraṇādhippāyassā"ti. (54)</p>
+
+<p>
+<span class="parno">123</span>
+<a class="ms" id="p_1v_498"></a>
+tena kho pana samayena aññataro bhikkhu gilāno hoti. tassa bhikkhū
+maraṇādhippāyā annaṃ adaṃsu. so bhikkhu kālamakāsi … pe …   so bhikkhu na
+kālamakāsi. tesaṃ kukkuccaṃ ahosi … pe …   "anāpatti, bhikkhave, pārājikassa;
+āpatti thullaccayassā"ti. (55 –⁠56)</p>
+
+<p>
+<span class="parno">124</span>
+<a class="ms" id="p_1v_499"></a>
+tena kho pana samayena aññataro bhikkhu gilāno hoti. tassa bhikkhu pānaṃ
+adaṃsu. so bhikkhu kālamakāsi. tesaṃ kukkuccaṃ ahosi … pe …   "anāpatti, bhikkhave,
+namaraṇādhippāyassā"ti. (57)</p>
+
+<p>
+<span class="parno">125</span>
+<a class="ms" id="p_1v_500"></a>
+tena kho pana samayena aññataro bhikkhu gilāno hoti. tassa bhikkhū
+maraṇādhippāyā pānaṃ adaṃsu. so bhikkhu kālamakāsi … pe …   so bhikkhu na
+kālamakāsi. tesaṃ kukkuccaṃ ahosi … pe …   "anāpatti, bhikkhave, pārājikassa;
+āpatti thullaccayassā"ti. (58 –⁠59)</p>
+
+<hr>
+
+<p>
+<span class="parno">126</span>
+<a class="ms" id="p_1v_501"></a>
+<a class="msdiv" id="msdiv186"></a>
+tena kho pana samayena aññatarā itthī pavutthapatikā jārena gabbhinī hoti. sā
+kulūpakaṃ bhikkhuṃ etadavoca—  "inghāyya, gabbhapātanaṃ jānāhī"ti. "suṭṭhu,
+bhaginī"ti tassā gabbhapātanaṃ adāsi. dārako kālamakāsi. tassa kukkuccaṃ
+ahosi … pe …   "āpattiṃ tvaṃ, bhikkhu, āpanno pārājikan"ti. (60)</p>
+
+<p>
+<span class="parno">127</span>
+<a class="ms" id="p_1v_502"></a>
+tena kho pana samayena aññatarassa purisassa dve pajāpatiyo honti—  ekā vañjhā,
+ekā vijāyinī. vañjhā itthī kulūpakaṃ bhikkhuṃ etadavoca—  "sace sā, bhante,
+vijāyissati sabbassa kuṭumbassa issarā bhavissati. inghāyya, tassā
+gabbhapātanaṃ jānāhī"ti. "suṭṭhu, bhaginī"ti tassā gabbhapātanaṃ adāsi. dārako
+kālamakāsi, mātā na kālamakāsi. tassa kukkuccaṃ ahosi … pe …   "āpattiṃ tvaṃ,
+bhikkhu, āpanno pārājikan"ti. (61)</p>
+
+<hr>
+
+<p>
+<span class="parno">128</span>
+<a class="ms" id="p_1v_503"></a>
+tena kho pana samayena aññatarassa purisassa dve pajāpatiyo honti—  ekā vañjhā,
+ekā vijāyinī. vañjhā itthī kulūpakaṃ bhikkhuṃ etadavoca—  "sace sā, bhante,
+vijāyissati sabbassa kuṭumbassa issarā bhavissati. inghāyya, tassā
+gabbhapātanaṃ jānāhī"ti. "suṭṭhu, bhaginī"ti tassā gabbhapātanaṃ adāsi. mātā
+kālamakāsi, dārako na kālamakāsi. tassa kukkuccaṃ ahosi … pe …   "anāpatti,
+bhikkhu, pārājikassa; āpatti thullaccayassā"ti. (62)</p>
+<hr>
+
+<p>
+<span class="parno">129</span>
+<a class="ms" id="p_1v_504"></a>
+tena kho pana samayena aññatarassa purisassa dve pajāpatiyo honti—  ekā vañjhā,
+ekā vijāyinī. vañjhā itthī kulūpakaṃ bhikkhuṃ etadavoca—  "sace sā, bhante,
+vijāyissati sabbassa kuṭumbassa issarā bhavissati. inghāyya, tassā
+gabbhapātanaṃ jānāhī"ti. "suṭṭhu, bhaginī"ti tassā gabbhapātanaṃ adāsi. ubho
+kālamakaṃsu … pe …   ubho na kālamakaṃsu. tassa kukkuccaṃ ahosi … pe …   "anāpatti,
+bhikkhu, pārājikassa; āpatti thullaccayassā"ti. (63 –⁠64)</p>
+<hr>
+
+<p>
+<span class="parno">130</span>
+<a class="ms" id="p_1v_505"></a>
+<a class="msdiv" id="msdiv187"></a>
+tena kho pana samayena aññatarā gabbhinī itthī kulūpakaṃ bhikkhuṃ etadavoca—
+"inghāyya, gabbhapātanaṃ jānāhī"ti. "tena hi, bhagini, maddassū"ti. sā
+maddāpetvā gabbhaṃ pātesi. tassa kukkuccaṃ ahosi … pe …   "āpattiṃ tvaṃ, bhikkhu,
+āpanno pārājikan"ti. (65)</p>
+<hr>
+
+<p>
+<span class="parno">131</span>
+<a class="ms" id="p_1v_506"></a>
+tena kho pana samayena aññatarā gabbhinī itthī kulūpakaṃ bhikkhuṃ etadavoca—
+"inghāyya, gabbhapātanaṃ jānāhī"ti. "tena hi, bhagini, tāpehī"ti. sā tāpetvā
+gabbhaṃ pātesi. tassa kukkuccaṃ ahosi … pe …   "āpattiṃ tvaṃ, bhikkhu, āpanno
+pārājikan"ti. (66)</p>
+<hr>
+
+<p>
+<span class="parno">132</span>
+<a class="ms" id="p_1v_507"></a>
+tena kho pana samayena aññatarā vañjhā itthī kulūpakaṃ bhikkhuṃ etadavoca—
+"inghāyya, bhesajjaṃ jānāhi yenāhaṃ vijāyeyyan"ti. "suṭṭhu, bhaginī"ti tassā
+bhesajjaṃ adāsi. sā kālamakāsi. tassa kukkuccaṃ ahosi … pe …   "anāpatti, bhikkhu,
+pārājikassa; āpatti dukkaṭassā"ti. (67)</p>
+<hr>
+
+<p>
+<span class="parno">133</span>
+<a class="ms" id="p_1v_508"></a>
+tena kho pana samayena aññatarā vijāyinī itthī kulūpakaṃ bhikkhuṃ etadavoca—
+"inghāyya, bhesajjaṃ jānāhi yenāhaṃ na vijāyeyyan"ti. "suṭṭhu, bhaginī"ti tassā
+bhesajjaṃ adāsi. sā kālamakāsi. tassa kukkuccaṃ ahosi … pe …   "anāpatti, bhikkhu,
+pārājikassa; āpatti dukkaṭassā"ti. (68)</p>
+
+<hr>
+
+<p>
+<span class="parno">134</span>
+<a class="ms" id="p_1v_509"></a>
+tena kho pana samayena chabbaggiyā bhikkhū sattarasavaggiyaṃ bhikkhuṃ
+angulipatodakena hāsesuṃ. so bhikkhu uttanto anassāsako kālamakāsi. tesaṃ
+kukkuccaṃ ahosi … pe …   "anāpatti, bhikkhave, pārājikassā"ti. (69)</p>
+<hr>
+
+<p>
+<span class="parno">135</span>
+<a class="ms" id="p_1v_510"></a>
+tena kho pana samayena sattarasavaggiyā bhikkhū chabbaggiyaṃ bhikkhuṃ kammaṃ
+karissāmāti ottharitvā māresuṃ. tesaṃ kukkuccaṃ ahosi … pe …   "anāpatti,
+bhikkhave, pārājikassā"ti. (70)</p>
+
+<hr>
+
+<p>
+<span class="parno">136</span>
+<a class="ms" id="p_1v_511"></a>
+tena kho pana samayena aññataro bhūtavejjako bhikkhu yakkhaṃ jīvitā voropesi.
+tassa kukkuccaṃ ahosi … pe …   "anāpatti, bhikkhu, pārājikassa; āpatti
+thullaccayassā"ti. (71)</p>
+<hr>
+
+<p>
+<span class="parno">137</span>
+<a class="ms" id="p_1v_512"></a>
+tena kho pana samayena aññataro bhikkhu aññataraṃ bhikkhuṃ vāḷayakkhavihāraṃ
+pāhesi. taṃ yakkhā jīvitā voropesuṃ. tassa kukkuccaṃ ahosi … pe …   "anāpatti,
+bhikkhu, namaraṇādhippāyassā"ti. (72)</p>
+<hr>
+
+<p>
+<span class="parno">138</span>
+<a class="ms" id="p_1v_513"></a>
+tena kho pana samayena aññataro bhikkhu maraṇādhippāyo aññataraṃ bhikkhuṃ
+vāḷayakkhavihāraṃ pāhesi. taṃ yakkhā jīvitā voropesuṃ … pe …   taṃ yakkhā jīvitā na
+voropesuṃ. tassa kukkuccaṃ ahosi … pe …   "anāpatti, bhikkhu, pārājikassa; āpatti
+thullaccayassā"ti. (73 –⁠74)</p>
+
+<hr>
+
+<p>
+<span class="parno">139</span>
+<a class="ms" id="p_1v_514"></a>
+tena kho pana samayena aññataro bhikkhu aññataraṃ bhikkhuṃ vāḷakantāraṃ pāhesi.
+taṃ vāḷā jīvitā voropesuṃ. tassa kukkuccaṃ ahosi … pe …   "anāpatti, bhikkhu,
+namaraṇādhippāyassā"ti. (75)</p>
+
+<p>
+<span class="parno">140</span>
+<a class="ms" id="p_1v_515"></a>
+tena kho pana samayena aññataro bhikkhu maraṇādhippāyo aññataraṃ bhikkhuṃ
+vāḷakantāraṃ pāhesi. taṃ vāḷā jīvitā voropesuṃ … pe …   taṃ vāḷā jīvitā na
+voropesuṃ. tassa kukkuccaṃ ahosi … pe …   "anāpatti, bhikkhu, pārājikassa; āpatti
+thullaccayassā"ti. (76 –⁠77)</p>
+
+<p>
+<span class="parno">141</span>
+<a class="ms" id="p_1v_516"></a>
+tena kho pana samayena aññataro bhikkhu aññataraṃ bhikkhuṃ corakantāraṃ pāhesi.
+taṃ corā jīvitā voropesuṃ. tassa kukkuccaṃ ahosi … pe …   "anāpatti, bhikkhu,
+namaraṇādhippāyassā"ti. (78)</p>
+
+<p>
+<span class="parno">142</span>
+<a class="ms" id="p_1v_517"></a>
+tena kho pana samayena aññataro bhikkhu maraṇādhippāyo aññataraṃ bhikkhuṃ
+corakantāraṃ pāhesi. taṃ corā jīvitā voropesuṃ … pe …   taṃ corā jīvitā na
+voropesuṃ. tassa kukkuccaṃ ahosi … pe …   "anāpatti, bhikkhu, pārājikassa; āpatti
+thullaccayassā"ti. (79 –⁠80)</p>
+
+<hr>
+
+<p>
+<span class="parno">143</span>
+<a class="ms" id="p_1v_518"></a>
+<a class="msdiv" id="msdiv188"></a>
+tena kho pana samayena aññataro bhikkhu taṃ maññamāno taṃ jīvitā voropesi … pe …
+taṃ maññamāno aññaṃ jīvitā voropesi … pe …   aññaṃ maññamāno taṃ jīvitā
+voropesi … pe …   aññaṃ maññamāno aññaṃ jīvitā voropesi. tassa kukkuccaṃ ahosi … pe …
+"āpattiṃ tvaṃ, bhikkhu, āpanno pārājikan"ti. (81 –⁠84)</p>
+<hr>
+
+<p>
+<span class="parno">144</span>
+<a class="ms" id="p_1v_519"></a>
+tena kho pana samayena aññataro bhikkhu amanussena gahito hoti. aññataro
+bhikkhu tassa bhikkhuno pahāraṃ adāsi. so bhikkhu kālamakāsi. tassa kukkuccaṃ
+ahosi … pe …   "anāpatti, bhikkhu, namaraṇādhippāyassā"ti. (85)</p>
+<hr>
+
+<p>
+<span class="parno">145</span>
+<a class="ms" id="p_1v_520"></a>
+tena kho pana samayena aññataro bhikkhu amanussena gahito hoti. aññataro
+bhikkhu maraṇādhippāyo tassa bhikkhuno pahāraṃ adāsi. so bhikkhu kālamakāsi … pe …
+so bhikkhu na kālamakāsi. tassa kukkuccaṃ ahosi … pe …   "anāpatti, bhikkhu,
+pārājikassa; āpatti thullaccayassā"ti. (86 –⁠87)</p>
+<hr>
+
+<p>
+<span class="parno">146</span>
+<a class="ms" id="p_1v_521"></a>
+tena kho pana samayena aññataro bhikkhu kalyāṇakammassa saggakathaṃ kathesi. so
+adhimutto kālamakāsi. tassa kukkuccaṃ ahosi … pe …   "anāpatti, bhikkhu,
+namaraṇādhippāyassā"ti. (88)</p>
+<hr>
+
+<p>
+<span class="parno">147</span>
+<a class="ms" id="p_1v_522"></a>
+tena kho pana samayena aññataro bhikkhu maraṇādhippāyo kalyāṇakammassa
+saggakathaṃ kathesi. so adhimutto kālamakāsi … pe …   so adhimutto na kālamakāsi.
+tassa kukkuccaṃ ahosi … pe …   "anāpatti, bhikkhu, pārājikassa; āpatti
+thullaccayassā"ti. (89 –⁠90)</p>
+
+<hr>
+
+<p>
+<span class="parno">148</span>
+<a class="ms" id="p_1v_523"></a>
+tena kho pana samayena aññataro bhikkhu nerayikassa nirayakathaṃ kathesi. so
+uttasitvā kālamakāsi. tassa kukkuccaṃ ahosi … pe …   "anāpatti, bhikkhu,
+namaraṇādhippāyassā"ti. (91)</p>
+
+<p>
+<span class="parno">149</span>
+<a class="ms" id="p_1v_524"></a>
+tena kho pana samayena aññataro bhikkhu maraṇādhippāyo nerayikassa nirayakathaṃ
+kathesi. so uttasitvā kālamakāsi … pe …   so uttasitvā na kālamakāsi. tassa
+kukkuccaṃ ahosi … pe …   "anāpatti, bhikkhu, pārājikassa; āpatti thullaccayassā"ti.
+(92 –⁠93)</p>
+
+<hr>
+
+<p>
+<span class="parno">150</span>
+<a class="ms" id="p_1v_525"></a>
+<a class="msdiv" id="msdiv189"></a>
+tena kho pana samayena āḷavakā bhikkhū navakammaṃ karontā rukkhaṃ chindanti.
+aññataro bhikkhu aññataraṃ bhikkhuṃ etadavoca—  "āvuso, atraṭṭhito chindāhī"ti.
+taṃ tatraṭṭhitaṃ chindantaṃ rukkho ottharitvā māresi. tassa kukkuccaṃ
+ahosi … pe …   "anāpatti, bhikkhu, namaraṇādhippāyassā"ti. (94)</p>
+
+<p>
+<span class="parno">151</span>
+<a class="ms" id="p_1v_526"></a>
+tena kho pana samayena āḷavakā bhikkhū navakammaṃ karontā rukkhaṃ chindanti.
+aññataro bhikkhu maraṇādhippāyo aññataraṃ bhikkhuṃ etadavoca—  "āvuso,
+atraṭṭhito chindāhī"ti. taṃ tatraṭṭhitaṃ chindantaṃ rukkho ottharitvā
+māresi … pe …   rukkho ottharitvā na māresi. tassa kukkuccaṃ ahosi … pe …   "anāpatti,
+bhikkhu, pārājikassa; āpatti thullaccayassā"ti. (95 –⁠96)</p>
+
+<hr>
+
+<p>
+<span class="parno">152</span>
+<a class="ms" id="p_1v_527"></a>
+<a class="msdiv" id="msdiv190"></a>
+tena kho pana samayena chabbaggiyā bhikkhū dāyaṃ ālimpesuṃ; manussā daḍḍhā
+kālamakaṃsu. tesaṃ kukkuccaṃ ahosi … pe …   "anāpatti, bhikkhave,
+namaraṇādhippāyassā"ti. (97)</p>
+
+<p>
+<span class="parno">153</span>
+<a class="ms" id="p_1v_528"></a>
+tena kho pana samayena chabbaggiyā bhikkhū maraṇādhippāyā dāyaṃ ālimpesuṃ.
+manussā daḍḍhā kālamakaṃsu … pe …   manussā daḍḍhā na kālamakaṃsu. tesaṃ kukkuccaṃ
+ahosi … pe …   "anāpatti, bhikkhave, pārājikassa; āpatti thullaccayassā"ti.
+(98 –⁠99)</p>
+
+<hr>
+
+<p>
+<span class="parno">154</span>
+<a class="ms" id="p_1v_529"></a>
+<a class="msdiv" id="msdiv191"></a>
+tena kho pana samayena aññataro bhikkhu āghātanaṃ gantvā coraghātaṃ etadavoca—
+"āvuso, māyimaṃ kilamesi. ekena pahārena jīvitā voropehī"ti. "suṭṭhu,
+bhante"ti ekena pahārena jīvitā voropesi. tassa kukkuccaṃ ahosi … pe …   "āpattiṃ
+tvaṃ, bhikkhu, āpanno pārājikan"ti. (100)</p>
+<hr>
+
+<p>
+<span class="parno">155</span>
+<a class="ms" id="p_1v_530"></a>
+tena kho pana samayena aññataro bhikkhu āghātanaṃ gantvā coraghātaṃ etadavoca—
+"āvuso, māyimaṃ kilamesi. ekena pahārena jīvitā voropehī"ti. so—  "nāhaṃ
+tuyhaṃ vacanaṃ karissāmī"ti taṃ jīvitā voropesi. tassa kukkuccaṃ ahosi … pe …
+"anāpatti, bhikkhu, pārājikassa; āpatti dukkaṭassā"ti. (101)</p>
+<hr>
+
+<p>
+<span class="parno">156</span>
+<a class="ms" id="p_1v_531"></a>
+<a class="msdiv" id="msdiv192"></a>
+tena kho pana samayena aññataro puriso ñātighare hatthapādacchinno ñātakehi
+samparikiṇṇo hoti. aññataro bhikkhu te manusse etadavoca—  "āvuso, icchatha
+imassa maraṇan"ti? "āma, bhante, icchāmā"ti. "tena hi takkaṃ pāyethā"ti. te taṃ
+takkaṃ pāyesuṃ. so kālamakāsi. tassa kukkuccaṃ ahosi … pe …   "āpattiṃ tvaṃ,
+bhikkhu, āpanno pārājikan"ti. (102)</p>
+
+<hr>
+
+<p>
+<span class="parno">157</span>
+<a class="ms" id="p_1v_532"></a>
+tena kho pana samayena aññataro puriso kulaghare hatthapādacchinno ñātakehi
+samparikiṇṇo hoti. aññatarā bhikkhunī te manusse etadavoca—  "āvuso, icchatha
+imassa maraṇan"ti? "āmāyye, icchāmā"ti. "tena hi loṇasovīrakaṃ pāyethā"ti. te
+taṃ loṇasovīrakaṃ pāyesuṃ. so kālamakāsi. tassā kukkuccaṃ ahosi … pe …  . atha kho
+sā bhikkhunī bhikkhunīnaṃ etamatthaṃ ārocesi. bhikkhuniyo bhikkhūnaṃ etamatthaṃ
+ārocesuṃ. bhikkhū bhagavato etamatthaṃ ārocesuṃ. "āpattiṃ sā, bhikkhave,
+bhikkhunī āpannā pārājikan"ti. (103)</p>
+
+<hr>
+<p class="endsutta">
+<span class="parno">158</span>
+<a class="ms" id="p_1v_533"></a>
+tatiyapārājikaṃ samattaṃ.</p>
+
+</div><!--End Pali-->
+
+<div id="nextprev"><a id="previous-sutta" href="../vi/bi-vb-pj2.html"></a><a id="next-sutta" href="../vi/bi-vb-pj4.html"></a></div>
+</section>
+</div><!--content-->
+<footer>
+<div id="breadcrumbs">
+<a href="../home/index.html">Home</a><a href="../vi/vi.html">Vinaya Pitaka</a><a href="../vi/bi-vb.html">Bhikkhuni Vibhanga</a><a href="../vi/bi-vb-pj.html">Pārājikas</a>Pārājika 3
+</div>
+<a id="bottom"></a>
+</footer>
+<script src="../js/footer.js"></script>
+</div><!--container-->
+</body>
+</html>
