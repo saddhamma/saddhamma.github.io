@@ -16,7 +16,7 @@ function fontresize(newsize) {
 }
 
 var iframe = $('<iframe id="find-on-page" border=0 frameborder=0 scrolling=no>'),
-     find_html = '<style>body > * {float:left}</style><img style="width:24; height:24" src=images/findt.gif><input type=text id=text onFocus=this.value="" style=width:160><button id=next onClick=parent.findOnPage(this)>▼</button><button id=previous onClick=parent.findOnPage(this)>▲</button>';
+ find_html = '<style>body > * {float:left}</style><img style="width:24; height:24" src=images/findt.gif><input type=text id=text onFocus=this.value="" style=width:160><button id=next onClick=parent.findOnPage(this)>▼</button><button id=previous onClick=parent.findOnPage(this)>▲</button>';
 $('.header').append(iframe)
 $(document).ready(function(){
 	$(iframe.contents()[0].body).html(find_html)
