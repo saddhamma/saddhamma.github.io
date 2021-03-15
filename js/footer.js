@@ -1,5 +1,5 @@
-/* This file contains everything which needs to happen at the end of 
- * loading the main contents 
+/* This file contains everything which needs to happen at the end of
+ * loading the main contents
  */
 
 DEBUGGERIZE = false;
@@ -38,7 +38,7 @@ function insignificant(e){
 	if (text.length >= 200) return false;
 	var m = text.match(/[.!?:]/g),
 		periodCount = m ? m.length : 0;
-	
+
 	return (periodCount <= 1)
 }
 
@@ -72,11 +72,11 @@ function groupy(collection){
  * new group) unless excludeMatching is true.
  */
 function arraySplit(array, splitFn, excludeMatching){
- 
+
  var current = [],
  out = [current],
  carrying = false;
- 
+
  for (i = 0; i < array.length; i++){
  var e = array[i], matches = splitFn(e);
  if (matches){
@@ -108,7 +108,7 @@ sectionNum = 0;
 
 function extraporlativeSplice(en, pi, table) {
  sectionNum++;
- 
+
  var tr,
  entd,
  pitd;
@@ -160,7 +160,7 @@ function extraporlativeSplice(en, pi, table) {
  function quality(v){
  if (v > 1) return 1 / v;
  else return v;
- } 
+ }
 
  var enStack,
  piStack;
@@ -186,7 +186,7 @@ function extraporlativeSplice(en, pi, table) {
   }
   break
  }
- 
+
  overallRatio = calculateOverallRatio();
  if (DEBUGGERIZE){
   console.log('The overall ratio is '+overallRatio);
@@ -204,10 +204,10 @@ function extraporlativeSplice(en, pi, table) {
 
  enStack.push(enIndex);
  enIndex ++;
- 
+
  piStack.push(piIndex);
  piIndex ++;
- 
+
  var ratio = calculateRatio(enStack, piStack);
  var bestQuality = quality(ratio);
 
@@ -219,7 +219,7 @@ function extraporlativeSplice(en, pi, table) {
   //continue.
   break;
   }
-  
+
   piStack.push(piIndex);
   piIndex ++;
   ratio = calculateRatio(enStack, piStack);
@@ -256,7 +256,7 @@ function extraporlativeSplice(en, pi, table) {
  entd.append(enStack.map(function(i){return en[i]}));
  pitd.append(piStack.map(function(i){return pi[i]}));
  }
- 
+
  return
 }
 
@@ -273,7 +273,7 @@ function splice(en, pi, table){
   return $('<td lang=pi>').append(g);
  }),
  i = 0;
- 
+
  while (true) {
  var tr = $('<tr>'),
   en = en_tds.shift(),
@@ -310,7 +310,7 @@ function groupAdjacent(elements, wrapper, wrapall){
  var wrap = $(wrapper);
  $(group[0]).replaceWith(wrap);
  wrap.append(group);
- 
+
  })
 }
 
@@ -318,17 +318,17 @@ function alignedSplicer(section, table, selector){
  if (!selector) selector = 'hr';
 
  // Group section dividers
- 
+
  groupAdjacent(
  section.find('div[lang=pi], div[lang=en]').children(sectionDivSelector),
  '<div class=glob>')
- 
+
  var pi = section.find('div[lang=pi] > *');
  var en = section.find('div[lang=en] > *');
 
  en.filter(sectionDivHiddenSelector).show();
  pi.filter(sectionDivHiddenSelector).show();
- 
+
 
  var splitFn = function(e) {
  return $(e).is(selector);
@@ -340,7 +340,7 @@ function alignedSplicer(section, table, selector){
  console.log(msg)
  }
  if (pies.length != ensies.length) {
- 
+
  /*pies = [pi.toArray()];
  ensies = [en.toArray()];*/
  }
@@ -360,7 +360,7 @@ $(document).ready(function(){
  alignedSplicer($(this), table, sectionDivSelector);
  });
  table.find('td[lang=pi]').hide()
- 
+
  $('#content').append(table)
  /* Set an appropriate caption */
  var h1 = $('h1').first();
@@ -370,10 +370,10 @@ $(document).ready(function(){
  table.prepend(caption)
 
  $('tr').each(function(){
- 
+
 
  });
- 
+
  // On load retrieve the state of pali visibility from localStorage
  // which defaults to null (falsely) if it's never been set.
  setPaliVisibility(paliVisible);
@@ -389,7 +389,7 @@ if ($('.raw_sutta div[lang=pi] > *').length == 0) {
 function loadPaliLookup(){
  if ($('.lookup').length == 0) {
  jQuery.ajax({
-  url: '../js/pali-lookup-standalone.js', 
+  url: '../js/pali-lookup-standalone.js',
   dataType: "script",
   success: function(){enablePaliLookup()},
   crossDomain:true});
@@ -401,7 +401,7 @@ function setPaliVisibility(state) {
  $('td:nth-child(2)').show();
 		$('#pali').addClass('active');
  loadPaliLookup();
-		
+
  } else {
  $('td:nth-child(2)').hide();
 		$('#pali').removeClass('active')
@@ -433,10 +433,10 @@ function fontresize(newsize) {
  $('p').attr('style', 'font-size: ' + newsize + '%');
 	 }
 
-// removed '/' (newline) between the up- and down-arrows 
+// removed '/' (newline) between the up- and down-arrows
 
 var find_box = $('<div id="find-on-page">');
-find_box.html('<img src=../images/find.gif>\
+find_box.html('<img src=../images/find.png>\
 <input type=text id=find_string>\
 <button id=next>▼</button><button id=previous>▲</button>');
 
@@ -470,7 +470,7 @@ var findOnPage = {
 		if (string.length < 3) return;
 		self.running = true;
 		self.clear();
-			
+
 		string = string.replace(/a/gi, '[aā]')
 					 .replace(/i/gi, '[iī]')
 					 .replace(/u/gi, '[uū]')
@@ -480,9 +480,9 @@ var findOnPage = {
 					 .replace(/d/gi, '[dḍ]')
 					 .replace(/l/gi, '[lḷ]')
 		self.rex = RegExp(string, 'gi');
-			
+
 		targets = $(findTargetSelector);
-		
+
 		for (var i = 0; i < targets.length; i++){
 			self.findInElement(targets[i]);
 		}
@@ -535,7 +535,7 @@ var findOnPage = {
 		} else {
 			$('#previous').removeAttr('disabled');
 		}
-			
+
 		if (self.place >= self.matches.length - 1) {
 			$('#next').attr('disabled', 'disabled');
 			self.place = self.matches.length - 1;
@@ -560,7 +560,7 @@ var findOnPage = {
 		self.place = -1;
 		self.matches = [];
 		self.updateCurrent();
-		
+
 	},
 	find: function(string){
 		var self=findOnPage;
@@ -586,7 +586,7 @@ var findOnPage = {
 	},
 	init: function(){
 		var self = findOnPage;
-		
+
 		$('#find_string').on('focus', function(){
 				this.value = "";
 				self.clear();
