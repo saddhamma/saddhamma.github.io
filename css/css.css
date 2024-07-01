@@ -292,11 +292,11 @@ footer {
 	position: relative;
 	z-index: 2;
 	font-family: Arial, Helvetica, sans-serif;
-	color: black;
+	color: orange;
 	margin-top: 18px;
 	margin-left: 10px; /* 15px; */
 	font-weight: bold;
-	font-size: 150%; /* 150%; */
+	font-size: 120%; /* 150%; */
 	width: 145px;
 	text-decoration: none;
 	}
