@@ -1,176 +1,334 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<link rel="icon" type="image/x-icon" href="../images/buddha.jpg">
-<title>Anguttara Nikāya  9.4</title>
-</head>
-<body>
-<div id="container">
-<header>
-<script src="../js/jquery-1.10.2.min.js"></script>
-<link rel="stylesheet" href="../css/menu.css">
-<link rel="stylesheet" href="../css/css.css">
-<div id="eng_searchlink"> <span><a href="../home/engsearch.html" >Search English Content</a></span></div>
-<div id="pali_searchlink"> <span><a href="../home/palisearch.html" >Search Pali Content</a></span></div>
 
-<div class="logotext"><a href="../home/index.html"><span>Saddhamma Study Group</span></a></div>
-<nav>
-<div id="navbar">
-<ul id="css3menu0" >
-<li class="topfirst" id="home"><a href="../home/index.html">Home</a></li>
-<li class="topmenu" id="ssg"><a href="../ssg/ssg.html">↓ Study Guides</a>
-<li class="topmenu" id="dn"><a href="../dn/dn.html">Digha Nikaya</a></li>
-<li class="topmenu" id="mn"><a href="../mn/mn.html">Majjhima Nikaya</a></li>
-	<li class="topmenu" id="sn"><a href="../sn/sn.html">↓ Samyutta Nikaya</a>
-		<ul>
-		<li><a href="../sn/sn01.html">Part 1 - The Book with Verses</a></li>
-			<li><a href="../sn/sn02.html">Part 2 - The Book of Causation</a></li>
-			<li><a href="../sn/sn03.html">Part 3 - The Book of the Aggregates</a></li>
-			<li><a href="../sn/sn04.html">Part 4 - The Book of the Six Sense Bases</a></li>
-			<li><a href="../sn/sn05.html" title="Part 5 - The Great Book">Part 5 - The Great Book</a></li>
-		</ul>
-	</li>
-		<li class="topmenu" id="an"><a  class="pressed" href="../an/an.html">↓ Anguttara Nikaya</a>
-			<ul>
-			<li><a href="../an/an1.html">The Ones</a></li>
-			<li><a href="../an/an2.html">The Twos</a></li>
-			<li><a href="../an/an3.html">The Threes</a></li>
-			<li><a href="../an/an4.html">The Fours</a></li>
-			<li><a href="../an/an5.html">The Fives</a></li>
-			<li><a href="../an/an6.html">The Sixes</a></li>
-			<li><a  href="../an/an7.html">The Sevens</a></li>
-			<li><a href="../an/an8.html">The Eights</a></li>
-			<li><a class="pressed" href="../an/an9.html">The Nines</a></li>
-			<li><a href="../an/an10.html">The Tens</a></li>
-			<li><a href="../an/an11.html">The Elevens</a></li>
-			</ul>
-		</li>
-	<li class="topmenu" id="kn"><a href="../kn/kn.html">↓ Khuddaka Nikaya</a>
-			<ul>
-			<li><a href="../dhp/dhp.html" title="The Dhammapada">The Dhammapada</a></li>
-			<li><a href="../snp/snp.html">Sutta Nipata</a></li>
-			<li><a href="../ud/ud.html">Udana</a></li>
-			<li><a href="../it/it.html">Itivuttaka</a></li>
-			<li><a href="../tha/tha.html">The Theragatha</a></li>
-			<li><a href="../thi/thi.html">The Therigatha</a></li>
-			</ul>
-	<li class="toplast" id="vi"><a href="../vi/vi.html">↓ Vinaya Pitaka</a>
-		<ul>
-			<li><a href="../vi/kd.html">Khandaka</a></li>
-			<li><a href="../vi/bu-vb.html" title="Monk's Rules">Bhikkhu Vibhanga</a></li>
-			<li><a href="../vi/bu-pt.html" title="Bhikkhu Pātimokkha">Bhikkhu Pātimokkha</a></li>
-			<li><a href="../vi/bi-pt.html" title="Bhikkhunī Pātimokkha">Bhikkhunī Patimokkha</a></li>
-			<li><a href="../vi/bi-vb.html" title="Nuns Rules">Bhikkhuni Vibhanga</a></li>
-			<li><a href="../bmc/bmc.html">Buddhist Monastic Code 1</a></li>
-      <li><a href="../bmc/bmc2.html">Buddhist Monastic Code 2</a></li>
-		</ul>
-	</li>
-</ul>
-</div> <!--navbar-->
-</nav>
-<div class="controlpanel" id="controlpanel"><!--controlpanel-->
-<ul>
-	<li>
-	<ul class="inner">
-		<li><a href="#" title="Page Top" >&nbsp;▲&nbsp;</a>
-		<li class="nextprev">
-			<button class="palitoggle"
-				id="pali"
-				type="button"
-				title="Display Pali and activate Lookup Dictionary"
-				style="width:2.8em; padding: 0 2px;">Pali</button>
-		</li>
-		<li><a href="#bottom" title="Page Bottom">&nbsp;▼&nbsp;</a>
-	</ul>
-	</li>
-</ul>
-</div> <!--controlpanel-->
-</header>
-<h2>Anguttara Nikāya - The Numerical Discourses</h2>
-<div id="content">
-<div id="wb_TabMenu" style="position:relative;left:6px;top:0px;width:930px;height:36px;z-index:0;">
-<div id="TabMenu">
-<ul>
-<li><a href="../an/an1.html"><span>Ones</span></a></li>
-<li><a href="../an/an2.html"><span>Twos</span></a></li>
-<li><a href="../an/an3.html"><span>Threes</span></a></li>
-<li><a href="../an/an4.html"><span>Fours</span></a></li>
-<li><a href="../an/an5.html"><span>Fives</span></a></li>
-<li><a href="../an/an6.html"><span>Sixes</span></a></li>
-<li><a href="../an/an7.html"><span>Sevens</span></a></li>
-<li><a href="../an/an8.html"><span>Eights</span></a></li>
-<li id="active"><a href="../an/an9.html"><span>Nines</span></a></li>
-<li><a href="../an/an10.html"><span>Tens</span></a></li>
-<li><a href="../an/an11.html"><span>Elevens</span></a></li>
-</ul>
-</div></div>
-<h2>9: The Book of the Nines</h2>
-<h3>4. Nandaka</h3>
+<br>Get PDFs: <a href="../an/eBook/an9.4.biv.pdf">Side-by-side</a> | <a href="../an/eBook/an9.4.bih.pdf">Par-by-par</a> | <a href="../an/eBook/an9.4.bip.pdf">Facing pages</a> | <a href="../an/eBook/an9.4.eng.pdf">English only</a> | <a href="../an/eBook/an9.4.pli.pdf">Pali only</a>.<br></li>
 
-<div id="metaarea">
-<ul class="translator">
-<li><span>A Saddhamma Study Group translation from the Pāḷi text (coming sooner or later).</span>
-<p>For more copyright information please see: <a href="../home/copyright.html#an"here.</a></p>
-</li>
-</ul>
-</div>
+<p><span class="parno">1</span>
+ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa
+ārāme. tena kho pana samayena āyasmā nandako upaṭṭhānasālāyaṃ bhikkhū
+dhammiyā kathāya sandesseti samādapeti samuttejeti sampahaṃseti.
 
-<section class="raw_sutta">
-<div lang="en"><!--English ("en")-->
-</div>
-<div lang="pi">
+<p><span class="parno">2</span>
+atha kho bhagavā sāyanhasamayaṃ paṭisallānā vuṭṭhito yena upaṭṭhānasālā
+tenupasaṅkami. upasaṅkamitvā bahidvārakoṭṭhake aṭṭhāsi kathāpariyosānaṃ
+āgamayamāno. atha kho bhagavā kathāpariyosānaṃ viditvā ukkāsitvā aggalaṃ
+ākoṭesi. vivariṃsu kho te bhikkhu bhagavato dvāraṃ. atha kho bhagavā
+upaṭṭhānasālaṃ pāvisi. pavisitvā paññatte āsane nisīdi. nisajja kho bhagavā
+āyasmantaṃ nandakaṃ etadavoca: dīgho kho tyāyaṃ nandaka dhammapariyāyo
+bhikkhūnaṃ paṭibhāsi. api ca \footnotes{api me - machasaṃ} piṭṭhi
+āgilāyati bahidvārakoṭṭhake ṭhitassa kathāpariyosānaṃ āgamayamānassāti.
 
-<p><a id="p_17A9_40" class="ms"></a><a class="msdiv" id="msdiv_4"></a><span class="parno">1</span>
-Ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme. Tena kho pana samayena āyasmā nandako upaṭṭhānasālāyaṃ bhikkhū dhammiyā kathāya sandasseti samādapeti samuttejeti sampahaṃseti. Atha kho bhagavā sāyanhasamayaṃ paṭisallānā vuṭṭhito yenupaṭṭhānasālā tenupasankami; upasankamitvā bahidvārakoṭṭhake aṭṭhāsi kathāpariyosānaṃ āgamayamāno. Atha kho bhagavā kathāpariyosānaṃ viditvā ukkāsetvā aggaḷaṃ ākoṭesi. Vivariṃsu kho te bhikkhū bhagavato dvāraṃ.</p>
+<p><span class="parno">3</span>
+evaṃ vutte āyasmā nandako sārajjāyamānarūpo\footnotes{sārajjamānarūpo - machasaṃ} bhagavantaṃ etadavoca, na kho mayhaṃ bhante jānāma bhagavā
+bahidvārakoṭṭhake ṭhitoti. sace hi mayaṃ bhante jāneyyāma bhagavā
+bahidvārakoṭṭhake ṭhitoti ettakampi\footnotes{ettakampi dhammaṃ machasaṃ.}
+no nappaṭibhāseyyāti.
 
-<p><a id="p_17A9_41" class="ms"></a><span class="parno">2</span>
-Atha kho bhagavā upaṭṭhānasālaṃ pavisitvā paññattāsane nisīdi. Nisajja kho bhagavā āyasmantaṃ nandakaṃ etadavoca:  "dīgho kho tyāyaṃ, nandaka, dhammapariyāyo bhikkhūnaṃ paṭibhāsi. Api me piṭṭhi āgilāyati bahidvārakoṭṭhake ṭhitassa kathāpariyosānaṃ āgamayamānassā"ti.</p>
+<p><span class="parno">4</span>
+atha kho bhagavā āyasmantaṃ nandakaṃ sārajjāyamānarūpaṃ viditvā āyasmantaṃ
+nandakaṃ etadavoca: sādhu sādhu nandaka, evaṃ kho nandaka, tumhākaṃ
+patirūpaṃ kulaputtānaṃ saddhā agārasmā anagāriyaṃ pabbajitānaṃ yaṃ tumhe
+dhammiyā kathāya sannisīdeyyātha. sannipatitānaṃ vo nandaka dvayaṃ
+karaṇīyaṃ: dhammī vā kathā, ariyo vā tuṇhībhāvo.
 
-<p><a id="p_17A9_42" class="ms"></a><span class="parno">3</span>
-Evaṃ vutte, āyasmā nandako sārajjamānarūpo bhagavantaṃ etadavoca:  "na kho pana mayaṃ, bhante, jānāma ‘bhagavā bahidvārakoṭṭhake ṭhito’ti. Sace hi mayaṃ, bhante, jāneyyāma ‘bhagavā bahidvārakoṭṭhake ṭhito’ti, ettakampi () no nappaṭibhāseyyā"ti.</p>
+<p><span class="parno">5</span>
+saddho ca nandaka bhikkhu hoti no ca sīlavā, evaṃ so tenaṅgena aparipūro
+hoti. tena taṃ aṅgaṃ paripūretabbaṃ: kinnāhaṃ saddho ca assaṃ sīlavā
+cāti. yato ca kho nandaka, bhikkhu saddho ca hoti sīlavā ca, evaṃ so
+tenaṅgena paripūro hoti.
 
-<p><a id="p_17A9_43" class="ms"></a><span class="parno">4</span>
-Atha kho bhagavā āyasmantaṃ nandakaṃ sārajjamānarūpaṃ viditvā āyasmantaṃ nandakaṃ etadavoca:  "sādhu sādhu, nandaka. Etaṃ kho, nandaka, tumhākaṃ patirūpaṃ kulaputtānaṃ saddhāya agārasmā anagāriyaṃ pabbajitānaṃ, yaṃ tumhe dhammiyā kathāya sannisīdeyyātha. Sannipatitānaṃ vo, nandaka, dvayaṃ karaṇīyaṃ – dhammī vā kathā ariyo vā tuṇhībhāvo. Saddho ca, nandaka, bhikkhu hoti, no ca sīlavā. Evaṃ so tenangena aparipūro hoti. Tena taṃ angaṃ paripūretabbaṃ:  ‘kintāhaṃ saddho ca assaṃ sīlavā cā’ti. Yato ca kho, nandaka, bhikkhu saddho ca hoti sīlavā ca, evaṃ so tenangena paripūro hoti.</p>
+<p><span class="parno">6</span>
+saddho ca nandaka bhikkhu hoti sīlavā ca, no ca lābhī ajjhattaṃ
+cetosamathassa. evaṃ so tenaṅgena aparipūro hoti. tena taṃ aṅgaṃ
+paripūretabbaṃ: kiṃ nāhaṃ saddho ca assaṃ sīlavā ca lābhī ca ajjhattaṃ
+cetosamathassāti. yato ca kho nandaka bhikkhu saddho ca hoti sīlavā ca,
+lābhī ca ajjhattaṃ cetosamathassa, evaṃ so tenaṅgena paripūro hoti. saddho
+ca nandaka bhikkhu hoti sīlavā ca, lābhī ca ajjhattaṃ ceto samathassa. na
+lābhī adhipaññādhammavipassanāya. evaṃ so tenaṅgena aparipūro hoti.
 
-<p><a id="p_17A9_44" class="ms"></a><span class="parno">5</span>
-Saddho ca, nandaka, bhikkhu hoti sīlavā ca, no ca lābhī ajjhattaṃ cetosamādhissa. Evaṃ so tenangena aparipūro hoti. Tena taṃ angaṃ paripūretabbaṃ:  ‘kintāhaṃ saddho ca assaṃ sīlavā ca lābhī ca ajjhattaṃ cetosamādhissā’ti. Yato ca kho, nandaka, bhikkhu saddho ca hoti sīlavā ca lābhī ca ajjhattaṃ cetosamādhissa, evaṃ so tenangena paripūro hoti.</p>
+<p><span class="parno">7</span>
+seyyathāpi nandaka pāṇako catuppādako, tassassa eko pādo omako lāmako, evaṃ
+so tenaṅgena aparipūro assa, evameva kho nandaka bhikkhu saddho ca hoti
+sīlavā ca lābhī ca ajjhattaṃ cetosamathassa na lābhī
+adhipaññādhammavipassanāya, evaṃ so tenaṅgena aparipūro hoti. tena taṃ aṅgaṃ
+paripūretabbaṃ; kinnāhaṃ saddho ca assaṃ sīlavā ca lābhī ca ajjhattaṃ
+cetosamathassa, lābhī ca adhipaññādhammavipassanāyāti yato ca kho nandaka,
+bhikkhu saddho ca hoti sīlavā ca lābhī ca ajjhattaṃ cetosamathassa lābhī ca
+adhipaññādhammavipassanāya, evaṃ so tenaṅgena paripūro hotīti.
 
-<p><a id="p_17A9_45" class="ms"></a><span class="parno">6</span>
-Saddho ca, nandaka, bhikkhu hoti sīlavā ca lābhī ca ajjhattaṃ cetosamādhissa, na lābhī adhipaññādhammavipassanāya. Evaṃ so tenangena aparipūro hoti. Seyyathāpi, nandaka, pāṇako catuppādako assa. Tassa eko pādo omako lāmako. Evaṃ so tenangena aparipūro assa. Evamevaṃ kho, nandaka, bhikkhu saddho ca hoti sīlavā ca lābhī ca ajjhattaṃ cetosamādhissa, na lābhī adhipaññādhammavipassanāya. Evaṃ so tenangena aparipūro hoti. Tena taṃ angaṃ paripūretabbaṃ:  ‘kintāhaṃ saddho ca assaṃ sīlavā ca lābhī ca ajjhattaṃ cetosamādhissa lābhī ca adhipaññādhammavipassanāyā’ti.</p>
+<p><span class="parno">8</span>
+idamavo ca bhagavā idaṃ vatvā sugato uṭṭhāyāsanā vihāraṃ pāvisi.
 
-<p><a id="p_17A9_46" class="ms"></a><span class="parno">7</span>
-Yato ca kho, nandaka, bhikkhu saddho ca hoti sīlavā ca lābhī ca ajjhattaṃ cetosamādhissa lābhī ca adhipaññādhammavipassanāya, evaṃ so tenangena paripūro hotī"ti. Idamavoca bhagavā. Idaṃ vatvāna sugato uṭṭhāyāsanā vihāraṃ pāvisi.</p>
+<p><span class="parno">9</span>
+atha kho āyasmā nandako acirapakkantassa bhagavato bhikkhū āmantesi:
+idānāvuso bhagavā catūhi padehi kevalaparipuṇṇaṃ parisuddhaṃ brahmacariyaṃ
+pakāsetvā uṭṭhāyāsanā vihāraṃ paviṭṭho: "saddho ca nandaka bhikkhu hoti, no
+ca sīlavā, evaṃ so tenaṅgena aparipūro hoti, tena taṃ aṅgaṃ paripūretabbaṃ:
+kinnāhaṃ saddho ca assaṃ sīlavā cāti. yato ca kho nandaka bhikkhu saddho ca
+hoti sīlavā ca, evaṃ so tenaṅgena paripūro hoti. saddho ca nandaka bhikkhu
+hoti sīlavā ca, no ca lābhī ajjhattaṃ cetosamathassa, lābhī ca
+adhipaññādhammavipassanāyāti yato ca kho nandaka, bhikkhu saddho ca hoti
+sīlavā ca lābhī ca ajjhattaṃ cetosamathassa na lābhī
+adhipaññādhammavipassanāya, evaṃ so tenaṅgena aparipūro hoti.
 
-<p><a id="p_17A9_47" class="ms"></a><span class="parno">8</span>
-Atha kho āyasmā nandako acirapakkantassa bhagavato bhikkhū āmantesi:  "idāni, āvuso, bhagavā catūhi padehi kevalaparipuṇṇaṃ parisuddhaṃ brahmacariyaṃ pakāsetvā uṭṭhāyāsanā vihāraṃ paviṭṭho:  ‘saddho ca, nandaka, bhikkhu hoti, no ca sīlavā. Evaṃ so tenangena aparipūro hoti. Tena taṃ angaṃ paripūretabbaṃ – kintāhaṃ saddho ca assaṃ sīlavā cā’ti. Yato ca kho, nandaka, bhikkhu saddho ca hoti sīlavā ca, evaṃ so tenangena paripūro hoti. Saddho ca, nandaka, bhikkhu hoti sīlavā ca, no ca lābhī ajjhattaṃ cetosamādhissa … pe … lābhī ca ajjhattaṃ cetosamādhissa, na lābhī adhipaññādhammavipassanāya, evaṃ so tenangena aparipūro hoti. Seyyathāpi, nandaka, pāṇako catuppādako assa, tassa eko pādo omako lāmako, evaṃ so tenangena aparipūro assa. Evamevaṃ kho, nandaka, bhikkhu saddho ca hoti sīlavā ca, lābhī ca ajjhattaṃ cetosamādhissa, na lābhī adhipaññādhammavipassanāya, evaṃ so tenangena aparipūro hoti, tena taṃ angaṃ paripūretabbaṃ ‘kintāhaṃ saddho ca assaṃ sīlavā ca, lābhī ca ajjhattaṃ cetosamādhissa, lābhī ca adhipaññādhammavipassanāyā’ti. Yato ca kho, nandaka, bhikkhu saddho ca hoti sīlavā ca lābhī ca ajjhattaṃ cetosamādhissa lābhī ca adhipaññādhammavipassanāya, evaṃ so tenangena paripūro hotīti.</p>
+<p><span class="parno">10</span>
+seyyathāpi nandaka, pāṇako catuppādako, tassassa eko pādo omako lāmako, evaṃ
+so tenaṅgena aparipūro assa, evameva kho nandaka bhikkhu saddho ca hoti
+sīlavā ca lābhī ca ajjhattaṃ cetosamathassa na lābhī
+adhipaññādhammavipassanāya, evaṃ so tenaṅgena aparipūro hoti. tena taṃ aṅgaṃ
+paripūretabbaṃ; kinnāhaṃ saddho ca assaṃ sīlavā ca lābhī ca ajjhattaṃ
+cetosamathassa lābhī ca adhipaññādhammavipassanāyāti yato ca kho nandaka,
+bhikkhu saddho ca hoti sīlavā ca lābhī ca ajjhattaṃ cetosamathassa lābhī ca
+adhipaññādhammavipassanāya, evaṃ so tenaṅgena paripūro hotīti.
 
-<p><a id="p_17A9_48" class="ms"></a><span class="parno">9</span>
-Pañcime, āvuso, ānisaṃsā kālena dhammassavane kālena dhammasākacchāya. Katame pañca? Idhāvuso, bhikkhu bhikkhūnaṃ dhammaṃ deseti ādikalyāṇaṃ majjhekalyāṇaṃ pariyosānakalyāṇaṃ sātthaṃ sabyañjanaṃ, kevalaparipuṇṇaṃ parisuddhaṃ brahmacariyaṃ pakāseti. Yathā yathā, āvuso, bhikkhu bhikkhūnaṃ dhammaṃ deseti ādikalyāṇaṃ majjhekalyāṇaṃ pariyosānakalyāṇaṃ sātthaṃ sabyañjanaṃ, kevalaparipuṇṇaṃ parisuddhaṃ brahmacariyaṃ pakāseti tathā tathā so satthu piyo ca hoti manāpo ca garu ca bhāvanīyo ca. Ayaṃ, āvuso, paṭhamo ānisaṃso kālena dhammassavane kālena dhammasākacchāya.</p>
+<p><span class="parno">11</span>
+pañcime āvuso. ānisaṃsā kālena dhammasavaṇe, kālena dhammasākacchāya. katame
+pañca:
 
-<p><a id="p_17A9_49" class="ms"></a><span class="parno">10</span>
-Puna caparaṃ, āvuso, bhikkhu bhikkhūnaṃ dhammaṃ deseti ādikalyāṇaṃ majjhekalyāṇaṃ pariyosānakalyāṇaṃ sātthaṃ sabyañjanaṃ, kevalaparipuṇṇaṃ parisuddhaṃ brahmacariyaṃ pakāseti. Yathā yathā, āvuso, bhikkhu bhikkhūnaṃ dhammaṃ deseti ādikalyāṇaṃ … pe … brahmacariyaṃ pakāseti tathā tathā so tasmiṃ dhamme atthappaṭisaṃvedī ca hoti dhammappaṭisaṃvedī ca. Ayaṃ, āvuso, dutiyo ānisaṃso kālena dhammassavane kālena dhammasākacchāya.</p>
+<p><span class="parno">12</span>
+idhāvuso, bhikkhu bhikkhūnaṃ dhammaṃ deseti ādikalyāṇaṃ majjhekalyāṇaṃ
+pariyosānakalyāṇaṃ sātthaṃ sabyañjanaṃ kevalaparipuṇṇaṃ parisuddhaṃ
+brahmacariyaṃ pakāseti. yathā yathā āvuso, bhikkhu bhikkhūnaṃ dhammaṃ deseti
+ādikalyāṇaṃ majjhekalyāṇaṃ pariyosānakalyāṇaṃ sātthaṃ sabyañjanaṃ
+kevalaparipuṇṇaṃ parisuddhaṃ brahmacariyaṃ pakāseti. tathā tathā so
+satthupiyo ca hoti manāpo ca garu ca bhāvanīyo ca ayaṃ āvuso, paṭhamo
+ānisaṃso kālena dhammasavaṇe, kālena dhammasākacchāya.
 
-<p><a id="p_17A9_50" class="ms"></a><span class="parno">11</span>
-Puna caparaṃ, āvuso, bhikkhu bhikkhūnaṃ dhammaṃ deseti ādikalyāṇaṃ majjhekalyāṇaṃ pariyosānakalyāṇaṃ sātthaṃ sabyañjanaṃ, kevalaparipuṇṇaṃ parisuddhaṃ brahmacariyaṃ pakāseti. Yathā yathā, āvuso, bhikkhu bhikkhūnaṃ dhammaṃ deseti ādikalyāṇaṃ … pe … brahmacariyaṃ pakāseti tathā tathā so tasmiṃ dhamme gambhīraṃ atthapadaṃ paññāya ativijjha passati. Ayaṃ, āvuso, tatiyo ānisaṃso kālena dhammassavane kālena dhammasākacchāya.</p>
+<p><span class="parno">13</span>
+puna ca paraṃ āvuso, bhikkhu bhikkhūnaṃ dhammaṃ deseti ādikalyāṇaṃ
+majjhekalyāṇaṃ pariyosānakalyāṇaṃ sātthaṃ sabyañjanaṃ kevalaparipuṇṇaṃ
+parisuddhaṃ brahmacariyaṃ pakāseti. yathā yathā āvuso, bhikkhu bhikkhūnaṃ
+dhammaṃ deseti ādikalyāṇaṃ majjhekalyāṇaṃ pariyosānakalyāṇaṃ sātthaṃ
+sabyañjanaṃ kevalaparipuṇṇaṃ parisuddhaṃ brahmacariyaṃ pakāseti. tathā tathā
+so tasmiṃ dhamme atthapaṭisaṃvedī ca hoti dhammapaṭisaṃvedī ca, ayaṃ āvuso,
+dutiyo ānisaṃso kālena dhammasavaṇe, kālena dhammasākacchāya.
 
-<p><a id="p_17A9_51" class="ms"></a><span class="parno">12</span>
-Puna caparaṃ, āvuso, bhikkhu bhikkhūnaṃ dhammaṃ deseti ādikalyāṇaṃ … pe … brahmacariyaṃ pakāseti. Yathā yathā, āvuso, bhikkhu bhikkhūnaṃ dhammaṃ deseti ādikalyāṇaṃ … pe … brahmacariyaṃ pakāseti tathā tathā naṃ sabrahmacārī uttari sambhāventi:  ‘addhā ayamāyasmā patto vā pajjati vā’. Ayaṃ, āvuso, catuttho ānisaṃso kālena dhammassavane kālena dhammasākacchāya.</p>
+<p><span class="parno">14</span>
+puna ca paraṃ āvuso, bhikkhu bhikkhūnaṃ dhammaṃ deseti ādikalyāṇaṃ
+majjhekalyāṇaṃ pariyosānakalyāṇaṃ sātthaṃ sabyañjanaṃ kevalaparipuṇṇaṃ
+parisuddhaṃ brahmacariyaṃ pakāseti. yathā yathā āvuso, bhikkhu bhikkhūnaṃ
+dhammaṃ deseti ādikalyāṇaṃ majjhekalyāṇaṃ pariyosānakalyāṇaṃ sātthaṃ
+sabyañjanaṃ kevalaparipuṇṇaṃ parisuddhaṃ brahmacariyaṃ pakāseti. tathā tathā
+so tasmiṃ dhamme gambhīraṃ atthapadaṃ paññāya ativijjha passati, ayaṃ āvuso
+tatiyo ānisaṃso kālena dhammasavaṇe, kālena dhammasākacchāya.
 
-<p><a id="p_17A9_52" class="ms"></a><span class="parno">13</span>
-Puna caparaṃ, āvuso, bhikkhu bhikkhūnaṃ dhammaṃ deseti ādikalyāṇaṃ majjhekalyāṇaṃ pariyosānakalyāṇaṃ sātthaṃ sabyañjanaṃ, kevalaparipuṇṇaṃ parisuddhaṃ brahmacariyaṃ pakāseti. Yathā yathā, āvuso, bhikkhu bhikkhūnaṃ dhammaṃ deseti ādikalyāṇaṃ majjhekalyāṇaṃ pariyosānakalyāṇaṃ sātthaṃ sabyañjanaṃ, kevalaparipuṇṇaṃ parisuddhaṃ brahmacariyaṃ pakāseti, tattha ye kho bhikkhū sekhā appattamānasā anuttaraṃ yogakkhemaṃ patthayamānā viharanti, te taṃ dhammaṃ sutvā vīriyaṃ ārabhanti appattassa pattiyā anadhigatassa adhigamāya asacchikatassa sacchikiriyāya. Ye pana tattha bhikkhū arahanto khīṇāsavā vusitavanto katakaraṇīyā ohitabhārā anuppattasadatthā parikkhīṇabhavasaṃyojanā sammadaññāvimuttā, te taṃ dhammaṃ sutvā diṭṭhadhammasukhavihāraṃyeva anuyuttā viharanti. Ayaṃ, āvuso, pañcamo ānisaṃso kālena dhammassavane kālena dhammasākacchāya. Ime kho, āvuso, pañca ānisaṃsā kālena dhammassavane kālena dhammasākacchāyā"ti.</p>
+<p><span class="parno">15</span>
+puna ca paraṃ āvuso, bhikkhu bhikkhūnaṃ dhammaṃ deseti ādikalyāṇaṃ
+majjhekalyāṇaṃ pariyosānakalyāṇaṃ sātthaṃ sabyañjanaṃ kevalaparipuṇṇaṃ
+parisuddhaṃ brahmacariyaṃ pakāseti. yathā yathā āvuso, bhikkhu bhikkhūnaṃ
+dhammaṃ deseti ādikalyāṇaṃ majjhekalyāṇaṃ pariyosānakalyāṇaṃ sātthaṃ
+sabyañjanaṃ kevalaparipuṇṇaṃ parisuddhaṃ brahmacariyaṃ pakāseti. tathā tathā
+naṃ sabrahmacārī uttariṃ sambhāventi. "addhā ayamāyasmā patto vā pacchati
+vā" ti, ayaṃ āvuso, catuttho ānisaṃso kālena dhammasavaṇe, kālena
+dhammasākacchāya.
 
-<p class="endsection">Catutthaṃ.</p>
-</div>
-</section>
-<div id="nextprev"><a id="previous-sutta" href="./an9.3.html"></a><a id="next-sutta" href="./an9.5.html"></a></div>
-</div><!--content-->
-<footer>
-<div id="breadcrumbs">
-<a href="../home/index.html">Home</a><a href="../an/an.html">Anguttara Nikāya</a><a href="../an/an9.html">The Book of the Nines</a>4. Nandaka</div>
-<a id="bottom"></a>
-</footer>
-<script src="../js/footer.js"></script>
-</div><!--container-->
-</body>
-</html>
+<p><span class="parno">16</span>
+puna ca paraṃ āvuso, bhikkhu bhikkhūnaṃ dhammaṃ deseti ādikalyāṇaṃ
+majjhekalyāṇaṃ pariyosānakalyāṇaṃ sātthaṃ sabyañjanaṃ kevalaparipuṇṇaṃ
+parisuddhaṃ brahmacariyaṃ pakāseti. yathā yathā āvuso, bhikkhu bhikkhūnaṃ
+dhammaṃ deseti ādikalyāṇaṃ majjhekalyāṇaṃ pariyosānakalyāṇaṃ sātthaṃ
+sabyañjanaṃ kevalaparipuṇṇaṃ parisuddhaṃ brahmacariyaṃ pakāseti. tattha
+tattha ye te bhikkhū sekhā appattamānasā anuttaraṃ yogakkhemaṃ patthayamānā
+viharanti, te taṃ dhammaṃ sutvā viriyaṃ ārabhanti appattassa pattiyā,
+anadhigatassa adhigamāya asacchikatassa sacchikiriyāya. ye pana tattha
+bhikkhu arahanto khīṇāsavā vusitavanto katakaraṇīyā ohitabhārā
+anuppattasadatthā parikkhīṇabhavasaṃyojanā sammadaññā vimuttā, te taṃ
+dhammaṃ sutvā diṭṭhadhammasukhavihāraṭṭeva anuyuttā viharanti. ayaṃ āvuso,
+pañcamo ānisaṃso kālena dhammasavaṇe, kālena dhammasākacchāya. ime kho
+āvuso, pañca ānisaṃsā kālena dhammasavaṇe, kālena dhammasākacchāyāti.
+<p><span class="parno">1</span>
+At one time the Auspicious One was dwelling at Savatthi in Jetavana,
+Anathapindika's park. At that time the venerable Nandaka was instructing,
+arousing, energizing, and gladdening the bhikkhus at the assembly hall with
+a Dhamma talk.
+
+<p><span class="parno">2</span>
+Then in the evening, the Auspicious One emerged from seclusion and went to
+the assembly hall. Upon arrival, he stood outside the closed door waiting
+for the talk to finish. Then having known that the talk was finished, having
+coughed, the Auspicious One knocked on the bolt. A bhikkhu opened the door
+for the Auspicious One. The Auspicious One entered the assembly hall. Having
+entered, he sat down on a prepared seat. Having sat down, the Auspicious One
+said this to the venerable Nandaka. “You gave the bhikkhus a long Dhamma
+discourse, Nandaka. My back was even aching while I stood outside the closed
+door waiting for the talk to finish.”
+
+<p><span class="parno">3</span>
+When thus was said, the venerable Nandaka became disheartened and said this
+to the Auspicious One. “O Bhante, indeed I did not know that the
+Auspicious One was standing outside the closed door. Certainly, O Bhante, if
+I would have known that the Auspicious One was standing outside the closed
+door, we would not have explained too long.”
+
+<p><span class="parno">4</span>
+Then the Auspicious One having known the venerable Nandaka's disheartening,
+said this to the venerable Nandaka. Good good Nandaka. It is fitting, O
+Nandaka, for you young clansman who have gone forth out of faith from the
+house life into homelessness  to talk on the Dhamma thus, when you have
+settled. When you assemble, O Nandaka, two things are to be done; Either
+talk on the Dhamma or maintain noble silence.
+
+<p><span class="parno">5</span>
+faith and nandaka bhikkhu  comes to be (or becomes or is) no and virtuous
+one (or moral one), thus (or yes) so by which (or with) [in] ten factors
+aparipūro comes to be (or becomes or is). from that (or him) to that (or
+him) factor a should be paripūreti: kinnāhaṃ faith and assaṃ virtuous one
+(or moral one) and (“|”). since (or from the time) and kho
+nandaka, bhikkhu  faith and comes to be (or becomes or is) virtuous one (or
+moral one) and, thus (or yes) so by which (or with) [in] ten factors
+paripūro comes to be (or becomes or is).
+
+<p><span class="parno">6</span>
+faith and nandaka bhikkhu  comes to be (or becomes or is) virtuous one (or
+moral one) and, no and a gainer internal (or personal) of/for you (all)
+(must) cetosamati. thus (or yes) so by which (or with) [in] ten factors
+aparipūro comes to be (or becomes or is). from that (or him) to that (or
+him) factor a should be paripūreti: what is  not I faith and assaṃ virtuous
+one (or moral one) and a gainer and internal (or personal) of/for you (all)
+(must) cetosamati (“|”). since (or from the time) and kho
+nandaka bhikkhu  faith and comes to be (or becomes or is) virtuous one (or
+moral one) and, a gainer and internal (or personal) of/for you (all) (must)
+cetosamati, thus (or yes) so by which (or with) [in] ten factors paripūro
+comes to be (or becomes or is). faith and nandaka bhikkhu  comes to be (or
+becomes or is) virtuous one (or moral one) and, a gainer and internal (or
+personal) ceto of/for you (all) (must) samati. not a gainer for (or having)
+adhipaññādhammavipassana. thus (or yes) so by which (or with) [in] ten
+factors aparipūro comes to be (or becomes or is).
+
+<p><span class="parno">7</span>
+just as nandaka pāṇako catuppādako, of/for that ssa one (or alone) pādo
+omako lāmako, thus (or yes) so by which (or with) [in] ten factors aparipūro
+may be (or become or occur), only (or also or even or simply or just) thus a
+kho nandaka bhikkhu  faith and comes to be (or becomes or is) virtuous one
+(or moral one) and a gainer and internal (or personal) of/for you (all)
+(must) cetosamati not a gainer for (or having) adhipaññādhammavipassana,
+thus (or yes) so by which (or with) [in] ten factors aparipūro comes to be
+(or becomes or is). from that (or him) to that (or him) factor a should be
+paripūreti; kinnāhaṃ faith and assaṃ virtuous one (or moral one) and a
+gainer and internal (or personal) of/for you (all) (must) cetosamati, a
+gainer and for (or having) adhipaññādhammavipassana (“|”) since
+(or from the time) and kho nandaka, bhikkhu  faith and comes to be (or
+becomes or is) virtuous one (or moral one) and a gainer and internal (or
+personal) of/for you (all) (must) cetosamati a gainer and for (or having)
+adhipaññādhammavipassana, thus (or yes) so by which (or with) [in] ten
+factors paripūro comes to be (or becomes or is) (“|”).
+
+<p><span class="parno">8</span>
+idamavo and the Auspicious One this [here] having vati sugato having risen
+up from his seat vihāraṃ entered.
+
+<p><span class="parno">9</span>
+so (or now or then) kho a the venerable nandako not long after the departure
+of for the Auspicious One the bhikkhus address: idāna friend the Auspicious
+One by which (or with or from) four (s) by which (or with or from) pade (s)
+kevalaparipuṇṇaṃ parisuddhaṃ life of purity having causes to pakāsati having
+risen up from his seat vihāraṃ entered: "faith and nandaka bhikkhu  comes to
+be (or becomes or is), no and virtuous one (or moral one), thus (or yes) so
+by which (or with) [in] ten factors aparipūro comes to be (or becomes or
+is), from that (or him) to that (or him) factor a should be paripūreti:
+kinnāhaṃ faith and assaṃ virtuous one (or moral one) and
+(“|”). since (or from the time) and kho nandaka bhikkhu  faith
+and comes to be (or becomes or is) virtuous one (or moral one) and, thus (or
+yes) so by which (or with) [in] ten factors paripūro comes to be (or becomes
+or is). faith and nandaka bhikkhu  comes to be (or becomes or is) virtuous
+one (or moral one) and, no and a gainer internal (or personal) of/for you
+(all) (must) cetosamati, a gainer and for (or having)
+adhipaññādhammavipassana (“|”) since (or from the time) and kho
+nandaka, bhikkhu  faith and comes to be (or becomes or is) virtuous one (or
+moral one) and a gainer and internal (or personal) of/for you (all) (must)
+cetosamati not a gainer for (or having) adhipaññādhammavipassana, thus (or
+yes) so by which (or with) [in] ten factors aparipūro comes to be (or
+becomes or is).
+
+<p><span class="parno">10</span>
+just as nandaka, pāṇako catuppādako, of/for that ssa one (or alone) pādo
+omako lāmako, thus (or yes) so by which (or with) [in] ten factors aparipūro
+may be (or become or occur), only (or also or even or simply or just) thus a
+kho nandaka bhikkhu  faith and comes to be (or becomes or is) virtuous one
+(or moral one) and a gainer and internal (or personal) of/for you (all)
+(must) cetosamati not a gainer for (or having) adhipaññādhammavipassana,
+thus (or yes) so by which (or with) [in] ten factors aparipūro comes to be
+(or becomes or is). from that (or him) to that (or him) factor a should be
+paripūreti; kinnāhaṃ faith and assaṃ virtuous one (or moral one) and a
+gainer and internal (or personal) of/for you (all) (must) cetosamati a
+gainer and for (or having) adhipaññādhammavipassana (“|”) since
+(or from the time) and kho nandaka, bhikkhu  faith and comes to be (or
+becomes or is) virtuous one (or moral one) and a gainer and internal (or
+personal) of/for you (all) (must) cetosamati a gainer and for (or having)
+adhipaññādhammavipassana, thus (or yes) so by which (or with) [in] ten
+factors paripūro comes to be (or becomes or is) (“|”).
+
+<p><span class="parno">11</span>
+these five a friend. profit by which (or with) kāla dhammasavaṇe, by which
+(or with) kāla for (or having) dhammasākaccha. which one? five:
+
+<p><span class="parno">12</span>
+here (this world)  friend, bhikkhu  of/for bhikkhu (s) the dhamma teach
+ādikalyāṇaṃ majjhekalyāṇaṃ pariyosānakalyāṇaṃ sātthaṃ sabyañjanaṃ
+kevalaparipuṇṇaṃ parisuddhaṃ life of purity causes to pakāsati. as (or how,
+in which way) as (or how, in which way) a friend, bhikkhu  of/for bhikkhu
+(s) the dhamma teach ādikalyāṇaṃ majjhekalyāṇaṃ pariyosānakalyāṇaṃ sātthaṃ
+sabyañjanaṃ kevalaparipuṇṇaṃ parisuddhaṃ life of purity causes to
+pakāsati. in the appropriate way so satthupiyo and comes to be (or becomes
+or is) manāpo and respect (honour) and should be bhāvoti and this a friend,
+first ānisaṃso by which (or with) kāla dhammasavaṇe, by which (or with) kāla
+for (or having) dhammasākaccha.
+
+<p><span class="parno">13</span>
+furthermore a friend, bhikkhu  of/for bhikkhu (s) the dhamma teach
+ādikalyāṇaṃ majjhekalyāṇaṃ pariyosānakalyāṇaṃ sātthaṃ sabyañjanaṃ
+kevalaparipuṇṇaṃ parisuddhaṃ life of purity causes to pakāsati. as (or how,
+in which way) as (or how, in which way) a friend, bhikkhu  of/for bhikkhu
+(s) the dhamma teach ādikalyāṇaṃ majjhekalyāṇaṃ pariyosānakalyāṇaṃ sātthaṃ
+sabyañjanaṃ kevalaparipuṇṇaṃ parisuddhaṃ life of purity causes to
+pakāsati. in the appropriate way so in (or on/at/within/herein/among) that
+(or him) in the Dhamma atthapaṭisaṃvedī and comes to be (or becomes or is)
+dhammapaṭisaṃvedī and, this a friend, second ānisaṃso by which (or with)
+kāla dhammasavaṇe, by which (or with) kāla for (or having) dhammasākaccha.
+
+<p><span class="parno">14</span>
+furthermore a friend, bhikkhu  of/for bhikkhu (s) the dhamma teach
+ādikalyāṇaṃ majjhekalyāṇaṃ pariyosānakalyāṇaṃ sātthaṃ sabyañjanaṃ
+kevalaparipuṇṇaṃ parisuddhaṃ life of purity causes to pakāsati. as (or how,
+in which way) as (or how, in which way) a friend, bhikkhu  of/for bhikkhu
+(s) the dhamma teach ādikalyāṇaṃ majjhekalyāṇaṃ pariyosānakalyāṇaṃ sātthaṃ
+sabyañjanaṃ kevalaparipuṇṇaṃ parisuddhaṃ life of purity causes to
+pakāsati. in the appropriate way so in (or on/at/within/herein/among) that
+(or him) in the Dhamma deep (profound) atthapadaṃ having known p penetrated
+sees, this a friend third ānisaṃso by which (or with) kāla dhammasavaṇe, by
+which (or with) kāla for (or having) dhammasākaccha.
+
+<p><span class="parno">15</span>
+furthermore a friend, bhikkhu  of/for bhikkhu (s) the dhamma teach
+ādikalyāṇaṃ majjhekalyāṇaṃ pariyosānakalyāṇaṃ sātthaṃ sabyañjanaṃ
+kevalaparipuṇṇaṃ parisuddhaṃ life of purity causes to pakāsati. as (or how,
+in which way) as (or how, in which way) a friend, bhikkhu  of/for bhikkhu
+(s) the dhamma teach ādikalyāṇaṃ majjhekalyāṇaṃ pariyosānakalyāṇaṃ sātthaṃ
+sabyañjanaṃ kevalaparipuṇṇaṃ parisuddhaṃ life of purity causes to
+pakāsati. in the appropriate way to/for that (or to/for him) life of purity
+uttariṃ they (or causative: cause to) sambhāvati. "certainly this venerable
+patto or pacchati or" (“|”), this a friend, fourth ānisaṃso by
+which (or with) kāla dhammasavaṇe, by which (or with) kāla for (or having)
+dhammasākaccha.
+
+<p><span class="parno">16</span>
+furthermore a friend, bhikkhu  of/for bhikkhu (s) the dhamma teach
+ādikalyāṇaṃ majjhekalyāṇaṃ pariyosānakalyāṇaṃ sātthaṃ sabyañjanaṃ
+kevalaparipuṇṇaṃ parisuddhaṃ life of purity causes to pakāsati. as (or how,
+in which way) as (or how, in which way) a friend, bhikkhu  of/for bhikkhu
+(s) the dhamma teach ādikalyāṇaṃ majjhekalyāṇaṃ pariyosānakalyāṇaṃ sātthaṃ
+sabyañjanaṃ kevalaparipuṇṇaṃ parisuddhaṃ life of purity causes to
+pakāsati. here and there (so and so) which (or (those) who) those
+(by/with/for you) the bhikkhus sekhā of unattained minds unsurpassed release
+from bondage aspiring they dwell, those (by/with/for you) that the dhamma
+having heard energy they (or present part.: being or ing) ārabhati of/for
+appatta pattiyā, of/for anadhigata the attainment of of/for asacchikata for
+(or having) realization. which (or (those) who) however (or nevertheless or
+yet or but or else or still or moreover or and now) so (there or in that
+place) bhikkhu  arahant with āsavas destroyed who has lived [the life of
+purity], done what must be done, laid down the burden anuppattasadatthā
+parikkhīṇabhavasaṃyojanā rightly other (or final knowledge) vimuttā, those
+(by/with/for you) that the dhamma having heard only (or also or even or
+simply or just) diṭṭhadhammasukhavihāraṭṭa anuyuttā they dwell. this a
+friend, mo five ānisaṃso by which (or with) kāla dhammasavaṇe, by which (or
+with) kāla for (or having) dhammasākaccha. these kho a friend, five profit
+by which (or with) kāla dhammasavaṇe, by which (or with) kāla for (or
+having) dhammasākaccha (“|”).

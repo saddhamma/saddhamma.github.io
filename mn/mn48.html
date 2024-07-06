@@ -1,329 +1,1528 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset=utf-8>
-<link rel="icon" type="image/x-icon" href="../images/buddha.jpg">
-<title>Majjhima Nikaya 48</title>
-</head>
-<body>
-<div id="container">
-<header>
-<script src="../js/jquery-1.10.2.min.js"></script>
-<link rel="stylesheet" href="../css/menu.css">
-<link rel="stylesheet" href="../css/css.css">
-<div id="eng_searchlink"> <span><a href="../home/engsearch.html" >Search English Content</a></span></div>
-<div id="pali_searchlink"> <span><a href="../home/palisearch.html" >Search Pali Content</a></span></div>
 
-<div class="logotext">
-<a href="../home/index.html"><span>Saddhamma Study Group</span></a>
-</div>
-<nav>
-<div id="navbar">
-<ul id="css3menu0" >
-<li class="topfirst" id="home"><a href="../home/index.html">Home</a></li>
-<li class="topmenu" id="ssg"><a href="../ssg/ssg.html">↓ Study Guides</a>
-<li class="topmenu" id="dn"><a href="../dn/dn.html">Digha Nikaya</a></li>
-<li class="topmenu" id="mn"><a class="pressed" href="../mn/mn.html">Majjhima Nikaya</a></li>
-	<li class="topmenu" id="sn"><a href="../sn/sn.html">↓ Samyutta Nikaya</a>
-		<ul>
-		<li><a href="../sn/sn01.html">Part 1 - The Book with Verses</a></li>
-			<li><a href="../sn/sn02.html">Part 2 - The Book of Causation</a></li>
-			<li><a href="../sn/sn03.html">Part 3 - The Book of the Aggregates</a></li>
-			<li><a href="../sn/sn04.html">Part 4 - The Book of the Six Sense Bases</a></li>
-			<li><a href="../sn/sn05.html" title="Part 5 - The Great Book">Part 5 - The Great Book</a></li>
-		</ul>
-	</li>
-		<li class="topmenu" id="an"><a href="../an/an.html">↓ Anguttara Nikaya</a>
-			<ul>
-			<li><a href="../an/an1.html">The Ones</a></li>
-			<li><a href="../an/an2.html">The Twos</a></li>
-			<li><a href="../an/an3.html">The Threes</a></li>
-			<li><a href="../an/an4.html">The Fours</a></li>
-			<li><a href="../an/an5.html">The Fives</a></li>
-			<li><a href="../an/an6.html">The Sixes</a></li>
-			<li><a href="../an/an7.html">The Sevens</a></li>
-			<li><a href="../an/an8.html">The Eights</a></li>
-			<li><a href="../an/an9.html">The Nines</a></li>
-			<li><a href="../an/an10.html">The Tens</a></li>
-			<li><a href="../an/an11.html">The Elevens</a></li>
-			</ul>
-		</li>
-	<li class="topmenu" id="kn"><a href="../kn/kn.html">↓ Khuddaka Nikaya</a>
-			<ul>
-			<li><a href="../dhp/dhp.html" title="The Dhammapada">The Dhammapada</a></li>
-			<li><a href="../snp/snp.html">Sutta Nipata</a></li>
-			<li><a href="../ud/ud.html">Udana</a></li>
-			<li><a href="../it/it.html">Itivuttaka</a></li>
-			<li><a href="../tha/tha.html">The Theragatha</a></li>
-			<li><a href="../thi/thi.html">The Therigatha</a></li>
-			</ul>
-	</li>
-	<li class="toplast" id="vi"><a href="../vi/vi.html">↓ Vinaya Pitaka</a>
-			<ul>
-			<li><a href="../vi/kd.html">Khandaka</a></li><li><a href="../vi/bu-vb.html" title="Monk's Rules">Bhikkhu Vibhanga</a></li><li>
-			<li><a href="../vi/bu-pt.html" title="Monk's Pātimokkha">Bhikkhu Pātimokkha</a></li>
+<br>Get PDFs: <a href="../mn/eBook/mn48.biv.pdf">Side-by-side</a> | <a href="../mn/eBook/mn48.bih.pdf">Par-by-par</a> | <a href="../mn/eBook/mn48.bip.pdf">Facing pages</a> | <a href="../mn/eBook/mn48.eng.pdf">English only</a> | <a href="../mn/eBook/mn48.pli.pdf">Pali only</a>.<br></li>
 
-			<li><a href="../vi/bi-pt.html">Bhikkhunī Pātimokkha</a></li>
-			<li><a href="../vi/bi-vb.html"  title="Nuns Rules">Bhikkhuni Vibhanga</a></li>
-			<li><a href="../bmc/bmc.html">Buddhist Monastic Code I</a></li>
-      <li><a href="../bmc/bmc2.html">Buddhist Monastic Code 2</a></li>
-			</ul>
-	</li>
-</ul>
-</div> <!--navbar-->
-</nav>
-<div class="controlpanel" id="controlpanel"><!--controlpanel-->
-<ul>
-	<li>
-	<ul class="inner">
-		<li><a href="#" title="Page Top" >&nbsp;▲&nbsp;</a>
-		<li class="nextprev">
-			<button class="palitoggle"
-				id="pali"
-				type="button"
-				title="Display Pali and activate Lookup Dictionary"
-				style="width:2.8em; padding: 0 2px;">Pali</button>
-		</li>
-		<li><a href="#bottom" title="Page Bottom">&nbsp;▼&nbsp;</a>
-	</ul>
-	</li>
-</ul>
-</div> <!--controlpanel-->
-</header>
-<div id="content">
-<h2>Majjhima Nikaya</h2>
-<h2>MN48: Kosambiyasutta - The Kosambians</h2>
+<p><span class="parno">1</span>
+evaṃ me sutaṃ: ekaṃ samayaṃ bhagavā kosambiyaṃ viharati ghositārāme. tena
+kho samayena kosambiyaṃ bhikkhū bhaṇḍanajātā kalahajātā vivādāpannā
+aññamaññaṃ mukhasattīhi vitudantā viharanti. te na ceva aññamaññaṃ
+saññapenti, na ca saññattiṃ upenti, na ca aññamaññaṃ nijjhāpenti, na ca
+nijjhattiṃ upenti.
 
-<div id="metaarea">
-<ul class="translator">
-<li><span>A Saddhamma Study Group translation from the Pāḷi text (coming sooner or later).</span>
-<p>For more copyright information please see: <a href="../home/copyright.html#mn">here.</a></p></span></span></span>
-</li>
-</ul>
-</div>
-<section class="raw_sutta">
-<div lang="en">
-</div>
+<p><span class="parno">2</span>
+atha kho aññataro bhikkhu yena bhagavā tenupasaṅkami. upasaṅkamitvā
+bhagavantaṃ abhivādetvā ekamantaṃ nisīdi. ekamantaṃ nisinno kho so bhikkhu
+bhagavantaṃ etadavoca: idha bhante kosambiyaṃ bhikkhū bhaṇḍanajātā
+kalahajātā vivādāpannā aññamaññaṃ mukhasattīhi vitudantā viharanti. te na
+ceva aññamaññaṃ saññāpenti, na ca saññattiṃ upenti, na ca aññamaññaṃ
+nijjhāpenti, na ca nijjhattiṃ upentīti.<span class="note"> <span class="details"><span class="p">pts page 321</span></span></span>
 
-<div lang="pi">
-
-<p><span class="parno">1</span><a class="wp" id="wp1"></a>
-<a class="pts1" id="pts1.321"></a>
-<a id="p_9M_1692" class="ms"></a>
-<a class="msdiv" id="msdiv_491"></a>
-<span class="evam">Evaṃ me sutaṃ—​</span>   ekaṃ samayaṃ bhagavā kosambiyaṃ viharati ghositārāme. <a class="wp" id="wp2"></a>Tena kho pana samayena
-kosambiyaṃ bhikkhū bhaṇḍanajātā kalahajātā vivādāpannā aññamaññaṃ mukhasattīhi
-vitudantā viharanti. Te na ceva aññamaññaṃ saññāpenti na ca saññattiṃ upenti,
-na ca aññamaññaṃ nijjhāpenti, na ca nijjhattiṃ upenti. <a class="wp" id="wp3"></a>Atha kho aññataro
-bhikkhu yena bhagavā tenupasankami; upasankamitvā bhagavantaṃ abhivādetvā
-ekamantaṃ nisīdi. Ekamantaṃ nisinno kho so bhikkhu bhagavantaṃ etadavoca:
-"idha, bhante, kosambiyaṃ bhikkhū bhaṇḍanajātā kalahajātā vivādāpannā
-aññamaññaṃ mukhasattīhi vitudantā viharanti, te na ceva aññamaññaṃ saññāpenti,
-na ca saññattiṃ upenti, na ca aññamaññaṃ nijjhāpenti, na ca nijjhattiṃ
-upentī"ti.</p>
-
-<p><span class="parno">2</span><a class="wp" id="wp4"></a>
-<a class="pts1" id="pts1.322"></a>
-<a id="p_9M_1693" class="ms"></a>
-Atha kho bhagavā aññataraṃ bhikkhuṃ āmantesi: "ehi tvaṃ, bhikkhu, mama vacanena
-te bhikkhū āmantehi: ‘satthā vo āyasmante āmantetī’"ti. "Evaṃ, bhante"ti kho so
-bhikkhu bhagavato paṭissutvā yena te bhikkhū tenupasankami; upasankamitvā te
-bhikkhū etadavoca: "satthā āyasmante āmantetī"ti. "Evamāvuso"ti kho te bhikkhū
-tassa bhikkhuno paṭissutvā yena bhagavā tenupasankamiṃsu; upasankamitvā
-bhagavantaṃ abhivādetvā ekamantaṃ nisīdiṃsu. Ekamantaṃ nisinne kho te bhikkhū
-bhagavā etadavoca: "saccaṃ kira tumhe, bhikkhave, bhaṇḍanajātā kalahajātā
-vivādāpannā aññamaññaṃ mukhasattīhi vitudantā viharatha, te na ceva aññamaññaṃ
-saññāpetha, na ca saññattiṃ upetha, na ca aññamaññaṃ nijjhāpetha, na ca
-nijjhattiṃ upethā"ti? "Evaṃ, bhante". <a class="wp" id="wp5"></a>"Taṃ kiṃ maññatha, bhikkhave, yasmiṃ
-tumhe samaye bhaṇḍanajātā kalahajātā vivādāpannā aññamaññaṃ mukhasattīhi
-vitudantā viharatha, api nu tumhākaṃ tasmiṃ samaye mettaṃ kāyakammaṃ
-paccupaṭṭhitaṃ hoti sabrahmacārīsu āvi ceva raho ca, mettaṃ vacīkammaṃ … pe  …
-mettaṃ manokammaṃ paccupaṭṭhitaṃ hoti sabrahmacārīsu āvi ceva raho cā"ti? "No
-hetaṃ, bhante". "Iti kira, bhikkhave, yasmiṃ tumhe samaye bhaṇḍanajātā
-kalahajātā vivādāpannā aññamaññaṃ mukhasattīhi vitudantā viharatha, neva
-tumhākaṃ tasmiṃ samaye mettaṃ kāyakammaṃ paccupaṭṭhitaṃ hoti sabrahmacārīsu āvi
-ceva raho ca, na mettaṃ vacīkammaṃ … pe … na mettaṃ manokammaṃ paccupaṭṭhitaṃ
-hoti sabrahmacārīsu āvi ceva raho ca. Atha kiñcarahi tumhe, moghapurisā, kiṃ
-jānantā kiṃ passantā bhaṇḍanajātā kalahajātā vivādāpannā aññamaññaṃ
-mukhasattīhi vitudantā viharatha, te na ceva aññamaññaṃ saññāpetha, na ca
-saññattiṃ upetha, na ca aññamaññaṃ nijjhāpetha, na ca nijjhattiṃ upetha? Tañhi
-tumhākaṃ, moghapurisā, bhavissati dīgharattaṃ ahitāya dukkhāyā"ti.</p>
-
-<p><span class="parno">3</span><a class="wp" id="wp6"></a>
-<a id="p_9M_1694" class="ms"></a>
-<a class="msdiv" id="msdiv_492"></a>
-Atha kho bhagavā bhikkhū āmantesi: "chayime, bhikkhave, dhammā sāraṇīyā
-piyakaraṇā garukaraṇā sangahāya avivādāya sāmaggiyā ekībhāvāya saṃvattanti.
-Katame cha? Idha, bhikkhave, bhikkhuno mettaṃ kāyakammaṃ paccupaṭṭhitaṃ hoti
-sabrahmacārīsu āvi ceva raho ca. Ayampi dhammo sāraṇīyo piyakaraṇo garukaraṇo
-sangahāya avivādāya sāmaggiyā ekībhāvāya saṃvattati. <span class="brnum">(1)</span></p>
+<p><span class="parno">3</span>
+atha kho bhagavā aññataraṃ bhikkhuṃ āmantesi: ehi tvaṃ bhikkhu mama vacanena
+te bhikkhū āmantehi 'satthāyasmante āmantetī'ti. evambhanteti kho so bhikkhu
+bhagavato paṭissutvā yena te bhikkhū tenupasaṅkami. upasaṅkamitvā te bhikkhū
+etadavoca: satthā āyasmante āmantetīti. evamāvusoti kho te bhikkhū tassa
+bhikkhuno paṭissutvā yena bhagavā tenupasaṅkamiṃsu. upasaṅkamitvā
+bhagavantaṃ abhivādetvā ekamantaṃ nisīdiṃsu. ekamantaṃ nisinne kho te
+bhikkhū bhagavā etadavoca: saccaṃ kira tumhe bhikkhave bhaṇḍanajātā
+kalahajātā vivādāpannā aññamaññaṃ mukhasattīhi vitudantā viharatha, te na
+ceva aññamaññaṃ saññāpetha, na ca saññattiṃ upetha, te na'ceva aññamaññaṃ
+nijjhāpetha, na ca nijjhattiṃ upethāti. " evambhante".
 
 <p><span class="parno">4</span>
-<a id="p_9M_1695" class="ms"></a>
-Puna caparaṃ, bhikkhave, bhikkhuno mettaṃ vacīkammaṃ paccupaṭṭhitaṃ hoti
-sabrahmacārīsu āvi ceva raho ca. Ayampi dhammo sāraṇīyo piyakaraṇo garukaraṇo
-sangahāya avivādāya sāmaggiyā ekībhāvāya saṃvattati. <span class="brnum">(2)</span></p>
+taṃ kiṃ maññatha bhikkhave yasmiṃ tumhe samaye bhaṇḍanajātā kalahajātā
+vivādāpannā aññamaññaṃ mukhasattīhi vitudantā viharatha, api nu tumhākaṃ
+tasmiṃ samaye mettaṃ kāyakammaṃ paccupaṭṭhitaṃ hoti sabrahmacārīsu āvī ceva
+raho ca, mettaṃ vacīkammaṃ paccupaṭṭhitaṃ hoti sabrahmacārīsu āvī ceva raho
+ca, mettaṃ manokammaṃ paccupaṭṭhitaṃ hoti sabrahmacārīsu āvī ceva raho cāti
+' no hetambhante'.<span class="note"> <span class="details"><span class="p">bjt page 754</span></span></span>
 
 <p><span class="parno">5</span>
-<a id="p_9M_1696" class="ms"></a>
-Puna caparaṃ, bhikkhave, bhikkhuno mettaṃ manokammaṃ paccupaṭṭhitaṃ hoti
-sabrahmacārīsu āvi ceva raho ca. Ayampi dhammo sāraṇīyo piyakaraṇo garukaraṇo
-sangahāya avivādāya sāmaggiyā ekībhāvāya saṃvattati. <span class="brnum">(3)</span></p>
+iti kira bhikkhave yasmiṃ tumhe bhaṇḍanajātā kalahajātā vivādāpannā
+aññamaññaṃ mukhasattīhi vitudantā viharatha, neva tumhākaṃ tasmiṃ samaye
+mettaṃ kāyakammaṃ paccupaṭṭhitaṃ hoti sabrahmacārīsu āvī ceva raho ca. na
+mettaṃ vacīkammaṃ paccupaṭṭhitaṃ hoti sabrahmacārīsu āvī ceva raho ca. na
+mettaṃ manokammaṃ paccupaṭṭhitaṃ hoti sabrahmacārīsu āvī ceva raho ca. atha
+kiṃ carahi tumhe moghapurisā kiṃ jānantā kiṃ passantā bhaṇḍanajātā
+kalahajātā vivādāpannā aññamaññaṃ mukhasattīhi vitudantā viharatha, te na
+ceva aññamaññaṃ saññāpetha, na ca saññattiṃ upetha, na ca aññamaññaṃ
+nijjhāpetha, na ca nijjhattiṃ upetha. taṃ hi tumhākaṃ moghapurisā bhavissati
+dīgharattaṃ ahitāya dukkhāyāti.<span class="note"> <span class="details"><span class="p">pts page 322</span></span></span>
 
 <p><span class="parno">6</span>
-<a id="p_9M_1697" class="ms"></a>
-Puna caparaṃ, bhikkhave, bhikkhu ye te lābhā dhammikā dhammaladdhā antamaso
-pattapariyāpannamattampi, tathārūpehi lābhehi appaṭivibhattabhogī hoti
-sīlavantehi sabrahmacārīhi sādhāraṇabhogī. Ayampi dhammo sāraṇīyo piyakaraṇo
-garukaraṇo sangahāya avivādāya sāmaggiyā ekībhāvāya saṃvattati. <span class="brnum">(4)</span></p>
+atha kho bhagavā bhikkhū āmantesi: chayime bhikkhave dhammā sārāṇīyā
+piyakaraṇā garukaraṇā saṅgahāya avivādāya sāmaggiyā ekībhāvāya
+saṃvattanti. katame cha?
 
 <p><span class="parno">7</span>
-<a id="p_9M_1698" class="ms"></a>
-Puna caparaṃ, bhikkhave, bhikkhu yāni tāni sīlāni akhaṇḍāni acchiddāni
-asabalāni akammāsāni bhujissāni viññuppasatthāni aparāmaṭṭhāni
-samādhisaṃvattanikāni tathārūpesu sīlesu sīlasāmaññagato viharati
-sabrahmacārīhi āvi ceva raho ca. Ayampi dhammo sāraṇīyo piyakaraṇo garukaraṇo
-sangahāya avivādāya sāmaggiyā ekībhāvāya saṃvattati. <span class="brnum">(5)</span></p>
+idha bhikkhave bhikkhuno mettaṃ kāyakammaṃ paccupaṭṭhitaṃ hoti
+sabrahmacārīsu āvī ceva raho ca. ayampi dhammo sārāṇīyo piyakaraṇo
+garukaraṇo saṅgahāya avivādāya sāmaggiyā ekībhāvāya saṃvattati.
 
 <p><span class="parno">8</span>
-<a id="p_9M_1699" class="ms"></a>
-Puna caparaṃ, bhikkhave, bhikkhu yāyaṃ diṭṭhi ariyā niyyānikā niyyāti
-takkarassa sammā dukkhakkhayāya tathārūpāya diṭṭhiyā diṭṭhisāmaññagato viharati
-sabrahmacārīhi āvi ceva raho ca. Ayampi dhammo sāraṇīyo piyakaraṇo garukaraṇo
-sangahāya avivādāya sāmaggiyā ekībhāvāya saṃvattati. <span class="brnum">(6)</span></p>
+puna ca paraṃ bhikkhave bhikkhuno mettaṃ vacīkammaṃ paccupaṭṭhitaṃ hoti
+sabrahmacārīsu āvī ceva raho ca. ayampi dhammo sārāṇīyo piyakaraṇo
+garukaraṇo saṅgahāya avivādāya sāmaggiyā ekībhāvāya saṃvattati.
 
 <p><span class="parno">9</span>
-<a class="pts1" id="pts1.323"></a>
-<a id="p_9M_1700" class="ms"></a>
-Ime kho, bhikkhave, cha sāraṇīyā dhammā piyakaraṇā garukaraṇā sangahāya
-avivādāya sāmaggiyā ekībhāvāya saṃvattanti. <a class="wp" id="wp7"></a>Imesaṃ kho, bhikkhave, channaṃ
-sāraṇīyānaṃ dhammānaṃ etaṃ aggaṃ etaṃ <span class="var" title="sangāhakaṃ (?)" id="note497">sangāhikaṃ</span> etaṃ sanghāṭanikaṃ—yadidaṃ
-yāyaṃ diṭṭhi ariyā niyyānikā niyyāti takkarassa sammā dukkhakkhayāya.
-Seyyathāpi, bhikkhave, kūṭāgārassa etaṃ aggaṃ etaṃ sangāhikaṃ etaṃ
-sanghāṭanikaṃ yadidaṃ kūṭaṃ; evameva kho, bhikkhave, imesaṃ channaṃ sāraṇīyānaṃ
-dhammānaṃ etaṃ aggaṃ etaṃ sangāhikaṃ etaṃ sanghāṭanikaṃ yadidaṃ yāyaṃ diṭṭhi
-ariyā niyyānikā niyyāti takkarassa sammā dukkhakkhayāya.</p>
-<hr>
+puna ca paraṃ bhikkhave bhikkhuno mettaṃ manokammaṃ paccupaṭṭhitaṃ hoti
+sabrahmacārīsu āvī ceva raho ca. ayampi dhammo sārāṇīyo piyakaraṇo
+garukaraṇo saṅgahāya avivādāya sāmaggiyā ekībhāvāya saṃvattati.
 
-<p><span class="parno">10</span><a class="wp" id="wp8"></a>
-<a id="p_9M_1701" class="ms"></a>
-<a class="msdiv" id="msdiv_493"></a>
-Kathañca, bhikkhave, yāyaṃ diṭṭhi ariyā niyyānikā niyyāti takkarassa sammā
-dukkhakkhayāya? Idha, bhikkhave, bhikkhu araññagato vā rukkhamūlagato vā
-suññāgāragato vā iti paṭisañcikkhati: ‘atthi nu kho me taṃ pariyuṭṭhānaṃ
-ajjhattaṃ appahīnaṃ, yenāhaṃ pariyuṭṭhānena pariyuṭṭhitacitto yathābhūtaṃ
-nappajāneyyaṃ na passeyyan’ti? Sace, bhikkhave, bhikkhu kāmarāgapariyuṭṭhito
-hoti, pariyuṭṭhitacittova hoti. Sace, bhikkhave, bhikkhu byāpādapariyuṭṭhito
-hoti, pariyuṭṭhitacittova hoti. Sace, bhikkhave, bhikkhu thinamiddhapariyuṭṭhito hoti, pariyuṭṭhitacittova hoti. Sace, bhikkhave, bhikkhu uddhaccakukkuccapariyuṭṭhito hoti, pariyuṭṭhitacittova hoti. Sace, bhikkhave, bhikkhu vicikicchāpariyuṭṭhito hoti, pariyuṭṭhitacittova hoti. Sace, bhikkhave, bhikkhu idhalokacintāya pasuto hoti, pariyuṭṭhitacittova hoti. Sace, bhikkhave, bhikkhu paralokacintāya pasuto hoti, pariyuṭṭhitacittova hoti. Sace, bhikkhave, bhikkhu bhaṇḍanajāto kalahajāto vivādāpanno aññamaññaṃ mukhasattīhi vitudanto viharati, pariyuṭṭhitacittova hoti. So evaṃ pajānāti: ‘natthi kho me taṃ pariyuṭṭhānaṃ ajjhattaṃ appahīnaṃ, yenāhaṃ pariyuṭṭhānena pariyuṭṭhitacitto yathābhūtaṃ nappajāneyyaṃ na passeyyaṃ. Suppaṇihitaṃ me mānasaṃ saccānaṃ bodhāyā’ti. Idamassa paṭhamaṃ ñāṇaṃ adhigataṃ hoti ariyaṃ lokuttaraṃ asādhāraṇaṃ puthujjanehi. <span class="brnum">(1)</span></p>
+<p><span class="parno">10</span>
+puna ca paraṃ bhikkhave bhikkhu ye te lābhā dhammikā dhammaladdhā antamaso
+pattapariyāpannamattampi, tathārūpehi lābhehi appaṭivibhattabhogī hoti
+sīlavantehi sabrahmacārīhi sādhāraṇa bhogī. ayampi dhammo sārāṇīyo
+piyakaraṇo garukaraṇo saṅgahāya avivādāya sāmaggiyā ekībhāvāya
+saṃvattati.<span class="note"> <span class="details"><span class="p">bjt page 756</span></span></span>
 
-<p><span class="parno">11</span><a class="wp" id="wp9"></a>
-<a id="p_9M_1702" class="ms"></a>
-<a class="msdiv" id="msdiv_494"></a>
-Puna caparaṃ, bhikkhave, ariyasāvako iti paṭisañcikkhati: ‘imaṃ nu kho ahaṃ
-diṭṭhiṃ āsevanto bhāvento bahulīkaronto labhāmi paccattaṃ samathaṃ, labhāmi
-paccattaṃ nibbutin’ti? So evaṃ pajānāti: ‘imaṃ kho ahaṃ diṭṭhiṃ āsevanto
-bhāvento bahulīkaronto labhāmi paccattaṃ samathaṃ, labhāmi paccattaṃ
-nibbutin’ti. Idamassa dutiyaṃ ñāṇaṃ adhigataṃ hoti ariyaṃ lokuttaraṃ
-asādhāraṇaṃ puthujjanehi. <span class="brnum">(2)</span></p>
+<p><span class="parno">11</span>
+puna ca paraṃ bhikkhave bhikkhu yāni tāni sīlāni akhaṇḍāni acchiddāni
+asabalāni akammāsāni bhujissāni viññuppasatthāni aparāmaṭṭhāni
+samādhisaṃvattanikāni, tathārūpesu sīlesu sīlasāmaññagato viharati
+sabrahmacārīhi āvī ceva raho ca. ayampi dhammo sārāṇīyo piyakaraṇo
+garukaraṇo saṅgahāya avivādāya sāmaggiyā ekībhāvāya saṃvattati.
 
-<p><span class="parno">12</span><a class="wp" id="wp10"></a>
-<a class="pts1" id="pts1.324"></a>
-<a id="p_9M_1703" class="ms"></a>
-<a class="msdiv" id="msdiv_495"></a>
-Puna caparaṃ, bhikkhave, ariyasāvako iti paṭisañcikkhati: ‘yathārūpāyāhaṃ
-diṭṭhiyā samannāgato, atthi nu kho ito bahiddhā añño samaṇo vā brāhmaṇo vā
-tathārūpāya diṭṭhiyā samannāgato’ti? So evaṃ pajānāti: ‘yathārūpāyāhaṃ diṭṭhiyā
-samannāgato, natthi ito bahiddhā añño samaṇo vā brāhmaṇo vā tathārūpāya
-diṭṭhiyā samannāgato’ti. Idamassa tatiyaṃ ñāṇaṃ adhigataṃ hoti ariyaṃ
-lokuttaraṃ asādhāraṇaṃ puthujjanehi. <span class="brnum">(3)</span></p>
+<p><span class="parno">12</span>
+puna ca paraṃ bhikkhave bhikkhu yāyaṃ diṭṭhi ariyā niyyānikā niyyāti
+takkarassa sammā dukkhakkhayāya, tathārūpāya diṭṭhiyā diṭṭhisāmaññagato
+viharati sabrahmacārīhi āvī ceva raho ca. ayampi dhammo sārāṇīyo piyakaraṇo
+garukaraṇo saṅgahāya avivādāya sāmaggiyā ekībhāvāya saṃvattati.
 
-<p><span class="parno">13</span><a class="wp" id="wp11"></a>
-<a id="p_9M_1704" class="ms"></a>
-<a class="msdiv" id="msdiv_496"></a>
-Puna caparaṃ, bhikkhave, ariyasāvako iti paṭisañcikkhati: ‘yathārūpāya
-dhammatāya diṭṭhisampanno puggalo samannāgato, ahampi tathārūpāya dhammatāya
-samannāgato’ti. Kathaṃrūpāya ca, bhikkhave, dhammatāya diṭṭhisampanno puggalo
-samannāgato? Dhammatā esā, bhikkhave, diṭṭhisampannassa puggalassa: ‘kiñcāpi
-tathārūpiṃ āpattiṃ āpajjati, yathārūpāya āpattiyā vuṭṭhānaṃ paññāyati, atha kho
-naṃ khippameva satthari vā viññūsu vā sabrahmacārīsu deseti vivarati
-uttānīkaroti; desetvā vivaritvā uttānīkatvā āyatiṃ saṃvaraṃ āpajjati’.
-Seyyathāpi, bhikkhave, daharo kumāro mando uttānaseyyako hatthena vā pādena vā
-angāraṃ akkamitvā khippameva paṭisaṃharati; evameva kho, bhikkhave, dhammatā
-esā diṭṭhisampannassa puggalassa: ‘kiñcāpi tathārūpiṃ āpattiṃ āpajjati
-yathārūpāya āpattiyā vuṭṭhānaṃ paññāyati, atha kho naṃ khippameva satthari vā
-viññūsu vā sabrahmacārīsu deseti vivarati uttānīkaroti; desetvā vivaritvā
-uttānīkatvā āyatiṃ saṃvaraṃ āpajjati’. So evaṃ pajānāti: ‘yathārūpāya
-dhammatāya diṭṭhisampanno puggalo samannāgato, ahampi tathārūpāya dhammatāya
-samannāgato’ti. Idamassa catutthaṃ ñāṇaṃ adhigataṃ hoti ariyaṃ lokuttaraṃ
-asādhāraṇaṃ puthujjanehi. <span class="brnum">(4)</span></p>
+<p><span class="parno">13</span>
+ime kho bhikkhave cha sārāṇīyā dhammā piyakaraṇā garukaraṇā saṅgahāya
+avivādāya sāmaggiyā ekībhāvāya saṃvattanti.
 
-<p><span class="parno">14</span><a class="wp" id="wp12"></a>
-<a id="p_9M_1705" class="ms"></a>
-<a class="msdiv" id="msdiv_497"></a>
-Puna caparaṃ, bhikkhave, ariyasāvako iti paṭisañcikkhati: ‘yathārūpāya
-dhammatāya diṭṭhisampanno puggalo samannāgato, ahampi tathārūpāya dhammatāya
-samannāgato’ti. Kathaṃrūpāya ca, bhikkhave, dhammatāya diṭṭhisampanno puggalo
-samannāgato? Dhammatā esā, bhikkhave, diṭṭhisampannassa puggalassa: ‘kiñcāpi
-yāni tāni sabrahmacārīnaṃ uccāvacāni kinkaraṇīyāni tattha ussukkaṃ āpanno hoti,
-atha khvāssa tibbāpekkhā hoti adhisīlasikkhāya adhicittasikkhāya
-adhipaññāsikkhāya’. Seyyathāpi, bhikkhave, gāvī taruṇavacchā thambañca ālumpati
-vacchakañca apacinati; evameva kho, bhikkhave, dhammatā esā diṭṭhisampannassa
-puggalassa: ‘kiñcāpi yāni tāni sabrahmacārīnaṃ uccāvacāni kinkaraṇīyāni tattha
-ussukkaṃ āpanno hoti, atha khvāssa tibbāpekkhā hoti adhisīlasikkhāya
-adhicittasikkhāya adhipaññāsikkhāya’. So evaṃ pajānāti: ‘yathārūpāya dhammatāya
-diṭṭhisampanno puggalo samannāgato, ahampi tathārūpāya dhammatāya
-samannāgato’ti. Idamassa pañcamaṃ ñāṇaṃ adhigataṃ hoti ariyaṃ lokuttaraṃ
-asādhāraṇaṃ puthujjanehi. <span class="brnum">(5)</span></p>
+<p><span class="parno">14</span>
+imesaṃ kho bhikkhave channaṃ sārāṇīyānaṃ dhammānaṃ etaṃ aggaṃ etaṃ
+saṅgāhikaṃ etaṃ saṃghātanikaṃ yadidaṃ yāyaṃ diṭṭhi ariyā niyyātikā niyyāti
+takkarassa sammā dukkhakkhayāya. seyyathāpi bhikkhave kūṭāgārassa etaṃ aggaṃ
+etaṃ saṅgāhakaṃ etaṃ saṃghātanikaṃ yadidaṃ kūṭaṃ, evameva kho bhikkhave
+imesaṃ channaṃ sārāṇīyānaṃ dhammānaṃ etaṃ aggaṃ etaṃ saṅgāhikaṃ etaṃ
+saṃghātanikaṃ yadidaṃ yāyaṃ diṭṭhi ariyā niyyānikā niyyāti takkarassa sammā
+dukkhakkhayāya.<span class="note"> <span class="details"><span class="p">pts page 323</span></span></span>
 
-<p><span class="parno">15</span><a class="wp" id="wp13"></a>
-<a class="pts1" id="pts1.325"></a>
-<a id="p_9M_1706" class="ms"></a>
-<a class="msdiv" id="msdiv_498"></a>
-Puna caparaṃ, bhikkhave, ariyasāvako iti paṭisañcikkhati: ‘yathārūpāya balatāya
-diṭṭhisampanno puggalo samannāgato, ahampi tathārūpāya balatāya samannāgato’ti.
-Kathaṃrūpāya ca, bhikkhave, balatāya diṭṭhisampanno puggalo samannāgato? Balatā
-esā, bhikkhave, diṭṭhisampannassa puggalassa yaṃ tathāgatappavedite
-dhammavinaye desiyamāne <span class="var" title="aṭṭhikatvā (bj)" id="note498">aṭṭhiṃ katvā</span> manasikatvā <span class="var" title="sabbacetaso (bj, s1-3, km, pts1) | sabbaṃ cetasā (mr)" id="note499">sabbacetasā</span> samannāharitvā
-ohitasoto dhammaṃ suṇāti. So evaṃ pajānāti: ‘yathārūpāya balatāya
-diṭṭhisampanno puggalo samannāgato, ahampi tathārūpāya balatāya samannāgato’ti.
-Idamassa chaṭṭhaṃ ñāṇaṃ adhigataṃ hoti ariyaṃ lokuttaraṃ asādhāraṇaṃ
-puthujjanehi. <span class="brnum">(6)</span></p>
+<p><span class="parno">15</span>
+kathañca bhikkhave yāyaṃ diṭṭhi ariyā niyyānikā niyyāti takkarassa sammā
+dukkhakkhayāya?
 
-<p><span class="parno">16</span><a class="wp" id="wp14"></a>
-<a id="p_9M_1707" class="ms"></a>
-<a class="msdiv" id="msdiv_499"></a>
-Puna caparaṃ, bhikkhave, ariyasāvako iti paṭisañcikkhati: ‘yathārūpāya balatāya
-diṭṭhisampanno puggalo samannāgato, ahampi tathārūpāya balatāya samannāgato’ti.
-Kathaṃrūpāya ca, bhikkhave, balatāya diṭṭhisampanno puggalo samannāgato? Balatā
-esā, bhikkhave, diṭṭhisampannassa puggalassa yaṃ tathāgatappavedite
-dhammavinaye desiyamāne labhati atthavedaṃ, labhati dhammavedaṃ, labhati
-dhammūpasaṃhitaṃ pāmojjaṃ. So evaṃ pajānāti: ‘yathārūpāya balatāya
-diṭṭhisampanno puggalo samannāgato, ahampi tathārūpāya balatāya samannāgato’ti.
-Idamassa sattamaṃ ñāṇaṃ adhigataṃ hoti ariyaṃ lokuttaraṃ asādhāraṇaṃ
-puthujjanehi. <span class="brnum">(7)</span></p>
+<p><span class="parno">16</span>
+idha bhikkhave bhikkhu araññagato vā rukkhamūlagato vā suññāgāragato vā iti
+paṭisañcikkhati: atthi nu kho me taṃ pariyuṭṭhānaṃ ajjhattaṃ appahīnaṃ
+yenāhaṃ pariyuṭṭhānena pariyuṭṭhitacitto yathābhūtaṃ na jāneyyaṃ na
+passeyyanti.<span class="note"> <span class="details"><span class="p">bjt page 758</span></span></span>
 
-<p><span class="parno">17</span><a class="wp" id="wp15"></a>
-<a id="p_9M_1708" class="ms"></a>
-<a class="msdiv" id="msdiv_500"></a>
-Evaṃ sattangasamannāgatassa kho, bhikkhave, ariyasāvakassa dhammatā
-susamanniṭṭhā hoti sotāpattiphalasacchikiriyāya. Evaṃ sattangasamannāgato
-kho, bhikkhave, ariyasāvako sotāpattiphalasamannāgato hotī"ti.</p>
+<p><span class="parno">17</span>
+"sace bhikkhave bhikkhu kāmarāga pariyuṭṭhito hoti, pariyuṭṭhitacitto'va
+hoti. sace bhikkhave bhikkhu byāpādapariyuṭṭhito hoti, pariyuṭṭhitacitto'va
+hoti. sace bhikkhave bhikkhu thīnamiddhapariyuṭṭhito hoti,
+pariyuṭṭhitacitto'va hoti. sace bhikkhave bhikkhu
+uddhaccakukkuccapariyuṭṭhito hoti, pariyuṭṭhitacitto'va hoti. sace bhikkhave
+bhikkhu vicikicchāpariyuṭṭhito hoti, pariyuṭṭhitacitto'va hoti. sace
+bhikkhave bhikkhu idhalokacintāya pasuto hoti, pariyuṭṭhitacitto'va
+hoti. sace bhikkhave bhikkhu paralokacintāya pasuto hoti,
+pariyuṭṭhitacitto'va hoti. sace bhikkhave bhikkhu bhaṇḍanajāto kalahajāto
+vivādāpanno <span class="var" title="'aññamaññaṃ' iti (sīmu) potthake ūnaṃ">aññamaññaṃ</span>
+mukhasattīhi vitudanto viharati, pariyuṭṭhitacitto'va hoti."
 
 <p><span class="parno">18</span>
-<a id="p_9M_1709" class="ms"></a>
-Idamavoca bhagavā. Attamanā te bhikkhū bhagavato bhāsitaṃ abhinandunti.</p>
-<p class="endsection">Kosambiyasuttaṃ niṭṭhitaṃ aṭṭhamaṃ.</p>
-</div>
-</section>
-<div id="nextprev"><a id="previous-sutta" href="./mn47.html"></a><a id="next-sutta" href="./mn49.html"></a></div>
-</div><!--content-->
-<footer>
-<div id="breadcrumbs">
-<a href="../home/index.html">Home</a><a href="../mn/mn.html">Majjhima Nikāya</a>MN48: Kosambiyasutta
-</div>
-<a id="bottom"></a>
-</footer>
-</div><!--container-->
-<script src="../js/footer.js"></script>
-</body>
-</html>
+so evaṃ pajānāti: natthi kho me taṃ pariyuṭṭhānaṃ ajjhattaṃ appahīnaṃ
+yenāhaṃ pariyuṭṭhānena pariyuṭṭhitacitto yathābhūtaṃ na jāneyyaṃ na
+passeyyaṃ. suppaṇihitaṃ me mānasaṃ saccānaṃ bodhāyāti. idamassa paṭhamaṃ
+ñāṇaṃ adhigataṃ hoti ariyaṃ lokuttaraṃ asādhāraṇaṃ puthujjanehi.
+
+<p><span class="parno">19</span>
+puna ca paraṃ bhikkhave ariyasāvako iti paṭisañcikkhati: imaṃ nu kho ahaṃ
+diṭṭhiṃ āsevanto bhāvento bahulīkaronto labhāmi paccattaṃ samathaṃ, labhāmi
+paccattaṃ nibbuti'nti. so evaṃ pajānāti: imaṃ kho ahaṃ diṭṭhiṃ āsevanto
+bhāvento bahulīkaronto labhāmi paccattaṃ samathaṃ, labhāmi paccattaṃ
+nibbuti'nti. idamassa dutiyaṃ ñāṇaṃ adhigataṃ hoti ariyaṃ lokuttaraṃ
+asādhāraṇaṃ puthujjanehi.<span class="note"> <span class="details"><span class="p">pts page 324</span></span></span>
+
+<p><span class="parno">20</span>
+puna ca paraṃ bhikkhave ariyasāvako iti paṭisañcikkhati: yathārūpāyāhaṃ
+diṭṭhiyā samannāgato, atthi nu kho ito bahiddhā añño samaṇo vā brāhmaṇo vā
+tathārūpāya diṭṭhiyā samannāgato'ti. so evaṃ pajānāti: yathārūpāyāhaṃ
+diṭṭhiyā samannāgato, natthi ito bahiddhā añño samaṇo vā brāhmaṇo vā
+tathārūpāya diṭṭhiyā samannāgato'ti. idamassa tatiyaṃ ñāṇaṃ adhigataṃ hoti
+ariyaṃ lokuttaraṃ asādhāraṇaṃ puthujjanehi.<span class="note"> <span class="details"><span class="p">bjt page 760</span></span></span>
+
+<p><span class="parno">21</span>
+puna ca paraṃ bhikkhave ariyasāvako iti paṭisañcikkhati: yathārūpāya
+dhammatāya diṭṭhisampanno puggalo samannāgato, ahampi tathārūpāya dhammatāya
+samannāgato'ti.
+
+<p><span class="parno">22</span>
+"kathaṃrūpāya ca bhikkhave dhammatāya diṭṭhisampanno puggalo samannāgato?
+dhammatā esā bhikkhave diṭṭhisampannassa puggalassa: kiñcāpi tathārūpiṃ
+<span class="var" title="tathārūpiāpattiṃ (si, kanthaci)">āpattiṃ</span> āpajjati yathārūpāya
+āpattiyā <span class="var" title="vuṭṭhānaṃ (sī)">uṭṭhānaṃ</span> paññāyati, atha kho khippameva
+satthari vā viññūsu vā sabrahmacārīsu deseti vivarati
+<span class="var" title="uttāniṃ (machasaṃ)">uttānī</span> karoti. desetvā vivaritvā uttānī
+<span class="var" title="uttāniṃ katvā (machasaṃ); uttānī katvā (syā, pts); uttāni katvā (sī)">karitvā</span> āyatiṃ saṃvaraṃ āpajjati. seyyathāpi bhikkhave daharo kumāro
+mando uttānaseyyako hatthena vā pādena vā aṅgāraṃ akkamitvā khippameva
+paṭisaṃharati, evameva kho bhikkhave dhammatā esā diṭṭhisampannassa
+puggalassa: kiñcāpi tathārūpiṃ āpattiṃ āpajjati yathārūpāya āpattiyā
+uṭṭhānaṃ paññāyati, atha kho naṃ khippameva satthari vā viññūsu vā
+sabrahmacārīsu deseti vivarati uttānī karoti. desetvā vivaritvā uttānī
+karitvā āyatiṃ saṃvaraṃ āpajjati."
+
+<p><span class="parno">23</span>
+so evaṃ pajānāti: yathārūpāya dhammatāya diṭṭhisampanno puggalo samannāgato,
+ahampi tathārūpāya dhammatāya samannāgato'ti. idamassa catutthaṃ ñāṇaṃ
+adhigataṃ hoti ariyaṃ lokuttaraṃ asādhāraṇaṃ puthujjanehi.
+
+<p><span class="parno">24</span>
+puna ca paraṃ bhikkhave ariyasāvako iti paṭisañcikkhati: yathārūpāya
+dhammatāya diṭṭhisampanno puggalo samannāgato, ahampi tathā rūpāya
+dhammatāya samannāgato'ti.
+
+<p><span class="parno">25</span>
+"kathaṃ rūpāya ca bhikkhave dhammatāya diṭṭhisampanno puggalo samannāgato?
+dhammatā esā bhikkhave diṭṭhisampannassa puggalassa: kiñcāpi yāni tāni
+sabrahmacārīnaṃ uccāvacāni kiṅkaraṇīyāni, tattha ussukkaṃ
+<span class="var" title="usasukkamāpanno (machasaṃ)">āpanno</span> hoti. atha
+<span class="var" title="athakhvassa (syā)">khvāssa</span> tibbāpekkhā hoti adhisīlasikkhāya
+adhicittasikkhāya adhipaññāsikkhāya. seyyathāpi bhikkhave gāvī taruṇavacchā
+<span class="var" title="dabbañca (machasaṃ)">thambañca</span> ālumpati vacchakañca
+<span class="var" title="apacinati (machasaṃ, syā) apaciṇāti (sī, katthaci).">apavīṇati</span>,
+evameva kho bhikkhave dhammatā esā diṭṭhisampannassa puggalassa: kiñcāpi
+yāni tāni sabrahmacārīnaṃ uccāvacāni kiṅkaraṇīyāni tattha ussukkaṃ āpanno
+hoti. atha khvāssa tibbāpekkhā hoti adhisīlasikkhāya adhicittasikkhāya
+adhipaññāsikkhāya.<span class="note"> <span class="details"><span class="p">pts page 325</span></span></span>"
+
+<p><span class="parno">26</span>
+so evaṃ pajānāti: yathārūpāya dhammatāya diṭṭhisampanno puggalo samannāgato,
+ahampi tathārūpāya dhammatāya samannāgato'ti. idamassa pañcamaṃ ñāṇaṃ
+adhigataṃ hoti ariyaṃ lokuttaraṃ asādhāraṇaṃ puthujjanehi.<span class="note"> <span class="details"><span class="p">bjt page 762</span></span></span>
+
+<p><span class="parno">27</span>
+puna ca paraṃ bhikkhave ariyasāvako iti paṭisañcikkhati: yathārūpāya
+balatāya diṭṭhisampanno puggalo samannāgato, ahampi tathārūpāya balatāya
+samannāgato'ti.
+
+<p><span class="parno">28</span>
+"kathaṃ rūpāya ca bhikkhave balatāya diṭṭhisampanno puggalo samannāgato?
+balatā esā bhikkhave diṭṭhisampannassa puggalassa: yaṃ tathāgatappavedite
+dhammavinaye desiyamāne <span class="var" title="aṭṭhiṃkatvā (machasaṃ)">aṭṭhikatvā</span> manasi
+katvā sabbacetaso samannāharitvā ohitasoto dhammaṃ suṇāti."
+
+<p><span class="parno">29</span>
+so evaṃ pajānāti: yathārūpāya balatāya diṭṭhisampanno puggalo samannāgato,
+ahampi tathārūpāya balatāya samannāgato'ti. idamassa chaṭṭhaṃ ñāṇaṃ
+adhigataṃ hoti ariyaṃ lokuttaraṃ asādhāraṇaṃ puthujjanehi.
+
+<p><span class="parno">30</span>
+puna ca paraṃ bhikkhave ariyasāvako iti paṭisañcikkhati: yathārūpāya
+balatāya diṭṭhisampanno puggalo samannāgato, ahampi tathārūpāya balatāya
+samannāgato'ti.
+
+<p><span class="parno">31</span>
+"kathaṃ rūpāya ca bhikkhave balatāya diṭṭhisampanno puggalo samannāgato?
+balatā esā bhikkhave diṭṭhisampannassa puggalassa: yaṃ tathāgatappavedite
+dhammavinaye desiyamāne labhati atthavedaṃ, labhati dhammavedaṃ, labhati
+dhammūpasaṃhitaṃ pāmujjaṃ."
+
+<p><span class="parno">32</span>
+so evaṃ pajānāti: yathārūpāya balatāya diṭṭhisampanno puggalo samannāgato,
+ahampi tathārūpāya balatāya samannāgato'ti. idamassa sattamaṃ ñāṇaṃ
+adhigataṃ hoti ariyaṃ lokuttaraṃ asādhāraṇaṃ puthujjanehi.
+
+<p><span class="parno">33</span>
+evaṃ sattaṅgasamannāgatassa kho bhikkhave ariyasāvakassa dhammatā
+susamanniṭṭhā hoti sotāpattiphalasacchikiriyāya. evaṃ sattaṅgasamannāgato
+kho bhikkhave ariyasāvako sotāpattiphalasamannāgato hotīti.<span class="note"> <span class="details"><span class="p">pts page 326</span></span></span>
+
+<p><span class="parno">34</span>
+idamavoca bhagavā. attamanā te bhikkhū bhagavato bhāsitaṃ
+abhinandunti.<span class="note"> <span class="details"><span class="p">bjt page 764</span></span></span>
+<p><span class="parno">1</span>
+Thus was heard by me. At one time the Auspicious One was living in Kosambi
+at Ghosita's park. By then the bhikkhus at Kosambi were dwelling very
+quarrelsome, disputatious, contentious, stabbing one another with the
+daggers of the mouth. They just [could] not convince one another and [could]
+not arrive at appeasement. And they [could] not win over one another and
+[could] not arrive at understanding.
+
+<p><span class="parno">2</span>
+Then a certain bhikkhu visited with the Auspicious One. Upon arrival, he
+bowed down to the Auspicious One and sat down to one side. Having sat down
+to one side, that bhikkhu said this to the Auspicious One: “Here, O
+Bhante, the bhikkhus at Kosambi are dwelling quarrelsome, disputatious,
+contentious, stabbing one another with the daggers of the mouth. They just
+[can] not convince one another and [can] not arrive at appeasement. And they
+[can] not win over one another and [can] not arrive at
+understanding.”
+
+<p><span class="parno">3</span>
+So then, the Auspicious One addressed a certain bhikkhu: Come you
+bhikkhu. Tell those bhikkhus in my name: “the Teacher summons the
+venerables.” “Yes, Bhante” that bhikkhu having replied
+to the Auspicious One, went to those bhikkhus. Upon arrival, he said this to
+those bhikkhus: “The Teacher summons the venerables.” Yes,
+friend. Those bhikkhus having replied to that bhikkhu, went to the
+Auspicious One. Upon arrival, they bowed down to the Auspicious One and sat
+down to one side. Having sat down to one side, the Auspicious One  said this
+to those bhikkhus: “Is it true as reported, that you, O bhikkhus, are
+dwelling quarrelsome, disputatious, contentious, stabbing one another with
+the daggers of the mouth. That you just [can] not convince one another and
+[can] not arrive at appeasement. And that you [can] not win over one another
+and [can] not arrive at understanding?” “Yes, Bhante.”
+
+<p><span class="parno">4</span>
+“So what do you think, O bhikkhus. On the occasion when you abide
+quarrelsome, disputatious, contentious, stabbing one another with the
+daggers of the mouth, do you, on that occasion, extend bodily acts [of]
+metta to your companions in the life of purity openly and also in secret;
+and extend verbal acts [of] metta to your companions in the life of purity
+openly and also in secret; and extend mental acts [of] metta to your
+companions in the life of purity openly and also in secret?”
+Certainly not, Bhante.
+
+<p><span class="parno">5</span>
+“Thus really, O bhikkhus, on the occasion when you abide quarrelsome,
+disputatious, contentious, stabbing one another with the daggers of the
+mouth, on that occasion, you neither extend bodily acts [of] metta to your
+companions in the life of purity openly and also in secret; nor extend
+verbal acts [of] metta to your companions in the life of purity openly and
+also in secret; nor extend mental acts [of] metta to your companions in the
+life of purity openly and also in secret. Then what now, you worthless men,
+knowing what, seeing what, do you dwell quarrelsome, disputatious,
+contentious, stabbing one another with the daggers of the mouth. That you
+just [can] not convince one another and [can] not arrive at appeasement. And
+that you [can] not win over one another and [can] not arrive at
+understanding? That indeed will be for you worthless men's harm and
+suffering for a long time.”
+
+<p><span class="parno">6</span>
+Then the Auspicious One addressed the bhikkhus: These six dhammas, O
+bhikkhus, causing delight, making for affection, making for respect, lead to
+friendliness, to non-contentiousness, to concord, to unity. Which six?
+
+<p><span class="parno">7</span>
+Here, O bhikkhus, a bhikkhu extends bodily acts of metta to his companions
+in the life of purity openly and also in secret. This dhamma causing
+delight, making for affection, making for respect, leads to friendliness, to
+non-contentiousness, to concord, to unity.
+
+<p><span class="parno">8</span>
+Furthermore, O bhikkhus, a bhikkhu extends verbal acts of metta to his
+companions in the life of purity openly and also in secret. This dhamma
+causing delight, making for affection, making for respect, leads to
+friendliness, to non-contentiousness, to concord, to unity.
+
+<p><span class="parno">9</span>
+Furthermore, O bhikkhus, a bhikkhu extends mental acts of metta to his
+companions in the life of purity openly and also in secret. This dhamma
+causing delight, making for affection, making for respect, leads to
+friendliness, to non-contentiousness, to concord, to unity.
+
+<p><span class="parno">10</span>
+Furthermore, O bhikkhus, that which is a righteous gain, righteously
+acquired, including even so much as the mere contents of alms bowl, that
+form of gain too, a bhikkhu enjoys it in common with his virtuous companions
+in the life of purity, not making use of it without sharing with
+others. This dhamma too causing delight, making for affection, making for
+respect, leads to friendliness, to non-contentiousness, to concord, to
+unity.
+
+<p><span class="parno">11</span>
+Furthermore, O bhikkhus, that virtue which is unbroken, untorn, unmottled,
+unspeckled, freeing, praised by the wise, unadhered to, leading to samadhi,
+having arrived at a virtue that is in conformity with such a form of virtue,
+a bhikkhu dwells with his companions in the life of purity openly and also
+in secret. This dhamma too causing delight, making for affection, making for
+respect, leads to friendliness, to non-contentiousness, to concord, to
+unity.
+
+<p><span class="parno">12</span>
+Furthermore, O bhikkhus, this view which is noble, emancipating, delivering
+the doer thereof to the thorough destruction of suffering, having arrived at
+a view that is in conformity with such a form of view, a bhikkhu dwells with
+his companions in the life of purity openly and also in secret. This dhamma
+too causing delight, making for affection, making for respect, leads to
+friendliness, to non-contentiousness, to concord, to unity.
+
+<p><span class="parno">13</span>
+O bhikkhus, these six dhammas causing delight, making for affection, making
+for respect, lead to friendliness, to non-contentiousness, to concord, to
+unity.
+
+<p><span class="parno">14</span>
+O bhikkhus, of these six dhammas ever causing delight, this is the foremost,
+this holds it together, this binds it together, namely, the view which is
+noble, emancipating, delivering the doer thereof to the thorough destruction
+of suffering. Just as, O bhikkhus, for a building with a peaked roof this is
+the foremost, this holds it together, this binds it together, namely, the
+roofridge, just so, O bhikkhus, of these six dhammas ever causing delight,
+this is the foremost, this holds it together, this binds it together,
+namely, the view which is noble, emancipating, delivering the doer thereof
+to the thorough destruction of suffering.
+
+<p><span class="parno">15</span>
+And how, O bhikkhus, does this view which is noble, emancipating, deliver
+the doer thereof to the thorough destruction of suffering?
+
+<p><span class="parno">16</span>
+Here, O bhikkhus, a bhikkhu, gone to the forest or gone to the root of the
+tree or gone to an empty hut considers thus: is there really that internal
+preoccupation unabandoned by me by which [being] so preoccupied may obsess
+my mind that I may neither know nor see things as they have come to be?
+
+<p><span class="parno">17</span>
+If, O bhikkhus, a bhikkhu is overcome by sensual desire, then certainly, his
+mind is obsessed. If, O bhikkhus, a bhikkhu is overcome by ill-will, then
+certainly, his mind is obsessed. If, O bhikkhus, a bhikkhu is overcome by
+sluggishness and lack of mental agility, then certainly, his mind is
+obsessed. If, O bhikkhus, a bhikkhu is overcome by restlessness and remorse,
+then certainly, his mind is obsessed. If, O bhikkhus, a bhikkhu is overcome
+by doubt, then certainly, his mind is obsessed. If, O bhikkhus, a bhikkhu is
+overcome by mentation about this world, then certainly, his mind is
+obsessed. If, O bhikkhus, a bhikkhu is overcome by mentation about the other
+world, then certainly, his mind is obsessed. If, O bhikkhus, a bhikkhu is
+quarrelsome, disputatious, contentious, abides stabbing others mutually with
+the daggers of the mouth, then certainly, his mind is obsessed.
+
+<p><span class="parno">18</span>
+He understands thus: “There is in fact not that internal preoccupation
+unabandoned by me by which [being] so preoccupied may obsess my mind that I
+may neither know nor see things as they have come to be. My mind is well
+inclined for the truths, for awakening.” This is the first
+knowledge attained by him that is noble, supramundane, not in common with
+puthujjanas.
+
+<p><span class="parno">19</span>
+Furthermore, O bhikkhus, a noble disciple considers thus: “While
+pursuing, maturing, making abundant this view, do I really gain internal
+tranquility, do I gain internal extinguishing?” He understands
+thus: “In fact, while pursuing, maturing, making abundant this view, I do
+gain internal tranquility, I do gain internal extinguishing.”This
+is the second knowledge attained by him that is noble, supramundane, not in
+common with puthujjanas.
+
+<p><span class="parno">20</span>
+Furthermore, O bhikkhus, a noble disciple considers thus: “Given such a
+form of view that I am endowed with, is there really other samanas or
+brahmanas from outside this [Buddha's teachings] that are endowed with such
+a form of view?” He understands thus: “Given such a form of view
+that I am endowed with, there is no other samanas or brahmanas from outside
+this [Buddha's teachings] that are endowed with such a form of
+view?” This is the third knowledge attained by him that is noble,
+supramundane, not in common with puthujjanas.
+
+<p><span class="parno">21</span>
+Furthermore, O bhikkhus, a noble disciple considers thus: “That form of
+character which an individual accomplished in view is endowed with, am I too
+endowed with such a form of character?”
+
+<p><span class="parno">22</span>
+And what form of character, O bhikkhus, is an individual accomplished in
+view endowed with? This, O bhikkhus, is the character of an individual
+accomplished in view. By which form of offense there is a rehabilitation,
+however little that form of offense he gets into, he just quickly makes it
+evident to the Teacher or wise man or companions in the life of purity,
+makes it known, makes it clear, makes a confession. Having made it known,
+having made it clear, having made a confession, he undertakes future
+restraint. Just as, O bhikkhus, a little young boy, an infant, having
+treaded on a charcoal, just quickly withdraws his hand or foot, similarly, O
+bhikkhus, this is the character of an individual accomplished in view: By
+which form of offense there is a rehabilitation, however little that form of
+offense he gets into, he just quickly makes it evident to the Teacher or
+wise man or companions in the life of purity, makes it known, makes it
+clear, makes a confession. Having made it known, having made it clear,
+having made a confession, he undertakes future restraint.
+
+<p><span class="parno">23</span>
+He understands thus: “That form of character which an individual
+accomplished in view is endowed with, I too am endowed with such a form of
+character?” This is the fourth knowledge attained by him that is
+noble, supramundane, not in common with puthujjanas.
+
+<p><span class="parno">24</span>
+Furthermore, O bhikkhus, a noble disciple considers thus: “That form of
+character which an individual accomplished in view is endowed with, am I too
+endowed with such a form of character?”
+
+<p><span class="parno">25</span>
+And what form of character, O bhikkhus, is an individual accomplished in
+view endowed with? This, O bhikkhus, is the character of an individual
+accomplished in view: however much various obligations he has entered upon
+with zeal for his companions in the life of purity there, he still has keen
+desire for training in the higher virtue, for training in the higher states
+of mind, for training in the higher wisdom. Just as, O bhikkhus, a cow with
+a young calf grazes while watching over her small calf, just so, O bhikkhus,
+is the character of an individual accomplished in view: however much various
+obligations he has entered upon with zeal for his companions in the life of
+purity there, he still has keen desire for training in the higher virtue,
+for training in the higher states of mind, for training in the higher
+wisdom.
+
+<p><span class="parno">26</span>
+He understands thus: “That form of character which an individual
+accomplished in view is endowed with, I too am endowed with such a form of
+character?” This is the fifth knowledge attained by him that is
+noble, supramundane, not in common with puthujjanas.
+
+<p><span class="parno">27</span>
+Furthermore, O bhikkhus, a noble disciple considers thus: “That form of
+strength which an individual accomplished in view is endowed with, am I too
+endowed with such a form of strength?”
+
+<p><span class="parno">28</span>
+And what form of strength, O bhikkhus, is an individual accomplished in view
+endowed with? This, O bhikkhus, is the strength of an individual
+accomplished in view: When the Dhamma and Vinaya declared by the Tathāgata
+is being taught, he listens to the dhamma, having made it his aim, having
+attended to it with all his mind, having collected it together with eager
+ears.
+
+<p><span class="parno">29</span>
+He understands thus: “That form of strength which an individual
+accomplished in view is endowed with, I too am endowed with such a form of
+strength?” This is the sixth knowledge attained by him that is
+noble, supramundane, not in common with puthujjanas.
+
+<p><span class="parno">30</span>
+Furthermore, O bhikkhus, a noble disciple considers thus: “That form of
+strength which an individual accomplished in view is endowed with, am I too
+endowed with such a form of strength?”
+
+<p><span class="parno">31</span>
+And what form of strength, O bhikkhus, is an individual accomplished in view
+endowed with? This, O bhikkhus, is the strength of an individual
+accomplished in view: When the Dhamma and Vinaya declared by the Tathāgata
+is being taught, he gains intuition of the meaning, gains intuition of the
+Dhamma, gains joy connected with the Dhamma.
+
+<p><span class="parno">32</span>
+He understands thus: “That form of strength which an individual
+accomplished in view is endowed with, I too am endowed with such a form of
+strength?” This is the seventh knowledge attained by him that is
+noble, supramundane, not in common with puthujjanas.
+
+<p><span class="parno">33</span>
+“A noble disciple, O bhikkhus, thus endowed with seven factors, has
+really well matched to perfection the character for realization of the fruit
+of sotapanna. In fact a noble disciple, O bhikkhus, thus endowed with seven
+factors, possesses the fruit of sotapanna.”
+
+<p><span class="parno">34</span>
+This is what the Auspicious One said. Delighted, those bhikkhus rejoiced in
+the Auspicious One's words.
+<br>Get PDFs: <a href="../mn/eBook/mn48.biv.pdf">Side-by-side</a> | <a href="../mn/eBook/mn48.bih.pdf">Par-by-par</a> | <a href="../mn/eBook/mn48.bip.pdf">Facing pages</a> | <a href="../mn/eBook/mn48.eng.pdf">English only</a> | <a href="../mn/eBook/mn48.pli.pdf">Pali only</a>.<br></li>
+
+<p><span class="parno">1</span>
+evaṃ me sutaṃ: ekaṃ samayaṃ bhagavā kosambiyaṃ viharati ghositārāme. tena
+kho samayena kosambiyaṃ bhikkhū bhaṇḍanajātā kalahajātā vivādāpannā
+aññamaññaṃ mukhasattīhi vitudantā viharanti. te na ceva aññamaññaṃ
+saññapenti, na ca saññattiṃ upenti, na ca aññamaññaṃ nijjhāpenti, na ca
+nijjhattiṃ upenti.
+
+<p><span class="parno">2</span>
+atha kho aññataro bhikkhu yena bhagavā tenupasaṅkami. upasaṅkamitvā
+bhagavantaṃ abhivādetvā ekamantaṃ nisīdi. ekamantaṃ nisinno kho so bhikkhu
+bhagavantaṃ etadavoca: idha bhante kosambiyaṃ bhikkhū bhaṇḍanajātā
+kalahajātā vivādāpannā aññamaññaṃ mukhasattīhi vitudantā viharanti. te na
+ceva aññamaññaṃ saññāpenti, na ca saññattiṃ upenti, na ca aññamaññaṃ
+nijjhāpenti, na ca nijjhattiṃ upentīti.<span class="note"> <span class="details"><span class="p">pts page 321</span></span></span>
+
+<p><span class="parno">3</span>
+atha kho bhagavā aññataraṃ bhikkhuṃ āmantesi: ehi tvaṃ bhikkhu mama vacanena
+te bhikkhū āmantehi 'satthāyasmante āmantetī'ti. evambhanteti kho so bhikkhu
+bhagavato paṭissutvā yena te bhikkhū tenupasaṅkami. upasaṅkamitvā te bhikkhū
+etadavoca: satthā āyasmante āmantetīti. evamāvusoti kho te bhikkhū tassa
+bhikkhuno paṭissutvā yena bhagavā tenupasaṅkamiṃsu. upasaṅkamitvā
+bhagavantaṃ abhivādetvā ekamantaṃ nisīdiṃsu. ekamantaṃ nisinne kho te
+bhikkhū bhagavā etadavoca: saccaṃ kira tumhe bhikkhave bhaṇḍanajātā
+kalahajātā vivādāpannā aññamaññaṃ mukhasattīhi vitudantā viharatha, te na
+ceva aññamaññaṃ saññāpetha, na ca saññattiṃ upetha, te na'ceva aññamaññaṃ
+nijjhāpetha, na ca nijjhattiṃ upethāti. " evambhante".
+
+<p><span class="parno">4</span>
+taṃ kiṃ maññatha bhikkhave yasmiṃ tumhe samaye bhaṇḍanajātā kalahajātā
+vivādāpannā aññamaññaṃ mukhasattīhi vitudantā viharatha, api nu tumhākaṃ
+tasmiṃ samaye mettaṃ kāyakammaṃ paccupaṭṭhitaṃ hoti sabrahmacārīsu āvī ceva
+raho ca, mettaṃ vacīkammaṃ paccupaṭṭhitaṃ hoti sabrahmacārīsu āvī ceva raho
+ca, mettaṃ manokammaṃ paccupaṭṭhitaṃ hoti sabrahmacārīsu āvī ceva raho cāti
+' no hetambhante'.<span class="note"> <span class="details"><span class="p">bjt page 754</span></span></span>
+
+<p><span class="parno">5</span>
+iti kira bhikkhave yasmiṃ tumhe bhaṇḍanajātā kalahajātā vivādāpannā
+aññamaññaṃ mukhasattīhi vitudantā viharatha, neva tumhākaṃ tasmiṃ samaye
+mettaṃ kāyakammaṃ paccupaṭṭhitaṃ hoti sabrahmacārīsu āvī ceva raho ca. na
+mettaṃ vacīkammaṃ paccupaṭṭhitaṃ hoti sabrahmacārīsu āvī ceva raho ca. na
+mettaṃ manokammaṃ paccupaṭṭhitaṃ hoti sabrahmacārīsu āvī ceva raho ca. atha
+kiṃ carahi tumhe moghapurisā kiṃ jānantā kiṃ passantā bhaṇḍanajātā
+kalahajātā vivādāpannā aññamaññaṃ mukhasattīhi vitudantā viharatha, te na
+ceva aññamaññaṃ saññāpetha, na ca saññattiṃ upetha, na ca aññamaññaṃ
+nijjhāpetha, na ca nijjhattiṃ upetha. taṃ hi tumhākaṃ moghapurisā bhavissati
+dīgharattaṃ ahitāya dukkhāyāti.<span class="note"> <span class="details"><span class="p">pts page 322</span></span></span>
+
+<p><span class="parno">6</span>
+atha kho bhagavā bhikkhū āmantesi: chayime bhikkhave dhammā sārāṇīyā
+piyakaraṇā garukaraṇā saṅgahāya avivādāya sāmaggiyā ekībhāvāya
+saṃvattanti. katame cha?
+
+<p><span class="parno">7</span>
+idha bhikkhave bhikkhuno mettaṃ kāyakammaṃ paccupaṭṭhitaṃ hoti
+sabrahmacārīsu āvī ceva raho ca. ayampi dhammo sārāṇīyo piyakaraṇo
+garukaraṇo saṅgahāya avivādāya sāmaggiyā ekībhāvāya saṃvattati.
+
+<p><span class="parno">8</span>
+puna ca paraṃ bhikkhave bhikkhuno mettaṃ vacīkammaṃ paccupaṭṭhitaṃ hoti
+sabrahmacārīsu āvī ceva raho ca. ayampi dhammo sārāṇīyo piyakaraṇo
+garukaraṇo saṅgahāya avivādāya sāmaggiyā ekībhāvāya saṃvattati.
+
+<p><span class="parno">9</span>
+puna ca paraṃ bhikkhave bhikkhuno mettaṃ manokammaṃ paccupaṭṭhitaṃ hoti
+sabrahmacārīsu āvī ceva raho ca. ayampi dhammo sārāṇīyo piyakaraṇo
+garukaraṇo saṅgahāya avivādāya sāmaggiyā ekībhāvāya saṃvattati.
+
+<p><span class="parno">10</span>
+puna ca paraṃ bhikkhave bhikkhu ye te lābhā dhammikā dhammaladdhā antamaso
+pattapariyāpannamattampi, tathārūpehi lābhehi appaṭivibhattabhogī hoti
+sīlavantehi sabrahmacārīhi sādhāraṇa bhogī. ayampi dhammo sārāṇīyo
+piyakaraṇo garukaraṇo saṅgahāya avivādāya sāmaggiyā ekībhāvāya
+saṃvattati.<span class="note"> <span class="details"><span class="p">bjt page 756</span></span></span>
+
+<p><span class="parno">11</span>
+puna ca paraṃ bhikkhave bhikkhu yāni tāni sīlāni akhaṇḍāni acchiddāni
+asabalāni akammāsāni bhujissāni viññuppasatthāni aparāmaṭṭhāni
+samādhisaṃvattanikāni, tathārūpesu sīlesu sīlasāmaññagato viharati
+sabrahmacārīhi āvī ceva raho ca. ayampi dhammo sārāṇīyo piyakaraṇo
+garukaraṇo saṅgahāya avivādāya sāmaggiyā ekībhāvāya saṃvattati.
+
+<p><span class="parno">12</span>
+puna ca paraṃ bhikkhave bhikkhu yāyaṃ diṭṭhi ariyā niyyānikā niyyāti
+takkarassa sammā dukkhakkhayāya, tathārūpāya diṭṭhiyā diṭṭhisāmaññagato
+viharati sabrahmacārīhi āvī ceva raho ca. ayampi dhammo sārāṇīyo piyakaraṇo
+garukaraṇo saṅgahāya avivādāya sāmaggiyā ekībhāvāya saṃvattati.
+
+<p><span class="parno">13</span>
+ime kho bhikkhave cha sārāṇīyā dhammā piyakaraṇā garukaraṇā saṅgahāya
+avivādāya sāmaggiyā ekībhāvāya saṃvattanti.
+
+<p><span class="parno">14</span>
+imesaṃ kho bhikkhave channaṃ sārāṇīyānaṃ dhammānaṃ etaṃ aggaṃ etaṃ
+saṅgāhikaṃ etaṃ saṃghātanikaṃ yadidaṃ yāyaṃ diṭṭhi ariyā niyyātikā niyyāti
+takkarassa sammā dukkhakkhayāya. seyyathāpi bhikkhave kūṭāgārassa etaṃ aggaṃ
+etaṃ saṅgāhakaṃ etaṃ saṃghātanikaṃ yadidaṃ kūṭaṃ, evameva kho bhikkhave
+imesaṃ channaṃ sārāṇīyānaṃ dhammānaṃ etaṃ aggaṃ etaṃ saṅgāhikaṃ etaṃ
+saṃghātanikaṃ yadidaṃ yāyaṃ diṭṭhi ariyā niyyānikā niyyāti takkarassa sammā
+dukkhakkhayāya.<span class="note"> <span class="details"><span class="p">pts page 323</span></span></span>
+
+<p><span class="parno">15</span>
+kathañca bhikkhave yāyaṃ diṭṭhi ariyā niyyānikā niyyāti takkarassa sammā
+dukkhakkhayāya?
+
+<p><span class="parno">16</span>
+idha bhikkhave bhikkhu araññagato vā rukkhamūlagato vā suññāgāragato vā iti
+paṭisañcikkhati: atthi nu kho me taṃ pariyuṭṭhānaṃ ajjhattaṃ appahīnaṃ
+yenāhaṃ pariyuṭṭhānena pariyuṭṭhitacitto yathābhūtaṃ na jāneyyaṃ na
+passeyyanti.<span class="note"> <span class="details"><span class="p">bjt page 758</span></span></span>
+
+<p><span class="parno">17</span>
+"sace bhikkhave bhikkhu kāmarāga pariyuṭṭhito hoti, pariyuṭṭhitacitto'va
+hoti. sace bhikkhave bhikkhu byāpādapariyuṭṭhito hoti, pariyuṭṭhitacitto'va
+hoti. sace bhikkhave bhikkhu thīnamiddhapariyuṭṭhito hoti,
+pariyuṭṭhitacitto'va hoti. sace bhikkhave bhikkhu
+uddhaccakukkuccapariyuṭṭhito hoti, pariyuṭṭhitacitto'va hoti. sace bhikkhave
+bhikkhu vicikicchāpariyuṭṭhito hoti, pariyuṭṭhitacitto'va hoti. sace
+bhikkhave bhikkhu idhalokacintāya pasuto hoti, pariyuṭṭhitacitto'va
+hoti. sace bhikkhave bhikkhu paralokacintāya pasuto hoti,
+pariyuṭṭhitacitto'va hoti. sace bhikkhave bhikkhu bhaṇḍanajāto kalahajāto
+vivādāpanno <span class="var" title="'aññamaññaṃ' iti (sīmu) potthake ūnaṃ">aññamaññaṃ</span>
+mukhasattīhi vitudanto viharati, pariyuṭṭhitacitto'va hoti."
+
+<p><span class="parno">18</span>
+so evaṃ pajānāti: natthi kho me taṃ pariyuṭṭhānaṃ ajjhattaṃ appahīnaṃ
+yenāhaṃ pariyuṭṭhānena pariyuṭṭhitacitto yathābhūtaṃ na jāneyyaṃ na
+passeyyaṃ. suppaṇihitaṃ me mānasaṃ saccānaṃ bodhāyāti. idamassa paṭhamaṃ
+ñāṇaṃ adhigataṃ hoti ariyaṃ lokuttaraṃ asādhāraṇaṃ puthujjanehi.
+
+<p><span class="parno">19</span>
+puna ca paraṃ bhikkhave ariyasāvako iti paṭisañcikkhati: imaṃ nu kho ahaṃ
+diṭṭhiṃ āsevanto bhāvento bahulīkaronto labhāmi paccattaṃ samathaṃ, labhāmi
+paccattaṃ nibbuti'nti. so evaṃ pajānāti: imaṃ kho ahaṃ diṭṭhiṃ āsevanto
+bhāvento bahulīkaronto labhāmi paccattaṃ samathaṃ, labhāmi paccattaṃ
+nibbuti'nti. idamassa dutiyaṃ ñāṇaṃ adhigataṃ hoti ariyaṃ lokuttaraṃ
+asādhāraṇaṃ puthujjanehi.<span class="note"> <span class="details"><span class="p">pts page 324</span></span></span>
+
+<p><span class="parno">20</span>
+puna ca paraṃ bhikkhave ariyasāvako iti paṭisañcikkhati: yathārūpāyāhaṃ
+diṭṭhiyā samannāgato, atthi nu kho ito bahiddhā añño samaṇo vā brāhmaṇo vā
+tathārūpāya diṭṭhiyā samannāgato'ti. so evaṃ pajānāti: yathārūpāyāhaṃ
+diṭṭhiyā samannāgato, natthi ito bahiddhā añño samaṇo vā brāhmaṇo vā
+tathārūpāya diṭṭhiyā samannāgato'ti. idamassa tatiyaṃ ñāṇaṃ adhigataṃ hoti
+ariyaṃ lokuttaraṃ asādhāraṇaṃ puthujjanehi.<span class="note"> <span class="details"><span class="p">bjt page 760</span></span></span>
+
+<p><span class="parno">21</span>
+puna ca paraṃ bhikkhave ariyasāvako iti paṭisañcikkhati: yathārūpāya
+dhammatāya diṭṭhisampanno puggalo samannāgato, ahampi tathārūpāya dhammatāya
+samannāgato'ti.
+
+<p><span class="parno">22</span>
+"kathaṃrūpāya ca bhikkhave dhammatāya diṭṭhisampanno puggalo samannāgato?
+dhammatā esā bhikkhave diṭṭhisampannassa puggalassa: kiñcāpi tathārūpiṃ
+<span class="var" title="tathārūpiāpattiṃ (si, kanthaci)">āpattiṃ</span> āpajjati yathārūpāya
+āpattiyā <span class="var" title="vuṭṭhānaṃ (sī)">uṭṭhānaṃ</span> paññāyati, atha kho khippameva
+satthari vā viññūsu vā sabrahmacārīsu deseti vivarati
+<span class="var" title="uttāniṃ (machasaṃ)">uttānī</span> karoti. desetvā vivaritvā uttānī
+<span class="var" title="uttāniṃ katvā (machasaṃ); uttānī katvā (syā, pts); uttāni katvā (sī)">karitvā</span> āyatiṃ saṃvaraṃ āpajjati. seyyathāpi bhikkhave daharo kumāro
+mando uttānaseyyako hatthena vā pādena vā aṅgāraṃ akkamitvā khippameva
+paṭisaṃharati, evameva kho bhikkhave dhammatā esā diṭṭhisampannassa
+puggalassa: kiñcāpi tathārūpiṃ āpattiṃ āpajjati yathārūpāya āpattiyā
+uṭṭhānaṃ paññāyati, atha kho naṃ khippameva satthari vā viññūsu vā
+sabrahmacārīsu deseti vivarati uttānī karoti. desetvā vivaritvā uttānī
+karitvā āyatiṃ saṃvaraṃ āpajjati."
+
+<p><span class="parno">23</span>
+so evaṃ pajānāti: yathārūpāya dhammatāya diṭṭhisampanno puggalo samannāgato,
+ahampi tathārūpāya dhammatāya samannāgato'ti. idamassa catutthaṃ ñāṇaṃ
+adhigataṃ hoti ariyaṃ lokuttaraṃ asādhāraṇaṃ puthujjanehi.
+
+<p><span class="parno">24</span>
+puna ca paraṃ bhikkhave ariyasāvako iti paṭisañcikkhati: yathārūpāya
+dhammatāya diṭṭhisampanno puggalo samannāgato, ahampi tathā rūpāya
+dhammatāya samannāgato'ti.
+
+<p><span class="parno">25</span>
+"kathaṃ rūpāya ca bhikkhave dhammatāya diṭṭhisampanno puggalo samannāgato?
+dhammatā esā bhikkhave diṭṭhisampannassa puggalassa: kiñcāpi yāni tāni
+sabrahmacārīnaṃ uccāvacāni kiṅkaraṇīyāni, tattha ussukkaṃ
+<span class="var" title="usasukkamāpanno (machasaṃ)">āpanno</span> hoti. atha
+<span class="var" title="athakhvassa (syā)">khvāssa</span> tibbāpekkhā hoti adhisīlasikkhāya
+adhicittasikkhāya adhipaññāsikkhāya. seyyathāpi bhikkhave gāvī taruṇavacchā
+<span class="var" title="dabbañca (machasaṃ)">thambañca</span> ālumpati vacchakañca
+<span class="var" title="apacinati (machasaṃ, syā) apaciṇāti (sī, katthaci).">apavīṇati</span>,
+evameva kho bhikkhave dhammatā esā diṭṭhisampannassa puggalassa: kiñcāpi
+yāni tāni sabrahmacārīnaṃ uccāvacāni kiṅkaraṇīyāni tattha ussukkaṃ āpanno
+hoti. atha khvāssa tibbāpekkhā hoti adhisīlasikkhāya adhicittasikkhāya
+adhipaññāsikkhāya.<span class="note"> <span class="details"><span class="p">pts page 325</span></span></span>"
+
+<p><span class="parno">26</span>
+so evaṃ pajānāti: yathārūpāya dhammatāya diṭṭhisampanno puggalo samannāgato,
+ahampi tathārūpāya dhammatāya samannāgato'ti. idamassa pañcamaṃ ñāṇaṃ
+adhigataṃ hoti ariyaṃ lokuttaraṃ asādhāraṇaṃ puthujjanehi.<span class="note"> <span class="details"><span class="p">bjt page 762</span></span></span>
+
+<p><span class="parno">27</span>
+puna ca paraṃ bhikkhave ariyasāvako iti paṭisañcikkhati: yathārūpāya
+balatāya diṭṭhisampanno puggalo samannāgato, ahampi tathārūpāya balatāya
+samannāgato'ti.
+
+<p><span class="parno">28</span>
+"kathaṃ rūpāya ca bhikkhave balatāya diṭṭhisampanno puggalo samannāgato?
+balatā esā bhikkhave diṭṭhisampannassa puggalassa: yaṃ tathāgatappavedite
+dhammavinaye desiyamāne <span class="var" title="aṭṭhiṃkatvā (machasaṃ)">aṭṭhikatvā</span> manasi
+katvā sabbacetaso samannāharitvā ohitasoto dhammaṃ suṇāti."
+
+<p><span class="parno">29</span>
+so evaṃ pajānāti: yathārūpāya balatāya diṭṭhisampanno puggalo samannāgato,
+ahampi tathārūpāya balatāya samannāgato'ti. idamassa chaṭṭhaṃ ñāṇaṃ
+adhigataṃ hoti ariyaṃ lokuttaraṃ asādhāraṇaṃ puthujjanehi.
+
+<p><span class="parno">30</span>
+puna ca paraṃ bhikkhave ariyasāvako iti paṭisañcikkhati: yathārūpāya
+balatāya diṭṭhisampanno puggalo samannāgato, ahampi tathārūpāya balatāya
+samannāgato'ti.
+
+<p><span class="parno">31</span>
+"kathaṃ rūpāya ca bhikkhave balatāya diṭṭhisampanno puggalo samannāgato?
+balatā esā bhikkhave diṭṭhisampannassa puggalassa: yaṃ tathāgatappavedite
+dhammavinaye desiyamāne labhati atthavedaṃ, labhati dhammavedaṃ, labhati
+dhammūpasaṃhitaṃ pāmujjaṃ."
+
+<p><span class="parno">32</span>
+so evaṃ pajānāti: yathārūpāya balatāya diṭṭhisampanno puggalo samannāgato,
+ahampi tathārūpāya balatāya samannāgato'ti. idamassa sattamaṃ ñāṇaṃ
+adhigataṃ hoti ariyaṃ lokuttaraṃ asādhāraṇaṃ puthujjanehi.
+
+<p><span class="parno">33</span>
+evaṃ sattaṅgasamannāgatassa kho bhikkhave ariyasāvakassa dhammatā
+susamanniṭṭhā hoti sotāpattiphalasacchikiriyāya. evaṃ sattaṅgasamannāgato
+kho bhikkhave ariyasāvako sotāpattiphalasamannāgato hotīti.<span class="note"> <span class="details"><span class="p">pts page 326</span></span></span>
+
+<p><span class="parno">34</span>
+idamavoca bhagavā. attamanā te bhikkhū bhagavato bhāsitaṃ
+abhinandunti.<span class="note"> <span class="details"><span class="p">bjt page 764</span></span></span>
+<p><span class="parno">1</span>
+Thus was heard by me. At one time the Auspicious One was living in Kosambi
+at Ghosita's park. By then the bhikkhus at Kosambi were dwelling very
+quarrelsome, disputatious, contentious, stabbing one another with the
+daggers of the mouth. They just [could] not convince one another and [could]
+not arrive at appeasement. And they [could] not win over one another and
+[could] not arrive at understanding.
+
+<p><span class="parno">2</span>
+Then a certain bhikkhu visited with the Auspicious One. Upon arrival, he
+bowed down to the Auspicious One and sat down to one side. Having sat down
+to one side, that bhikkhu said this to the Auspicious One: “Here, O
+Bhante, the bhikkhus at Kosambi are dwelling quarrelsome, disputatious,
+contentious, stabbing one another with the daggers of the mouth. They just
+[can] not convince one another and [can] not arrive at appeasement. And they
+[can] not win over one another and [can] not arrive at
+understanding.”
+
+<p><span class="parno">3</span>
+So then, the Auspicious One addressed a certain bhikkhu: Come you
+bhikkhu. Tell those bhikkhus in my name: “the Teacher summons the
+venerables.” “Yes, Bhante” that bhikkhu having replied
+to the Auspicious One, went to those bhikkhus. Upon arrival, he said this to
+those bhikkhus: “The Teacher summons the venerables.” Yes,
+friend. Those bhikkhus having replied to that bhikkhu, went to the
+Auspicious One. Upon arrival, they bowed down to the Auspicious One and sat
+down to one side. Having sat down to one side, the Auspicious One  said this
+to those bhikkhus: “Is it true as reported, that you, O bhikkhus, are
+dwelling quarrelsome, disputatious, contentious, stabbing one another with
+the daggers of the mouth. That you just [can] not convince one another and
+[can] not arrive at appeasement. And that you [can] not win over one another
+and [can] not arrive at understanding?” “Yes, Bhante.”
+
+<p><span class="parno">4</span>
+“So what do you think, O bhikkhus. On the occasion when you abide
+quarrelsome, disputatious, contentious, stabbing one another with the
+daggers of the mouth, do you, on that occasion, extend bodily acts [of]
+metta to your companions in the life of purity openly and also in secret;
+and extend verbal acts [of] metta to your companions in the life of purity
+openly and also in secret; and extend mental acts [of] metta to your
+companions in the life of purity openly and also in secret?”
+Certainly not, Bhante.
+
+<p><span class="parno">5</span>
+“Thus really, O bhikkhus, on the occasion when you abide quarrelsome,
+disputatious, contentious, stabbing one another with the daggers of the
+mouth, on that occasion, you neither extend bodily acts [of] metta to your
+companions in the life of purity openly and also in secret; nor extend
+verbal acts [of] metta to your companions in the life of purity openly and
+also in secret; nor extend mental acts [of] metta to your companions in the
+life of purity openly and also in secret. Then what now, you worthless men,
+knowing what, seeing what, do you dwell quarrelsome, disputatious,
+contentious, stabbing one another with the daggers of the mouth. That you
+just [can] not convince one another and [can] not arrive at appeasement. And
+that you [can] not win over one another and [can] not arrive at
+understanding? That indeed will be for you worthless men's harm and
+suffering for a long time.”
+
+<p><span class="parno">6</span>
+Then the Auspicious One addressed the bhikkhus: These six dhammas, O
+bhikkhus, causing delight, making for affection, making for respect, lead to
+friendliness, to non-contentiousness, to concord, to unity. Which six?
+
+<p><span class="parno">7</span>
+Here, O bhikkhus, a bhikkhu extends bodily acts of metta to his companions
+in the life of purity openly and also in secret. This dhamma causing
+delight, making for affection, making for respect, leads to friendliness, to
+non-contentiousness, to concord, to unity.
+
+<p><span class="parno">8</span>
+Furthermore, O bhikkhus, a bhikkhu extends verbal acts of metta to his
+companions in the life of purity openly and also in secret. This dhamma
+causing delight, making for affection, making for respect, leads to
+friendliness, to non-contentiousness, to concord, to unity.
+
+<p><span class="parno">9</span>
+Furthermore, O bhikkhus, a bhikkhu extends mental acts of metta to his
+companions in the life of purity openly and also in secret. This dhamma
+causing delight, making for affection, making for respect, leads to
+friendliness, to non-contentiousness, to concord, to unity.
+
+<p><span class="parno">10</span>
+Furthermore, O bhikkhus, that which is a righteous gain, righteously
+acquired, including even so much as the mere contents of alms bowl, that
+form of gain too, a bhikkhu enjoys it in common with his virtuous companions
+in the life of purity, not making use of it without sharing with
+others. This dhamma too causing delight, making for affection, making for
+respect, leads to friendliness, to non-contentiousness, to concord, to
+unity.
+
+<p><span class="parno">11</span>
+Furthermore, O bhikkhus, that virtue which is unbroken, untorn, unmottled,
+unspeckled, freeing, praised by the wise, unadhered to, leading to samadhi,
+having arrived at a virtue that is in conformity with such a form of virtue,
+a bhikkhu dwells with his companions in the life of purity openly and also
+in secret. This dhamma too causing delight, making for affection, making for
+respect, leads to friendliness, to non-contentiousness, to concord, to
+unity.
+
+<p><span class="parno">12</span>
+Furthermore, O bhikkhus, this view which is noble, emancipating, delivering
+the doer thereof to the thorough destruction of suffering, having arrived at
+a view that is in conformity with such a form of view, a bhikkhu dwells with
+his companions in the life of purity openly and also in secret. This dhamma
+too causing delight, making for affection, making for respect, leads to
+friendliness, to non-contentiousness, to concord, to unity.
+
+<p><span class="parno">13</span>
+O bhikkhus, these six dhammas causing delight, making for affection, making
+for respect, lead to friendliness, to non-contentiousness, to concord, to
+unity.
+
+<p><span class="parno">14</span>
+O bhikkhus, of these six dhammas ever causing delight, this is the foremost,
+this holds it together, this binds it together, namely, the view which is
+noble, emancipating, delivering the doer thereof to the thorough destruction
+of suffering. Just as, O bhikkhus, for a building with a peaked roof this is
+the foremost, this holds it together, this binds it together, namely, the
+roofridge, just so, O bhikkhus, of these six dhammas ever causing delight,
+this is the foremost, this holds it together, this binds it together,
+namely, the view which is noble, emancipating, delivering the doer thereof
+to the thorough destruction of suffering.
+
+<p><span class="parno">15</span>
+And how, O bhikkhus, does this view which is noble, emancipating, deliver
+the doer thereof to the thorough destruction of suffering?
+
+<p><span class="parno">16</span>
+Here, O bhikkhus, a bhikkhu, gone to the forest or gone to the root of the
+tree or gone to an empty hut considers thus: is there really that internal
+preoccupation unabandoned by me by which [being] so preoccupied may obsess
+my mind that I may neither know nor see things as they have come to be?
+
+<p><span class="parno">17</span>
+If, O bhikkhus, a bhikkhu is overcome by sensual desire, then certainly, his
+mind is obsessed. If, O bhikkhus, a bhikkhu is overcome by ill-will, then
+certainly, his mind is obsessed. If, O bhikkhus, a bhikkhu is overcome by
+sluggishness and lack of mental agility, then certainly, his mind is
+obsessed. If, O bhikkhus, a bhikkhu is overcome by restlessness and remorse,
+then certainly, his mind is obsessed. If, O bhikkhus, a bhikkhu is overcome
+by doubt, then certainly, his mind is obsessed. If, O bhikkhus, a bhikkhu is
+overcome by mentation about this world, then certainly, his mind is
+obsessed. If, O bhikkhus, a bhikkhu is overcome by mentation about the other
+world, then certainly, his mind is obsessed. If, O bhikkhus, a bhikkhu is
+quarrelsome, disputatious, contentious, abides stabbing others mutually with
+the daggers of the mouth, then certainly, his mind is obsessed.
+
+<p><span class="parno">18</span>
+He understands thus: “There is in fact not that internal preoccupation
+unabandoned by me by which [being] so preoccupied may obsess my mind that I
+may neither know nor see things as they have come to be. My mind is well
+inclined for the truths, for awakening.” This is the first
+knowledge attained by him that is noble, supramundane, not in common with
+puthujjanas.
+
+<p><span class="parno">19</span>
+Furthermore, O bhikkhus, a noble disciple considers thus: “While
+pursuing, maturing, making abundant this view, do I really gain internal
+tranquility, do I gain internal extinguishing?” He understands
+thus: “In fact, while pursuing, maturing, making abundant this view, I do
+gain internal tranquility, I do gain internal extinguishing.”This
+is the second knowledge attained by him that is noble, supramundane, not in
+common with puthujjanas.
+
+<p><span class="parno">20</span>
+Furthermore, O bhikkhus, a noble disciple considers thus: “Given such a
+form of view that I am endowed with, is there really other samanas or
+brahmanas from outside this [Buddha's teachings] that are endowed with such
+a form of view?” He understands thus: “Given such a form of view
+that I am endowed with, there is no other samanas or brahmanas from outside
+this [Buddha's teachings] that are endowed with such a form of
+view?” This is the third knowledge attained by him that is noble,
+supramundane, not in common with puthujjanas.
+
+<p><span class="parno">21</span>
+Furthermore, O bhikkhus, a noble disciple considers thus: “That form of
+character which an individual accomplished in view is endowed with, am I too
+endowed with such a form of character?”
+
+<p><span class="parno">22</span>
+And what form of character, O bhikkhus, is an individual accomplished in
+view endowed with? This, O bhikkhus, is the character of an individual
+accomplished in view. By which form of offense there is a rehabilitation,
+however little that form of offense he gets into, he just quickly makes it
+evident to the Teacher or wise man or companions in the life of purity,
+makes it known, makes it clear, makes a confession. Having made it known,
+having made it clear, having made a confession, he undertakes future
+restraint. Just as, O bhikkhus, a little young boy, an infant, having
+treaded on a charcoal, just quickly withdraws his hand or foot, similarly, O
+bhikkhus, this is the character of an individual accomplished in view: By
+which form of offense there is a rehabilitation, however little that form of
+offense he gets into, he just quickly makes it evident to the Teacher or
+wise man or companions in the life of purity, makes it known, makes it
+clear, makes a confession. Having made it known, having made it clear,
+having made a confession, he undertakes future restraint.
+
+<p><span class="parno">23</span>
+He understands thus: “That form of character which an individual
+accomplished in view is endowed with, I too am endowed with such a form of
+character?” This is the fourth knowledge attained by him that is
+noble, supramundane, not in common with puthujjanas.
+
+<p><span class="parno">24</span>
+Furthermore, O bhikkhus, a noble disciple considers thus: “That form of
+character which an individual accomplished in view is endowed with, am I too
+endowed with such a form of character?”
+
+<p><span class="parno">25</span>
+And what form of character, O bhikkhus, is an individual accomplished in
+view endowed with? This, O bhikkhus, is the character of an individual
+accomplished in view: however much various obligations he has entered upon
+with zeal for his companions in the life of purity there, he still has keen
+desire for training in the higher virtue, for training in the higher states
+of mind, for training in the higher wisdom. Just as, O bhikkhus, a cow with
+a young calf grazes while watching over her small calf, just so, O bhikkhus,
+is the character of an individual accomplished in view: however much various
+obligations he has entered upon with zeal for his companions in the life of
+purity there, he still has keen desire for training in the higher virtue,
+for training in the higher states of mind, for training in the higher
+wisdom.
+
+<p><span class="parno">26</span>
+He understands thus: “That form of character which an individual
+accomplished in view is endowed with, I too am endowed with such a form of
+character?” This is the fifth knowledge attained by him that is
+noble, supramundane, not in common with puthujjanas.
+
+<p><span class="parno">27</span>
+Furthermore, O bhikkhus, a noble disciple considers thus: “That form of
+strength which an individual accomplished in view is endowed with, am I too
+endowed with such a form of strength?”
+
+<p><span class="parno">28</span>
+And what form of strength, O bhikkhus, is an individual accomplished in view
+endowed with? This, O bhikkhus, is the strength of an individual
+accomplished in view: When the Dhamma and Vinaya declared by the Tathāgata
+is being taught, he listens to the dhamma, having made it his aim, having
+attended to it with all his mind, having collected it together with eager
+ears.
+
+<p><span class="parno">29</span>
+He understands thus: “That form of strength which an individual
+accomplished in view is endowed with, I too am endowed with such a form of
+strength?” This is the sixth knowledge attained by him that is
+noble, supramundane, not in common with puthujjanas.
+
+<p><span class="parno">30</span>
+Furthermore, O bhikkhus, a noble disciple considers thus: “That form of
+strength which an individual accomplished in view is endowed with, am I too
+endowed with such a form of strength?”
+
+<p><span class="parno">31</span>
+And what form of strength, O bhikkhus, is an individual accomplished in view
+endowed with? This, O bhikkhus, is the strength of an individual
+accomplished in view: When the Dhamma and Vinaya declared by the Tathāgata
+is being taught, he gains intuition of the meaning, gains intuition of the
+Dhamma, gains joy connected with the Dhamma.
+
+<p><span class="parno">32</span>
+He understands thus: “That form of strength which an individual
+accomplished in view is endowed with, I too am endowed with such a form of
+strength?” This is the seventh knowledge attained by him that is
+noble, supramundane, not in common with puthujjanas.
+
+<p><span class="parno">33</span>
+“A noble disciple, O bhikkhus, thus endowed with seven factors, has
+really well matched to perfection the character for realization of the fruit
+of sotapanna. In fact a noble disciple, O bhikkhus, thus endowed with seven
+factors, possesses the fruit of sotapanna.”
+
+<p><span class="parno">34</span>
+This is what the Auspicious One said. Delighted, those bhikkhus rejoiced in
+the Auspicious One's words.
+<br>Get PDFs: <a href="../mn/eBook/mn48.biv.pdf">Side-by-side</a> | <a href="../mn/eBook/mn48.bih.pdf">Par-by-par</a> | <a href="../mn/eBook/mn48.bip.pdf">Facing pages</a> | <a href="../mn/eBook/mn48.eng.pdf">English only</a> | <a href="../mn/eBook/mn48.pli.pdf">Pali only</a>.<br></li>
+
+<p><span class="parno">1</span>
+evaṃ me sutaṃ: ekaṃ samayaṃ bhagavā kosambiyaṃ viharati ghositārāme. tena
+kho samayena kosambiyaṃ bhikkhū bhaṇḍanajātā kalahajātā vivādāpannā
+aññamaññaṃ mukhasattīhi vitudantā viharanti. te na ceva aññamaññaṃ
+saññapenti, na ca saññattiṃ upenti, na ca aññamaññaṃ nijjhāpenti, na ca
+nijjhattiṃ upenti.
+
+<p><span class="parno">2</span>
+atha kho aññataro bhikkhu yena bhagavā tenupasaṅkami. upasaṅkamitvā
+bhagavantaṃ abhivādetvā ekamantaṃ nisīdi. ekamantaṃ nisinno kho so bhikkhu
+bhagavantaṃ etadavoca: idha bhante kosambiyaṃ bhikkhū bhaṇḍanajātā
+kalahajātā vivādāpannā aññamaññaṃ mukhasattīhi vitudantā viharanti. te na
+ceva aññamaññaṃ saññāpenti, na ca saññattiṃ upenti, na ca aññamaññaṃ
+nijjhāpenti, na ca nijjhattiṃ upentīti.<span class="note"> <span class="details"><span class="p">pts page 321</span></span></span>
+
+<p><span class="parno">3</span>
+atha kho bhagavā aññataraṃ bhikkhuṃ āmantesi: ehi tvaṃ bhikkhu mama vacanena
+te bhikkhū āmantehi 'satthāyasmante āmantetī'ti. evambhanteti kho so bhikkhu
+bhagavato paṭissutvā yena te bhikkhū tenupasaṅkami. upasaṅkamitvā te bhikkhū
+etadavoca: satthā āyasmante āmantetīti. evamāvusoti kho te bhikkhū tassa
+bhikkhuno paṭissutvā yena bhagavā tenupasaṅkamiṃsu. upasaṅkamitvā
+bhagavantaṃ abhivādetvā ekamantaṃ nisīdiṃsu. ekamantaṃ nisinne kho te
+bhikkhū bhagavā etadavoca: saccaṃ kira tumhe bhikkhave bhaṇḍanajātā
+kalahajātā vivādāpannā aññamaññaṃ mukhasattīhi vitudantā viharatha, te na
+ceva aññamaññaṃ saññāpetha, na ca saññattiṃ upetha, te na'ceva aññamaññaṃ
+nijjhāpetha, na ca nijjhattiṃ upethāti. " evambhante".
+
+<p><span class="parno">4</span>
+taṃ kiṃ maññatha bhikkhave yasmiṃ tumhe samaye bhaṇḍanajātā kalahajātā
+vivādāpannā aññamaññaṃ mukhasattīhi vitudantā viharatha, api nu tumhākaṃ
+tasmiṃ samaye mettaṃ kāyakammaṃ paccupaṭṭhitaṃ hoti sabrahmacārīsu āvī ceva
+raho ca, mettaṃ vacīkammaṃ paccupaṭṭhitaṃ hoti sabrahmacārīsu āvī ceva raho
+ca, mettaṃ manokammaṃ paccupaṭṭhitaṃ hoti sabrahmacārīsu āvī ceva raho cāti
+' no hetambhante'.<span class="note"> <span class="details"><span class="p">bjt page 754</span></span></span>
+
+<p><span class="parno">5</span>
+iti kira bhikkhave yasmiṃ tumhe bhaṇḍanajātā kalahajātā vivādāpannā
+aññamaññaṃ mukhasattīhi vitudantā viharatha, neva tumhākaṃ tasmiṃ samaye
+mettaṃ kāyakammaṃ paccupaṭṭhitaṃ hoti sabrahmacārīsu āvī ceva raho ca. na
+mettaṃ vacīkammaṃ paccupaṭṭhitaṃ hoti sabrahmacārīsu āvī ceva raho ca. na
+mettaṃ manokammaṃ paccupaṭṭhitaṃ hoti sabrahmacārīsu āvī ceva raho ca. atha
+kiṃ carahi tumhe moghapurisā kiṃ jānantā kiṃ passantā bhaṇḍanajātā
+kalahajātā vivādāpannā aññamaññaṃ mukhasattīhi vitudantā viharatha, te na
+ceva aññamaññaṃ saññāpetha, na ca saññattiṃ upetha, na ca aññamaññaṃ
+nijjhāpetha, na ca nijjhattiṃ upetha. taṃ hi tumhākaṃ moghapurisā bhavissati
+dīgharattaṃ ahitāya dukkhāyāti.<span class="note"> <span class="details"><span class="p">pts page 322</span></span></span>
+
+<p><span class="parno">6</span>
+atha kho bhagavā bhikkhū āmantesi: chayime bhikkhave dhammā sārāṇīyā
+piyakaraṇā garukaraṇā saṅgahāya avivādāya sāmaggiyā ekībhāvāya
+saṃvattanti. katame cha?
+
+<p><span class="parno">7</span>
+idha bhikkhave bhikkhuno mettaṃ kāyakammaṃ paccupaṭṭhitaṃ hoti
+sabrahmacārīsu āvī ceva raho ca. ayampi dhammo sārāṇīyo piyakaraṇo
+garukaraṇo saṅgahāya avivādāya sāmaggiyā ekībhāvāya saṃvattati.
+
+<p><span class="parno">8</span>
+puna ca paraṃ bhikkhave bhikkhuno mettaṃ vacīkammaṃ paccupaṭṭhitaṃ hoti
+sabrahmacārīsu āvī ceva raho ca. ayampi dhammo sārāṇīyo piyakaraṇo
+garukaraṇo saṅgahāya avivādāya sāmaggiyā ekībhāvāya saṃvattati.
+
+<p><span class="parno">9</span>
+puna ca paraṃ bhikkhave bhikkhuno mettaṃ manokammaṃ paccupaṭṭhitaṃ hoti
+sabrahmacārīsu āvī ceva raho ca. ayampi dhammo sārāṇīyo piyakaraṇo
+garukaraṇo saṅgahāya avivādāya sāmaggiyā ekībhāvāya saṃvattati.
+
+<p><span class="parno">10</span>
+puna ca paraṃ bhikkhave bhikkhu ye te lābhā dhammikā dhammaladdhā antamaso
+pattapariyāpannamattampi, tathārūpehi lābhehi appaṭivibhattabhogī hoti
+sīlavantehi sabrahmacārīhi sādhāraṇa bhogī. ayampi dhammo sārāṇīyo
+piyakaraṇo garukaraṇo saṅgahāya avivādāya sāmaggiyā ekībhāvāya
+saṃvattati.<span class="note"> <span class="details"><span class="p">bjt page 756</span></span></span>
+
+<p><span class="parno">11</span>
+puna ca paraṃ bhikkhave bhikkhu yāni tāni sīlāni akhaṇḍāni acchiddāni
+asabalāni akammāsāni bhujissāni viññuppasatthāni aparāmaṭṭhāni
+samādhisaṃvattanikāni, tathārūpesu sīlesu sīlasāmaññagato viharati
+sabrahmacārīhi āvī ceva raho ca. ayampi dhammo sārāṇīyo piyakaraṇo
+garukaraṇo saṅgahāya avivādāya sāmaggiyā ekībhāvāya saṃvattati.
+
+<p><span class="parno">12</span>
+puna ca paraṃ bhikkhave bhikkhu yāyaṃ diṭṭhi ariyā niyyānikā niyyāti
+takkarassa sammā dukkhakkhayāya, tathārūpāya diṭṭhiyā diṭṭhisāmaññagato
+viharati sabrahmacārīhi āvī ceva raho ca. ayampi dhammo sārāṇīyo piyakaraṇo
+garukaraṇo saṅgahāya avivādāya sāmaggiyā ekībhāvāya saṃvattati.
+
+<p><span class="parno">13</span>
+ime kho bhikkhave cha sārāṇīyā dhammā piyakaraṇā garukaraṇā saṅgahāya
+avivādāya sāmaggiyā ekībhāvāya saṃvattanti.
+
+<p><span class="parno">14</span>
+imesaṃ kho bhikkhave channaṃ sārāṇīyānaṃ dhammānaṃ etaṃ aggaṃ etaṃ
+saṅgāhikaṃ etaṃ saṃghātanikaṃ yadidaṃ yāyaṃ diṭṭhi ariyā niyyātikā niyyāti
+takkarassa sammā dukkhakkhayāya. seyyathāpi bhikkhave kūṭāgārassa etaṃ aggaṃ
+etaṃ saṅgāhakaṃ etaṃ saṃghātanikaṃ yadidaṃ kūṭaṃ, evameva kho bhikkhave
+imesaṃ channaṃ sārāṇīyānaṃ dhammānaṃ etaṃ aggaṃ etaṃ saṅgāhikaṃ etaṃ
+saṃghātanikaṃ yadidaṃ yāyaṃ diṭṭhi ariyā niyyānikā niyyāti takkarassa sammā
+dukkhakkhayāya.<span class="note"> <span class="details"><span class="p">pts page 323</span></span></span>
+
+<p><span class="parno">15</span>
+kathañca bhikkhave yāyaṃ diṭṭhi ariyā niyyānikā niyyāti takkarassa sammā
+dukkhakkhayāya?
+
+<p><span class="parno">16</span>
+idha bhikkhave bhikkhu araññagato vā rukkhamūlagato vā suññāgāragato vā iti
+paṭisañcikkhati: atthi nu kho me taṃ pariyuṭṭhānaṃ ajjhattaṃ appahīnaṃ
+yenāhaṃ pariyuṭṭhānena pariyuṭṭhitacitto yathābhūtaṃ na jāneyyaṃ na
+passeyyanti.<span class="note"> <span class="details"><span class="p">bjt page 758</span></span></span>
+
+<p><span class="parno">17</span>
+"sace bhikkhave bhikkhu kāmarāga pariyuṭṭhito hoti, pariyuṭṭhitacitto'va
+hoti. sace bhikkhave bhikkhu byāpādapariyuṭṭhito hoti, pariyuṭṭhitacitto'va
+hoti. sace bhikkhave bhikkhu thīnamiddhapariyuṭṭhito hoti,
+pariyuṭṭhitacitto'va hoti. sace bhikkhave bhikkhu
+uddhaccakukkuccapariyuṭṭhito hoti, pariyuṭṭhitacitto'va hoti. sace bhikkhave
+bhikkhu vicikicchāpariyuṭṭhito hoti, pariyuṭṭhitacitto'va hoti. sace
+bhikkhave bhikkhu idhalokacintāya pasuto hoti, pariyuṭṭhitacitto'va
+hoti. sace bhikkhave bhikkhu paralokacintāya pasuto hoti,
+pariyuṭṭhitacitto'va hoti. sace bhikkhave bhikkhu bhaṇḍanajāto kalahajāto
+vivādāpanno <span class="var" title="'aññamaññaṃ' iti (sīmu) potthake ūnaṃ">aññamaññaṃ</span>
+mukhasattīhi vitudanto viharati, pariyuṭṭhitacitto'va hoti."
+
+<p><span class="parno">18</span>
+so evaṃ pajānāti: natthi kho me taṃ pariyuṭṭhānaṃ ajjhattaṃ appahīnaṃ
+yenāhaṃ pariyuṭṭhānena pariyuṭṭhitacitto yathābhūtaṃ na jāneyyaṃ na
+passeyyaṃ. suppaṇihitaṃ me mānasaṃ saccānaṃ bodhāyāti. idamassa paṭhamaṃ
+ñāṇaṃ adhigataṃ hoti ariyaṃ lokuttaraṃ asādhāraṇaṃ puthujjanehi.
+
+<p><span class="parno">19</span>
+puna ca paraṃ bhikkhave ariyasāvako iti paṭisañcikkhati: imaṃ nu kho ahaṃ
+diṭṭhiṃ āsevanto bhāvento bahulīkaronto labhāmi paccattaṃ samathaṃ, labhāmi
+paccattaṃ nibbuti'nti. so evaṃ pajānāti: imaṃ kho ahaṃ diṭṭhiṃ āsevanto
+bhāvento bahulīkaronto labhāmi paccattaṃ samathaṃ, labhāmi paccattaṃ
+nibbuti'nti. idamassa dutiyaṃ ñāṇaṃ adhigataṃ hoti ariyaṃ lokuttaraṃ
+asādhāraṇaṃ puthujjanehi.<span class="note"> <span class="details"><span class="p">pts page 324</span></span></span>
+
+<p><span class="parno">20</span>
+puna ca paraṃ bhikkhave ariyasāvako iti paṭisañcikkhati: yathārūpāyāhaṃ
+diṭṭhiyā samannāgato, atthi nu kho ito bahiddhā añño samaṇo vā brāhmaṇo vā
+tathārūpāya diṭṭhiyā samannāgato'ti. so evaṃ pajānāti: yathārūpāyāhaṃ
+diṭṭhiyā samannāgato, natthi ito bahiddhā añño samaṇo vā brāhmaṇo vā
+tathārūpāya diṭṭhiyā samannāgato'ti. idamassa tatiyaṃ ñāṇaṃ adhigataṃ hoti
+ariyaṃ lokuttaraṃ asādhāraṇaṃ puthujjanehi.<span class="note"> <span class="details"><span class="p">bjt page 760</span></span></span>
+
+<p><span class="parno">21</span>
+puna ca paraṃ bhikkhave ariyasāvako iti paṭisañcikkhati: yathārūpāya
+dhammatāya diṭṭhisampanno puggalo samannāgato, ahampi tathārūpāya dhammatāya
+samannāgato'ti.
+
+<p><span class="parno">22</span>
+"kathaṃrūpāya ca bhikkhave dhammatāya diṭṭhisampanno puggalo samannāgato?
+dhammatā esā bhikkhave diṭṭhisampannassa puggalassa: kiñcāpi tathārūpiṃ
+<span class="var" title="tathārūpiāpattiṃ (si, kanthaci)">āpattiṃ</span> āpajjati yathārūpāya
+āpattiyā <span class="var" title="vuṭṭhānaṃ (sī)">uṭṭhānaṃ</span> paññāyati, atha kho khippameva
+satthari vā viññūsu vā sabrahmacārīsu deseti vivarati
+<span class="var" title="uttāniṃ (machasaṃ)">uttānī</span> karoti. desetvā vivaritvā uttānī
+<span class="var" title="uttāniṃ katvā (machasaṃ); uttānī katvā (syā, pts); uttāni katvā (sī)">karitvā</span> āyatiṃ saṃvaraṃ āpajjati. seyyathāpi bhikkhave daharo kumāro
+mando uttānaseyyako hatthena vā pādena vā aṅgāraṃ akkamitvā khippameva
+paṭisaṃharati, evameva kho bhikkhave dhammatā esā diṭṭhisampannassa
+puggalassa: kiñcāpi tathārūpiṃ āpattiṃ āpajjati yathārūpāya āpattiyā
+uṭṭhānaṃ paññāyati, atha kho naṃ khippameva satthari vā viññūsu vā
+sabrahmacārīsu deseti vivarati uttānī karoti. desetvā vivaritvā uttānī
+karitvā āyatiṃ saṃvaraṃ āpajjati."
+
+<p><span class="parno">23</span>
+so evaṃ pajānāti: yathārūpāya dhammatāya diṭṭhisampanno puggalo samannāgato,
+ahampi tathārūpāya dhammatāya samannāgato'ti. idamassa catutthaṃ ñāṇaṃ
+adhigataṃ hoti ariyaṃ lokuttaraṃ asādhāraṇaṃ puthujjanehi.
+
+<p><span class="parno">24</span>
+puna ca paraṃ bhikkhave ariyasāvako iti paṭisañcikkhati: yathārūpāya
+dhammatāya diṭṭhisampanno puggalo samannāgato, ahampi tathā rūpāya
+dhammatāya samannāgato'ti.
+
+<p><span class="parno">25</span>
+"kathaṃ rūpāya ca bhikkhave dhammatāya diṭṭhisampanno puggalo samannāgato?
+dhammatā esā bhikkhave diṭṭhisampannassa puggalassa: kiñcāpi yāni tāni
+sabrahmacārīnaṃ uccāvacāni kiṅkaraṇīyāni, tattha ussukkaṃ
+<span class="var" title="usasukkamāpanno (machasaṃ)">āpanno</span> hoti. atha
+<span class="var" title="athakhvassa (syā)">khvāssa</span> tibbāpekkhā hoti adhisīlasikkhāya
+adhicittasikkhāya adhipaññāsikkhāya. seyyathāpi bhikkhave gāvī taruṇavacchā
+<span class="var" title="dabbañca (machasaṃ)">thambañca</span> ālumpati vacchakañca
+<span class="var" title="apacinati (machasaṃ, syā) apaciṇāti (sī, katthaci).">apavīṇati</span>,
+evameva kho bhikkhave dhammatā esā diṭṭhisampannassa puggalassa: kiñcāpi
+yāni tāni sabrahmacārīnaṃ uccāvacāni kiṅkaraṇīyāni tattha ussukkaṃ āpanno
+hoti. atha khvāssa tibbāpekkhā hoti adhisīlasikkhāya adhicittasikkhāya
+adhipaññāsikkhāya.<span class="note"> <span class="details"><span class="p">pts page 325</span></span></span>"
+
+<p><span class="parno">26</span>
+so evaṃ pajānāti: yathārūpāya dhammatāya diṭṭhisampanno puggalo samannāgato,
+ahampi tathārūpāya dhammatāya samannāgato'ti. idamassa pañcamaṃ ñāṇaṃ
+adhigataṃ hoti ariyaṃ lokuttaraṃ asādhāraṇaṃ puthujjanehi.<span class="note"> <span class="details"><span class="p">bjt page 762</span></span></span>
+
+<p><span class="parno">27</span>
+puna ca paraṃ bhikkhave ariyasāvako iti paṭisañcikkhati: yathārūpāya
+balatāya diṭṭhisampanno puggalo samannāgato, ahampi tathārūpāya balatāya
+samannāgato'ti.
+
+<p><span class="parno">28</span>
+"kathaṃ rūpāya ca bhikkhave balatāya diṭṭhisampanno puggalo samannāgato?
+balatā esā bhikkhave diṭṭhisampannassa puggalassa: yaṃ tathāgatappavedite
+dhammavinaye desiyamāne <span class="var" title="aṭṭhiṃkatvā (machasaṃ)">aṭṭhikatvā</span> manasi
+katvā sabbacetaso samannāharitvā ohitasoto dhammaṃ suṇāti."
+
+<p><span class="parno">29</span>
+so evaṃ pajānāti: yathārūpāya balatāya diṭṭhisampanno puggalo samannāgato,
+ahampi tathārūpāya balatāya samannāgato'ti. idamassa chaṭṭhaṃ ñāṇaṃ
+adhigataṃ hoti ariyaṃ lokuttaraṃ asādhāraṇaṃ puthujjanehi.
+
+<p><span class="parno">30</span>
+puna ca paraṃ bhikkhave ariyasāvako iti paṭisañcikkhati: yathārūpāya
+balatāya diṭṭhisampanno puggalo samannāgato, ahampi tathārūpāya balatāya
+samannāgato'ti.
+
+<p><span class="parno">31</span>
+"kathaṃ rūpāya ca bhikkhave balatāya diṭṭhisampanno puggalo samannāgato?
+balatā esā bhikkhave diṭṭhisampannassa puggalassa: yaṃ tathāgatappavedite
+dhammavinaye desiyamāne labhati atthavedaṃ, labhati dhammavedaṃ, labhati
+dhammūpasaṃhitaṃ pāmujjaṃ."
+
+<p><span class="parno">32</span>
+so evaṃ pajānāti: yathārūpāya balatāya diṭṭhisampanno puggalo samannāgato,
+ahampi tathārūpāya balatāya samannāgato'ti. idamassa sattamaṃ ñāṇaṃ
+adhigataṃ hoti ariyaṃ lokuttaraṃ asādhāraṇaṃ puthujjanehi.
+
+<p><span class="parno">33</span>
+evaṃ sattaṅgasamannāgatassa kho bhikkhave ariyasāvakassa dhammatā
+susamanniṭṭhā hoti sotāpattiphalasacchikiriyāya. evaṃ sattaṅgasamannāgato
+kho bhikkhave ariyasāvako sotāpattiphalasamannāgato hotīti.<span class="note"> <span class="details"><span class="p">pts page 326</span></span></span>
+
+<p><span class="parno">34</span>
+idamavoca bhagavā. attamanā te bhikkhū bhagavato bhāsitaṃ
+abhinandunti.<span class="note"> <span class="details"><span class="p">bjt page 764</span></span></span>
+<p><span class="parno">1</span>
+Thus was heard by me. At one time the Auspicious One was living in Kosambi
+at Ghosita's park. By then the bhikkhus at Kosambi were dwelling very
+quarrelsome, disputatious, contentious, stabbing one another with the
+daggers of the mouth. They just [could] not convince one another and [could]
+not arrive at appeasement. And they [could] not win over one another and
+[could] not arrive at understanding.
+
+<p><span class="parno">2</span>
+Then a certain bhikkhu visited with the Auspicious One. Upon arrival, he
+bowed down to the Auspicious One and sat down to one side. Having sat down
+to one side, that bhikkhu said this to the Auspicious One: “Here, O
+Bhante, the bhikkhus at Kosambi are dwelling quarrelsome, disputatious,
+contentious, stabbing one another with the daggers of the mouth. They just
+[can] not convince one another and [can] not arrive at appeasement. And they
+[can] not win over one another and [can] not arrive at
+understanding.”
+
+<p><span class="parno">3</span>
+So then, the Auspicious One addressed a certain bhikkhu: Come you
+bhikkhu. Tell those bhikkhus in my name: “the Teacher summons the
+venerables.” “Yes, Bhante” that bhikkhu having replied
+to the Auspicious One, went to those bhikkhus. Upon arrival, he said this to
+those bhikkhus: “The Teacher summons the venerables.” Yes,
+friend. Those bhikkhus having replied to that bhikkhu, went to the
+Auspicious One. Upon arrival, they bowed down to the Auspicious One and sat
+down to one side. Having sat down to one side, the Auspicious One  said this
+to those bhikkhus: “Is it true as reported, that you, O bhikkhus, are
+dwelling quarrelsome, disputatious, contentious, stabbing one another with
+the daggers of the mouth. That you just [can] not convince one another and
+[can] not arrive at appeasement. And that you [can] not win over one another
+and [can] not arrive at understanding?” “Yes, Bhante.”
+
+<p><span class="parno">4</span>
+“So what do you think, O bhikkhus. On the occasion when you abide
+quarrelsome, disputatious, contentious, stabbing one another with the
+daggers of the mouth, do you, on that occasion, extend bodily acts [of]
+metta to your companions in the life of purity openly and also in secret;
+and extend verbal acts [of] metta to your companions in the life of purity
+openly and also in secret; and extend mental acts [of] metta to your
+companions in the life of purity openly and also in secret?”
+Certainly not, Bhante.
+
+<p><span class="parno">5</span>
+“Thus really, O bhikkhus, on the occasion when you abide quarrelsome,
+disputatious, contentious, stabbing one another with the daggers of the
+mouth, on that occasion, you neither extend bodily acts [of] metta to your
+companions in the life of purity openly and also in secret; nor extend
+verbal acts [of] metta to your companions in the life of purity openly and
+also in secret; nor extend mental acts [of] metta to your companions in the
+life of purity openly and also in secret. Then what now, you worthless men,
+knowing what, seeing what, do you dwell quarrelsome, disputatious,
+contentious, stabbing one another with the daggers of the mouth. That you
+just [can] not convince one another and [can] not arrive at appeasement. And
+that you [can] not win over one another and [can] not arrive at
+understanding? That indeed will be for you worthless men's harm and
+suffering for a long time.”
+
+<p><span class="parno">6</span>
+Then the Auspicious One addressed the bhikkhus: These six dhammas, O
+bhikkhus, causing delight, making for affection, making for respect, lead to
+friendliness, to non-contentiousness, to concord, to unity. Which six?
+
+<p><span class="parno">7</span>
+Here, O bhikkhus, a bhikkhu extends bodily acts of metta to his companions
+in the life of purity openly and also in secret. This dhamma causing
+delight, making for affection, making for respect, leads to friendliness, to
+non-contentiousness, to concord, to unity.
+
+<p><span class="parno">8</span>
+Furthermore, O bhikkhus, a bhikkhu extends verbal acts of metta to his
+companions in the life of purity openly and also in secret. This dhamma
+causing delight, making for affection, making for respect, leads to
+friendliness, to non-contentiousness, to concord, to unity.
+
+<p><span class="parno">9</span>
+Furthermore, O bhikkhus, a bhikkhu extends mental acts of metta to his
+companions in the life of purity openly and also in secret. This dhamma
+causing delight, making for affection, making for respect, leads to
+friendliness, to non-contentiousness, to concord, to unity.
+
+<p><span class="parno">10</span>
+Furthermore, O bhikkhus, that which is a righteous gain, righteously
+acquired, including even so much as the mere contents of alms bowl, that
+form of gain too, a bhikkhu enjoys it in common with his virtuous companions
+in the life of purity, not making use of it without sharing with
+others. This dhamma too causing delight, making for affection, making for
+respect, leads to friendliness, to non-contentiousness, to concord, to
+unity.
+
+<p><span class="parno">11</span>
+Furthermore, O bhikkhus, that virtue which is unbroken, untorn, unmottled,
+unspeckled, freeing, praised by the wise, unadhered to, leading to samadhi,
+having arrived at a virtue that is in conformity with such a form of virtue,
+a bhikkhu dwells with his companions in the life of purity openly and also
+in secret. This dhamma too causing delight, making for affection, making for
+respect, leads to friendliness, to non-contentiousness, to concord, to
+unity.
+
+<p><span class="parno">12</span>
+Furthermore, O bhikkhus, this view which is noble, emancipating, delivering
+the doer thereof to the thorough destruction of suffering, having arrived at
+a view that is in conformity with such a form of view, a bhikkhu dwells with
+his companions in the life of purity openly and also in secret. This dhamma
+too causing delight, making for affection, making for respect, leads to
+friendliness, to non-contentiousness, to concord, to unity.
+
+<p><span class="parno">13</span>
+O bhikkhus, these six dhammas causing delight, making for affection, making
+for respect, lead to friendliness, to non-contentiousness, to concord, to
+unity.
+
+<p><span class="parno">14</span>
+O bhikkhus, of these six dhammas ever causing delight, this is the foremost,
+this holds it together, this binds it together, namely, the view which is
+noble, emancipating, delivering the doer thereof to the thorough destruction
+of suffering. Just as, O bhikkhus, for a building with a peaked roof this is
+the foremost, this holds it together, this binds it together, namely, the
+roofridge, just so, O bhikkhus, of these six dhammas ever causing delight,
+this is the foremost, this holds it together, this binds it together,
+namely, the view which is noble, emancipating, delivering the doer thereof
+to the thorough destruction of suffering.
+
+<p><span class="parno">15</span>
+And how, O bhikkhus, does this view which is noble, emancipating, deliver
+the doer thereof to the thorough destruction of suffering?
+
+<p><span class="parno">16</span>
+Here, O bhikkhus, a bhikkhu, gone to the forest or gone to the root of the
+tree or gone to an empty hut considers thus: is there really that internal
+preoccupation unabandoned by me by which [being] so preoccupied may obsess
+my mind that I may neither know nor see things as they have come to be?
+
+<p><span class="parno">17</span>
+If, O bhikkhus, a bhikkhu is overcome by sensual desire, then certainly, his
+mind is obsessed. If, O bhikkhus, a bhikkhu is overcome by ill-will, then
+certainly, his mind is obsessed. If, O bhikkhus, a bhikkhu is overcome by
+sluggishness and lack of mental agility, then certainly, his mind is
+obsessed. If, O bhikkhus, a bhikkhu is overcome by restlessness and remorse,
+then certainly, his mind is obsessed. If, O bhikkhus, a bhikkhu is overcome
+by doubt, then certainly, his mind is obsessed. If, O bhikkhus, a bhikkhu is
+overcome by mentation about this world, then certainly, his mind is
+obsessed. If, O bhikkhus, a bhikkhu is overcome by mentation about the other
+world, then certainly, his mind is obsessed. If, O bhikkhus, a bhikkhu is
+quarrelsome, disputatious, contentious, abides stabbing others mutually with
+the daggers of the mouth, then certainly, his mind is obsessed.
+
+<p><span class="parno">18</span>
+He understands thus: “There is in fact not that internal preoccupation
+unabandoned by me by which [being] so preoccupied may obsess my mind that I
+may neither know nor see things as they have come to be. My mind is well
+inclined for the truths, for awakening.” This is the first
+knowledge attained by him that is noble, supramundane, not in common with
+puthujjanas.
+
+<p><span class="parno">19</span>
+Furthermore, O bhikkhus, a noble disciple considers thus: “While
+pursuing, maturing, making abundant this view, do I really gain internal
+tranquility, do I gain internal extinguishing?” He understands
+thus: “In fact, while pursuing, maturing, making abundant this view, I do
+gain internal tranquility, I do gain internal extinguishing.”This
+is the second knowledge attained by him that is noble, supramundane, not in
+common with puthujjanas.
+
+<p><span class="parno">20</span>
+Furthermore, O bhikkhus, a noble disciple considers thus: “Given such a
+form of view that I am endowed with, is there really other samanas or
+brahmanas from outside this [Buddha's dispensation] that are endowed with
+such a form of view?” He understands thus: “Given such a form of
+view that I am endowed with, there is no other samanas or brahmanas from
+outside this [Buddha's dispensation] that are endowed with such a form of
+view?” This is the third knowledge attained by him that is noble,
+supramundane, not in common with puthujjanas.
+
+<p><span class="parno">21</span>
+Furthermore, O bhikkhus, a noble disciple considers thus: “That form of
+character which an individual accomplished in view is endowed with, am I too
+endowed with such a form of character?”
+
+<p><span class="parno">22</span>
+And what form of character, O bhikkhus, is an individual accomplished in
+view endowed with? This, O bhikkhus, is the character of an individual
+accomplished in view. By which form of offense there is a rehabilitation,
+however little that form of offense he gets into, he just quickly makes it
+evident to the Teacher or wise man or companions in the life of purity,
+makes it known, makes it clear, makes a confession. Having made it known,
+having made it clear, having made a confession, he undertakes future
+restraint. Just as, O bhikkhus, a little young boy, an infant, having
+treaded on a charcoal, just quickly withdraws his hand or foot, similarly, O
+bhikkhus, this is the character of an individual accomplished in view: By
+which form of offense there is a rehabilitation, however little that form of
+offense he gets into, he just quickly makes it evident to the Teacher or
+wise man or companions in the life of purity, makes it known, makes it
+clear, makes a confession. Having made it known, having made it clear,
+having made a confession, he undertakes future restraint.
+
+<p><span class="parno">23</span>
+He understands thus: “That form of character which an individual
+accomplished in view is endowed with, I too am endowed with such a form of
+character?” This is the fourth knowledge attained by him that is
+noble, supramundane, not in common with puthujjanas.
+
+<p><span class="parno">24</span>
+Furthermore, O bhikkhus, a noble disciple considers thus: “That form of
+character which an individual accomplished in view is endowed with, am I too
+endowed with such a form of character?”
+
+<p><span class="parno">25</span>
+And what form of character, O bhikkhus, is an individual accomplished in
+view endowed with? This, O bhikkhus, is the character of an individual
+accomplished in view: however much various obligations he has entered upon
+with zeal for his companions in the life of purity there, he still has keen
+desire for training in the higher virtue, for training in the higher states
+of mind, for training in the higher wisdom. Just as, O bhikkhus, a cow with
+a young calf grazes while watching over her small calf, just so, O bhikkhus,
+is the character of an individual accomplished in view: however much various
+obligations he has entered upon with zeal for his companions in the life of
+purity there, he still has keen desire for training in the higher virtue,
+for training in the higher states of mind, for training in the higher
+wisdom.
+
+<p><span class="parno">26</span>
+He understands thus: “That form of character which an individual
+accomplished in view is endowed with, I too am endowed with such a form of
+character?” This is the fifth knowledge attained by him that is
+noble, supramundane, not in common with puthujjanas.
+
+<p><span class="parno">27</span>
+Furthermore, O bhikkhus, a noble disciple considers thus: “That form of
+strength which an individual accomplished in view is endowed with, am I too
+endowed with such a form of strength?”
+
+<p><span class="parno">28</span>
+And what form of strength, O bhikkhus, is an individual accomplished in view
+endowed with? This, O bhikkhus, is the strength of an individual
+accomplished in view: When the Dhamma and Vinaya declared by the Tathāgata
+is being taught, he listens to the dhamma, having made it his aim, having
+attended to it with all his mind, having collected it together with eager
+ears.
+
+<p><span class="parno">29</span>
+He understands thus: “That form of strength which an individual
+accomplished in view is endowed with, I too am endowed with such a form of
+strength?” This is the sixth knowledge attained by him that is
+noble, supramundane, not in common with puthujjanas.
+
+<p><span class="parno">30</span>
+Furthermore, O bhikkhus, a noble disciple considers thus: “That form of
+strength which an individual accomplished in view is endowed with, am I too
+endowed with such a form of strength?”
+
+<p><span class="parno">31</span>
+And what form of strength, O bhikkhus, is an individual accomplished in view
+endowed with? This, O bhikkhus, is the strength of an individual
+accomplished in view: When the Dhamma and Vinaya declared by the Tathāgata
+is being taught, he gains intuitive feeling of the meaning, gains intuitive
+feeling of the Dhamma, gains joy connected with the Dhamma.
+
+<p><span class="parno">32</span>
+He understands thus: “That form of strength which an individual
+accomplished in view is endowed with, I too am endowed with such a form of
+strength?” This is the seventh knowledge attained by him that is
+noble, supramundane, not in common with puthujjanas.
+
+<p><span class="parno">33</span>
+“A noble disciple, O bhikkhus, thus endowed with seven factors, has
+really well matched to perfection the character for realization of the fruit
+of sotapanna. In fact a noble disciple, O bhikkhus, thus endowed with seven
+factors, possesses the fruit of sotapanna.”
+
+<p><span class="parno">34</span>
+This is what the Auspicious One said. Delighted, those bhikkhus rejoiced in
+the Auspicious One's words.

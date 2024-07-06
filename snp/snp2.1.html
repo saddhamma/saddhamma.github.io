@@ -1,270 +1,429 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset=utf-8>
-<link rel="icon" type="image/x-icon" href="../images/buddha.jpg">
-<title>Sutta Nipata 2.1</title>
-</head>
-<body>
-<div id="container">
-<header>
-<script src="../js/jquery-1.10.2.min.js"></script>
-<link rel="stylesheet" href="../css/menu.css">
-<link rel="stylesheet" href="../css/css.css">
-<div id="eng_searchlink"> <span><a href="../home/engsearch.html" >Search English Content</a></span></div>
-<div id="pali_searchlink"> <span><a href="../home/palisearch.html" >Search Pali Content</a></span></div>
 
-<div class="logotext">
-<a href="../home/index.html"><span>Saddhamma Study Group</span></a>
-</div>
-<nav>
-<div id="navbar">
-<ul id="css3menu0" >
-<li class="topfirst" id="home"><a href="../home/index.html">Home</a></li>
-<li class="topmenu" id="ssg"><a href="../ssg/ssg.html">↓ Study Guides</a>
-<li class="topmenu" id="dn"><a href="../dn/dn.html">Digha Nikaya</a></li>
-<li class="topmenu" id="mn"><a href="../mn/mn.html">Majjhima Nikaya</a></li>
-	<li class="topmenu" id="sn"><a href="../sn/sn.html">↓ Samyutta Nikaya</a>
-		<ul>
-		<li><a href="../sn/sn01.html">Part 1 - The Book with Verses</a></li>
-			<li><a href="../sn/sn02.html">Part 2 - The Book of Causation</a></li>
-			<li><a href="../sn/sn03.html">Part 3 - The Book of the Aggregates</a></li>
-			<li><a href="../sn/sn04.html">Part 4 - The Book of the Six Sense Bases</a></li>
-			<li><a href="../sn/sn05.html" title="Part 5 - The Great Book">Part 5 - The Great Book</a></li>
-		</ul>
-	</li>
-		<li class="topmenu" id="an"><a href="../an/an.html">↓ Anguttara Nikaya</a>
-			<ul>
-			<li><a href="../an/an1.html">The Ones</a></li>
-			<li><a href="../an/an2.html">The Twos</a></li>
-			<li><a href="../an/an3.html">The Threes</a></li>
-			<li><a href="../an/an4.html">The Fours</a></li>
-			<li><a href="../an/an5.html">The Fives</a></li>
-			<li><a href="../an/an6.html">The Sixes</a></li>
-			<li><a href="../an/an7.html">The Sevens</a></li>
-			<li><a href="../an/an8.html">The Eights</a></li>
-			<li><a href="../an/an9.html">The Nines</a></li>
-			<li><a href="../an/an10.html">The Tens</a></li>
-			<li><a href="../an/an11.html">The Elevens</a></li>
-			</ul>
-		</li>
-	<li class="topmenu" id="kn"><a class="pressed" href="../kn/kn.html">↓ Khuddaka Nikaya</a>
-			<ul>
-			<li><a href="../dhp/dhp.html" title="The Dhammapada">The Dhammapada</a></li>
-			<li><a class="pressed" href="../snp/snp.html">Sutta Nipata</a></li>
-			<li><a href="../ud/ud.html">Udana</a></li>
-			<li><a href="../it/it.html">Itivuttaka</a></li>
-			<li><a href="../tha/tha.html">The Theragatha</a></li>
-			<li><a href="../thi/thi.html">The Therigatha</a></li>
-			</ul>
-	</li>
-	<li class="toplast" id="vi"><a href="../vi/vi.html">↓ Vinaya Pitaka</a>
-			<ul>
-			<li><a href="../vi/kd.html">Khandaka</a></li><li><a href="../vi/bu-vb.html" title="Monk's Rules">Bhikkhu Vibhanga</a></li><li>
-			<li><a href="../vi/bu-pt.html" title="Monk's Pātimokkha">Bhikkhu Pātimokkha</a></li>
+<br>Get PDFs: <a href="../snp/eBook/snp2.1.biv.pdf">Side-by-side</a> | <a href="../snp/eBook/snp2.1.bih.pdf">Par-by-par</a> | <a href="../snp/eBook/snp2.1.bip.pdf">Facing pages</a> | <a href="../snp/eBook/snp2.1.eng.pdf">English only</a> | <a href="../snp/eBook/snp2.1.pli.pdf">Pali only</a>.<br></li>
 
-			<li><a href="../vi/bi-pt.html">Bhikkhunī Pātimokkha</a></li>
-			<li><a href="../vi/bi-vb.html"  title="Nuns Rules">Bhikkhuni Vibhanga</a></li>
-			<li><a href="../bmc/bmc.html">Buddhist Monastic Code I</a></li>
-      <li><a href="../bmc/bmc2.html">Buddhist Monastic Code 2</a></li>
-			</ul>
-	</li>
-</ul>
-</div> <!--navbar-->
-</nav>
-<div class="controlpanel" id="controlpanel"><!--controlpanel-->
-<ul>
-	<li>
-	<ul class="inner">
-		<li><a href="#" title="Page Top" >&nbsp;▲&nbsp;</a>
-		<li class="nextprev">
-			<button class="palitoggle"
-				id="pali"
-				type="button"
-				title="Display Pali and activate Lookup Dictionary"
-				style="width:2.8em; padding: 0 2px;">Pali</button>
-		</li>
-		<li><a href="#bottom" title="Page Bottom">&nbsp;▼&nbsp;</a>
-	</ul>
-	</li>
-</ul>
-</div> <!--controlpanel-->
-</header>
-<div id="content">
-<h2>Sutta Nipata Chapter 2: The Minor Chapter - Culavagga: </h2>
-
-<div id="wb_TabMenu" style="position:relative;left:6px;top:0px;width:930px;height:36px;z-index:0;">
-<div id="TabMenu">
-<ul>
-<li><a href="../snp/snp1.html"><span>1. The Snake</span></a></li>
-<li id="active"><a href="../snp/snp2.html"><span>2. The Minor Chapter</span></a></li>
-<li><a href="../snp/snp3.html"><span>3. The Great Chapter</span></a></li>
-<li><a href="../snp/snp4.html"><span>4. The Eights</span></a></li>
-<li><a href="../snp/snp5.html"><span>5. Way to the Beyond</span></a></li>
-</ul>
-</div></div>
-<div id="metaarea">
-<ul class="translator">
-<li><span>A Saddhamma Study Group translation from the Pāḷi text (coming sooner or later).</span>
-</span></span></span>
-</li>
-</ul>
-</div>
-
-<section class="raw_sutta">
-<div lang="en">
-</div>
-
-<div lang="pi">
-<h2>Ratanasutta</h2>
 <blockquote>
+<p><span class="parno"></span>
 
-<p><span class="parno">222</span><a id="p_18Sn_260" class="ms"></a> Yānīdha bhūtāni samāgatāni,<br> Bhummāni vā yāni va antalikkhe;<br>
-Sabbeva bhūtā sumanā bhavantu,<br>
-Athopi sakkacca suṇantu bhāsitaṃ.
+   222. yānīdha bhūtāni samāgatāni<br> bhummāni vā yāni vā antalikkhe,<br> sabbeva
+bhūtā sumanā bhavantu<br> atho'pi sakkacca suṇantu bhāsitaṃ.<span class="note"> <span class="details"><span class="p">pts page 039</span></span></span>
 </p>
 
-<p><span class="parno">223</span><a class="brnum" id="br2"></a><a id="p_18Sn_261" class="ms"></a>
-Tasmā hi bhūtā nisāmetha sabbe,<br> Mettaṃ karotha mānusiyā pajāya;<br>
-Divā ca ratto ca haranti ye baliṃ,<br>
-Tasmā hi ne rakkhatha appamattā.
+<p><span class="parno"></span>
+
+   223. tasmā hi bhūtā nisāmetha sabbe<br> mettaṃ karotha mānusiyā pajāya,<br> divā
+ca ratto ca haranti ye baliṃ<br> tasmā hi ne rakkhatha appamattā.
 </p>
 
-<p><span class="parno">224</span><a class="brnum" id="br3"></a><a id="p_18Sn_262" class="ms"></a>
-Yaṃ kiñci vittaṃ idha vā huraṃ vā,<br> Saggesu vā yaṃ ratanaṃ paṇītaṃ;<br>
-Na no samaṃ atthi tathāgatena,<br>
-Idampi buddhe ratanaṃ paṇītaṃ;<br>
-Etena saccena suvatthi hotu.
+<p><span class="parno"></span>
+
+   224. yaṃ kiñci vittaṃ idha vā huraṃ vā<br> saggesu vā yaṃ ratanaṃ paṇītaṃ,<br>
+na no samaṃ atthi tathāgatena<br> idampi buddhe ratanaṃ paṇītaṃ<br> etena
+saccena suvatthi hotu.
+</p>
+
+<p><span class="parno"></span>
+
+   225. khayaṃ virāgaṃ amataṃ paṇītaṃ<br> yadajjhagā sakyamunī samāhito,<br> na
+tena dhammena samatthi kiñcī<br> idampi dhamme ratanaṃ paṇītaṃ<br> etena saccena
+suvatthi hotu.
+</p>
+
+<p><span class="parno"></span>
+
+   226. yaṃ buddhaseṭṭho parivaṇṇayī suciṃ<br> samādhimānantarikaññamāhu,<br>
+samādhinā tena samo na vijjati<br> idampi dhamme ratanaṃ paṇītaṃ<br> etena
+saccena suvatthi hotu.<span class="note"> <span class="details"><span class="p">pts page 040</span></span></span>
+</p>
+
+<p><span class="parno"></span>
+
+   227. ye puggalā aṭṭhasataṃ pasatthā<br> cattāri etāni yugāni honti,<br> te
+dakkhiṇeyyā sugatassa sāvakā<br> etesu dinnāni mahapphalāni,<br> idampi saṅghe
+ratanaṃ paṇītaṃ<br> etena saccena suvatthi hotu.<span class="note"> <span class="details"><span class="p">bjt page 70</span></span></span>
+</p>
+
+<p><span class="parno"></span>
+
+   228. ye suppayuttā manasā daḷhena<br> nikkāmino gotama sāsanamhi<br> te
+pattipattā amataṃ vigayha<br> laddhā mudhā nibbutiṃ bhuñjamānā<br> idampi saṅghe
+ratanaṃ paṇītaṃ<br> etena saccena suvatthi hotu.
+</p>
+
+<p><span class="parno"></span>
+
+   229. yathindakhīlo paṭhaviṃsito siyā<br> catubbhi vātehi asampakampiyo,<br>
+tathūpamaṃ sappurisaṃ vadāmi<br> yo ariyasaccāni avecca passati,<br> idampi
+saṅghe ratanaṃ paṇītaṃ<br> etena saccena suvatthi hotu.
+</p>
+
+<p><span class="parno"></span>
+
+   230. ye ariyasaccāni vibhāvayanti<br> gambhīrapaññena sudesitāni<br> kiñcāpi te
+honti bhusappamattā<br> na te bhavaṃ aṭṭhamaṃ ādiyanti,<br> idampi saṅghe
+ratanaṃ paṇītaṃ<br> etena saccena suvatthi hotu.
+</p>
+
+<p><span class="parno"></span>
+
+   231. sahāvassa dassanasampadāya<br> tayassu dhammā jahitā bhavanti,<br>
+sakkāyadiṭṭhi vicikicchitañca<br> sīlabbataṃ vāpi yadatthi kiñci,<br>
+catūhapāyehi ca vippamutto<br> cha cābhiṭhānāni abhabbo kātuṃ<br> idampi saṅghe
+ratanaṃ paṇītaṃ<br> etena saccena suvatthi hotu.<span class="note"> <span class="details"><span class="p">pts page 041</span></span></span>
+</p>
+
+<p><span class="parno"></span>
+
+   232. kiñcāpi so kammaṃ karoti pāpakaṃ<br> kāyena vācā uda cetasā vā<br> abhabbo
+so tassa paṭicchādāya<br> abhabbatā diṭṭhapadassa vuttā,<br> idampi saṅghe
+ratanaṃ paṇītaṃ<br> etena saccena suvatthi hotu.<span class="note"> <span class="details"><span class="p">bjt page 72</span></span></span>
+</p>
+
+<p><span class="parno"></span>
+
+   233. vanappagumbe yathā phussitagge<br> gimhānamāse paṭhamasmiṃ gimhe,<br>
+tathūpamaṃ dhammavaraṃ adesayi<br> nibbānagāmiṃ paramaṃ hitāya,<br> idampi
+buddhe ratanaṃ paṇītaṃ<br> etena saccena suvatthi hotu.
+</p>
+
+<p><span class="parno"></span>
+
+   234. varo varaññū varado varāharo<br> anuttaro dhammavaraṃ adesayī<br> idampi
+buddhe ratanaṃ paṇītaṃ<br> etena saccena suvatthi hotu.
+</p>
+
+<p><span class="parno"></span>
+
+   235. khīṇaṃ purāṇaṃ navaṃ natthi sambhavaṃ<br> virattacittā āyatike
+bhavasmiṃ,<br> te khīṇabījā avirūḷhicchandā<br> nibbanti dhīrā yathāyampadīpo,<br>
+idampi saṅghe ratanaṃ paṇītaṃ<br> etena saccena suvatthi hotu.<span class="note"> <span class="details"><span class="p">pts page 042</span></span></span>
 </p>
 </blockquote>
-<hr>
 <blockquote>
+<p><span class="parno"></span>
 
-<p><span class="parno">225</span><a class="brnum" id="br4"></a><a id="p_18Sn_263" class="ms"></a>
-Khayaṃ virāgaṃ amataṃ paṇītaṃ,<br> Yadajjhagā sakyamunī samāhito;<br>
-Na tena dhammena samatthi kiñci,<br>
-Idampi dhamme ratanaṃ paṇītaṃ;<br>
-Etena saccena suvatthi hotu.
+   222. Whichever beings are assembled here<br> whether earth-bound or those of
+the air,<br> may all beings be only happy in mind<br> then also having prepared
+well, they must listen to what is spoken.
 </p>
 
-<p><span class="parno">226</span><a class="brnum" id="br5"></a><a id="p_18Sn_264" class="ms"></a>
-Yaṃ buddhaseṭṭho parivaṇṇayī suciṃ,<br> Samādhimānantarikaññamāhu;<br>
-Samādhinā tena samo na vijjati,<br>
-Idampi dhamme ratanaṃ paṇītaṃ;<br>
-Etena saccena suvatthi hotu.
+<p><span class="parno"></span>
+
+   223. Therefore all you beings must indeed listen<br> you must do the
+safeguarding of the human population,<br> those who by day and by night offer
+religious offerings<br> therefore indeed you must protect them with much
+vigilance.
 </p>
 
-<p><span class="parno">227</span><a class="brnum" id="br6"></a><a id="p_18Sn_265" class="ms"></a>
-Ye puggalā aṭṭha sataṃ pasatthā,<br> Cattāri etāni yugāni honti;<br>
-Te dakkhiṇeyyā sugatassa sāvakā,<br>
-Etesu dinnāni mahapphalāni;<br>
-Idampi sanghe ratanaṃ paṇītaṃ,<br>
-Etena saccena suvatthi hotu.
+<p><span class="parno"></span>
+
+   224. Whichever riches are in this world or in the other world<br> or the
+excellent gems which are in the heavens,<br> there is none which compares with
+the Tathagata.<br> This here is the excellent gem in the Buddha.<br> By this
+truth may there be well-being.
 </p>
 
-<p><span class="parno">228</span><a class="brnum" id="br7"></a><a id="p_18Sn_266" class="ms"></a>
-Ye suppayuttā manasā daḷhena,<br> Nikkāmino gotamasāsanamhi;<br>
-Te pattipattā amataṃ vigayha,<br>
-Laddhā mudhā nibbutiṃ bhuñjamānā;<br>
-Idampi sanghe ratanaṃ paṇītaṃ,<br>
-Etena saccena suvatthi hotu.
+<p><span class="parno"></span>
+
+   225. Destruction, fading away, the deathless, the most excellent<br> which the
+serene Sakkian sage experienced,<br> there is nothing on par with that
+dhamma.<br> This here too is the excellent gem in the Dhamma.<br> By this truth
+may there be well-being.
+</p>
+
+<p><span class="parno"></span>
+
+   226. That purity which the most excellent Buddha entirely praised,<br> the
+samadhi without interval that is said to be different.<br> A samadhi from
+which one can compare with it is not to be found.<br> This here too is the
+excellent gem in the Dhamma.<br> By this truth may there be well-being.
+</p>
+
+<p><span class="parno"></span>
+
+   227. Those eight individuals praised by the good,<br> these are the four
+pairs.<br> Those are the Well-farer's disciples, worthy of offerings.<br> What
+is offered in this [field] yield great fruits.<br> This here too is the
+excellent gem in the Sangha.<br> By this truth may there be well-being.
+</p>
+
+<p><span class="parno"></span>
+
+   228. Those who apply [themselves] with a firm mind,<br> desireless in Gotama's
+instructions,<br> these, having plunged into the deathless,<br> are quenched,
+enjoying what they have attained at no cost.<br> This here too is the
+excellent gem in the Sangha.<br> By this truth may there be well-being.
+</p>
+
+<p><span class="parno"></span>
+
+   229. Just as a strong city gate post attached to the earth could not be
+<br>shaken by the four winds,<br> in a similar way I say of the true man,<br> who,
+having known, sees the noble truths.<br> This here too is the excellent gem in
+the Sangha.<br> By this truth may there be well-being.
+</p>
+
+<p><span class="parno"></span>
+
+   230. To whomever the noble truths clearly come to be,<br> which is well taught
+by the one with deep wisdom,<br> however much they become heedless,<br> do not
+take up an eighth state of being.<br> This here too is the excellent gem in
+the Sangha.<br> By this truth may there be well-being.
+</p>
+
+<p><span class="parno"></span>
+
+   231. Along with the attainment of vision,<br> these three dhammas are
+abandoned,<br> the personality view and doubt<br> also whatever virtue and
+[religious] duties there are.<br> And one is freed from the four woeful
+planes,<br> and not able to do the six higher causes [for downfall].<br> This
+here too is the excellent gem in the Sangha.<br> By this truth may there be
+well-being.
+</p>
+
+<p><span class="parno"></span>
+
+   232. However much evil deed one does,<br> by body or speech or from the
+mind,<br> one is incapable of having concealed it.<br> For [such] impossibility
+is said for one who has seen the path.<br> This here too is the excellent gem
+in the Sangha.<br> By this truth may there be well-being.
+</p>
+
+<p><span class="parno"></span>
+
+   233. Just as the woodland thicket puts forth its flowers,<br> in the first
+summer month during the hot season.<br> In a similar way is the excellent
+Dhamma taught,<br>for the highest welfare, leading to nibbāna.<br> This here too
+is the excellent gem in the Buddha.<br> By this truth may there be well-being.
+</p>
+
+<p><span class="parno"></span>
+
+   234. The auspicious one, knower of the auspicious, giver of the auspicious,
+bringer of the auspicious.<br> The one who taught that unsurpassed, auspicious
+Dhamma.<br> This here too is the excellent gem in the Buddha.<br> By this truth
+may there be well-being.
+</p>
+
+<p><span class="parno"></span>
+
+   235. Destroyed is what came before, there is no new origination<br> From a
+detached mind in future becoming,<br> the seeds destroyed [with] no desire for
+growth,<br> those wise ones are extinguished, just as this lamp.<br> This here
+too is the excellent gem in the Sangha.<br> By this truth may there be
+well-being.
 </p>
 </blockquote>
-<hr>
+<br>Get PDFs: <a href="../snp/eBook/snp2.1.biv.pdf">Side-by-side</a> | <a href="../snp/eBook/snp2.1.bih.pdf">Par-by-par</a> | <a href="../snp/eBook/snp2.1.bip.pdf">Facing pages</a> | <a href="../snp/eBook/snp2.1.eng.pdf">English only</a> | <a href="../snp/eBook/snp2.1.pli.pdf">Pali only</a>.<br></li>
+
 <blockquote>
+<p><span class="parno"></span>
 
-<p><span class="parno">229</span><a class="brnum" id="br8"></a><a id="p_18Sn_267" class="ms"></a>
-Yathindakhīlo pathavissito siyā,<br> Catubbhi vātehi asampakampiyo;<br>
-Tathūpamaṃ sappurisaṃ vadāmi,<br>
-Yo ariyasaccāni avecca passati;<br>
-Idampi sanghe ratanaṃ paṇītaṃ,<br>
-Etena saccena suvatthi hotu.
+   222. yānīdha bhūtāni samāgatāni<br> bhummāni vā yāni vā antalikkhe,<br> sabbeva
+bhūtā sumanā bhavantu<br> atho'pi sakkacca suṇantu bhāsitaṃ.<span class="note"> <span class="details"><span class="p">pts page 039</span></span></span>
 </p>
 
-<p><span class="parno">230</span><a class="brnum" id="br9"></a><a id="p_18Sn_268" class="ms"></a>
-Ye ariyasaccāni vibhāvayanti,<br> Gambhīrapaññena sudesitāni;<br>
-Kiñcāpi te honti bhusaṃ pamattā,<br>
-Na te bhavaṃ aṭṭhamamādiyanti;<br>
-Idampi sanghe ratanaṃ paṇītaṃ,<br>
-Etena saccena suvatthi hotu.
+<p><span class="parno"></span>
+
+   223. tasmā hi bhūtā nisāmetha sabbe<br> mettaṃ karotha mānusiyā pajāya,<br> divā
+ca ratto ca haranti ye baliṃ<br> tasmā hi ne rakkhatha appamattā.
 </p>
 
-<p><span class="parno">231</span><a class="brnum" id="br10"></a><a id="p_18Sn_269" class="ms"></a>
-Sahāvassa dassanasampadāya,<br> Tayassu dhammā jahitā bhavanti;<br>
-Sakkāyadiṭṭhī vicikicchitañca,<br>
-Sīlabbataṃ vāpi yadatthi kiñci.
-<br><a class="brnum" id="br11"></a><a id="p_18Sn_270" class="ms"></a>
-Catūhapāyehi ca vippamutto,<br> Chaccābhiṭhānāni abhabba kātuṃ;<br>
-Idampi sanghe ratanaṃ paṇītaṃ,<br>
-Etena saccena suvatthi hotu.
+<p><span class="parno"></span>
+
+   224. yaṃ kiñci vittaṃ idha vā huraṃ vā<br> saggesu vā yaṃ ratanaṃ paṇītaṃ,<br>
+na no samaṃ atthi tathāgatena<br> idampi buddhe ratanaṃ paṇītaṃ<br> etena
+saccena suvatthi hotu.
+</p>
+
+<p><span class="parno"></span>
+
+   225. khayaṃ virāgaṃ amataṃ paṇītaṃ<br> yadajjhagā sakyamunī samāhito,<br> na
+tena dhammena samatthi kiñcī<br> idampi dhamme ratanaṃ paṇītaṃ<br> etena saccena
+suvatthi hotu.
+</p>
+
+<p><span class="parno"></span>
+
+   226. yaṃ buddhaseṭṭho parivaṇṇayī suciṃ<br> samādhimānantarikaññamāhu,<br>
+samādhinā tena samo na vijjati<br> idampi dhamme ratanaṃ paṇītaṃ<br> etena
+saccena suvatthi hotu.<span class="note"> <span class="details"><span class="p">pts page 040</span></span></span>
+</p>
+
+<p><span class="parno"></span>
+
+   227. ye puggalā aṭṭhasataṃ pasatthā<br> cattāri etāni yugāni honti,<br> te
+dakkhiṇeyyā sugatassa sāvakā<br> etesu dinnāni mahapphalāni,<br> idampi saṅghe
+ratanaṃ paṇītaṃ<br> etena saccena suvatthi hotu.<span class="note"> <span class="details"><span class="p">bjt page 70</span></span></span>
+</p>
+
+<p><span class="parno"></span>
+
+   228. ye suppayuttā manasā daḷhena<br> nikkāmino gotama sāsanamhi<br> te
+pattipattā amataṃ vigayha<br> laddhā mudhā nibbutiṃ bhuñjamānā<br> idampi saṅghe
+ratanaṃ paṇītaṃ<br> etena saccena suvatthi hotu.
+</p>
+
+<p><span class="parno"></span>
+
+   229. yathindakhīlo paṭhaviṃsito siyā<br> catubbhi vātehi asampakampiyo,<br>
+tathūpamaṃ sappurisaṃ vadāmi<br> yo ariyasaccāni avecca passati,<br> idampi
+saṅghe ratanaṃ paṇītaṃ<br> etena saccena suvatthi hotu.
+</p>
+
+<p><span class="parno"></span>
+
+   230. ye ariyasaccāni vibhāvayanti<br> gambhīrapaññena sudesitāni<br> kiñcāpi te
+honti bhusappamattā<br> na te bhavaṃ aṭṭhamaṃ ādiyanti,<br> idampi saṅghe
+ratanaṃ paṇītaṃ<br> etena saccena suvatthi hotu.
+</p>
+
+<p><span class="parno"></span>
+
+   231. sahāvassa dassanasampadāya<br> tayassu dhammā jahitā bhavanti,<br>
+sakkāyadiṭṭhi vicikicchitañca<br> sīlabbataṃ vāpi yadatthi kiñci,<br>
+catūhapāyehi ca vippamutto<br> cha cābhiṭhānāni abhabbo kātuṃ<br> idampi saṅghe
+ratanaṃ paṇītaṃ<br> etena saccena suvatthi hotu.<span class="note"> <span class="details"><span class="p">pts page 041</span></span></span>
+</p>
+
+<p><span class="parno"></span>
+
+   232. kiñcāpi so kammaṃ karoti pāpakaṃ<br> kāyena vācā uda cetasā vā<br> abhabbo
+so tassa paṭicchādāya<br> abhabbatā diṭṭhapadassa vuttā,<br> idampi saṅghe
+ratanaṃ paṇītaṃ<br> etena saccena suvatthi hotu.<span class="note"> <span class="details"><span class="p">bjt page 72</span></span></span>
+</p>
+
+<p><span class="parno"></span>
+
+   233. vanappagumbe yathā phussitagge<br> gimhānamāse paṭhamasmiṃ gimhe,<br>
+tathūpamaṃ dhammavaraṃ adesayi<br> nibbānagāmiṃ paramaṃ hitāya,<br> idampi
+buddhe ratanaṃ paṇītaṃ<br> etena saccena suvatthi hotu.
+</p>
+
+<p><span class="parno"></span>
+
+   234. varo varaññū varado varāharo<br> anuttaro dhammavaraṃ adesayī<br> idampi
+buddhe ratanaṃ paṇītaṃ<br> etena saccena suvatthi hotu.
+</p>
+
+<p><span class="parno"></span>
+
+   235. khīṇaṃ purāṇaṃ navaṃ natthi sambhavaṃ<br> virattacittā āyatike
+bhavasmiṃ,<br> te khīṇabījā avirūḷhicchandā<br> nibbanti dhīrā yathāyampadīpo,<br>
+idampi saṅghe ratanaṃ paṇītaṃ<br> etena saccena suvatthi hotu.<span class="note"> <span class="details"><span class="p">pts page 042</span></span></span>
 </p>
 </blockquote>
-<hr>
 <blockquote>
+<p><span class="parno"></span>
 
-<p><span class="parno">232</span><a class="brnum" id="br12"></a><a id="p_18Sn_271" class="ms"></a>
-Kiñcāpi so kamma karoti pāpakaṃ,<br> Kāyena vācā uda cetasā vā;<br>
-Abhabba so tassa paṭicchadāya,<br>
-Abhabbatā diṭṭhapadassa vuttā;<br>
-Idampi sanghe ratanaṃ paṇītaṃ,<br>
-Etena saccena suvatthi hotu.
+   222. Whichever beings are assembled here<br> whether earth-bound or those of
+the air,<br> may all beings be only happy in mind<br> then also having prepared
+well, they must listen to what is spoken.
 </p>
 
-<p><span class="parno">233</span><a class="brnum" id="br13"></a><a id="p_18Sn_272" class="ms"></a>
-Vanappagumbe yatha phussitagge,<br> Gimhānamāse paṭhamasmiṃ gimhe;<br>
-Tathūpamaṃ dhammavaraṃ adesayi,<br>
-Nibbānagāmiṃ paramaṃ hitāya;<br>
-Idampi buddhe ratanaṃ paṇītaṃ,<br>
-Etena saccena suvatthi hotu.
+<p><span class="parno"></span>
+
+   223. Therefore all you beings must indeed listen<br> you must do the
+safeguarding of the human population,<br> those who by day and by night offer
+religious offerings<br> therefore indeed you must protect them with much
+vigilance.
 </p>
 
-<p><span class="parno">234</span><a class="brnum" id="br14"></a><a id="p_18Sn_273" class="ms"></a>
-Varo varaññū varado varāharo,<br> Anuttaro dhammavaraṃ adesayi;<br>
-Idampi buddhe ratanaṃ paṇītaṃ,<br>
-Etena saccena suvatthi hotu.
+<p><span class="parno"></span>
+
+   224. Whichever riches are in this world or in the other world<br> or the
+excellent gems which are in the heavens,<br> there is none which compares with
+the Tathagata.<br> This here is the excellent gem in the Buddha.<br> By this
+truth may there be well-being.
 </p>
 
-<p><span class="parno">235</span><a class="brnum" id="br15"></a><a id="p_18Sn_274" class="ms"></a>
-Khīṇaṃ purāṇaṃ nava natthi sambhavaṃ,<br> Virattacittāyatike bhavasmiṃ;<br>
-Te khīṇabījā avirūḷhichandā,<br>
-Nibbanti dhīrā yathāyaṃ padīpo;<br>
-Idampi sanghe ratanaṃ paṇītaṃ,<br>
-Etena saccena suvatthi hotu.
+<p><span class="parno"></span>
+
+   225. Destruction, fading away, the deathless, the most excellent<br> which the
+serene Sakkian sage experienced,<br> there is nothing on par with that
+dhamma.<br> This here too is the excellent gem in the Dhamma.<br> By this truth
+may there be well-being.
+</p>
+
+<p><span class="parno"></span>
+
+   226. That purity which the most excellent Buddha entirely praised,<br> the
+samadhi without interval that is said to be different.<br> A samadhi from
+which one can compare with it is not to be found.<br> This here too is the
+excellent gem in the Dhamma.<br> By this truth may there be well-being.
+</p>
+
+<p><span class="parno"></span>
+
+   227. Those eight individuals praised by the good,<br> these are the four
+pairs.<br> Those are the Well-farer's disciples, worthy of offerings.<br> What
+is offered in this [field] yield great fruits.<br> This here too is the
+excellent gem in the Sangha.<br> By this truth may there be well-being.
+</p>
+
+<p><span class="parno"></span>
+
+   228. Those who apply [themselves] with a firm mind,<br> desireless in Gotama's
+instructions,<br> these, having plunged into the deathless,<br> are quenched,
+enjoying what they have attained at no cost.<br> This here too is the
+excellent gem in the Sangha.<br> By this truth may there be well-being.
+</p>
+
+<p><span class="parno"></span>
+
+   229. Just as a strong city gate post attached to the earth could not be
+<br>shaken by the four winds,<br> in a similar way I say of the true man,<br> who,
+having known, sees the noble truths.<br> This here too is the excellent gem in
+the Sangha.<br> By this truth may there be well-being.
+</p>
+
+<p><span class="parno"></span>
+
+   230. To whomever the noble truths clearly come to be,<br> which is well taught
+by the one with deep wisdom,<br> however much they become heedless,<br> do not
+take up an eighth state of being.<br> This here too is the excellent gem in
+the Sangha.<br> By this truth may there be well-being.
+</p>
+
+<p><span class="parno"></span>
+
+   231. Along with the attainment of vision,<br> these three dhammas are
+abandoned,<br> the personality view and doubt<br> also whatever virtue and
+[religious] duties there are.<br> And one is freed from the four woeful
+planes,<br> and not able to do the six higher causes [for downfall].<br> This
+here too is the excellent gem in the Sangha.<br> By this truth may there be
+well-being.
+</p>
+
+<p><span class="parno"></span>
+
+   232. However much evil deed one does,<br> by body or speech or from the
+mind,<br> one is incapable of having concealed it.<br> For [such] impossibility
+is said for one who has seen the path.<br> This here too is the excellent gem
+in the Sangha.<br> By this truth may there be well-being.
+</p>
+
+<p><span class="parno"></span>
+
+   233. Just as the woodland thicket puts forth its flowers,<br> in the first
+summer month during the hot season.<br> In a similar way is the excellent
+Dhamma taught,<br>for the highest welfare, leading to nibbāna.<br> This here too
+is the excellent gem in the Buddha.<br> By this truth may there be well-being.
+</p>
+
+<p><span class="parno"></span>
+
+   234. The auspicious one, knower of the auspicious, giver of the auspicious,
+bringer of the auspicious.<br> The one who taught that unsurpassed, auspicious
+Dhamma.<br> This here too is the excellent gem in the Buddha.<br> By this truth
+may there be well-being.
+</p>
+
+<p><span class="parno"></span>
+
+   235. Destroyed is what came before, there is no new origination<br> From a
+detached mind in future becoming,<br> the seeds destroyed [with] no desire for
+growth,<br> those wise ones are extinguished, just as this lamp.<br> This here
+too is the excellent gem in the Sangha.<br> By this truth may there be
+well-being.
 </p>
 </blockquote>
-<hr>
-<blockquote>
-
-<p><span class="parno">236</span><a class="brnum" id="br16"></a><a id="p_18Sn_275" class="ms"></a>
-Yānīdha bhūtāni samāgatāni,<br> Bhummāni vā yāni va antalikkhe;<br>
-Tathāgataṃ devamanussapūjitaṃ,<br>
-Buddhaṃ namassāma suvatthi hotu.
-</p>
-
-<p><span class="parno">237</span><a class="brnum" id="br17"></a><a id="p_18Sn_276" class="ms"></a>
-Yānīdha bhūtāni samāgatāni,<br> Bhummāni vā yāni va antalikkhe;<br>
-Tathāgataṃ devamanussapūjitaṃ,<br>
-Dhammaṃ namassāma suvatthi hotu.
-</p>
-
-<p><span class="parno">238</span><a class="brnum" id="br18"></a><a id="p_18Sn_277" class="ms"></a>
-Yānīdha bhūtāni samāgatāni,<br> Bhummāni vā yāni va antalikkhe;<br>
-Tathāgataṃ devamanussapūjitaṃ,<br>
-Sanghaṃ namassāma suvatthi hotūti.
-</p>
-</blockquote>
-<p class="endsection">Ratanasuttaṃ paṭhamaṃ.</p>
-</div>
-</section>
-<div id="nextprev"><a id="previous-sutta" href="../snp/snp2.html"></a><a id="next-sutta" href="../snp/snp2.2.html"></a></div>
-</div><!--content-->
-<footer>
-<div id="breadcrumbs">
-<a href="../home/index.html">Home</a><a href="../kn/kn.html">Khuddaka Nikāya</a><a href="../snp/snp.html">Sutta Nipata</a><a href="../snp/snp2.html">Chapter 2: The Minor Chapter</a>2:1 Ratana Sutta - Treasures
-</div>
-<a id="bottom"></a>
-</footer>
-<script src="../js/footer.js"></script>
-</div><!--container-->
-</body>
-</html>
