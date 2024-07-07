@@ -1,383 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8>
+<link rel="icon" type="image/x-icon" href="../images/buddha.jpg">
+<title>Samyutta Nikāya - Connected Discourses on the Aggregates 22.85</title>
+</head>
+<body>
+<div id="container">
+<header>
+<script src="../js/jquery-1.10.2.min.js"></script>
+<link rel="stylesheet" href="../css/menu.css">
+<link rel="stylesheet" href="../css/css.css">
+<div id="eng_searchlink"> <span><a href="../home/engsearch.html" >Search English Content</a></span></div>
+<div id="pali_searchlink"> <span><a href="../home/palisearch.html" >Search Pali Content</a></span></div>
 
+<div class="logotext"><a href="../home/index.html"><span>Saddhamma Study Group</span></a></div>
+<nav>
+<div id="navbar">
+<ul id="css3menu0" >
+<li class="topfirst" id="home"><a href="../home/index.html">Home</a></li>
+<li class="topmenu" id="ssg"><a href="../ssg/ssg.html">↓ Study Guides</a>
+<li class="topmenu" id="dn"><a href="../dn/dn.html">Digha Nikaya</a></li>
+<li class="topmenu" id="mn"><a href="../mn/mn.html">Majjhima Nikaya</a></li>
+	<li class="topmenu" id="sn"><a class="pressed" href="../sn/sn.html">↓ Samyutta Nikaya</a>
+		<ul>
+			<li><a href="../sn/sn01.html">Part 1 - The Book with Verses</a></li>
+			<li><a href="../sn/sn02.html">Part 2 - The Book of Causation</a></li>
+			<li><a class="pressed" href="../sn/sn03.html" title="Part 3 - The Book of the Aggregates">Part 3 - The Book of the Aggregates</a></li>
+			<li><a href="../sn/sn04.html">Part 4 - The Book of the Six Sense Bases</a></li>
+			<li><a href="../sn/sn05.html" title="Part 5 - The Great Book">Part 5 - The Great Book</a></li>
+		</ul>
+	</li>
+		<li class="topmenu" id="an"><a href="../an/an.html">↓ Anguttara Nikaya</a>
+			<ul>
+			<li><a href="../an/an1.html">The Ones</a></li>
+			<li><a href="../an/an2.html">The Twos</a></li>
+			<li><a href="../an/an3.html">The Threes</a></li>
+			<li><a href="../an/an4.html">The Fours</a></li>
+			<li><a href="../an/an5.html">The Fives</a></li>
+			<li><a href="../an/an6.html">The Sixes</a></li>
+			<li><a href="../an/an7.html">The Sevens</a></li>
+			<li><a href="../an/an8.html">The Eights</a></li>
+			<li><a href="../an/an9.html">The Nines</a></li>
+			<li><a href="../an/an10.html">The Tens</a></li>
+			<li><a href="../an/an11.html">The Elevens</a></li>
+			</ul>
+		</li>
+	<li class="topmenu" id="kn"><a href="../kn/kn.html">↓ Khuddaka Nikaya</a>
+			<ul>
+			<li><a href="../dhp/dhp.html" title="The Dhammapada">The Dhammapada</a></li>
+			<li><a href="../snp/snp.html">Sutta Nipata</a></li>
+			<li><a href="../ud/ud.html">Udana</a></li>
+			<li><a href="../it/it.html">Itivuttaka</a></li>
+			<li><a href="../tha/tha.html">The Theragatha</a></li>
+			<li><a href="../thi/thi.html">The Therigatha</a></li>
+			</ul>
+	</li>
+	<li class="toplast" id="vi"><a href="../vi/vi.html">↓ Vinaya Pitaka</a>
+		<ul>
+			<li><a href="../vi/kd.html">Khandaka</a></li>
+			<li><a href="../vi/bu-vb.html" title="Monk's Rules">Bhikkhu Vibhanga</a></li>
+			<li><a href="../vi/bu-pt.html" title="Bhikkhu Pātimokkha">Bhikkhu Pātimokkha</a></li>
+			<li><a href="../vi/bi-pt.html" title="Bhikkhunī Pātimokkha">Bhikkhunī Patimokkha</a></li>
+			<li><a href="../vi/bi-vb.html" title="Nuns Rules">Bhikkhuni Vibhanga</a></li>
+			<li><a href="../bmc/bmc.html">Buddhist Monastic Code 1</a></li>
+      <li><a href="../bmc/bmc2.html">Buddhist Monastic Code 2</a></li>
+		</ul>
+	</li>
+</ul>
+</div> <!--navbar-->
+</nav>
+<div class="controlpanel" id="controlpanel"><!--controlpanel-->
+<ul>
+	<li>
+	<ul class="inner">
+		<li><a href="#" title="Page Top" >&nbsp;▲&nbsp;</a>
+		<li class="nextprev">
+			<button class="palitoggle"
+				id="pali"
+				type="button"
+				title="Display Pali and activate Lookup Dictionary"
+				style="width:2.8em; padding: 0 2px;">Pali</button>
+		</li>
+		<li><a href="#bottom" title="Page Bottom">&nbsp;▼&nbsp;</a>
+	</ul>
+	</li>
+</ul>
+</div> <!--controlpanel-->
+</header>
+<div id="content">
+<h2>Saṃyutta Nikāya - The Connected Discourses</h2>
+<div id="wb_TabMenu" style="position:relative;left:6px;top:0px;width:930px;height:36px;z-index:0;">
+<div id="TabMenu">
+<ul>
+<li><a href="../sn/sn01.html"><span>Part 1: 1-11</span></a></li>
+<li><a href="../sn/sn02.html"><span>Part 2: 12-21</span></a></li>
+<li><a href="../sn/sn03.html"><span>Part 3: 22-34</span></a></li>
+<li><a href="../sn/sn04.html"><span>Part 4: 35-44</span></a></li>
+<li><a href="../sn/sn05.html"><span>Part 5: 45-56</span></a></li>
+</ul>
+</div></div>
+
+<h2>Connected Discourses on the Aggregates: SN22:85 Yamaka</h2>
+
+<div id="metaarea">
+<ul class="translator">
+<li><span>A Saddhamma Study Group translation from the Pāḷi text.
 <br>Get PDFs: <a href="../sn/eBook/sn22.85.biv.pdf">Side-by-side</a> | <a href="../sn/eBook/sn22.85.bih.pdf">Par-by-par</a> | <a href="../sn/eBook/sn22.85.bip.pdf">Facing pages</a> | <a href="../sn/eBook/sn22.85.eng.pdf">English only</a> | <a href="../sn/eBook/sn22.85.pli.pdf">Pali only</a>.<br></li>
+</li>
+</ul>
+</div>
+<section class="raw_sutta">
+<div lang="en">
 
-<p><span class="parno">1</span>
-evaṃ me sutaṃ ekaṃ samayaṃ āyasmā sāriputto sāvatthiyaṃ viharati jetavane
-anāthapiṇḍikassa ārāme.
-
-<p><span class="parno">2</span>
-tena kho pana samayena yamakassa nāma bhikkhuno evarūpaṃ pāpakaṃ diṭṭhigataṃ
-uppannaṃ hoti tathāhaṃ bhagavatā dhammaṃ, desitaṃ ājānāmi yathā khīṇāsavo
-bhikkhu kāyassa bhedā ucchijjati vinassati na hoti parammaraṇā'ti.
-
-<p><span class="parno">3</span>
-assosuṃ kho sambahulā bhikkhu yamakassa kira nāma bhikkhuno evarūpaṃ pāpakaṃ
-diṭṭhigataṃ uppannaṃ hoti: tathāhaṃ bhagavatā dhammaṃ desitaṃ ājānāmi, yathā
-khīṇāsavo bhikkhū kāyassa bhedā ucchijjati vinassati na hoti
-parammaraṇā"ti.<span class="note"> <span class="details"><span class="p">bjt page 190</span></span></span>
-
-<p><span class="parno">4</span>
-atha kho te bhikkhu yenāyasmā yamako tenupasaṃkamiṃsu. upasaṃkamitvā
-āyasmatā yamakena saddhiṃ sammodiṃsu sammodaniyaṃ kathaṃ sārāṇiyaṃ
-vitisāretvā ekamantaṃ nisīdiṃsu. ekamantaṃ nisinnā kho te bhikkhū āyasmantaṃ
-yamakaṃ etadavocuṃ: "saccaṃ kira te āvuso yamaka, evarūpaṃ pāpakaṃ
-diṭṭhigataṃ uppannaṃ "tathāhaṃ bhagavatā dhammaṃ desitaṃ ājānāmi, yathā
-khīṇāsavo bhikkhu kāyassa bhedā ucchijjati vinassati na hoti parammaraṇā,
-ti.<span class="note"> <span class="details"><span class="p">pts page 110</span></span></span>
-
-<p><span class="parno">5</span>
-evaṃ kho'<span class="var" title="evaṃ khvāhaṃ - syā, machasaṃ.">haṃ</span> āvuso bhagavatā dhammaṃ
-desitaṃ ājānāmi yathā khīṇāsavo bhikkhu kāyassa bhedā ucchijjati vinassati
-na hoti parammaraṇā'ti.
-
-<p><span class="parno">6</span>
-mā āvuso yamaka evaṃ avaca, bhagavantaṃ abbhācikkhi, na hi sādhu bhagavato
-<span class="var" title="abbhāvikkhanaṃ - machasaṃ.">abbhakkhānaṃ</span>, na hi bhagavā evaṃ
-vadeyya: "khīṇāsavo bhikkhu kāyassa bhedā ucchijjati vinassati na hoti
-parammaraṇā"ti.
-
-<p><span class="parno">7</span>
-evampi kho āyasmā yamako tehi bhikkhūhi vuccamāno tatheva taṃ pāpakaṃ
-diṭṭhagataṃ thāmasā <span class="var" title="parāmāsā - machasaṃ.">parāmassa</span> abhinivissa
-voharati "tathāhaṃ bhagavatā dhammaṃ desitaṃ ājānāmi yathā khīṇāsavo bhikkhu
-kāyassa bhedā ucchijjati vinassati na hoti parammaraṇā'ti. "
-
-<p><span class="parno">8</span>
-yato kho te bhikkhū nāsakkhiṃsu. āyasmantaṃ yamakaṃ etasmā pāpakā diṭṭhigatā
-vivecetuṃ. atha kho te bhikkhū uṭṭhāyāsanā yenāyasmā sāriputto
-tenupasaṅkamiṃsu, upasaṅkamitvā āyasmantaṃ sāriputtaṃ etadavocuṃ: yamakassa
-nāma āvuso sāriputta, bhikkhuno evarūpaṃ pāpakaṃ diṭṭhigataṃ uppannaṃ:
-"tathā'haṃ bhagavatā dhammaṃ desitaṃ ājānāmi yathā khīṇāsavo bhikkhu kāyassa
-bhedā ucchijjati vinassati na hoti parammaraṇā'ti. sādhāyasmā sāriputto yena
-yamako bhikkhu tenupasaṅkamatu anukampaṃ upādāyā"ti. adhivāsesi kho āyasmā
-sāriputto tuṇhībhāvena.
-
-<p><span class="parno">9</span>
-atha kho āyasmā sāriputto sāyanhasamayaṃ paṭisallānā vuṭṭhito yenāyasmā
-yamako tenupasaṅkami, upasaṅkamitvā āyasmatā yamakena saddhiṃ sammodi
-sammodanīyaṃ kathaṃ sārāṇiyaṃ vītisāretvā ekamantaṃ nisīdi, ekamantaṃ
-nisinno kho āyasmā sāriputto āyasmantaṃ yamakaṃ etadavoca: saccaṃ kira te
-āvuso yamaka, evarūpaṃ pāpakaṃ diṭṭhigataṃ uppannaṃ? tathāhaṃ bhagavatā
-dhammaṃ desitaṃ ājānāmi, yathā khīṇāsavo bhikkhu kāyassa bhedā ucchijjati
-vinassati na hoti parammaraṇā"ti.<span class="note"> <span class="details"><span class="p">pts page 111</span></span></span>
-
-<p><span class="parno">10</span>
-evañca khohaṃ āvuso, bhagavatā dhammaṃ desitaṃ ājānāmi: "yathā khīṇāsavo
-bhikkhu kāyassa bhedā ucchijjati vinassati na hoti
-parammaraṇā"ti.<span class="note"> <span class="details"><span class="p">bjt page 192</span></span></span>
-
-<p><span class="parno">11</span>
-"taṃ kiṃ maññasi? āvuso, yamaka "rūpa niccaṃ vā aniccaṃ vā"ti aniccaṃ āvuso.
-
-<p><span class="parno">12</span>
-yaṃ panāniccaṃ dukkhaṃ vā taṃ sukhaṃ vā'ti? dukkhaṃ āvuso.
-
-<p><span class="parno">13</span>
-yaṃ panāniccaṃ dukkhaṃ vipariṇāmadhammaṃ kallannu taṃ samanupassituṃ "etaṃ
-mama esohamasmi, eso me attā"ti? no hetaṃ āvuso.
-
-<p><span class="parno">14</span>
-vedanā niccaṃ vā aniccaṃ vā'ti? aniccaṃ āvuso.
-
-<p><span class="parno">15</span>
-yaṃ panāniccaṃ dukkhaṃ vā taṃ sukhaṃ vā'ti? dukkhaṃ āvuso.
-
-<p><span class="parno">16</span>
-yaṃ panāniccaṃ dukkhaṃ vipariṇāmadhammaṃ kallannu taṃ samanupassituṃ "etaṃ
-mama esohamasmi, eso me attā"ti? no hetaṃ āvuso.
-
-<p><span class="parno">17</span>
-saññā niccaṃ vā aniccaṃ vā'ti? aniccaṃ āvuso.
-
-<p><span class="parno">18</span>
-yaṃ panāniccaṃ dukkhaṃ vā taṃ sukhaṃ vā'ti? dukkhaṃ āvuso.
-
-<p><span class="parno">19</span>
-yaṃ panāniccaṃ dukkhaṃ vipariṇāmadhammaṃ kallannu taṃ samanupassituṃ "etaṃ
-mama esohamasmi, eso me attā"ti? no hetaṃ āvuso.
-
-<p><span class="parno">20</span>
-saṃkhārā niccaṃ vā aniccaṃ vā'ti? aniccaṃ āvuso.
-
-<p><span class="parno">21</span>
-yaṃ panāniccaṃ dukkhaṃ vā taṃ sukhaṃ vā'ti? dukkhaṃ āvuso.
-
-<p><span class="parno">22</span>
-yaṃ panāniccaṃ dukkhaṃ vipariṇāmadhammaṃ kallannu taṃ samanupassituṃ "etaṃ
-mama esohamasmi, eso me attā"ti? no hetaṃ āvuso.
-
-<p><span class="parno">23</span>
-viññāṇaṃ niccaṃ vā aniccaṃ vā'ti? aniccaṃ āvuso.
-
-<p><span class="parno">24</span>
-yaṃ panāniccaṃ dukkhaṃ vā taṃ sukhaṃ vā'ti? dukkhaṃ āvuso.
-
-<p><span class="parno">25</span>
-yaṃ panāniccaṃ dukkhaṃ vipariṇāmadhammaṃ kallannu taṃ samanupassituṃ "etaṃ
-mama esohamasmi, eso me attā"ti? no hetaṃ āvuso.
-
-<p><span class="parno">26</span>
-tasmātihāvuso yamaka, yaṃ kiñci rūpaṃ atītānāgatapaccuppannaṃ ajjhattaṃ vā
-bahiddhā vā oḷārikaṃ vā sukhumaṃ vā hīnaṃ vā paṇītaṃ vā yaṃ dūre santike vā
-sabbaṃ rūpaṃ "netaṃ mama neso'hamasmi na me'so attā"ti. evametaṃ yathābhūtaṃ
-sammappaññāya daṭṭhabbaṃ. yā kāci vedanā atītānāgatapaccuppannaṃ ajjhattaṃ
-vā bahiddhā vā oḷārikaṃ vā sukhumaṃ vā hīnaṃ vā paṇītaṃ vā yaṃ dūre santike
-vā sabbaṃ vedanaṃ: 'netaṃ mama neso'hamasmi na me so attā"ti, evametaṃ
-yathābhūtaṃ sammappaññāya daṭṭhabbaṃ. yā kāci saññā atītānāgatapaccuppannaṃ
-ajjhattaṃ vā bahiddhā vā oḷārikaṃ vā sukhumaṃ hīnaṃ vā paṇītaṃ vā yaṃ dūre
-santike vā sabbaṃ saññaṃ: 'netaṃ mama neso'hamasmi na me so attā"ti,
-evametaṃ yathābhūtaṃ sammappaññāya daṭṭhabbaṃ. ye keci saṅkhārā
-atītānāgatapaccuppannaṃ ajjhattaṃ vā bahiddhā vā oḷārikaṃ vā sukhumaṃ vā
-hīnaṃ vā paṇītaṃ vā yaṃ dūre santike vā sabbaṃ saṅkhāraṃ: 'netaṃ mama
-neso'hamasmi na me so attā"ti, evametaṃ yathābhūtaṃ sammappaññāya
-daṭṭhabbaṃ. yaṃ kiñci viññāṇaṃ atītānāgatapaccuppannaṃ ajjhattaṃ vā bahiddhā
-vā oḷārikaṃ vā sukhumaṃ vā hīnaṃ vā paṇītaṃ vā yaṃ dūre santike vā sabbaṃ
-viññāṇaṃ: 'netaṃ mama neso'hamasmi na me so attā"ti, evametaṃ yathābhūtaṃ
-sammappaññāya daṭṭhabbaṃ.
-
-<p><span class="parno">27</span>
-evaṃ passaṃ āvuso, yamaka sutavā ariyasāvako rūpasmimpi nibbindati
-vedanāyapi nibbindati saññāyapi nibbindati saṃkhāresupi
-nibbindati. viññāṇasmimpi nibbindati. nibbindaṃ virajjati. virāgā
-vimuccati. vimuttasmiṃ vimuttamiti' ñāṇaṃ hoti. khīṇā jāti. vusitaṃ
-brahmacariyaṃ. kataṃ karaṇīyaṃ nāparaṃ itthattāyāti pajānātīti.
-
-<p><span class="parno">28</span>
-taṃ kiṃ maññasi āvuso yamaka, 'rūpaṃ tathāgato'ti samanupassasīti? no hetaṃ
-āvuso.
-
-<p><span class="parno">29</span>
-vedanā tathāgato'ti samanupassasīti? no hetaṃ āvuso.
-
-<p><span class="parno">30</span>
-saññā tathāgato'ti samanupassasīti? no hetaṃ āvuso.
-
-<p><span class="parno">31</span>
-saṃkhāre tathāgato'ti samanupassasīti? no hetaṃ āvuso.
-
-<p><span class="parno">32</span>
-viññāṇaṃ tathāgato'ti samanupassasīti? no hetaṃ āvuso.
-
-<p><span class="parno">33</span>
-taṃ kiṃ maññasi āvuso yamaka, rūpasmiṃ "tathāgato'ti samanupassasīti? no
-hetaṃ āvuso. aññatra rūpā tathāgatoti samanupassasī'ti? no hetaṃ āvuso.
-
-<p><span class="parno">34</span>
-vedanāya "tathāgato'ti samanupassasīti? no hetaṃ āvuso. aññatra vedanāya
-tathāgato'ti samanupassasīti? no hetaṃ āvuso.
-
-<p><span class="parno">35</span>
-saññāya "tathāgato'ti samanupassasīti? no hetaṃ āvuso. aññatra saññāya
-tathāgato'ti samanupassasīti? no hetaṃ āvuso.
-
-<p><span class="parno">36</span>
-saṃkhāresu "tathāgato'ti samanupassasīti? no hetaṃ āvuso. aññatra saṃkhāresu
-tathāgato'ti samanupassasīti? no hetaṃ āvuso.
-
-<p><span class="parno">37</span>
-viññāṇasmim rūpasmiṃ "tathāgato'ti samanupassasīti? no hetaṃ āvuso. aññatra
-viññāṇasmiṃ tathāgato'ti samanupassasīti? no hetaṃ āvuso.
-
-<p><span class="parno">38</span>
-taṃ kiṃ maññasi āvuso yamaka, rūpaṁ vedanāṁ saññaṁ sankhāre viññāṇaṁ
-tathāgatoti samanupassasī"ti? "No hetaṁ, āvuso".
-
-<p><span class="parno">39</span>
-taṃ kiṃ maññasi āvuso yamaka, ayaṃ so arūpī avedano asaññī asaṃkhāro
-aviññāṇo tathāgatoti samanupassīti. no hetaṃ āvuso.
-
-<p><span class="parno">40</span>
-ettha ca te āvuso yamaka diṭṭheva dhamme saccato <span class="var" title="tathato - syā.} tathāgate \footnote{tathāgato anupalabbhiyamāno - machasaṃ, syā.">thetato</span> kallaṃ nu te taṃ veyyākaraṇaṃ "tathāhaṃ bhagavatā dhammaṃ
-desitaṃ ājānāmi yathā khīṇāsavo bhikkhu kāyassa bhedā ucchijjati vinassati
-na hoti parammaraṇā'ti? ahu kho me taṃ āvuso sariputta, pubbe aviddasuno
-pāpakaṃ diṭṭhigataṃ idañca pana me āyasmato sāriputtassa dhammadesanaṃ sutvā
-tañceva ca pāpakaṃ diṭṭhigataṃ pahīnaṃ, dhammo ca me
-abhisameto'ti\footnote{abhisamito - machasaṃ, syā.}.
-
-<p><span class="parno">41</span>
-sace taṃ āvuso yamaka, evaṃ puccheyyuṃ: "yo so āvuso yamaka, bhikkhu arahaṃ
-khīṇāsavo so kāyassa bhedā parammaraṇā kiṃ hotiti evaṃ puṭṭho tvaṃ āvuso
-yamaka, kinti byākareyyasī"ti?
-
-<p><span class="parno">42</span>
-sace maṃ āvuso evaṃ puccheyyuṃ: "yo so yamaka, bhikkhu arahaṃ khīṇāsavo so
-kāyassa bhedā parammaraṇā kiṃ hoti"ti? evaṃ puṭṭho'haṃ āvuso, evaṃ
-byākareyyaṃ: rūpaṃ kho āvuso aniccaṃ, yadaniccaṃ taṃ dukkhaṃ, yaṃ dukkhaṃ
-taṃ niruddhaṃ, tadatthagataṃ. vedanā aniccaṃ yadaniccaṃ taṃ dukkhaṃ yaṃ
-dukkhaṃ taṃ niruddhaṃ tadatthagataṃ. saññā aniccaṃ yadaniccaṃ taṃ dukkhaṃ
-yaṃ dukkhaṃ taṃ niruddhaṃ tadatthagataṃ. saṃkhāre aniccā yadaniccaṃ taṃ
-dukkhaṃ yaṃ dukkhaṃ taṃ niruddhaṃ tadatthagataṃ. viññāṇaṃ aniccaṃ yadaniccaṃ
-taṃ dukkhaṃ yaṃ dukkhaṃ taṃ niruddhaṃ tadatthagatanti". evaṃ puṭṭho'haṃ
-āvuso, evaṃ byākareyyanti.
-
-<p><span class="parno">43</span>
-sādhu sādhu āvuso yamaka, tenahāvuso yamaka, upamante karissāmi etasseva
-atthassa bhiyyosomattāya ñāṇāya.
-
-<p><span class="parno">44</span>
-seyyathāpi āvuso yamaka, gahapati vā gahapatiputto vā aḍḍho mahaddhano
-mahābhogo, so ca ārakkhasampanno tassa kocideva puriso uppajjeyya
-anatthakāmo ahitakāmo ayogakkhemakāmo jīvitā voropetukāmo, tassa evamassa:
-"ayaṃ kho gahapati vā gahapatiputto vā aḍḍho mahaddhano mahābhogo, so ca
-ārakkhasampanno na vyāsukaro\footnote{"nāyaṃ sukaro - machasaṃ nahāyaṃ sukaro - syā.} pasayiha jīvitā voropetuṃ, yannūnāhaṃ anupakhajja jīvitā
-voropeyya'nti. so taṃ gahapatiṃ vā gahapatiputtaṃ vā upasaṃkamitvā evaṃ
-vadeyya: "upaṭṭhaheyyaṃ taṃ bhante"ti. tamenaṃ so gahapati vā gahapati putto
-vā upaṭṭhāpeyya, so upaṭṭhaheyya, pubbuṭṭhāyi pacchātipāti kiṃkārapaṭissāvi
-manāpacāri piyavādi.<span class="note"> <span class="details"><span class="p">pts page 113</span></span></span>
-
-<p><span class="parno">45</span>
-tassa so gahapati vā gahapatiputto vā mittato'pi naṃ saddaheyya. suhajjato
-'pi naṃ saddaheyya tasmiṃ vissāsaṃ āpajjeyya, yadā kho āvuso tassa purisassa
-evamassa: "saṃvissaṭṭho kho myāyaṃ gahapati vā gahapatiputto vāti. " atha
-naṃ rahogataṃ viditvā tiṇhena satthena jīvitā voropeyya.<span class="note"> <span class="details"><span class="p">bjt page 196</span></span></span>
-
-<p><span class="parno">46</span>
-taṃ kiṃ maññasi āvuso yamaka, yadā'pi so puriso amuṃ gahapatiṃ vā
-gahapatiputtaṃ vā upasaṃkamitvā evamāha: "upaṭṭhaheyyaṃ taṃ bhante, ti,
-tadāpi so vadhakova, vadhakañca pana santaṃ na aññāsi. "vadhako me"ti
-yadā'pi so upaṭṭhāti pubbuṭṭhāyi pacchānipāti kiṃkārapaṭissāvī manānapacāri
-piyavādi. tadā'pi so vadhakova, vadhakañca pana santaṃ na aññāsi. "vadhako
-me"ti. yadā'pi naṃ rahogataṃ viditvā tiṇhena satthena
-jīvitāvoropeti. tadā'pi so vadhakova, vadhakañca pana santaṃ na aññāsi
-"vadhako me'ti. evamāvusoti.
-
-<p><span class="parno">47</span>
-evameva kho āvuso assutavā puthujjano ariyānaṃ adassāvī ariyadhammassa
-akovido ariyadhamme avinīto, sappurisānaṃ adassāvī sappurisadhammassa
-akovido sappurisadhamme avinīto, rūpaṃ attato samanupassati, rūpavantaṃ vā
-attānaṃ, attani vā rūpaṃ, rūpasmiṃ vā attānaṃ.
-
-<p><span class="parno">48</span>
-vedanaṃ attato samanupassati, vedanāvantaṃ vā attānaṃ, attani vā vedanaṃ,
-vedanāya vā attānaṃ.
-
-<p><span class="parno">49</span>
-saññaṃ attato samanupassati, saññāvantaṃ vā attānaṃ, attani vā saññaṃ,
-saññāya vā attānaṃ.
-
-<p><span class="parno">50</span>
-saṃkhāre attato samanupassati, saṃkhāravantaṃ vā attānaṃ, attani vā
-saṃkhāre, saṃkhāresu vā attānaṃ.
-
-<p><span class="parno">51</span>
-viññāṇaṃ attato samanupassati, viññāṇavantaṃ vā attānaṃ, attani vā viññāṇaṃ,
-viññāṇasmiṃ vā attānaṃ.
-
-<p><span class="parno">52</span>
-so aniccaṃ rūpaṃ aniccaṃ rūpanti yathābhūtaṃ nappajānāti, aniccaṃ vedanaṃ
-aniccā vedanāti yathābhūtaṃ nappajānāti, aniccaṃ saññaṃ aniccā saññāti
-yathābhūtaṃ nappajānāti, anicce saṃkhāre aniccā saṃkhārāti yathābhūtaṃ
-nappajānāti, aniccaṃ viññāṇaṃ aniccaṃ viññaṇanti yathābhūtaṃ
-nappajānāti.<span class="note"> <span class="details"><span class="p">pts page 114</span></span></span>
-
-<p><span class="parno">53</span>
-dukkhaṃ rūpaṃ dukkhaṃ rūpanti yathābhūtaṃ nappajānāti, dukkhaṃ vedanaṃ
-dukkhaṃ vedanātti yathābhūtaṃ nappajānāti, dukkhaṃ saññā dukkhaṃ saññātti
-yathābhūtaṃ nappajānāti, dukkhaṃ saṃkhāre dukkhaṃ saṃkhāreti yathābhūtaṃ
-nappajānāti, dukkhaṃ viññāṇaṃ dukkhaṃ viññāṇati yathābhūtaṃ nappajānāti.
-
-<p><span class="parno">54</span>
-anattaṃ rūpaṃ anattā\footnote{anattaṃ - sīmu.} rūpanti yathābhūtaṃ
-nappajānāti, anattaṃ vedanaṃ anattā vedanāti yathābhūtaṃ nappajānāti,
-anattaṃ saññaṃ anattā saññāyati yathābhūtaṃ nappajānāti. anatte saṃkhāre
-anattā saṃkhārāti yathābhūtaṃ nappajānāti, anattaṃ viññāṇaṃ anattaṃ
-viññāṇa'nti yathābhūtaṃ nappajānāti.
-
-<p><span class="parno">55</span>
-saṃkhataṃ rūpaṃ saṃkhataṃ rūpanti yathābhūtaṃ nappajānāti, saṃkhataṃ vedanaṃ
-saṃkhatā vedanāti yathābhūtaṃ nappajānāti, saṃkhataṃ saññaṃ saṃkhatā
-saññāyati yathābhūtaṃ nappajānāti. saṃkhate saṃkhāre saṃkhatā saṃkhārāti
-yathābhūtaṃ nappajānāti, saṃkhataṃ viññāṇaṃ saṃkhataṃ viññāṇa'nti
-yathābhūtaṃ nappajānāti.
-
-<p><span class="parno">56</span>
-vadhakaṃ rūpaṃ vadhakaṃ rūpanti yathābhūtaṃ nappajānāti, vadhakaṃ vedanaṃ
-vadhakā vedanāti yathābhūtaṃ nappajānāti, vadhakaṃ saññaṃ vadhakā saññāyati
-yathābhūtaṃ nappajānāti. vadhake saṃkhāre saṃkhatā saṃkhārāti yathābhūtaṃ
-nappajānāti, vadhakaṃ viññāṇaṃ vadhakaṃ viññāṇa'nti yathābhūtaṃ
-nappajānāti.<span class="note"> <span class="details"><span class="p">bjt page 198</span></span></span>
-
-<p><span class="parno">57</span>
-so rūpaṃ upeti upādiyati adhiṭṭhāti 'attā me'ti, vedanaṃ upeti upādiyati
-adhiṭṭhāti 'attāmeti' saññaṃ upeti upādiyati adhiṭṭhāti 'attāmeti' saṃkhāre
-upeti upādiyati adhiṭṭhāti 'attāmeti' viññāṇaṃ upeti upādiyati adhiṭṭhāti
-'attā me'ti, tassime pañcupādākakkhandhā upetā upādinnā dīgharattaṃ ahitāya
-dukkhāya paṃvattanti.
-
-<p><span class="parno">58</span>
-sutavā ca kho āvuso ariyasāvako ariyānaṃ dassāvī ariyadhammassa kovido
-ariyadhamme suvinīto, sappurisānaṃ dassāvī sappurisadhammassa kovido
-sappurisadhamme suvinīto na rūpaṃ attato samanupassati, na rūpavantaṃ vā
-attānaṃ. na attani vā rūpaṃ, na rūpasmiṃ vā attānaṃ.
-
-<p><span class="parno">59</span>
-na vedanā attato samanupassati, na vedanāvantaṃ vā attānaṃ, na attani vā
-vedanaṃ, na vedanāsmiṃ vā attānaṃ.
-
-<p><span class="parno">60</span>
-na saññā attato samanupassati, na saññāṇavantaṃ vā attānaṃ, na attani vā
-saññaṃ, na saññāsmiṃ vā attānaṃ.
-
-<p><span class="parno">61</span>
-na saṃkhare attato samanupassati, na saṃkhārāvantaṃ vā attānaṃ, na attani vā
-saṃkhārāṇaṃ, na saṃkhārāṇasmiṃ vā attānaṃ.
-
-<p><span class="parno">62</span>
-na viññāṇaṃ attato samanupassati, na viññāṇavantaṃ vā attānaṃ, na attani vā
-viññāṇaṃ, na viññāṇasmiṃ vā attānaṃ.
-
-<p><span class="parno">62</span>
- so aniccaṃ rūpaṃ aniccaṃ rūpanti yathābhūtaṃ pajānāti aniccaṃ vedanaṃ so
-aniccaṃ rūpaṃ aniccaṃ rūpanti yathābhūtaṃ pajānāti aniccaṃ saññā so aniccaṃ
-rūpaṃ aniccaṃ rūpanti yathābhūtaṃ pajānāti aniccaṃ saṃkhāre so aniccaṃ rūpaṃ
-aniccaṃ rūpanti yathābhūtaṃ pajānāti aniccaṃ viññāṇaṃ aniccaṃ viññāṇanti
-yathābhūtaṃ pajānāti.<span class="note"> <span class="details"><span class="p">pts page 115</span></span></span>
-
-<p><span class="parno">63</span>
-dukkhaṃ rūpaṃ dukkhaṃ rūpanti yathābhūtaṃ pajānāti dukkhaṃ vedanaṃ so
-dukkhaṃ rūpaṃ dukkhaṃ rūpanti yathābhūtaṃ pajānāti dukkhaṃ saññā so dukkhaṃ
-rūpaṃ dukkhaṃ rūpanti yathābhūtaṃ pajānāti dukkhaṃ saṃkhāre so dukkhaṃ rūpaṃ
-dukkhaṃ rūpanti yathābhūtaṃ pajānāti dukkhaṃ viññāṇaṃ dukkhaṃ viññāṇanti
-yathābhūtaṃ pajānāti.
-
-<p><span class="parno">64</span>
-anattaṃ rūpaṃ anattā rūpanti yathābhūtaṃ pajānāti anattaṃ vedanaṃ so anattā
-rūpaṃ anattā rūpanti yathābhūtaṃ pajānāti anattā saññā so anattā rūpaṃ
-anattā rūpanti yathābhūtaṃ pajānāti anattaṃ saṃkhāre so anattā rūpaṃ anattā
-rūpanti yathābhūtaṃ pajānāti anattā viññāṇaṃ anattaṃ viññāṇanti yathābhūtaṃ
-pajānāti.
-
-<p><span class="parno">65</span>
-saṃkhataṃ rūpaṃ saṃkhataṃ rūpanti yathābhūtaṃ pajānāti saṃkhataṃ vedanaṃ so
-saṃkhataṃ rūpaṃ saṃkhataṃ rūpanti yathābhūtaṃ pajānāti saṃkhataṃ saññā so
-saṃkhataṃ rūpaṃ rūpanti yathābhūtaṃ pajānāti saṃkhate saṃkhāre so anattā
-rūpaṃ saṃkhataṃ rūpanti yathābhūtaṃ pajānāti saṃkhataṃ viññāṇaṃ saṃkhataṃ
-viññāṇanti yathābhūtaṃ pajānāti.
-
-<p><span class="parno">66</span>
-vadhakaṃ rūpaṃ vadhakaṃ rūpanti yathābhūtaṃ pajānāti vadhakaṃ vedanaṃ so
-vadhakaṃ rūpaṃ vadhakaṃ rūpanti yathābhūtaṃ pajānāti vadhakaṃ saññā so
-vadhakaṃ rūpaṃ rūpanti yathābhūtaṃ pajānāti vadhake saṃkhāre so vadhakaṃ
-rūpaṃ vadhakaṃ rūpanti yathābhūtaṃ pajānāti vadhakaṃ viññāṇaṃ vadhakaṃ
-viññāṇanti yathābhūtaṃ pajānāti.
-
-<p><span class="parno">67</span>
-so rūpaṃ na upeti, na upādiyati, na adhiṭṭhāti attā meti. vedanaṃ na upeti
-na upādiyati, na adhiṭṭhāti attā meti. saññaṃ na upeti na upādiyati, na
-adhiṭṭhāti attā meti. saṃkhāre na upeti na upādiyati, na adhiṭṭhāti attā
-meti. viññāṇaṃ na upeti na upādiyati, na adhiṭṭhāti attā meti. tassime
-pañcupādānakkhandhā anupetā anupādinnā dīgharattaṃ hitāya sukhāya
-saṃvattantīti.
-
-<p><span class="parno">68</span>
-evametaṃ\footnote{evañhetaṃ - syā.} āvuso sāriputta hoti. yesaṃ
-āyasmantādisā\footnote{āyasmantānaṃ tādisā - machasaṃ, syā.} sabrahmacārino
-anukampakā atthakāmā ovādakā anusāsakā. idañca pana me āyasmato sāriputtassa
-dhammadesanaṃ sutvā anupādāya āsavehi cittaṃ vimuttanti.
-
-<p><span class="parno">69</span>
-idamavoca āyasmā sāriputto. attamano āyasmā yamako āyasmato sāriputtassa
-bhāsitaṃ abhinandīti.
 <p><span class="parno">1</span>
 Thus was heard by me. At one time the venerable Sariputta was dwelling in
 Savatthi at Jeta's Grove, Anathapindika's Park.
@@ -816,3 +551,398 @@ without appropriations.”
 <p><span class="parno">69</span>
 This is what the venerable Sariputta said. Delighted, the venerable Yamaka
 rejoiced in the venerable Sariputta's words.
+</div>
+
+<div lang="pi">
+
+<p><span class="parno">1</span>
+evaṃ me sutaṃ ekaṃ samayaṃ āyasmā sāriputto sāvatthiyaṃ viharati jetavane
+anāthapiṇḍikassa ārāme.
+
+<p><span class="parno">2</span>
+tena kho pana samayena yamakassa nāma bhikkhuno evarūpaṃ pāpakaṃ diṭṭhigataṃ
+uppannaṃ hoti tathāhaṃ bhagavatā dhammaṃ, desitaṃ ājānāmi yathā khīṇāsavo
+bhikkhu kāyassa bhedā ucchijjati vinassati na hoti parammaraṇā'ti.
+
+<p><span class="parno">3</span>
+assosuṃ kho sambahulā bhikkhu yamakassa kira nāma bhikkhuno evarūpaṃ pāpakaṃ
+diṭṭhigataṃ uppannaṃ hoti: tathāhaṃ bhagavatā dhammaṃ desitaṃ ājānāmi, yathā
+khīṇāsavo bhikkhū kāyassa bhedā ucchijjati vinassati na hoti
+parammaraṇā"ti.<span class="note"> <span class="details"><span class="p">bjt page 190</span></span></span>
+
+<p><span class="parno">4</span>
+atha kho te bhikkhu yenāyasmā yamako tenupasaṃkamiṃsu. upasaṃkamitvā
+āyasmatā yamakena saddhiṃ sammodiṃsu sammodaniyaṃ kathaṃ sārāṇiyaṃ
+vitisāretvā ekamantaṃ nisīdiṃsu. ekamantaṃ nisinnā kho te bhikkhū āyasmantaṃ
+yamakaṃ etadavocuṃ: "saccaṃ kira te āvuso yamaka, evarūpaṃ pāpakaṃ
+diṭṭhigataṃ uppannaṃ "tathāhaṃ bhagavatā dhammaṃ desitaṃ ājānāmi, yathā
+khīṇāsavo bhikkhu kāyassa bhedā ucchijjati vinassati na hoti parammaraṇā,
+ti.<span class="note"> <span class="details"><span class="p">pts page 110</span></span></span>
+
+<p><span class="parno">5</span>
+evaṃ kho'<span class="var" title="evaṃ khvāhaṃ - syā, machasaṃ.">haṃ</span> āvuso bhagavatā dhammaṃ
+desitaṃ ājānāmi yathā khīṇāsavo bhikkhu kāyassa bhedā ucchijjati vinassati
+na hoti parammaraṇā'ti.
+
+<p><span class="parno">6</span>
+mā āvuso yamaka evaṃ avaca, bhagavantaṃ abbhācikkhi, na hi sādhu bhagavato
+<span class="var" title="abbhāvikkhanaṃ - machasaṃ.">abbhakkhānaṃ</span>, na hi bhagavā evaṃ
+vadeyya: "khīṇāsavo bhikkhu kāyassa bhedā ucchijjati vinassati na hoti
+parammaraṇā"ti.
+
+<p><span class="parno">7</span>
+evampi kho āyasmā yamako tehi bhikkhūhi vuccamāno tatheva taṃ pāpakaṃ
+diṭṭhagataṃ thāmasā <span class="var" title="parāmāsā - machasaṃ.">parāmassa</span> abhinivissa
+voharati "tathāhaṃ bhagavatā dhammaṃ desitaṃ ājānāmi yathā khīṇāsavo bhikkhu
+kāyassa bhedā ucchijjati vinassati na hoti parammaraṇā'ti. "
+
+<p><span class="parno">8</span>
+yato kho te bhikkhū nāsakkhiṃsu. āyasmantaṃ yamakaṃ etasmā pāpakā diṭṭhigatā
+vivecetuṃ. atha kho te bhikkhū uṭṭhāyāsanā yenāyasmā sāriputto
+tenupasaṅkamiṃsu, upasaṅkamitvā āyasmantaṃ sāriputtaṃ etadavocuṃ: yamakassa
+nāma āvuso sāriputta, bhikkhuno evarūpaṃ pāpakaṃ diṭṭhigataṃ uppannaṃ:
+"tathā'haṃ bhagavatā dhammaṃ desitaṃ ājānāmi yathā khīṇāsavo bhikkhu kāyassa
+bhedā ucchijjati vinassati na hoti parammaraṇā'ti. sādhāyasmā sāriputto yena
+yamako bhikkhu tenupasaṅkamatu anukampaṃ upādāyā"ti. adhivāsesi kho āyasmā
+sāriputto tuṇhībhāvena.
+
+<p><span class="parno">9</span>
+atha kho āyasmā sāriputto sāyanhasamayaṃ paṭisallānā vuṭṭhito yenāyasmā
+yamako tenupasaṅkami, upasaṅkamitvā āyasmatā yamakena saddhiṃ sammodi
+sammodanīyaṃ kathaṃ sārāṇiyaṃ vītisāretvā ekamantaṃ nisīdi, ekamantaṃ
+nisinno kho āyasmā sāriputto āyasmantaṃ yamakaṃ etadavoca: saccaṃ kira te
+āvuso yamaka, evarūpaṃ pāpakaṃ diṭṭhigataṃ uppannaṃ? tathāhaṃ bhagavatā
+dhammaṃ desitaṃ ājānāmi, yathā khīṇāsavo bhikkhu kāyassa bhedā ucchijjati
+vinassati na hoti parammaraṇā"ti.<span class="note"> <span class="details"><span class="p">pts page 111</span></span></span>
+
+<p><span class="parno">10</span>
+evañca khohaṃ āvuso, bhagavatā dhammaṃ desitaṃ ājānāmi: "yathā khīṇāsavo
+bhikkhu kāyassa bhedā ucchijjati vinassati na hoti
+parammaraṇā"ti.<span class="note"> <span class="details"><span class="p">bjt page 192</span></span></span>
+
+<p><span class="parno">11</span>
+"taṃ kiṃ maññasi? āvuso, yamaka "rūpa niccaṃ vā aniccaṃ vā"ti aniccaṃ āvuso.
+
+<p><span class="parno">12</span>
+yaṃ panāniccaṃ dukkhaṃ vā taṃ sukhaṃ vā'ti? dukkhaṃ āvuso.
+
+<p><span class="parno">13</span>
+yaṃ panāniccaṃ dukkhaṃ vipariṇāmadhammaṃ kallannu taṃ samanupassituṃ "etaṃ
+mama esohamasmi, eso me attā"ti? no hetaṃ āvuso.
+
+<p><span class="parno">14</span>
+vedanā niccaṃ vā aniccaṃ vā'ti? aniccaṃ āvuso.
+
+<p><span class="parno">15</span>
+yaṃ panāniccaṃ dukkhaṃ vā taṃ sukhaṃ vā'ti? dukkhaṃ āvuso.
+
+<p><span class="parno">16</span>
+yaṃ panāniccaṃ dukkhaṃ vipariṇāmadhammaṃ kallannu taṃ samanupassituṃ "etaṃ
+mama esohamasmi, eso me attā"ti? no hetaṃ āvuso.
+
+<p><span class="parno">17</span>
+saññā niccaṃ vā aniccaṃ vā'ti? aniccaṃ āvuso.
+
+<p><span class="parno">18</span>
+yaṃ panāniccaṃ dukkhaṃ vā taṃ sukhaṃ vā'ti? dukkhaṃ āvuso.
+
+<p><span class="parno">19</span>
+yaṃ panāniccaṃ dukkhaṃ vipariṇāmadhammaṃ kallannu taṃ samanupassituṃ "etaṃ
+mama esohamasmi, eso me attā"ti? no hetaṃ āvuso.
+
+<p><span class="parno">20</span>
+saṃkhārā niccaṃ vā aniccaṃ vā'ti? aniccaṃ āvuso.
+
+<p><span class="parno">21</span>
+yaṃ panāniccaṃ dukkhaṃ vā taṃ sukhaṃ vā'ti? dukkhaṃ āvuso.
+
+<p><span class="parno">22</span>
+yaṃ panāniccaṃ dukkhaṃ vipariṇāmadhammaṃ kallannu taṃ samanupassituṃ "etaṃ
+mama esohamasmi, eso me attā"ti? no hetaṃ āvuso.
+
+<p><span class="parno">23</span>
+viññāṇaṃ niccaṃ vā aniccaṃ vā'ti? aniccaṃ āvuso.
+
+<p><span class="parno">24</span>
+yaṃ panāniccaṃ dukkhaṃ vā taṃ sukhaṃ vā'ti? dukkhaṃ āvuso.
+
+<p><span class="parno">25</span>
+yaṃ panāniccaṃ dukkhaṃ vipariṇāmadhammaṃ kallannu taṃ samanupassituṃ "etaṃ
+mama esohamasmi, eso me attā"ti? no hetaṃ āvuso.
+
+<p><span class="parno">26</span>
+tasmātihāvuso yamaka, yaṃ kiñci rūpaṃ atītānāgatapaccuppannaṃ ajjhattaṃ vā
+bahiddhā vā oḷārikaṃ vā sukhumaṃ vā hīnaṃ vā paṇītaṃ vā yaṃ dūre santike vā
+sabbaṃ rūpaṃ "netaṃ mama neso'hamasmi na me'so attā"ti. evametaṃ yathābhūtaṃ
+sammappaññāya daṭṭhabbaṃ. yā kāci vedanā atītānāgatapaccuppannaṃ ajjhattaṃ
+vā bahiddhā vā oḷārikaṃ vā sukhumaṃ vā hīnaṃ vā paṇītaṃ vā yaṃ dūre santike
+vā sabbaṃ vedanaṃ: 'netaṃ mama neso'hamasmi na me so attā"ti, evametaṃ
+yathābhūtaṃ sammappaññāya daṭṭhabbaṃ. yā kāci saññā atītānāgatapaccuppannaṃ
+ajjhattaṃ vā bahiddhā vā oḷārikaṃ vā sukhumaṃ hīnaṃ vā paṇītaṃ vā yaṃ dūre
+santike vā sabbaṃ saññaṃ: 'netaṃ mama neso'hamasmi na me so attā"ti,
+evametaṃ yathābhūtaṃ sammappaññāya daṭṭhabbaṃ. ye keci saṅkhārā
+atītānāgatapaccuppannaṃ ajjhattaṃ vā bahiddhā vā oḷārikaṃ vā sukhumaṃ vā
+hīnaṃ vā paṇītaṃ vā yaṃ dūre santike vā sabbaṃ saṅkhāraṃ: 'netaṃ mama
+neso'hamasmi na me so attā"ti, evametaṃ yathābhūtaṃ sammappaññāya
+daṭṭhabbaṃ. yaṃ kiñci viññāṇaṃ atītānāgatapaccuppannaṃ ajjhattaṃ vā bahiddhā
+vā oḷārikaṃ vā sukhumaṃ vā hīnaṃ vā paṇītaṃ vā yaṃ dūre santike vā sabbaṃ
+viññāṇaṃ: 'netaṃ mama neso'hamasmi na me so attā"ti, evametaṃ yathābhūtaṃ
+sammappaññāya daṭṭhabbaṃ.
+
+<p><span class="parno">27</span>
+evaṃ passaṃ āvuso, yamaka sutavā ariyasāvako rūpasmimpi nibbindati
+vedanāyapi nibbindati saññāyapi nibbindati saṃkhāresupi
+nibbindati. viññāṇasmimpi nibbindati. nibbindaṃ virajjati. virāgā
+vimuccati. vimuttasmiṃ vimuttamiti' ñāṇaṃ hoti. khīṇā jāti. vusitaṃ
+brahmacariyaṃ. kataṃ karaṇīyaṃ nāparaṃ itthattāyāti pajānātīti.
+
+<p><span class="parno">28</span>
+taṃ kiṃ maññasi āvuso yamaka, 'rūpaṃ tathāgato'ti samanupassasīti? no hetaṃ
+āvuso.
+
+<p><span class="parno">29</span>
+vedanā tathāgato'ti samanupassasīti? no hetaṃ āvuso.
+
+<p><span class="parno">30</span>
+saññā tathāgato'ti samanupassasīti? no hetaṃ āvuso.
+
+<p><span class="parno">31</span>
+saṃkhāre tathāgato'ti samanupassasīti? no hetaṃ āvuso.
+
+<p><span class="parno">32</span>
+viññāṇaṃ tathāgato'ti samanupassasīti? no hetaṃ āvuso.
+
+<p><span class="parno">33</span>
+taṃ kiṃ maññasi āvuso yamaka, rūpasmiṃ "tathāgato'ti samanupassasīti? no
+hetaṃ āvuso. aññatra rūpā tathāgatoti samanupassasī'ti? no hetaṃ āvuso.
+
+<p><span class="parno">34</span>
+vedanāya "tathāgato'ti samanupassasīti? no hetaṃ āvuso. aññatra vedanāya
+tathāgato'ti samanupassasīti? no hetaṃ āvuso.
+
+<p><span class="parno">35</span>
+saññāya "tathāgato'ti samanupassasīti? no hetaṃ āvuso. aññatra saññāya
+tathāgato'ti samanupassasīti? no hetaṃ āvuso.
+
+<p><span class="parno">36</span>
+saṃkhāresu "tathāgato'ti samanupassasīti? no hetaṃ āvuso. aññatra saṃkhāresu
+tathāgato'ti samanupassasīti? no hetaṃ āvuso.
+
+<p><span class="parno">37</span>
+viññāṇasmim rūpasmiṃ "tathāgato'ti samanupassasīti? no hetaṃ āvuso. aññatra
+viññāṇasmiṃ tathāgato'ti samanupassasīti? no hetaṃ āvuso.
+
+<p><span class="parno">38</span>
+taṃ kiṃ maññasi āvuso yamaka, rūpaṁ vedanāṁ saññaṁ sankhāre viññāṇaṁ
+tathāgatoti samanupassasī"ti? "No hetaṁ, āvuso".
+
+<p><span class="parno">39</span>
+taṃ kiṃ maññasi āvuso yamaka, ayaṃ so arūpī avedano asaññī asaṃkhāro
+aviññāṇo tathāgatoti samanupassīti. no hetaṃ āvuso.
+
+<p><span class="parno">40</span>
+ettha ca te āvuso yamaka diṭṭheva dhamme saccato <span class="var" title="tathato - syā.} tathāgate \footnote{tathāgato anupalabbhiyamāno - machasaṃ, syā.">thetato</span> kallaṃ nu te taṃ veyyākaraṇaṃ "tathāhaṃ bhagavatā dhammaṃ
+desitaṃ ājānāmi yathā khīṇāsavo bhikkhu kāyassa bhedā ucchijjati vinassati
+na hoti parammaraṇā'ti? ahu kho me taṃ āvuso sariputta, pubbe aviddasuno
+pāpakaṃ diṭṭhigataṃ idañca pana me āyasmato sāriputtassa dhammadesanaṃ sutvā
+tañceva ca pāpakaṃ diṭṭhigataṃ pahīnaṃ, dhammo ca me
+abhisameto'ti\footnote{abhisamito - machasaṃ, syā.}.
+
+<p><span class="parno">41</span>
+sace taṃ āvuso yamaka, evaṃ puccheyyuṃ: "yo so āvuso yamaka, bhikkhu arahaṃ
+khīṇāsavo so kāyassa bhedā parammaraṇā kiṃ hotiti evaṃ puṭṭho tvaṃ āvuso
+yamaka, kinti byākareyyasī"ti?
+
+<p><span class="parno">42</span>
+sace maṃ āvuso evaṃ puccheyyuṃ: "yo so yamaka, bhikkhu arahaṃ khīṇāsavo so
+kāyassa bhedā parammaraṇā kiṃ hoti"ti? evaṃ puṭṭho'haṃ āvuso, evaṃ
+byākareyyaṃ: rūpaṃ kho āvuso aniccaṃ, yadaniccaṃ taṃ dukkhaṃ, yaṃ dukkhaṃ
+taṃ niruddhaṃ, tadatthagataṃ. vedanā aniccaṃ yadaniccaṃ taṃ dukkhaṃ yaṃ
+dukkhaṃ taṃ niruddhaṃ tadatthagataṃ. saññā aniccaṃ yadaniccaṃ taṃ dukkhaṃ
+yaṃ dukkhaṃ taṃ niruddhaṃ tadatthagataṃ. saṃkhāre aniccā yadaniccaṃ taṃ
+dukkhaṃ yaṃ dukkhaṃ taṃ niruddhaṃ tadatthagataṃ. viññāṇaṃ aniccaṃ yadaniccaṃ
+taṃ dukkhaṃ yaṃ dukkhaṃ taṃ niruddhaṃ tadatthagatanti". evaṃ puṭṭho'haṃ
+āvuso, evaṃ byākareyyanti.
+
+<p><span class="parno">43</span>
+sādhu sādhu āvuso yamaka, tenahāvuso yamaka, upamante karissāmi etasseva
+atthassa bhiyyosomattāya ñāṇāya.
+
+<p><span class="parno">44</span>
+seyyathāpi āvuso yamaka, gahapati vā gahapatiputto vā aḍḍho mahaddhano
+mahābhogo, so ca ārakkhasampanno tassa kocideva puriso uppajjeyya
+anatthakāmo ahitakāmo ayogakkhemakāmo jīvitā voropetukāmo, tassa evamassa:
+"ayaṃ kho gahapati vā gahapatiputto vā aḍḍho mahaddhano mahābhogo, so ca
+ārakkhasampanno na vyāsukaro\footnote{"nāyaṃ sukaro - machasaṃ nahāyaṃ sukaro - syā.} pasayiha jīvitā voropetuṃ, yannūnāhaṃ anupakhajja jīvitā
+voropeyya'nti. so taṃ gahapatiṃ vā gahapatiputtaṃ vā upasaṃkamitvā evaṃ
+vadeyya: "upaṭṭhaheyyaṃ taṃ bhante"ti. tamenaṃ so gahapati vā gahapati putto
+vā upaṭṭhāpeyya, so upaṭṭhaheyya, pubbuṭṭhāyi pacchātipāti kiṃkārapaṭissāvi
+manāpacāri piyavādi.<span class="note"> <span class="details"><span class="p">pts page 113</span></span></span>
+
+<p><span class="parno">45</span>
+tassa so gahapati vā gahapatiputto vā mittato'pi naṃ saddaheyya. suhajjato
+'pi naṃ saddaheyya tasmiṃ vissāsaṃ āpajjeyya, yadā kho āvuso tassa purisassa
+evamassa: "saṃvissaṭṭho kho myāyaṃ gahapati vā gahapatiputto vāti. " atha
+naṃ rahogataṃ viditvā tiṇhena satthena jīvitā voropeyya.<span class="note"> <span class="details"><span class="p">bjt page 196</span></span></span>
+
+<p><span class="parno">46</span>
+taṃ kiṃ maññasi āvuso yamaka, yadā'pi so puriso amuṃ gahapatiṃ vā
+gahapatiputtaṃ vā upasaṃkamitvā evamāha: "upaṭṭhaheyyaṃ taṃ bhante, ti,
+tadāpi so vadhakova, vadhakañca pana santaṃ na aññāsi. "vadhako me"ti
+yadā'pi so upaṭṭhāti pubbuṭṭhāyi pacchānipāti kiṃkārapaṭissāvī manānapacāri
+piyavādi. tadā'pi so vadhakova, vadhakañca pana santaṃ na aññāsi. "vadhako
+me"ti. yadā'pi naṃ rahogataṃ viditvā tiṇhena satthena
+jīvitāvoropeti. tadā'pi so vadhakova, vadhakañca pana santaṃ na aññāsi
+"vadhako me'ti. evamāvusoti.
+
+<p><span class="parno">47</span>
+evameva kho āvuso assutavā puthujjano ariyānaṃ adassāvī ariyadhammassa
+akovido ariyadhamme avinīto, sappurisānaṃ adassāvī sappurisadhammassa
+akovido sappurisadhamme avinīto, rūpaṃ attato samanupassati, rūpavantaṃ vā
+attānaṃ, attani vā rūpaṃ, rūpasmiṃ vā attānaṃ.
+
+<p><span class="parno">48</span>
+vedanaṃ attato samanupassati, vedanāvantaṃ vā attānaṃ, attani vā vedanaṃ,
+vedanāya vā attānaṃ.
+
+<p><span class="parno">49</span>
+saññaṃ attato samanupassati, saññāvantaṃ vā attānaṃ, attani vā saññaṃ,
+saññāya vā attānaṃ.
+
+<p><span class="parno">50</span>
+saṃkhāre attato samanupassati, saṃkhāravantaṃ vā attānaṃ, attani vā
+saṃkhāre, saṃkhāresu vā attānaṃ.
+
+<p><span class="parno">51</span>
+viññāṇaṃ attato samanupassati, viññāṇavantaṃ vā attānaṃ, attani vā viññāṇaṃ,
+viññāṇasmiṃ vā attānaṃ.
+
+<p><span class="parno">52</span>
+so aniccaṃ rūpaṃ aniccaṃ rūpanti yathābhūtaṃ nappajānāti, aniccaṃ vedanaṃ
+aniccā vedanāti yathābhūtaṃ nappajānāti, aniccaṃ saññaṃ aniccā saññāti
+yathābhūtaṃ nappajānāti, anicce saṃkhāre aniccā saṃkhārāti yathābhūtaṃ
+nappajānāti, aniccaṃ viññāṇaṃ aniccaṃ viññaṇanti yathābhūtaṃ
+nappajānāti.<span class="note"> <span class="details"><span class="p">pts page 114</span></span></span>
+
+<p><span class="parno">53</span>
+dukkhaṃ rūpaṃ dukkhaṃ rūpanti yathābhūtaṃ nappajānāti, dukkhaṃ vedanaṃ
+dukkhaṃ vedanātti yathābhūtaṃ nappajānāti, dukkhaṃ saññā dukkhaṃ saññātti
+yathābhūtaṃ nappajānāti, dukkhaṃ saṃkhāre dukkhaṃ saṃkhāreti yathābhūtaṃ
+nappajānāti, dukkhaṃ viññāṇaṃ dukkhaṃ viññāṇati yathābhūtaṃ nappajānāti.
+
+<p><span class="parno">54</span>
+anattaṃ rūpaṃ anattā\footnote{anattaṃ - sīmu.} rūpanti yathābhūtaṃ
+nappajānāti, anattaṃ vedanaṃ anattā vedanāti yathābhūtaṃ nappajānāti,
+anattaṃ saññaṃ anattā saññāyati yathābhūtaṃ nappajānāti. anatte saṃkhāre
+anattā saṃkhārāti yathābhūtaṃ nappajānāti, anattaṃ viññāṇaṃ anattaṃ
+viññāṇa'nti yathābhūtaṃ nappajānāti.
+
+<p><span class="parno">55</span>
+saṃkhataṃ rūpaṃ saṃkhataṃ rūpanti yathābhūtaṃ nappajānāti, saṃkhataṃ vedanaṃ
+saṃkhatā vedanāti yathābhūtaṃ nappajānāti, saṃkhataṃ saññaṃ saṃkhatā
+saññāyati yathābhūtaṃ nappajānāti. saṃkhate saṃkhāre saṃkhatā saṃkhārāti
+yathābhūtaṃ nappajānāti, saṃkhataṃ viññāṇaṃ saṃkhataṃ viññāṇa'nti
+yathābhūtaṃ nappajānāti.
+
+<p><span class="parno">56</span>
+vadhakaṃ rūpaṃ vadhakaṃ rūpanti yathābhūtaṃ nappajānāti, vadhakaṃ vedanaṃ
+vadhakā vedanāti yathābhūtaṃ nappajānāti, vadhakaṃ saññaṃ vadhakā saññāyati
+yathābhūtaṃ nappajānāti. vadhake saṃkhāre saṃkhatā saṃkhārāti yathābhūtaṃ
+nappajānāti, vadhakaṃ viññāṇaṃ vadhakaṃ viññāṇa'nti yathābhūtaṃ
+nappajānāti.<span class="note"> <span class="details"><span class="p">bjt page 198</span></span></span>
+
+<p><span class="parno">57</span>
+so rūpaṃ upeti upādiyati adhiṭṭhāti 'attā me'ti, vedanaṃ upeti upādiyati
+adhiṭṭhāti 'attāmeti' saññaṃ upeti upādiyati adhiṭṭhāti 'attāmeti' saṃkhāre
+upeti upādiyati adhiṭṭhāti 'attāmeti' viññāṇaṃ upeti upādiyati adhiṭṭhāti
+'attā me'ti, tassime pañcupādākakkhandhā upetā upādinnā dīgharattaṃ ahitāya
+dukkhāya paṃvattanti.
+
+<p><span class="parno">58</span>
+sutavā ca kho āvuso ariyasāvako ariyānaṃ dassāvī ariyadhammassa kovido
+ariyadhamme suvinīto, sappurisānaṃ dassāvī sappurisadhammassa kovido
+sappurisadhamme suvinīto na rūpaṃ attato samanupassati, na rūpavantaṃ vā
+attānaṃ. na attani vā rūpaṃ, na rūpasmiṃ vā attānaṃ.
+
+<p><span class="parno">59</span>
+na vedanā attato samanupassati, na vedanāvantaṃ vā attānaṃ, na attani vā
+vedanaṃ, na vedanāsmiṃ vā attānaṃ.
+
+<p><span class="parno">60</span>
+na saññā attato samanupassati, na saññāṇavantaṃ vā attānaṃ, na attani vā
+saññaṃ, na saññāsmiṃ vā attānaṃ.
+
+<p><span class="parno">61</span>
+na saṃkhare attato samanupassati, na saṃkhārāvantaṃ vā attānaṃ, na attani vā
+saṃkhārāṇaṃ, na saṃkhārāṇasmiṃ vā attānaṃ.
+
+<p><span class="parno">62</span>
+na viññāṇaṃ attato samanupassati, na viññāṇavantaṃ vā attānaṃ, na attani vā
+viññāṇaṃ, na viññāṇasmiṃ vā attānaṃ.
+
+<p><span class="parno">62</span>
+ so aniccaṃ rūpaṃ aniccaṃ rūpanti yathābhūtaṃ pajānāti aniccaṃ vedanaṃ so
+aniccaṃ rūpaṃ aniccaṃ rūpanti yathābhūtaṃ pajānāti aniccaṃ saññā so aniccaṃ
+rūpaṃ aniccaṃ rūpanti yathābhūtaṃ pajānāti aniccaṃ saṃkhāre so aniccaṃ rūpaṃ
+aniccaṃ rūpanti yathābhūtaṃ pajānāti aniccaṃ viññāṇaṃ aniccaṃ viññāṇanti
+yathābhūtaṃ pajānāti.<span class="note"> <span class="details"><span class="p">pts page 115</span></span></span>
+
+<p><span class="parno">63</span>
+dukkhaṃ rūpaṃ dukkhaṃ rūpanti yathābhūtaṃ pajānāti dukkhaṃ vedanaṃ so
+dukkhaṃ rūpaṃ dukkhaṃ rūpanti yathābhūtaṃ pajānāti dukkhaṃ saññā so dukkhaṃ
+rūpaṃ dukkhaṃ rūpanti yathābhūtaṃ pajānāti dukkhaṃ saṃkhāre so dukkhaṃ rūpaṃ
+dukkhaṃ rūpanti yathābhūtaṃ pajānāti dukkhaṃ viññāṇaṃ dukkhaṃ viññāṇanti
+yathābhūtaṃ pajānāti.
+
+<p><span class="parno">64</span>
+anattaṃ rūpaṃ anattā rūpanti yathābhūtaṃ pajānāti anattaṃ vedanaṃ so anattā
+rūpaṃ anattā rūpanti yathābhūtaṃ pajānāti anattā saññā so anattā rūpaṃ
+anattā rūpanti yathābhūtaṃ pajānāti anattaṃ saṃkhāre so anattā rūpaṃ anattā
+rūpanti yathābhūtaṃ pajānāti anattā viññāṇaṃ anattaṃ viññāṇanti yathābhūtaṃ
+pajānāti.
+
+<p><span class="parno">65</span>
+saṃkhataṃ rūpaṃ saṃkhataṃ rūpanti yathābhūtaṃ pajānāti saṃkhataṃ vedanaṃ so
+saṃkhataṃ rūpaṃ saṃkhataṃ rūpanti yathābhūtaṃ pajānāti saṃkhataṃ saññā so
+saṃkhataṃ rūpaṃ rūpanti yathābhūtaṃ pajānāti saṃkhate saṃkhāre so anattā
+rūpaṃ saṃkhataṃ rūpanti yathābhūtaṃ pajānāti saṃkhataṃ viññāṇaṃ saṃkhataṃ
+viññāṇanti yathābhūtaṃ pajānāti.
+
+<p><span class="parno">66</span>
+vadhakaṃ rūpaṃ vadhakaṃ rūpanti yathābhūtaṃ pajānāti vadhakaṃ vedanaṃ so
+vadhakaṃ rūpaṃ vadhakaṃ rūpanti yathābhūtaṃ pajānāti vadhakaṃ saññā so
+vadhakaṃ rūpaṃ rūpanti yathābhūtaṃ pajānāti vadhake saṃkhāre so vadhakaṃ
+rūpaṃ vadhakaṃ rūpanti yathābhūtaṃ pajānāti vadhakaṃ viññāṇaṃ vadhakaṃ
+viññāṇanti yathābhūtaṃ pajānāti.
+
+<p><span class="parno">67</span>
+so rūpaṃ na upeti, na upādiyati, na adhiṭṭhāti attā meti. vedanaṃ na upeti
+na upādiyati, na adhiṭṭhāti attā meti. saññaṃ na upeti na upādiyati, na
+adhiṭṭhāti attā meti. saṃkhāre na upeti na upādiyati, na adhiṭṭhāti attā
+meti. viññāṇaṃ na upeti na upādiyati, na adhiṭṭhāti attā meti. tassime
+pañcupādānakkhandhā anupetā anupādinnā dīgharattaṃ hitāya sukhāya
+saṃvattantīti.
+
+<p><span class="parno">68</span>
+evametaṃ\footnote{evañhetaṃ - syā.} āvuso sāriputta hoti. yesaṃ
+āyasmantādisā\footnote{āyasmantānaṃ tādisā - machasaṃ, syā.} sabrahmacārino
+anukampakā atthakāmā ovādakā anusāsakā. idañca pana me āyasmato sāriputtassa
+dhammadesanaṃ sutvā anupādāya āsavehi cittaṃ vimuttanti.
+
+<p><span class="parno">69</span>
+idamavoca āyasmā sāriputto. attamano āyasmā yamako āyasmato sāriputtassa
+bhāsitaṃ abhinandīti.
+</div>
+</section>
+<div id="nextprev"><a id="previous-sutta" href="./sn22.84.html"></a><a id="next-sutta" href="./sn22.86.html"></a></div>
+</div><!--content-->
+<footer>
+<div id="breadcrumbs">
+<a href="../home/index.html">Home</a><a href="../sn/sn.html">Saṃyutta Nikāya</a><a href="../sn/sn22.html">Connected Discourses on the Aggregates</a>SN22:85 Yamaka
+</div>
+<a id="bottom"></a>
+</footer>
+<script src="../js/footer.js"></script>
+</div><!--container-->
+</body>
+</html>

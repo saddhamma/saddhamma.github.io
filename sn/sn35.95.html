@@ -1,277 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8>
+<link rel="icon" type="image/x-icon" href="../images/buddha.jpg">
+<title>Samyutta Nikāya - Connected Discourses on the Six Sense Bases 35.95</title>
+</head>
+<body>
+<div id="container">
+<header>
+<script src="../js/jquery-1.10.2.min.js"></script>
+<link rel="stylesheet" href="../css/menu.css">
+<link rel="stylesheet" href="../css/css.css">
+<div id="eng_searchlink"> <span><a href="../home/engsearch.html" >Search English Content</a></span></div>
+<div id="pali_searchlink"> <span><a href="../home/palisearch.html" >Search Pali Content</a></span></div>
 
+<div class="logotext"><a href="../home/index.html"><span>Saddhamma Study Group</span></a></div>
+<nav>
+<div id="navbar">
+<ul id="css3menu0" >
+<li class="topfirst" id="home"><a href="../home/index.html">Home</a></li>
+<li class="topmenu" id="ssg"><a href="../ssg/ssg.html">↓ Study Guides</a>
+<li class="topmenu" id="dn"><a href="../dn/dn.html">Digha Nikaya</a></li>
+<li class="topmenu" id="mn"><a href="../mn/mn.html">Majjhima Nikaya</a></li>
+	<li class="topmenu" id="sn"><a class="pressed" href="../sn/sn.html">↓ Samyutta Nikaya</a>
+		<ul>
+			<li><a href="../sn/sn01.html">Part 1 - The Book with Verses</a></li>
+			<li><a href="../sn/sn02.html">Part 2 - The Book of Causation</a></li>
+			<li><a href="../sn/sn03.html">Part 3 - The Book of the Aggregates</a></li>
+			<li><a class="pressed" href="../sn/sn04.html" title="Part 4 - The Book of the Six Sense Bases">Part 4 - The Book of the Six Sense Bases</a></li>
+			<li><a href="../sn/sn05.html" title="Part 5 - The Great Book">Part 5 - The Great Book</a></li>
+		</ul>
+	</li>
+		<li class="topmenu" id="an"><a href="../an/an.html">↓ Anguttara Nikaya</a>
+			<ul>
+			<li><a href="../an/an1.html">The Ones</a></li>
+			<li><a href="../an/an2.html">The Twos</a></li>
+			<li><a href="../an/an3.html">The Threes</a></li>
+			<li><a href="../an/an4.html">The Fours</a></li>
+			<li><a href="../an/an5.html">The Fives</a></li>
+			<li><a href="../an/an6.html">The Sixes</a></li>
+			<li><a href="../an/an7.html">The Sevens</a></li>
+			<li><a href="../an/an8.html">The Eights</a></li>
+			<li><a href="../an/an9.html">The Nines</a></li>
+			<li><a href="../an/an10.html">The Tens</a></li>
+			<li><a href="../an/an11.html">The Elevens</a></li>
+			</ul>
+		</li>
+	<li class="topmenu" id="kn"><a href="../kn/kn.html">↓ Khuddaka Nikaya</a>
+			<ul>
+			<li><a href="../dhp/dhp.html" title="The Dhammapada">The Dhammapada</a></li>
+			<li><a href="../snp/snp.html">Sutta Nipata</a></li>
+			<li><a href="../ud/ud.html">Udana</a></li>
+			<li><a href="../it/it.html">Itivuttaka</a></li>
+			<li><a href="../tha/tha.html">The Theragatha</a></li>
+			<li><a href="../thi/thi.html">The Therigatha</a></li>
+			</ul>
+	</li>
+	<li class="toplast" id="vi"><a href="../vi/vi.html">↓ Vinaya Pitaka</a>
+		<ul>
+			<li><a href="../vi/kd.html">Khandaka</a></li>
+			<li><a href="../vi/bu-vb.html" title="Monk's Rules">Bhikkhu Vibhanga</a></li>
+			<li><a href="../vi/bu-pt.html" title="Bhikkhu Pātimokkha">Bhikkhu Pātimokkha</a></li>
+			<li><a href="../vi/bi-pt.html" title="Bhikkhunī Pātimokkha">Bhikkhunī Patimokkha</a></li>
+			<li><a href="../vi/bi-vb.html" title="Nuns Rules">Bhikkhuni Vibhanga</a></li>
+			<li><a href="../bmc/bmc.html">Buddhist Monastic Code 1</a></li>
+      <li><a href="../bmc/bmc2.html">Buddhist Monastic Code 2</a></li>
+		</ul>
+	</li>
+</ul>
+</div> <!--navbar-->
+</nav>
+<div class="controlpanel" id="controlpanel"><!--controlpanel-->
+<ul>
+	<li>
+	<ul class="inner">
+		<li><a href="#" title="Page Top" >&nbsp;▲&nbsp;</a>
+		<li class="nextprev">
+			<button class="palitoggle"
+				id="pali"
+				type="button"
+				title="Display Pali and activate Lookup Dictionary"
+				style="width:2.8em; padding: 0 2px;">Pali</button>
+		</li>
+		<li><a href="#bottom" title="Page Bottom">&nbsp;▼&nbsp;</a>
+	</ul>
+	</li>
+</ul>
+</div> <!--controlpanel-->
+</header>
+<div id="content">
+<h2>Saṃyutta Nikāya - The Connected Discourses</h2>
+<div id="wb_TabMenu" style="position:relative;left:6px;top:0px;width:930px;height:36px;z-index:0;">
+<div id="TabMenu">
+<ul>
+<li><a href="../sn/sn01.html"><span>Part 1: 1-11</span></a></li>
+<li><a href="../sn/sn02.html"><span>Part 2: 12-21</span></a></li>
+<li><a href="../sn/sn03.html"><span>Part 3: 22-34</span></a></li>
+<li id="active"><a href="../sn/sn04.html"><span>Part 4: 35-44</span></a></li>
+<li><a href="../sn/sn05.html"><span>Part 5: 45-56</span></a></li>
+</ul>
+</div></div>
+
+<h2>Connected Discourses on the Six Sense Bases: SN35:95 Malunkyaputta</h2>
+
+<div id="metaarea">
+<ul class="translator">
+<li><span>A Saddhamma Study Group translation from the Pāḷi text.
 <br>Get PDFs: <a href="../sn/eBook/sn35.95.biv.pdf">Side-by-side</a> | <a href="../sn/eBook/sn35.95.bih.pdf">Par-by-par</a> | <a href="../sn/eBook/sn35.95.bip.pdf">Facing pages</a> | <a href="../sn/eBook/sn35.95.eng.pdf">English only</a> | <a href="../sn/eBook/sn35.95.pli.pdf">Pali only</a>.<br></li>
+</li>
+</ul>
+</div>
+<section class="raw_sutta">
+<div lang="en">
 
-<p><span class="parno">1</span>
-atha kho āyasmā <span class="var" title="mālukkya - machasaṃ, syā.">māluṅkyaputto</span> yena
-bhagavā tenupasaṅkami. upasaṅkamitvā bhagavantaṃ abhivādetvā ekamantaṃ
-nisīdi. ekamantaṃ nisinno kho āyasmā māluṅkyaputto bhagavantaṃ etadavoca:
-sādhu me bhante, bhagavā saṅkhittena dhammaṃ desetu yamahaṃ bhagavato
-dhammaṃ sutvā eko vūpakaṭṭho appamatto ātāpī pahitatto
-vihareyyanti.<span class="note"> <span class="details"><span class="p">pts page 072</span></span></span>
-
-<p><span class="parno">2</span>
-etthadāni māluṅkyaputta kiṃ dahare bhikkhū vakkhāma, yatra hi nāma tvaṃ
-bhikkhu jiṇṇo vuddho mahallako addhagato vayoanuppatto saṅkhittena ovādaṃ
-yācasīti. kiñcāpahaṃ bhante jiṇṇo vuddho mahallako addhagato vayoanuppatto,
-desetu me bhante bhagavā saṅkhittena dhammaṃ, desetu me sugato saṅkhittena
-dhammaṃ, appevanāmāhaṃ bhagavato bhāsitassa atthaṃ ājāneyyaṃ, appevanāmāhaṃ
-bhagavato bhāsitassa dāyādo assa'nti.
-
-<p><span class="parno">3</span>
-taṃ kimmaññasi māluṅkyaputta ye te cakkhuviññeyyā rūpā adiṭṭhā adiṭṭhapubbā,
-na ca passasi, na ca te hoti. passeyyanti, atthi te tattha chando vā rāgo vā
-pemaṃ vāti. no hetaṃ bhante.
-
-<p><span class="parno">4</span>
-ye te sotaviññeyyā saddā assutā assutapubbā, na ca suṇāsi, na ca te hoti
-suṇeyyanti, atthi te tattha chando vā rāgo vā pemaṃ vāti. no hetaṃ bhante.
-
-<p><span class="parno">5</span>
-ye te ghānaviññeyyā gandhā aghāyitā aghāyitapubbā, na ca ghāyasi, na ca te
-hoti ghāyeyyanti, atthi te tattha chando vā rāgo vā pemaṃ vāti. no hetaṃ
-bhante.
-
-<p><span class="parno">6</span>
-ye te jivhāviññeyyā rasā asāyitā asāyitapubbā, na ca sāyasi, na ca te hoti
-ghāyeyyanti, atthi te tattha chando vā rāgo vā pemaṃ vāti. no hetaṃ
-bhante.<span class="note"> <span class="details"><span class="p">bjt page 158</span></span></span>
-
-<p><span class="parno">7</span>
-ye te kāyaviññeyyā phoṭṭhabbā asamphuṭṭhā asamphuṭṭhapubbā, na ca phusasi,
-na ca te hoti phuseyyanti, atthi te tattha chando vā rāgo vā pemaṃ vāti. no
-hetaṃ bhante.
-
-<p><span class="parno">8</span>
-ye te manoviññeyyā dhammā aviññātā aviññātapubbā, na ca vijānāsi, na ca te
-hoti vijāneyyanti, atthi te tattha chando vā rāgo vā pemaṃ vāti. no hetaṃ
-bhante.<span class="note"> <span class="details"><span class="p">pts page 073</span></span></span>
-
-<p><span class="parno">9</span>
-ettha ca te māluṅkyaputta diṭṭhasutamutaviññātabbesu dhammesu diṭṭhe
-diṭṭhamattaṃ bhavissati, sute sutamattaṃ bhavissati, mute mutamattaṃ
-bhavissati, viññāte viññātamattaṃ bhavissati. yato kho te māluṅkyaputta
-diṭṭhasutamutaviññātabbesu dhammesu diṭṭhe diṭṭhamattaṃ bhavissati, sute
-sutamattaṃ bhavissati, mute mutamattaṃ bhavissati, viññāte viññātamattaṃ
-bhavissati. tato tvaṃ māluṅkyaputta na tena, yato tvaṃ māluṅkaputta na tena,
-tato tvaṃ māluṅkyaputta na tattha, yato tvaṃ māluṅkyaputta na tattha, tato
-tvaṃ māluṅakyaputta nevidha na huraṃ na ubhayamantarena esevanto
-dukkhassāti.
-
-<p><span class="parno">10</span>
-imassa khvāhaṃ bhante bhagavatā saṅkhittena bhāsitassa evaṃ
-<span class="var" title="bhāsitassa vitvārena - machasaṃ, syā, sīmu.">vitthārena</span> atthaṃ
-ājānāmi.
-
-<blockquote>
-<p><span class="parno"></span>
-
-   rūpaṃ disvā sati muṭṭhā,<br> piyaṃ <span class="var" title="piyanimittaṃ - sīmu. sī 2.} manasi karoto,<br> sārattacitto vedeti,<br> tañca \footnote{ajjhosa - machasaṃ, ajejhasā- syā.">nimittaṃ</span> tiṭṭhati.<br> tassa vaḍḍhanti vedanā,<br> anekā
-rūpasambhavā,<br> abhijjhā ca vihesā ca,<br> cittamassūpahaññati.<br> evaṃ ācinato
-dukkhaṃ,<br> ārā nibbāṇaṃ\footnote{nibbāna - machasaṃ. syā.} vuccati.
-</p>
-
-<p><span class="parno"></span>
-
-   saddaṃ sutvā sati muṭṭhā,<br> piyaṃ nimittaṃ manasi karoto,<br> sārattacitto
-vedeti,<br> tañca ajjhosāya tiṭṭhati,<br> tassa vaḍḍhanti vedanā,<br> anekā
-saddasambhavā,<br> abhijjhā ca vihesā ca,<br> cittamassūpahaññati,<br> evaṃ
-ācinato dukkhaṃ,<br> ārā nibbāṇaṃ vuccati.<span class="note"> <span class="details"><span class="p">pts page 074</span></span></span>
-</p>
-
-<p><span class="parno"></span>
-
-   gandhaṃ ghātvā sati muṭṭhā,<br> piyaṃ nimittaṃ manasi karoto,<br> sārattacitto
-vedeti,<br> tañca ajjhesāya tiṭṭhati.<br> tassa vaḍḍhanti vedanā,<br> anekā
-gandhasambhavā,<br> abhijjhā ca vihesā ca,<br> cittamassūpahaññati,<br> evaṃ
-ācinato dukkhaṃ,<br> ārā nibbāṇaṃ vuccati.<span class="note"> <span class="details"><span class="p">bjt page 160</span></span></span>
-</p>
-
-<p><span class="parno"></span>
-
-   rasaṃ bhotvā sati muṭṭhā,<br> piyaṃ nimittaṃ manasi karoto,<br> sārattacitto
-vedeti,<br> tañca ajjhosāya tiṭṭhati,<br> tassa vaḍḍhanti vedanā,<br> anekā
-rasasambhavā,<br> abhijjhā ca vihesā ca,<br> cittamassūpahaññati,<br> evaṃ ācinato
-dukkhaṃ,<br> ārā nibbāṇaṃ vuccati.
-</p>
-
-<p><span class="parno"></span>
-
-   phassaṃ\footnote{phoṭṭhabbā - syā.} phussa sati muṭṭhā,<br> piyaṃ nimittaṃ
-manasi karoto,<br> sārattacitto vedeti,<br> tañca ajjhosāya tiṭṭhati,<br> tassa
-vaḍḍhanti vedanā,<br> anekā phassasambhavā,<br> abhijjhā ca vihesā ca,<br>
-cittamassūpahaññati,<br> evaṃ ācinato dukkhaṃ,<br> ārā nibbāṇaṃ vuccati.
-</p>
-
-<p><span class="parno"></span>
-
-   dhammaṃ ñatvā sati muṭṭhā,<br> piyaṃ nimittaṃ manasi karoto,<br> sārattacitto
-vedeti,<br> tañca ajjhesāya tiṭṭhati.<br> tassa vaḍḍhanti vedanā,<br> anekā
-dhammasambhavā,<br> abhijjhā ca vihesā ca,<br> cittamassūpahaññati,<br> evaṃ
-ācinato dukkhaṃ,<br> ārā nibbāṇaṃ vuccati.<span class="note"> <span class="details"><span class="p">pts page 075</span></span></span>
-</p>
-
-<p><span class="parno"></span>
-
-   na so rajjati rūpesu,<br> rūpaṃ disvā patissato\footnote{paṭissato- machasaṃ.}
-virattacitto vedeti,<br> tañca nājjhosāya tiṭṭhati,<br> yathāssa passato
-rūpaṃ,<br> sevato cāpi vedanaṃ,<br> khīyati nopacīyati,<br> evaṃ so caratī sato,<br>
-evaṃ apacinato dukkhaṃ,<br> santike nibbānaṃ vuccati.
-</p>
-
-<p><span class="parno"></span>
-
-   na so rajjati saddesu,<br> saddaṃ sutvā patissato virattacitto vedeti,<br> tañca
-nājjhosāya tiṭṭhati,<br> yathāssa suṇato saddaṃ,<br> sevatocāpi vedanaṃ,<br>
-khīyati no pacīyati,<br> evaṃ so caratī sato,<br> evaṃ apacinato dukkhaṃ,<br>
-santike nibbānaṃ vuccati.
-</p>
-
-<p><span class="parno"></span>
-
-   na so rajjati gandhesu,<br> gandhaṃ ghātvā patissato,<br> virattacitto vedeti,<br>
-tañca nājjhosāya tiṭṭhati,<br> yathāssa ghāyato gandhaṃ,<br> sevatocāpi
-vedanaṃ,<br> khīyati no pacīyati,<br> evaṃ so caratī sato,<br> evaṃ apacinato
-dukkhaṃ,<br> santike nibbānaṃ vuccati.
-</p>
-
-<p><span class="parno"></span>
-
-   na so rajjati rasesu,<br> rasaṃ bhotvā patissato,<br> virattacitto vedeti,<br>
-tañca nājjhosāya tiṭṭhati,<br> yathāssa sāyato rasaṃ,<br> sevato cāpi vedanaṃ,<br>
-khīyati no pacīyati,<br> evaṃ so caratī sato,<br> evaṃ apacinato dukkhaṃ,<br>
-santike nibbānaṃ vuccati.<span class="note"> <span class="details"><span class="p">bjt page 162</span></span></span>
-</p>
-
-<p><span class="parno"></span>
-
-   na so rajjati phassesu,<br> phassaṃ phussa patissato,<br> virattacitto vedeti,<br>
-tañca nājjhosāya tiṭṭhati,<br> yathāssa phusato phassaṃ,<br> sevato cāpi
-vedanaṃ,<br> khīyati no pacīyati,<br> evaṃ so caratī sato,<br> evaṃ apacinato
-dukkhaṃ,<br> santike nibbānaṃ vuccati.
-</p>
-
-<p><span class="parno"></span>
-
-   na so rajjati dhammesu,<br> dhammaṃ ñatvā patissato,<br> virattacitto vedeti,<br>
-tañca nājjhosāya tiṭṭhati,<br> yathāssa vijānato\footnote{jānato - machasaṃ, syā.} dhammaṃ,<br> sevatocāpi vedanaṃ,<br> khīyati no pacīyati,<br> evaṃ so caratī
-sato,<br> evaṃ apacinato dukkhaṃ,<br> santike nibbānaṃ vuccatī ti.
-</p>
-
-<p><span class="parno">11</span>
-imassa kho'haṃ bhante bhagavatā saṅkhittena bhāsitassa evaṃ vitthārena
-atthaṃ ājānāmīti. sādhu sādhu māluṅkyaputta, sādhu kho tvaṃ māluṅkyaputta
-mayā saṅkhittena bhāsitassa vitthārena atthaṃ ājānāsi.<span class="note"> <span class="details"><span class="p">pts page 076</span></span></span>
-
-<p><span class="parno"></span>
-
-   rūpaṃ disvā sati muṭṭhā,<br> piyanimittaṃ manasi karoto,<br> sārattacitto
-vedeti,<br> tañca ajjhesāya tiṭṭhati.  tassa vaḍḍhanti vedanā,<br> anekā
-rūpasambhavā,<br> abhijjhā ca vihesā ca,<br> cittamassūpahaññati,<br> evaṃ ācinato
-dukkhaṃ,<br> ārā nibbāṇaṃ vuccati.
-</p>
-
-<p><span class="parno"></span>
-
-   saddaṃ sutvā sati muṭṭhā,<br> piyaṃ nimittaṃ manasi karoto,<br> sārattacitto
-vedeti,<br> tañca ajjhosāya tiṭṭhati,<br> tassa vaḍḍhanti vedanā,<br> anekā
-saddasambhavā,<br> abhijjhā ca vihesā ca,<br> cittamassūpahaññati,<br> evaṃ
-ācinato dukkhaṃ,<br> ārā nibbāṇaṃ vuccati.
-</p>
-
-<p><span class="parno"></span>
-
-   gandhaṃ ghātvā sati muṭṭhā,<br> piyaṃ nimittaṃ manasi karoto,<br> sārattacitto
-vedeti,<br> tañca ajjhesāya tiṭṭhati.<br> tassa vaḍḍhanti vedanā,<br> anekā
-gandhasambhavā,<br> abhijjhā ca vibhesā ca,<br> cittamassūpahaññati,<br> evaṃ
-ācinato dukkhaṃ,<br> ārā nibbāṇaṃ vuccati.
-</p>
-
-<p><span class="parno"></span>
-
-   rasaṃ bhotvā sati muṭṭhā,<br> piyaṃ nimittaṃ manasi karoto,<br> sārattacitto
-vedeti,<br> tañca ajjhosāya tiṭṭhati,<br> tassa vaḍḍhanti vedanā,<br> anekā
-rasasambhavā,<br> abhijjhā ca vihesā ca,<br> cittamassūpahaññati,<br> evaṃ ācinato
-dukkhaṃ,<br> ārā nibbāṇaṃ vuccati.
-</p>
-
-<p><span class="parno"></span>
-
-   phassaṃ phussa sati muṭṭhā,<br> piyaṃ nimittaṃ manasi karoto,<br> sārattacitto
-vedeti,<br> tañca ajjhosāya tiṭṭhati,<br> tassa vaḍḍhanti vedanā,<br> anekā
-phassasambhavā,<br> abhijjhā ca vihesā ca,<br> cittamassūpahaññati,<br> evaṃ
-ācinato dukkhaṃ,<br> ārā nibbāṇaṃ vuccati.
-</p>
-
-<p><span class="parno"></span>
-
-   dhammaṃ ñatvā sati muṭṭhā,<br> piyaṃ nimittaṃ manasi karoto,<br> sārattacitto
-vedeti,<br> tañca ajjhesāya tiṭṭhati.<br> tassa vaḍḍhanti vedanā,<br> anekā
-dhammasambhavā,<br> abhijjhā ca vibhesā ca,<br> cittamassūpahaññati,<br> evaṃ
-ācinato dukkhaṃ,<br> ārā nibbāṇaṃ vuccati.
-</p>
-
-<p><span class="parno"></span>
-
-   na so rajjati rūpesu,<br> rūpaṃ disvā patissato,<br> virattacitto vedeti,<br>
-tañca nājjhosāya tiṭṭhati,<br> yathāssa passato rūpaṃ,<br> sevato cāpi
-vedanaṃ,<br> khīyati no pacīyati,<br> evaṃ so caratī sato,<br> evaṃ apacinato
-dukkhaṃ,<br> santike nibbānaṃ vuccati.
-</p>
-
-<p><span class="parno"></span>
-
-   na so rajjati saddesu,<br> saddaṃ sutvā patissato,<br> virattacitto vedeti,<br>
-tañca nājjhosāya tiṭṭhati,<br> yathāssa sunato saddaṃ,<br> sevatocāpi vedanaṃ,<br>
-khīyati no pacīyati,<br> evaṃ so caratī sato,<br> evaṃ apacinato dukkhaṃ,<br>
-santike nibbānaṃ vuccati.
-</p>
-
-<p><span class="parno"></span>
-
-   na so rajjati gandhesu,<br> gandhaṃ ghātvā patissato,<br> virattacitto vedeti,<br>
-tañca nājjhosāya tiṭṭhati,<br> yathāssa ghāyato gandhaṃ,<br> sevatocāpi
-vedanaṃ,<br> khīyati no pacīyati,<br> evaṃ so caratī sato,<br> evaṃ apacinato
-dukkhaṃ,<br> santike nibbānaṃ vuccati.
-</p>
-
-<p><span class="parno"></span>
-
-   na so rajjati rasesu,<br> rasaṃ bhotvā patissato,<br> virattacitto vedeti,<br>
-tañca nājjhosāya tiṭṭhati,<br> yathāssa sāyato rasaṃ,<br> sevato cāpi vedanaṃ,<br>
-khīyati no pacīyati,<br> evaṃ so caratī sato,<br> evaṃ apacinato dukkhaṃ,<br>
-santike nibbānaṃ vuccati.
-</p>
-
-<p><span class="parno"></span>
-
-   na so rajjati phassesu,<br> phassaṃ phussa patissato,<br> virattacitto vedeti,<br>
-tañca nājjhosāya tiṭṭhati,<br> yathāssa phusato phassaṃ,<br> sevato cāpi
-vedanaṃ,<br> khīyati no pacīyati,<br> evaṃ so caratī sato,<br> evaṃ apacinato
-dukkhaṃ,<br> santike nibbānaṃ vuccati.
-</p>
-
-<p><span class="parno"></span>
-
-   na so rajjati dhammesu,<br> dhammaṃ ñatvā patissato,<br> virattacitto vedeti,<br>
-tañca nājjhosāya tiṭṭhati,<br> yathāssa vijānato dhammaṃ,<br> sevatocāpi
-vedanaṃ,<br> khīyati no pacīyati,<br> evaṃ so caratī sato,<br> evaṃ apacinato
-dukkhaṃ,<br> santike nibbānaṃ vuccatī ti.
-</p>
-</blockquote>
-
-<p><span class="parno">12</span>
-imassa kho māluṅkyaputta mayā saṅkhittena bhāsitassa evaṃ vitthārena attho
-daṭṭhabboti. atha kho āyasmā māluṅkyaputto bhagavato bhāsitaṃ abhinanditvā
-anumoditvā uṭṭhāyāsanā bhagavantaṃ abhivādetvā padakkhiṇaṃ katvā
-pakkāmi.<span class="note"> <span class="details"><span class="p">pts page 076</span></span></span>
-
-<p><span class="parno">13</span>
-atha kho āyasmā māluṅkyaputto eko vūpakaṭṭho appamatto ātāpī pahitatto
-viharanto na cirasseva yassatthāya kulaputtā sammadeva āgārasmā anagāriyaṃ
-pabbajanti, tadanuttaraṃ brahmacariyapariyosānaṃ diṭṭheva dhamme sayaṃ
-abhiññā sacchikatvā upasampajja vihāsi. khīṇā jāti, vusitaṃ brahmacariyaṃ,
-kataṃ karaṇīyaṃ, nāparaṃ itthattāyāti abbhaññāsi. aññataro ca panāyasmā
-māluṅkyaputto arahataṃ ahosīti.
 <p><span class="parno">1</span>
 Then, the venerable Malunkyaputta visited with the Auspicious One. Upon
 arrival, he bowed down to the Auspicious One and sat down to one
@@ -607,3 +448,292 @@ realized it with his own higher knowledge in just this very life. He
 understood: “Destroyed is birth, lived is the life of purity, done is
 what had to be done, there is no other for thusness.” And the
 venerable Malunkyaputta became one of the arahants.
+</div>
+
+<div lang="pi">
+
+<p><span class="parno">1</span>
+atha kho āyasmā <span class="var" title="mālukkya - machasaṃ, syā.">māluṅkyaputto</span> yena
+bhagavā tenupasaṅkami. upasaṅkamitvā bhagavantaṃ abhivādetvā ekamantaṃ
+nisīdi. ekamantaṃ nisinno kho āyasmā māluṅkyaputto bhagavantaṃ etadavoca:
+sādhu me bhante, bhagavā saṅkhittena dhammaṃ desetu yamahaṃ bhagavato
+dhammaṃ sutvā eko vūpakaṭṭho appamatto ātāpī pahitatto
+vihareyyanti.<span class="note"> <span class="details"><span class="p">pts page 072</span></span></span>
+
+<p><span class="parno">2</span>
+etthadāni māluṅkyaputta kiṃ dahare bhikkhū vakkhāma, yatra hi nāma tvaṃ
+bhikkhu jiṇṇo vuddho mahallako addhagato vayoanuppatto saṅkhittena ovādaṃ
+yācasīti. kiñcāpahaṃ bhante jiṇṇo vuddho mahallako addhagato vayoanuppatto,
+desetu me bhante bhagavā saṅkhittena dhammaṃ, desetu me sugato saṅkhittena
+dhammaṃ, appevanāmāhaṃ bhagavato bhāsitassa atthaṃ ājāneyyaṃ, appevanāmāhaṃ
+bhagavato bhāsitassa dāyādo assa'nti.
+
+<p><span class="parno">3</span>
+taṃ kimmaññasi māluṅkyaputta ye te cakkhuviññeyyā rūpā adiṭṭhā adiṭṭhapubbā,
+na ca passasi, na ca te hoti. passeyyanti, atthi te tattha chando vā rāgo vā
+pemaṃ vāti. no hetaṃ bhante.
+
+<p><span class="parno">4</span>
+ye te sotaviññeyyā saddā assutā assutapubbā, na ca suṇāsi, na ca te hoti
+suṇeyyanti, atthi te tattha chando vā rāgo vā pemaṃ vāti. no hetaṃ bhante.
+
+<p><span class="parno">5</span>
+ye te ghānaviññeyyā gandhā aghāyitā aghāyitapubbā, na ca ghāyasi, na ca te
+hoti ghāyeyyanti, atthi te tattha chando vā rāgo vā pemaṃ vāti. no hetaṃ
+bhante.
+
+<p><span class="parno">6</span>
+ye te jivhāviññeyyā rasā asāyitā asāyitapubbā, na ca sāyasi, na ca te hoti
+ghāyeyyanti, atthi te tattha chando vā rāgo vā pemaṃ vāti. no hetaṃ
+bhante.<span class="note"> <span class="details"><span class="p">bjt page 158</span></span></span>
+
+<p><span class="parno">7</span>
+ye te kāyaviññeyyā phoṭṭhabbā asamphuṭṭhā asamphuṭṭhapubbā, na ca phusasi,
+na ca te hoti phuseyyanti, atthi te tattha chando vā rāgo vā pemaṃ vāti. no
+hetaṃ bhante.
+
+<p><span class="parno">8</span>
+ye te manoviññeyyā dhammā aviññātā aviññātapubbā, na ca vijānāsi, na ca te
+hoti vijāneyyanti, atthi te tattha chando vā rāgo vā pemaṃ vāti. no hetaṃ
+bhante.<span class="note"> <span class="details"><span class="p">pts page 073</span></span></span>
+
+<p><span class="parno">9</span>
+ettha ca te māluṅkyaputta diṭṭhasutamutaviññātabbesu dhammesu diṭṭhe
+diṭṭhamattaṃ bhavissati, sute sutamattaṃ bhavissati, mute mutamattaṃ
+bhavissati, viññāte viññātamattaṃ bhavissati. yato kho te māluṅkyaputta
+diṭṭhasutamutaviññātabbesu dhammesu diṭṭhe diṭṭhamattaṃ bhavissati, sute
+sutamattaṃ bhavissati, mute mutamattaṃ bhavissati, viññāte viññātamattaṃ
+bhavissati. tato tvaṃ māluṅkyaputta na tena, yato tvaṃ māluṅkaputta na tena,
+tato tvaṃ māluṅkyaputta na tattha, yato tvaṃ māluṅkyaputta na tattha, tato
+tvaṃ māluṅakyaputta nevidha na huraṃ na ubhayamantarena esevanto
+dukkhassāti.
+
+<p><span class="parno">10</span>
+imassa khvāhaṃ bhante bhagavatā saṅkhittena bhāsitassa evaṃ
+<span class="var" title="bhāsitassa vitvārena - machasaṃ, syā, sīmu.">vitthārena</span> atthaṃ
+ājānāmi.
+
+<blockquote>
+<p><span class="parno"></span>
+
+   rūpaṃ disvā sati muṭṭhā,<br> piyaṃ <span class="var" title="piyanimittaṃ - sīmu. sī 2.} manasi karoto,<br> sārattacitto vedeti,<br> tañca \footnote{ajjhosa - machasaṃ, ajejhasā- syā.">nimittaṃ</span> tiṭṭhati.<br> tassa vaḍḍhanti vedanā,<br> anekā
+rūpasambhavā,<br> abhijjhā ca vihesā ca,<br> cittamassūpahaññati.<br> evaṃ ācinato
+dukkhaṃ,<br> ārā nibbāṇaṃ\footnote{nibbāna - machasaṃ. syā.} vuccati.
+</p>
+
+<p><span class="parno"></span>
+
+   saddaṃ sutvā sati muṭṭhā,<br> piyaṃ nimittaṃ manasi karoto,<br> sārattacitto
+vedeti,<br> tañca ajjhosāya tiṭṭhati,<br> tassa vaḍḍhanti vedanā,<br> anekā
+saddasambhavā,<br> abhijjhā ca vihesā ca,<br> cittamassūpahaññati,<br> evaṃ
+ācinato dukkhaṃ,<br> ārā nibbāṇaṃ vuccati.<span class="note"> <span class="details"><span class="p">pts page 074</span></span></span>
+</p>
+
+<p><span class="parno"></span>
+
+   gandhaṃ ghātvā sati muṭṭhā,<br> piyaṃ nimittaṃ manasi karoto,<br> sārattacitto
+vedeti,<br> tañca ajjhesāya tiṭṭhati.<br> tassa vaḍḍhanti vedanā,<br> anekā
+gandhasambhavā,<br> abhijjhā ca vihesā ca,<br> cittamassūpahaññati,<br> evaṃ
+ācinato dukkhaṃ,<br> ārā nibbāṇaṃ vuccati.<span class="note"> <span class="details"><span class="p">bjt page 160</span></span></span>
+</p>
+
+<p><span class="parno"></span>
+
+   rasaṃ bhotvā sati muṭṭhā,<br> piyaṃ nimittaṃ manasi karoto,<br> sārattacitto
+vedeti,<br> tañca ajjhosāya tiṭṭhati,<br> tassa vaḍḍhanti vedanā,<br> anekā
+rasasambhavā,<br> abhijjhā ca vihesā ca,<br> cittamassūpahaññati,<br> evaṃ ācinato
+dukkhaṃ,<br> ārā nibbāṇaṃ vuccati.
+</p>
+
+<p><span class="parno"></span>
+
+   phassaṃ\footnote{phoṭṭhabbā - syā.} phussa sati muṭṭhā,<br> piyaṃ nimittaṃ
+manasi karoto,<br> sārattacitto vedeti,<br> tañca ajjhosāya tiṭṭhati,<br> tassa
+vaḍḍhanti vedanā,<br> anekā phassasambhavā,<br> abhijjhā ca vihesā ca,<br>
+cittamassūpahaññati,<br> evaṃ ācinato dukkhaṃ,<br> ārā nibbāṇaṃ vuccati.
+</p>
+
+<p><span class="parno"></span>
+
+   dhammaṃ ñatvā sati muṭṭhā,<br> piyaṃ nimittaṃ manasi karoto,<br> sārattacitto
+vedeti,<br> tañca ajjhesāya tiṭṭhati.<br> tassa vaḍḍhanti vedanā,<br> anekā
+dhammasambhavā,<br> abhijjhā ca vihesā ca,<br> cittamassūpahaññati,<br> evaṃ
+ācinato dukkhaṃ,<br> ārā nibbāṇaṃ vuccati.<span class="note"> <span class="details"><span class="p">pts page 075</span></span></span>
+</p>
+
+<p><span class="parno"></span>
+
+   na so rajjati rūpesu,<br> rūpaṃ disvā patissato\footnote{paṭissato- machasaṃ.}
+virattacitto vedeti,<br> tañca nājjhosāya tiṭṭhati,<br> yathāssa passato
+rūpaṃ,<br> sevato cāpi vedanaṃ,<br> khīyati nopacīyati,<br> evaṃ so caratī sato,<br>
+evaṃ apacinato dukkhaṃ,<br> santike nibbānaṃ vuccati.
+</p>
+
+<p><span class="parno"></span>
+
+   na so rajjati saddesu,<br> saddaṃ sutvā patissato virattacitto vedeti,<br> tañca
+nājjhosāya tiṭṭhati,<br> yathāssa suṇato saddaṃ,<br> sevatocāpi vedanaṃ,<br>
+khīyati no pacīyati,<br> evaṃ so caratī sato,<br> evaṃ apacinato dukkhaṃ,<br>
+santike nibbānaṃ vuccati.
+</p>
+
+<p><span class="parno"></span>
+
+   na so rajjati gandhesu,<br> gandhaṃ ghātvā patissato,<br> virattacitto vedeti,<br>
+tañca nājjhosāya tiṭṭhati,<br> yathāssa ghāyato gandhaṃ,<br> sevatocāpi
+vedanaṃ,<br> khīyati no pacīyati,<br> evaṃ so caratī sato,<br> evaṃ apacinato
+dukkhaṃ,<br> santike nibbānaṃ vuccati.
+</p>
+
+<p><span class="parno"></span>
+
+   na so rajjati rasesu,<br> rasaṃ bhotvā patissato,<br> virattacitto vedeti,<br>
+tañca nājjhosāya tiṭṭhati,<br> yathāssa sāyato rasaṃ,<br> sevato cāpi vedanaṃ,<br>
+khīyati no pacīyati,<br> evaṃ so caratī sato,<br> evaṃ apacinato dukkhaṃ,<br>
+santike nibbānaṃ vuccati.<span class="note"> <span class="details"><span class="p">bjt page 162</span></span></span>
+</p>
+
+<p><span class="parno"></span>
+
+   na so rajjati phassesu,<br> phassaṃ phussa patissato,<br> virattacitto vedeti,<br>
+tañca nājjhosāya tiṭṭhati,<br> yathāssa phusato phassaṃ,<br> sevato cāpi
+vedanaṃ,<br> khīyati no pacīyati,<br> evaṃ so caratī sato,<br> evaṃ apacinato
+dukkhaṃ,<br> santike nibbānaṃ vuccati.
+</p>
+
+<p><span class="parno"></span>
+
+   na so rajjati dhammesu,<br> dhammaṃ ñatvā patissato,<br> virattacitto vedeti,<br>
+tañca nājjhosāya tiṭṭhati,<br> yathāssa vijānato\footnote{jānato - machasaṃ, syā.} dhammaṃ,<br> sevatocāpi vedanaṃ,<br> khīyati no pacīyati,<br> evaṃ so caratī
+sato,<br> evaṃ apacinato dukkhaṃ,<br> santike nibbānaṃ vuccatī ti.
+</p>
+
+<p><span class="parno">11</span>
+imassa kho'haṃ bhante bhagavatā saṅkhittena bhāsitassa evaṃ vitthārena
+atthaṃ ājānāmīti. sādhu sādhu māluṅkyaputta, sādhu kho tvaṃ māluṅkyaputta
+mayā saṅkhittena bhāsitassa vitthārena atthaṃ ājānāsi.<span class="note"> <span class="details"><span class="p">pts page 076</span></span></span>
+
+<p><span class="parno"></span>
+
+   rūpaṃ disvā sati muṭṭhā,<br> piyanimittaṃ manasi karoto,<br> sārattacitto
+vedeti,<br> tañca ajjhesāya tiṭṭhati.  tassa vaḍḍhanti vedanā,<br> anekā
+rūpasambhavā,<br> abhijjhā ca vihesā ca,<br> cittamassūpahaññati,<br> evaṃ ācinato
+dukkhaṃ,<br> ārā nibbāṇaṃ vuccati.
+</p>
+
+<p><span class="parno"></span>
+
+   saddaṃ sutvā sati muṭṭhā,<br> piyaṃ nimittaṃ manasi karoto,<br> sārattacitto
+vedeti,<br> tañca ajjhosāya tiṭṭhati,<br> tassa vaḍḍhanti vedanā,<br> anekā
+saddasambhavā,<br> abhijjhā ca vihesā ca,<br> cittamassūpahaññati,<br> evaṃ
+ācinato dukkhaṃ,<br> ārā nibbāṇaṃ vuccati.
+</p>
+
+<p><span class="parno"></span>
+
+   gandhaṃ ghātvā sati muṭṭhā,<br> piyaṃ nimittaṃ manasi karoto,<br> sārattacitto
+vedeti,<br> tañca ajjhesāya tiṭṭhati.<br> tassa vaḍḍhanti vedanā,<br> anekā
+gandhasambhavā,<br> abhijjhā ca vibhesā ca,<br> cittamassūpahaññati,<br> evaṃ
+ācinato dukkhaṃ,<br> ārā nibbāṇaṃ vuccati.
+</p>
+
+<p><span class="parno"></span>
+
+   rasaṃ bhotvā sati muṭṭhā,<br> piyaṃ nimittaṃ manasi karoto,<br> sārattacitto
+vedeti,<br> tañca ajjhosāya tiṭṭhati,<br> tassa vaḍḍhanti vedanā,<br> anekā
+rasasambhavā,<br> abhijjhā ca vihesā ca,<br> cittamassūpahaññati,<br> evaṃ ācinato
+dukkhaṃ,<br> ārā nibbāṇaṃ vuccati.
+</p>
+
+<p><span class="parno"></span>
+
+   phassaṃ phussa sati muṭṭhā,<br> piyaṃ nimittaṃ manasi karoto,<br> sārattacitto
+vedeti,<br> tañca ajjhosāya tiṭṭhati,<br> tassa vaḍḍhanti vedanā,<br> anekā
+phassasambhavā,<br> abhijjhā ca vihesā ca,<br> cittamassūpahaññati,<br> evaṃ
+ācinato dukkhaṃ,<br> ārā nibbāṇaṃ vuccati.
+</p>
+
+<p><span class="parno"></span>
+
+   dhammaṃ ñatvā sati muṭṭhā,<br> piyaṃ nimittaṃ manasi karoto,<br> sārattacitto
+vedeti,<br> tañca ajjhesāya tiṭṭhati.<br> tassa vaḍḍhanti vedanā,<br> anekā
+dhammasambhavā,<br> abhijjhā ca vibhesā ca,<br> cittamassūpahaññati,<br> evaṃ
+ācinato dukkhaṃ,<br> ārā nibbāṇaṃ vuccati.
+</p>
+
+<p><span class="parno"></span>
+
+   na so rajjati rūpesu,<br> rūpaṃ disvā patissato,<br> virattacitto vedeti,<br>
+tañca nājjhosāya tiṭṭhati,<br> yathāssa passato rūpaṃ,<br> sevato cāpi
+vedanaṃ,<br> khīyati no pacīyati,<br> evaṃ so caratī sato,<br> evaṃ apacinato
+dukkhaṃ,<br> santike nibbānaṃ vuccati.
+</p>
+
+<p><span class="parno"></span>
+
+   na so rajjati saddesu,<br> saddaṃ sutvā patissato,<br> virattacitto vedeti,<br>
+tañca nājjhosāya tiṭṭhati,<br> yathāssa sunato saddaṃ,<br> sevatocāpi vedanaṃ,<br>
+khīyati no pacīyati,<br> evaṃ so caratī sato,<br> evaṃ apacinato dukkhaṃ,<br>
+santike nibbānaṃ vuccati.
+</p>
+
+<p><span class="parno"></span>
+
+   na so rajjati gandhesu,<br> gandhaṃ ghātvā patissato,<br> virattacitto vedeti,<br>
+tañca nājjhosāya tiṭṭhati,<br> yathāssa ghāyato gandhaṃ,<br> sevatocāpi
+vedanaṃ,<br> khīyati no pacīyati,<br> evaṃ so caratī sato,<br> evaṃ apacinato
+dukkhaṃ,<br> santike nibbānaṃ vuccati.
+</p>
+
+<p><span class="parno"></span>
+
+   na so rajjati rasesu,<br> rasaṃ bhotvā patissato,<br> virattacitto vedeti,<br>
+tañca nājjhosāya tiṭṭhati,<br> yathāssa sāyato rasaṃ,<br> sevato cāpi vedanaṃ,<br>
+khīyati no pacīyati,<br> evaṃ so caratī sato,<br> evaṃ apacinato dukkhaṃ,<br>
+santike nibbānaṃ vuccati.
+</p>
+
+<p><span class="parno"></span>
+
+   na so rajjati phassesu,<br> phassaṃ phussa patissato,<br> virattacitto vedeti,<br>
+tañca nājjhosāya tiṭṭhati,<br> yathāssa phusato phassaṃ,<br> sevato cāpi
+vedanaṃ,<br> khīyati no pacīyati,<br> evaṃ so caratī sato,<br> evaṃ apacinato
+dukkhaṃ,<br> santike nibbānaṃ vuccati.
+</p>
+
+<p><span class="parno"></span>
+
+   na so rajjati dhammesu,<br> dhammaṃ ñatvā patissato,<br> virattacitto vedeti,<br>
+tañca nājjhosāya tiṭṭhati,<br> yathāssa vijānato dhammaṃ,<br> sevatocāpi
+vedanaṃ,<br> khīyati no pacīyati,<br> evaṃ so caratī sato,<br> evaṃ apacinato
+dukkhaṃ,<br> santike nibbānaṃ vuccatī ti.
+</p>
+</blockquote>
+
+<p><span class="parno">12</span>
+imassa kho māluṅkyaputta mayā saṅkhittena bhāsitassa evaṃ vitthārena attho
+daṭṭhabboti. atha kho āyasmā māluṅkyaputto bhagavato bhāsitaṃ abhinanditvā
+anumoditvā uṭṭhāyāsanā bhagavantaṃ abhivādetvā padakkhiṇaṃ katvā
+pakkāmi.<span class="note"> <span class="details"><span class="p">pts page 076</span></span></span>
+
+<p><span class="parno">13</span>
+atha kho āyasmā māluṅkyaputto eko vūpakaṭṭho appamatto ātāpī pahitatto
+viharanto na cirasseva yassatthāya kulaputtā sammadeva āgārasmā anagāriyaṃ
+pabbajanti, tadanuttaraṃ brahmacariyapariyosānaṃ diṭṭheva dhamme sayaṃ
+abhiññā sacchikatvā upasampajja vihāsi. khīṇā jāti, vusitaṃ brahmacariyaṃ,
+kataṃ karaṇīyaṃ, nāparaṃ itthattāyāti abbhaññāsi. aññataro ca panāyasmā
+māluṅkyaputto arahataṃ ahosīti.
+</div>
+</section>
+<div id="nextprev"><a id="previous-sutta" href="./sn35.94.html"></a><a id="next-sutta" href="./sn35.96.html"></a></div>
+</div><!--content-->
+<footer>
+<div id="breadcrumbs">
+<a href="../home/index.html">Home</a><a href="../sn/sn.html">Saṃyutta Nikāya</a><a href="../sn/sn35.html">Connected Discourses on the Six Sense Bases</a>SN35:95 Malunkyaputta
+</div>
+<a id="bottom"></a>
+</footer>
+<script src="../js/footer.js"></script>
+</div><!--container-->
+</body>
+</html>
