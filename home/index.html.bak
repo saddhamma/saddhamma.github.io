@@ -2,8 +2,8 @@
 <html>
 <head>
 <meta charset=utf-8>
-<link rel="icon" type="image/x-icon" href="../images/favicon.ico">
-<title>A Treasury of Dhamma</title>
+<link rel="icon" type="image/x-icon" href="../images/buddha.jpg">
+<title>Saddhamma Study Group</title>
 <style type="text/css">
 	#content p { margin: 0 0 .5em 0; }
 </style>
@@ -17,13 +17,12 @@
 <div id="eng_searchlink"> <span><a href="../home/engsearch.html" >Search English Content</a></span></div>
 <div id="pali_searchlink"> <span><a href="../home/palisearch.html" >Search Pali Content</a></span></div>
 
-<div class="logotext">
-<a href="../home/index.html"><span>Saddhamma Study Group</span></a>
-</div>
+<div class="logotext"><a href="../home/index.html"><span>Saddhamma Study Group</span></a></div>
 <nav>
 <div id="navbar">
 <ul id="css3menu0" >
 <li class="topfirst" id="home"><a class="pressed" href="../index.html">Home</a></li>
+<li class="topmenu" id="ssg"><a href="../ssg/ssg.html">↓ Study Guides</a>
 <li class="topmenu" id="dn"><a href="../dn/dn.html">Digha Nikaya</a></li>
 <li class="topmenu" id="mn"><a href="../mn/mn.html">Majjhima Nikaya</a></li>
 	<li class="topmenu" id="sn"><a href="../sn/sn.html">↓ Samyutta Nikaya</a>
@@ -45,7 +44,7 @@
 			<li><a href="../an/an6.html">The Sixes</a></li>
 			<li><a href="../an/an7.html">The Sevens</a></li>
 			<li><a href="../an/an8.html">The Eights</a></li>
-			<li><a href="../an/an9.html">The Nines</a>
+         <li><a href="../an/an9.html">The Nines</a></li>
 			<li><a href="../an/an10.html">The Tens</a></li>
 			<li><a href="../an/an11.html">The Elevens</a></li>
 			</ul>
@@ -61,7 +60,7 @@
 			</ul>
 	</li>
 	<li class="toplast" id="vi"><a href="../vi/vi.html">↓ Vinaya Pitaka</a>
-			<ul>
+      <ul>
 			<li><a href="../vi/kd.html">Khandaka</a></li>
 			<li><a href="../vi/bu-vb.html" title="Monk’s Rules">Bhikkhu Vibhanga</a></li>
 			<li><a href="../vi/bu-pt.html">Bhikkhu Pātimokkha</a></li>
@@ -96,7 +95,28 @@
 
 <h2>Saddhamma Study Group</h2>
 
-<p>These pages are designed to make the best available translations of the Buddha’s words easily available in English and Pali. </p>
+<p>The Saddhamma Study Group translation project is a translation of selected
+suttas for occasional
+<a href="mailto:saddhammastudygroup@gmail.com">Saddhamma Study Group</a>
+readings and discussions. </p>
+
+<p>These translations are designed to preserve the <strong>right meaning and
+phrasing</strong> (sātthaṁ sabyañjanaṁ) as much as possible, in hopes that it
+will reveal the life of purity that is utterly perfect and pure to the disciple
+who practices accordingly, as expected of the Dhamma that is good in the
+beginning, good in the middle and good in the end, with the <strong>right
+meaning and phrasing</strong>. However, the reader should keep in mind
+that even with these best efforts at preserving translation fidelity, some loss
+of phrasing and consequently, loss in meaning is unavoidable due to English
+language limitations. The reader is therefore advised to become familiar enough
+with the original Pali texts to enable cross-checking translations with the Pali
+to avoid being misled. </p>
+
+<p>This website framework (designed by the
+<a href="mailto:buddhaswords2@gmail.com">The Buddha's Words team</a>)
+makes such cross-checking easily accessible with side-by-side Pali and English
+renderings, and built-in Pali dictionary and Pali/English search capabilities
+for referencing other suttas with similar phrasing.</p>
 
 <h3>The Control Panel</h3>
 
@@ -159,7 +179,7 @@ With Pali showing, hovering the cursor over a Pali word gives you the English tr
 
 <p>For consistency, paragraph numbering is gradually being changed so that the english paragraph numbering follows the pali paragraph numbering. This process is also ongoing.</p>
 
-<p>Last updated 7th February 2018.</p>
+<p>Last updated 29th September 2020.</p>
 
 <div id="nextprev"></div>
 </div>
