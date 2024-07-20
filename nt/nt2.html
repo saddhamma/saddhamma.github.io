@@ -3,6 +3,68 @@
 <head>
 <meta charset=utf-8>
 <link rel="icon" type="image/x-icon" href="../images/buddha.jpg">
+</head>
+<body>
+<div id="container">
+<header>
+<script src="../js/jquery-1.10.2.min.js"></script>
+<link rel="stylesheet" href="../css/menu.css">
+<link rel="stylesheet" href="../css/css.css">
+<div id="eng_searchlink"> <span><a href="../home/engsearch.html" >Search English Content</a></span></div>
+<div id="pali_searchlink"> <span><a href="../home/palisearch.html" >Search Pali Content</a></span></div>
+
+<div class="logotext"><a href="../home/index.html"><span>Saddhamma Study Group</span></a></div>
+<nav>
+<div id="navbar">
+<ul id="css3menu0" >
+<li class="topfirst" id="home"><a href="../home/index.html">Home</a></li>
+<li class="topmenu" id="dn"><a href="../dn/dn.html">Digha Nikaya</a></li>
+<li class="topmenu" id="mn"><a href="../mn/mn.html">Majjhima Nikaya</a></li>
+	<li class="topmenu" id="sn"><a href="../sn/sn.html">↓ Samyutta Nikaya</a>
+		<ul>
+         <li><a href="../sn/sn01.html">Part 1 - The Book with Verses</a></li>
+			<li><a href="../sn/sn02.html">Part 2 - The Book of Causation</a></li>
+			<li><a href="../sn/sn03.html">Part 3 - The Book of the Aggregates</a></li>
+			<li><a href="../sn/sn04.html">Part 4 - The Book of the Six Sense Bases</a></li>
+			<li><a href="../sn/sn05.html" title="Part 5 - The Great Book">Part 5 - The Great Book</a></li>
+		</ul>
+	</li>
+		<li class="topmenu" id="an"><a href="../an/an.html">↓ Anguttara Nikaya</a>
+			<ul>
+			<li><a href="../an/an1.html">The Ones</a></li>
+			<li><a href="../an/an2.html">The Twos</a></li>
+			<li><a href="../an/an3.html">The Threes</a></li>
+			<li><a href="../an/an4.html">The Fours</a></li>
+			<li><a href="../an/an5.html">The Fives</a></li>
+			<li><a href="../an/an6.html">The Sixes</a></li>
+			<li><a href="../an/an7.html">The Sevens</a></li>
+			<li><a href="../an/an8.html">The Eights</a></li>
+			<li><a href="../an/an9.html">The Nines</a></li>
+			<li><a href="../an/an10.html">The Tens</a></li>
+			<li><a href="../an/an11.html">The Elevens</a></li>
+			</ul>
+		</li>
+	<li class="topmenu" id="kn"><a href="../kn/kn.html">↓ Khuddaka Nikaya</a>
+			<ul>
+			<li><a href="../dhp/dhp.html" title="The Dhammapada">The Dhammapada</a></li>
+			<li><a href="../snp/snp.html">Sutta Nipata</a></li>
+			<li><a href="../ud/ud.html">Udana</a></li>
+			<li><a href="../it/it.html">Itivuttaka</a></li>
+			<li><a href="../tha/tha.html">The Theragatha</a></li>
+			<li><a href="../thi/thi.html">The Therigatha</a></li>
+			</ul>
+	</li>
+	<li class="topmenu" id="vi"><a href="../vi/vi.html">↓ Vinaya Pitaka</a>
+		<ul>
+			<li><a href="../vi/kd.html">Khandaka</a></li>
+			<li><a href="../vi/bu-vb.html" title="Monk's Rules">Bhikkhu Vibhanga</a></li>
+			<li><a href="../vi/bu-pt.html" title="Bhikkhu Pātimokkha">Bhikkhu Pātimokkha</a></li>
+			<li><a href="../vi/bi-pt.html" title="Bhikkhunī Pātimokkha">Bhikkhunī Patimokkha</a></li>
+			<li><a href="../vi/bi-vb.html" title="Nuns Rules">Bhikkhuni Vibhanga</a></li>
+			<li><a href="../bmc/bmc.html">Buddhist Monastic Code 1</a></li>
+      <li><a href="../bmc/bmc2.html">Buddhist Monastic Code 2</a></li>
+		</ul>
+	</li>
 <li class="topmenu" id="bq"><a href="../bq/bq.html">Buddha</a></li>
 <li class="topmenu" id="dq"><a href="../dq/dq.html">Dhamma</a></li>
 <li class="topmenu" id="sq"><a href="../sq/sq.html">Sangha</a></li>
@@ -10,7 +72,7 @@
 <li class="topmenu" id="es"><a href="../es/es.html">Samadhi</a></li>
 <li class="topmenu" id="ev"><a href="../ev/ev.html">Vigilance</a></li>
 <li class="topmenu" id="nh"><a href="../nh/nh.html">Noble Hospitality</a></li>
-<li class="topmenu" id="nt"><a href="../nt/nt.html">Notes on Dhamma</a></li>
+<li class="topmenu" id="nt"><a class="pressed" href="../nt/nt.html">Notes on Dhamma</a></li>
 <li class="toplast" id="qa"><a href="../qa/qa.html">Questions & Answers</a></li>
 </ul>
 </div> <!--navbar-->
@@ -41,7 +103,7 @@
 <ul>
 <li><a href="./nt1.html"><span>Study Guides</span></a></li>
 <li><a href="./nt2.html"><span>Questions & Answers</span></a></li>
-<li><a href="./nt3.html"><span>Critiques of Dhamma Articles</span></a></li>
+<li><a href="./nt3.html"><span>Miscellaneous</span></a></li>
 </ul>
 </div></div>
 <br>
@@ -50,8 +112,8 @@
 <!-- Suttas:
    SN 35.95. Malankyaputta Sutta
 -->
-<tr><td><a href="../dhp/dhp44-45.html">DHP44-45</a></td><td><a href="../dhp/dhp44-45.html">Conquering the world of Yama</a></td><td><a href="../dhp/dhp44-45.html"></a></td></tr>
-<tr><td><a href="../sn/sn25.10.html">SN25.10</a></td><td><a href="../sn/sn25.10.html">Aggregates</a></td><td><a href="../sn25.10.html"></a></td></tr>
+<tr><td><a href="../xn/xn25.10.html">TBD</a></td><td><a href="../xn/xn25.10.html">TBD</a></td><td><a href="../xn25.10.html"></a></td></tr>
+<!---
 <tr><td><a href="../ud/ud5.3.html">UD5.3</a></td><td><a href="../ud/ud5.3.html">Suppabuddha the Leper</a></td><td><a href="../ud/ud5.3.html"></a></td></tr>
 <tr><td><a href="../an/an4.6.html">AN4.6</a></td><td><a href="../an/an4.6.html">Little Learning</a></td><td><a href="../an/an4.6.html"></a></td></tr>
 <tr><td><a href="../an/an6.68.html">AN6.68</a></td><td><a href="../an/an6.68.html">Delight in Company</a></td><td><a href="../an/an6.68.html"></a></td></tr>
@@ -75,6 +137,7 @@
 <tr><td><a href="../ud/ud1.10.html">UD1.10</a></td><td><a href="../ud/ud1.10.html">Bahiya</a></td><td><a href="../ud/ud1.10.html"></a></td></tr>
 <tr><td><a href="../snp/snp3.12.html">SNP3.12</a></td><td><a href="../snp/snp3.12.html">Seeing in Accordance with a Duality</a></td><td><a href="../snp3.12.html"></a></td></tr>
 <tr><td><a href="../sn/sn1.20.html">SN1.20</a></td><td><a href="../sn/sn1.20.html">Samiddhi (excerpt)</a></td><td><a href="../sn1.20.html"></a></td></tr>
+--->
 </table>
 <br>
 
