@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8>
+<link rel="icon" type="image/x-icon" href="../images/buddha.jpg">
+<title>Makers of Measurements</title>
+</head>
+<body>
+<div id="container">
+<header>
+<script src="../js/jquery-1.10.2.min.js"></script>
+<link rel="stylesheet" href="../css/menu.css">
+<link rel="stylesheet" href="../css/css.css">
+<div id="eng_searchlink"> <span><a href="../home/engsearch.html" >Search English Content</a></span></div>
+<div id="pali_searchlink"> <span><a href="../home/palisearch.html" >Search Pali Content</a></span></div>
+
+<div class="logotext">
+<a href="../home/index.html"><span>Saddhamma Study Group</span></a>
+</div>
+<nav>
+<div id="navbar">
+<ul id="css3menu0" >
+<li class="topfirst" id="home"><a href="../home/index.html">Home</a></li>
+<li class="topmenu" id="dn"><a href="../dn/dn.html">Digha Nikaya</a></li>
+<li class="topmenu" id="mn"><a href="../mn/mn.html">Majjhima Nikaya</a></li>
+	<li class="topmenu" id="sn"><a href="../sn/sn.html">↓ Samyutta Nikaya</a>
+		<ul>
+		<li><a href="../sn/sn01.html">Part 1 - The Book with Verses</a></li>
+			<li><a href="../sn/sn02.html">Part 2 - The Book of Causation</a></li>
+			<li><a href="../sn/sn03.html">Part 3 - The Book of the Aggregates</a></li>
+			<li><a href="../sn/sn04.html">Part 4 - The Book of the Six Sense Bases</a></li>
+			<li><a href="../sn/sn05.html" title="Part 5 - The Great Book">Part 5 - The Great Book</a></li>
+		</ul>
+	</li>
+		<li class="topmenu" id="an"><a href="../an/an.html">↓ Anguttara Nikaya</a>
+			<ul>
+			<li><a href="../an/an1.html">The Ones</a></li>
+			<li><a href="../an/an2.html">The Twos</a></li>
+			<li><a href="../an/an3.html">The Threes</a></li>
+			<li><a href="../an/an4.html">The Fours</a></li>
+			<li><a href="../an/an5.html">The Fives</a></li>
+			<li><a href="../an/an6.html">The Sixes</a></li>
+			<li><a href="../an/an7.html">The Sevens</a></li>
+			<li><a href="../an/an8.html">The Eights</a></li>
+			<li><a href="../an/an9.html">The Nines</a></li>
+			<li><a href="../an/an10.html">The Tens</a></li>
+			<li><a href="../an/an11.html">The Elevens</a></li>
+			</ul>
+		</li>
+	<li class="topmenu" id="kn"><a href="../kn/kn.html">↓ Khuddaka Nikaya</a>
+			<ul>
+			<li><a href="../dhp/dhp.html" title="The Dhammapada">The Dhammapada</a></li>
+			<li><a href="../snp/snp.html">Sutta Nipata</a></li>
+			<li><a href="../ud/ud.html">Udana</a></li>
+			<li><a href="../it/it.html">Itivuttaka</a></li>
+			<li><a href="../tha/tha.html">The Theragatha</a></li>
+			<li><a href="../thi/thi.html">The Therigatha</a></li>
+			</ul>
+	</li>
+	<li class="topmenu" id="vi"><a href="../vi/vi.html">↓ Vinaya Pitaka</a>
+			<ul>
+			<li><a href="../vi/kd.html">Khandaka</a></li><li><a href="../vi/bu-vb.html" title="Monk's Rules">Bhikkhu Vibhanga</a></li><li>
+			<li><a href="../vi/bu-pt.html" title="Monk's Pātimokkha">Bhikkhu Pātimokkha</a></li>
+
+			<li><a href="../vi/bi-pt.html">Bhikkhunī Pātimokkha</a></li>
+			<li><a href="../vi/bi-vb.html"  title="Nuns Rules">Bhikkhuni Vibhanga</a></li>
+			<li><a href="../bmc/bmc.html">Buddhist Monastic Code I</a></li>
+      <li><a href="../bmc/bmc2.html">Buddhist Monastic Code 2</a></li>
+			</ul>
+	</li>
+<li class="topmenu" id="bq"><a href="../bq/bq.html">Buddha</a></li>
+<li class="topmenu" id="dq"><a href="../dq/dq.html">Dhamma</a></li>
+<li class="topmenu" id="sq"><a href="../sq/sq.html">Sangha</a></li>
+<li class="topmenu" id="et"><a href="../et/et.html">Training</a></li>
+<li class="topmenu" id="es"><a href="../es/es.html">Samadhi</a></li>
+<li class="topmenu" id="ev"><a href="../ev/ev.html">Vigilance</a></li>
+<li class="topmenu" id="ka"><a href="../ka/ka.html">Kamma</a></li>
+<li class="topmenu" id="nt"><a class="pressed" href="../nt/nt.html">Notes on Dhamma</a></li>
+<li class="toplast" id="qa"><a href="../qa/qa.html">Questions & Answers</a></li>
+</ul>
+</div> <!--navbar-->
+</nav>
+<div class="controlpanel" id="controlpanel"><!--controlpanel-->
+<ul>
+	<li>
+	<ul class="inner">
+		<li><a href="#" title="Page Top" >&nbsp;▲&nbsp;</a>
+		<li class="nextprev">
+			<button class="palitoggle"
+				id="pali"
+				type="button"
+				title="Display Pali and activate Lookup Dictionary"
+				style="width:2.8em; padding: 0 2px;">Pali</button>
+		</li>
+		<li><a href="#bottom" title="Page Bottom">&nbsp;▼&nbsp;</a>
+	</ul>
+	</li>
+</ul>
+</div> <!--controlpanel-->
+</header>
+<div id="content">
+<h2>Notes on Dhamma</h2>
+<h2>MN43: Mahavedalla Sutta - on Makers of Measurements</h2>
+
+<blockquote>
+<p>In the last few paragraphs of MN43 Mahavedalla Sutta it states:</p>
+</blockquote>
+<blockquote>
+<p>“Lust is a maker of measurement, hate is a maker of measurement,
+delusion is a maker of measurement. How shall this be understood?</p>
+</blockquote>
+<hr />
+<blockquote>
+<p>Lust is a maker of measurement, hate is a maker of measurement,
+delusion is a maker of measurement.</p>
+</blockquote>
+<blockquote>
+<p>In a bhikkhu whose āsavas are destroyed, these are abandoned, cut off
+at the root, made like a palm stump, done away with so that they are no
+longer subject to future arising.<br />
+–<strong>MN 43</strong></p>
+</blockquote>
+<p>This can be understood as follows: </p>
+<p>In SN 22.35, the Buddha declares that “if one has an underlying
+tendency towards something, then one is measured in accordance with it; 
+if one is measured in accordance with something, then one is reckoned in
+terms of it. If one does not have an underlying tendency towards
+something, then one is not measured in accordance with it; if one is not
+measured in accordance with something, then one is not reckoned in terms
+of it.” </p>
+<p>In SN 36.3 the arahant has abandoned the underlying tendency to
+lust, the underlying tendency to hate, and the underlying tendency to
+delusion, and so he cannot be measured in accordance with them or
+reckoned in terms of them.  In upasīva māṇava pucchā (Snp 5.7), the
+Buddha declares:</p>
+<blockquote>
+<p>atthaṅgatassa na pamāṇamatthi  yena naṃ vajjuṃ taṃ tassa natthi,
+sabbesu dhammesu samuhatesu samuhatā vādapathāpi sabbeti.</p>
+</blockquote>
+<blockquote>
+<p>“There is no measure of one who has gone out, Upasīva no means by
+which they can speak of him, when everything has been completely
+removed, all pathways for speech are also completely removed.”<br />
+–<strong>Snp 5.7</strong></p>
+</blockquote>
+<p>Sekhas and arahants possess the aggregate of knowledge and vision of
+liberation (vimuttiñāṇadassanakkhandha), by which they can enter and
+dwell in their noble liberation and review the noble knowledges they
+have attained. </p>
+<p>In Venāga sutta (AN 3.63), the Buddha describes his abiding in the
+knowledge and vision of liberation thus: </p>
+<blockquote>
+<p>“But, Master Gotama, what is the noble high and luxurious bed that at
+present you gain at will, without trouble or difficulty?”</p>
+</blockquote>
+<blockquote>
+<p>“Here, brahmin, when I am dwelling in dependence on a village or
+town, in the morning I dress, take my bowl and robe, and enter that
+village or town for alms. After the meal, when I have returned from the
+alms round, I enter a grove. I collect some grass or leaves that I find
+there into a pile and then sit down. Having folded my legs crosswise and
+straightened my body, I establish mindfulness in front of me. Then I
+understand thus: ‘I have abandoned greed, cut it off at the root, made
+it like a palm stump, obliterated it so that it is no more subject to
+future arising. I have abandoned hatred, cut it off at the root, made it
+like a palm stump, obliterated it so that it is no more subject to
+future arising. I have abandoned delusion, cut it off at the root, made
+it like a palm stump, obliterated it so that it is no more subject to
+future arising.’</p>
+</blockquote>
+<blockquote>
+<p>“Then, brahmin, when I am in such a state, if I walk back and forth,
+on that occasion my walking back and forth is noble. If I am standing,
+on that occasion my standing is noble. If I am sitting, on that occasion
+my sitting is noble. If I lie down, on that occasion this is my noble
+high and luxurious bed. This is that noble high and luxurious bed that
+at present I can gain at will, without trouble or difficulty.”<br />
+–<strong>AN 3.63</strong></p>
+</blockquote>
+<p>The Buddha describes the sekha’s attainment of arahantship in the
+following verses from the sekha sutta (AN 3.35). </p>
+<blockquote>
+<p>sekhassa sikkhamānassa  ujumaggānusārino, khayasmiṃ paṭhamaṃ ñāṇaṃ 
+tato aññā anantarā.</p>
+</blockquote>
+<blockquote>
+<p>tato aññāvimuttassa  ñāṇaṃ ve hoti tādino. akuppā me vimuttī’ti
+bhavasaññojanakkhaye’ti.</p>
+</blockquote>
+<blockquote>
+<p>“For the sekha in training following along the straight path, First
+comes the knowledge in destruction From that immediately there is final
+knowledge.”</p>
+</blockquote>
+<blockquote>
+<p>from that final-knowledge liberation indeed knowledge arises for the
+such-like one “unshakeable is my liberation.” “the fetter of being is
+destroyed.”<br />
+–<strong>AN 3.35</strong></p>
+</blockquote>
+<p>In the samādhi sutta (AN 5.27), the Buddha instructs his sekha
+disciples to develop “the samadhi that is measureless”. This noble
+samādhi is the sekha’s knowledge and vision of liberation which he can
+enter and abide in. One of the knowledges that the sekha reviews when in
+such an attainment is described as follows: </p>
+<blockquote>
+<p>The knowledge arises that is personally yours: ’This samādhi is
+peaceful and excellent, gained by full tranquilization, and attained to
+unification. It is not arrived at and held in check by keeping it in
+place with force. <br />
+–<strong>AN 5.27</strong></p>
+</blockquote>
+<p>In the ānanda sutta (AN 9.37), the Buddha declares that abiding in
+this noble measureless samādhi has final knowledge (aññā) as its
+fruit. </p>
+<blockquote>
+<p>Sister, the samadhi that does not lean forward and does not bend
+back, and that is not arrived at and held in check by keeping it in
+place with force. By being liberated, it is steady; by being steady, it
+is content; by being content, one is not agitated. The Auspicious One
+said that this samadhi has final knowledge as its fruit.<br />
+–<strong>AN 9.37</strong></p>
+</blockquote>
+<p>This noble samādhi is also known as viññāṇanirodha or viññāṇaṃ
+anidassanaṃ anantaṃ sabbato pabhaṃ in kevaddha sutta (DN 11) and 
+ānantariko cetosamādhi in the dasuttara sutta (DN 34) or ratana sutta
+(Snp 2.1). </p>
+<p>Once the sekha gains final knowledge and becomes an arahant, one of
+the knowledges that arise is called akuppaṃ ñāṇaṃ, described as:  </p>
+<blockquote>
+<p>“unshakeable is my liberation.”<br />
+“the fetter of being is destroyed.” </p>
+</blockquote>
+<p>So the arahants liberation is called akuppā cetovimutti. </p>
+<p>For the arahant, entering upon and abiding in this
+measureless liberation of mind is his abiding in the unsheakable
+liberation of mind (akuppā cetovimutti) </p>
+<p>This is what is meant by the statement: </p>
+<blockquote>
+<p>Of all the kinds of immeasurable liberation of mind, the unshakeable
+liberation of mind is declared to be the foremost.<br />
+–<strong>MN 43</strong></p>
+</blockquote>
+<p>Now the statement: </p>
+<blockquote>
+<p>“Lust is a something, hate is a something, delusion is a
+something. In a bhikkhu whose āsavas are destroyed, these are abandoned,
+cut off at the root, made like a palm stump, done away with so that they
+are no longer subject to future arising. <br />
+–<strong>MN 43</strong></p>
+</blockquote>
+<p>can be understood as follows: </p>
+<p>[I think nothingness is closer in translation to suññata (null, void,
+emptiness) so I will use not-something-ness in these translations, which
+is the literal translation for ākiñcañña]</p>
+<p>There is an abiding called not-something-ness where lust, hate and
+delusion cease without remainder. This abiding is described in the
+following verse from the nibbāna sutta (Ud 8.3). </p>
+<blockquote>
+<p>“duddasaṃ anantaṃ nāma  na hi saccaṃ sudassanaṃ, paṭividdhā tanhā
+jānato  passato natthi kiñcanaṃ”ti.</p>
+</blockquote>
+<blockquote>
+<p>“Indeed hard to see is the Endless,  Truly, it is not easy to see the
+Truth,  Knowing and seeing,”there is not something”, <br />
+Is the piercing through of craving.<br />
+–<strong>Ud 8.3</strong></p>
+</blockquote>
+<p>This abiding in “not-something-ness” is further elaborated on in the
+questions of posāla from the pārāyanavaggo (Snp 5.15)</p>
+<blockquote>
+<p>vibhūtarūpasaññissa sabbakāyappahāyino  ajjhattañca bahiddhā ca 
+natthi kiñcīti passato  ñāṇaṃ sakkānupucchāmi  kathaṃ neyyo
+tathāvidho</p>
+</blockquote>
+<blockquote>
+<p>“For the one in whom perception of form has ended,  who has abandoned
+the entire body,  who is seeing internally and externally, ‘there is not
+something’, I ask about his knowledge, O Sakyan, how is such a one to be
+known?”</p>
+</blockquote>
+<blockquote>
+<p>Ākiñcaññasambhavaṁ ñatvā,   Nandī saṁyojanaṁ iti;   Evametaṁ
+abhiññāya,   Tato tattha vipassati;   Etaṁ ñāṇaṁ tathaṁ tassa,  
+Brāhmaṇassa vusīmato”ti</p>
+</blockquote>
+<blockquote>
+<p>Having known the origin of “not-something-ness”,  [having
+known]  “delight is a fetter”; [having known] with supreme knowledge
+that this is so,  because of that he sees clearly therein: this
+knowledge for him is such,  for the brahmin who is accomplished.”<br />
+–<strong>Snp 5.15</strong></p>
+</blockquote>
+<p>This knowledge and vision of “not-something-ness” requires cessation
+of form, and is called the viññāṇanirodha or viññāṇaṃ anidassanaṃ
+anantaṃ sabbato pabhaṃ in the kevaddha sutta (DN 11): </p>
+<blockquote>
+<p>viññāṇaṃ anidassanaṃ anantaṃ sabbato pabhaṃ; ettha āpo ca paṭhavī
+tejo vāyo na gādhati; ettha dīghañca rassañca aṇuṃ thūlaṃ subhāsubhaṃ;
+ettha nāmañca rūpañca asesaṃ uparujjhati; viññāṇassa nirodhena etthetaṃ
+uparujjhatīti.</p>
+</blockquote>
+<blockquote>
+<p>‘The non-manifestative consciousness which is endless and
+all-luminous,<br />
+That’s where earth, water, fire and air find no footing, There both long
+and short, small and great, fair and foul – There “name-and-form” are
+completely held in check.  With the cessation of consciousness, this is
+all held in check.’”<br />
+<strong>DN 11</strong></p>
+</blockquote>
+<p>For the arahant, this abiding in the liberation of mind through
+not-something-ness is his abiding in the unsheakable liberation of
+mind.  </p>
+<p>This is what is meant by the statement:</p>
+<blockquote>
+<p>Of all liberation of mind through not-something-ness, this akuppā
+cetovimutti is declared the foremost.<br />
+–<strong>MN 43</strong></p>
+</blockquote>
+<p>And so this shows how the measureless liberation of mind and the
+liberation of mind through not-something-ness are the same in
+meaning.</p>
+<p>Now the statement: </p>
+<blockquote>
+<p>“Lust is a maker of signs, hate is a maker of signs, delusion is a
+maker of signs. In a bhikkhu whose āsavas are destroyed, these are
+abandoned, cut off at the root, made like a palm stump, done away with
+so that they are no longer subject to future arising. <br />
+–<strong>MN 43</strong></p>
+</blockquote>
+<p>can be understood as follows: </p>
+<p>From sanimitta sutta (AN 2.77)</p>
+<blockquote>
+<p>sanimittā bhikkhave uppajjanti pāpakā akusalā dhammā, no animittā.
+tasseva nimittassa pahānā evaṃ te pāpakā akusalā dhammā na honti.</p>
+</blockquote>
+<blockquote>
+<p>“Evil unwholesome dhammas, O Bhikkhus, arise with signs, not without
+signs. With the abandoning of signs, these evil unwholesome dhammas do
+not come to be.”<br />
+–<strong>AN 2.77</strong></p>
+</blockquote>
+<p>Now the root of evil unwholesome dhammas are lust, hate and
+delusion.</p>
+<p>From the cūḷasuññata sutta (MN 121), when one abiding in the signless
+samādhi understands thus: </p>
+<blockquote>
+<p>‘This signless samādhi is especially conditioned, especially
+intended. But whatever is especially conditioned, especially
+intended, is impermanent, subject to cessation.’ When he knows and sees
+thus, his mind is liberated from the āsava of sensual desire, from the
+āsava of being, and from the āsava of ignorance. When it is liberated
+there comes the knowledge: ‘It is liberated.’ He understands: ‘Birth is
+destroyed, the holy life has been lived, what had to be done has been
+done, there is nothing more for thusness.’ <br />
+–<strong>MN 121</strong></p>
+</blockquote>
+<p>This liberation of mind through signlessness gives rise to
+unsheakable knowledge (akuppaṃ ñāṇaṃ) as described in the sekha sutta
+(AN 3.35). </p>
+<p>This is what is meant by the statement:</p>
+<blockquote>
+<p>Of all liberation of mind through signlessness, this unshakeable
+liberation of mind through signlessness is declared the foremost.<br />
+–<strong>MN 43</strong></p>
+</blockquote>
+<p>And so this shows how the measureless liberation of mind, the
+liberation of mind through not-something-ness and the liberation of mind
+through signlessness are the same in meaning.  </p>
+<p>Now the statement: </p>
+<p>“<em>This unshakeable liberation of mind is void of lust, hate, and
+delusion</em>”, that is repeated for each liberation of mind
+description can be understood with reference to the cūḷasuññata sutta
+(MN 121): </p>
+<blockquote>
+<p>“He understands thus: ‘Whatever disturbances there might be dependent
+on the āsava of sensual desire [kāmataṇhā (greed or longing)], those are
+not present here; whatever disturbances there might be dependent on
+the āsava of being [bhavataṇhā (lust) and vibhavataṇhā (hate)], those
+are not present here; whatever disturbances there might be dependent on
+the āsava of ignorance [moha (delusion)], those are not present here.
+There is present only this amount of disturbance, namely, that connected
+with the six bases that are dependent on this body and conditioned by
+life.’ He understands: ‘This field of perception is void of the āsava of
+sensual desire; this field of perception is void of the āsava of being;
+this field of perception is void of the āsava of ignorance. There is
+present only this non-voidness, namely, that connected with the six
+bases that are dependent on this body and conditioned by life.’ Thus he
+regards it as void of what is not there, but as to what remains there he
+understands that which is present thus: ‘This is present.’ Thus, Ānanda,
+this is his genuine, undistorted, pure descent into voidness, supreme
+and unsurpassed. <br />
+–<strong>MN 121</strong></p>
+</blockquote>
+<p>See Sāḷhā sutta (AN 3.66) and satipaṭṭhāna sutta (DN 22) for
+definition of taṇhā for justification of clarification in brackets to
+show that destruction of the āsavas (āsavakkhayo) is also
+the destruction of lust, hate, delusion (rāgakkhayo, dosakkhayo,
+mohakkhayo). </p>
+<p>This is also called the liberation of mind through voidness. For the
+arahant, this abiding in the liberation of mind through voidness is his
+abiding in the unsheakable liberation of mind. </p>
+<p>And so this shows how the measureless liberation of mind, the
+liberation of mind through not-something-ness, the liberation of mind
+through signlessness  and the liberation of mind through. voidness are
+the same in meaning.</p>
+</div><!--content-->
+<footer>
+<div id="breadcrumbs">
+<a href="../home/index.html">Home</a><a href="../nt/nt.html">Notes on Dhamma</a>Makers of Measurements
+</div>
+<a id="bottom"></a>
+</footer>
+</div><!--container-->
+<script src="../js/footer.js"></script>
+</body>
+</html>

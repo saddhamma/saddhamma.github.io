@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8>
+<link rel="icon" type="image/x-icon" href="../images/buddha.jpg">
+<title>Makers of Measurements</title>
+</head>
+<body>
+<div id="container">
+<header>
+<script src="../js/jquery-1.10.2.min.js"></script>
+<link rel="stylesheet" href="../css/menu.css">
+<link rel="stylesheet" href="../css/css.css">
+<div id="eng_searchlink"> <span><a href="../home/engsearch.html" >Search English Content</a></span></div>
+<div id="pali_searchlink"> <span><a href="../home/palisearch.html" >Search Pali Content</a></span></div>
+
+<div class="logotext">
+<a href="../home/index.html"><span>Saddhamma Study Group</span></a>
+</div>
+<nav>
+<div id="navbar">
+<ul id="css3menu0" >
+<li class="topfirst" id="home"><a href="../home/index.html">Home</a></li>
+<li class="topmenu" id="dn"><a href="../dn/dn.html">Digha Nikaya</a></li>
+<li class="topmenu" id="mn"><a href="../mn/mn.html">Majjhima Nikaya</a></li>
+	<li class="topmenu" id="sn"><a href="../sn/sn.html">↓ Samyutta Nikaya</a>
+		<ul>
+		<li><a href="../sn/sn01.html">Part 1 - The Book with Verses</a></li>
+			<li><a href="../sn/sn02.html">Part 2 - The Book of Causation</a></li>
+			<li><a href="../sn/sn03.html">Part 3 - The Book of the Aggregates</a></li>
+			<li><a href="../sn/sn04.html">Part 4 - The Book of the Six Sense Bases</a></li>
+			<li><a href="../sn/sn05.html" title="Part 5 - The Great Book">Part 5 - The Great Book</a></li>
+		</ul>
+	</li>
+		<li class="topmenu" id="an"><a href="../an/an.html">↓ Anguttara Nikaya</a>
+			<ul>
+			<li><a href="../an/an1.html">The Ones</a></li>
+			<li><a href="../an/an2.html">The Twos</a></li>
+			<li><a href="../an/an3.html">The Threes</a></li>
+			<li><a href="../an/an4.html">The Fours</a></li>
+			<li><a href="../an/an5.html">The Fives</a></li>
+			<li><a href="../an/an6.html">The Sixes</a></li>
+			<li><a href="../an/an7.html">The Sevens</a></li>
+			<li><a href="../an/an8.html">The Eights</a></li>
+			<li><a href="../an/an9.html">The Nines</a></li>
+			<li><a href="../an/an10.html">The Tens</a></li>
+			<li><a href="../an/an11.html">The Elevens</a></li>
+			</ul>
+		</li>
+	<li class="topmenu" id="kn"><a href="../kn/kn.html">↓ Khuddaka Nikaya</a>
+			<ul>
+			<li><a href="../dhp/dhp.html" title="The Dhammapada">The Dhammapada</a></li>
+			<li><a href="../snp/snp.html">Sutta Nipata</a></li>
+			<li><a href="../ud/ud.html">Udana</a></li>
+			<li><a href="../it/it.html">Itivuttaka</a></li>
+			<li><a href="../tha/tha.html">The Theragatha</a></li>
+			<li><a href="../thi/thi.html">The Therigatha</a></li>
+			</ul>
+	</li>
+	<li class="topmenu" id="vi"><a href="../vi/vi.html">↓ Vinaya Pitaka</a>
+			<ul>
+			<li><a href="../vi/kd.html">Khandaka</a></li><li><a href="../vi/bu-vb.html" title="Monk's Rules">Bhikkhu Vibhanga</a></li><li>
+			<li><a href="../vi/bu-pt.html" title="Monk's Pātimokkha">Bhikkhu Pātimokkha</a></li>
+
+			<li><a href="../vi/bi-pt.html">Bhikkhunī Pātimokkha</a></li>
+			<li><a href="../vi/bi-vb.html"  title="Nuns Rules">Bhikkhuni Vibhanga</a></li>
+			<li><a href="../bmc/bmc.html">Buddhist Monastic Code I</a></li>
+      <li><a href="../bmc/bmc2.html">Buddhist Monastic Code 2</a></li>
+			</ul>
+	</li>
+<li class="topmenu" id="bq"><a href="../bq/bq.html">Buddha</a></li>
+<li class="topmenu" id="dq"><a href="../dq/dq.html">Dhamma</a></li>
+<li class="topmenu" id="sq"><a href="../sq/sq.html">Sangha</a></li>
+<li class="topmenu" id="et"><a href="../et/et.html">Training</a></li>
+<li class="topmenu" id="es"><a href="../es/es.html">Samadhi</a></li>
+<li class="topmenu" id="ev"><a href="../ev/ev.html">Vigilance</a></li>
+<li class="topmenu" id="ka"><a href="../ka/ka.html">Kamma</a></li>
+<li class="topmenu" id="nt"><a class="pressed" href="../nt/nt.html">Notes on Dhamma</a></li>
+<li class="toplast" id="qa"><a href="../qa/qa.html">Questions & Answers</a></li>
+</ul>
+</div> <!--navbar-->
+</nav>
+<div class="controlpanel" id="controlpanel"><!--controlpanel-->
+<ul>
+	<li>
+	<ul class="inner">
+		<li><a href="#" title="Page Top" >&nbsp;▲&nbsp;</a>
+		<li class="nextprev">
+			<button class="palitoggle"
+				id="pali"
+				type="button"
+				title="Display Pali and activate Lookup Dictionary"
+				style="width:2.8em; padding: 0 2px;">Pali</button>
+		</li>
+		<li><a href="#bottom" title="Page Bottom">&nbsp;▼&nbsp;</a>
+	</ul>
+	</li>
+</ul>
+</div> <!--controlpanel-->
+</header>
+<div id="content">
+<h2>Notes on Dhamma</h2>
+<h2>MN8: Sallekha Sutta Study Guide</h2>
+
+<p>The <a href="../mn/mn8.html">Sallekha Sutta (MN 8)</a>, opens with the venerable Mahācunda asking
+the Buddha: “These various views, O Bhante, which arise in the world in
+connection with the doctrine of self or in connection with the doctrine
+of the world, for a bhikkhu who is attending to the very starting point
+[of wholesome dhammas], does the abandoning of these views come to be
+thus? Does the relinquishing of these views come to be thus?”</p>
+<p>To understand venerable Mahācunda’s question, we need to understand
+what these various views are and what the very starting point [of
+wholesome dhammas] is. These views and their source are explained in the
+isidatta sutta (SN 41.3) as follows:</p>
+<blockquote>
+<p>“As to the various views that arise in the world, O householder, ‘The
+world is eternal’ or ‘The world is not eternal’; or ‘The world is
+finite’ or ‘The world is infinite’; or ‘The soul and the body are the
+same’ or ‘The soul is one thing, the body is another’; or ‘The Tathāgata
+exists after death,’ or ‘The Tathāgata does not exist after death,’ or
+‘The Tathāgata both exists and does not exist after death,’ or ‘The
+Tathāgata neither exists nor does not exist after death’—these as well
+as the sixty-two views mentioned in the Brahmajala sutta: when there is
+self-affirmation view (sakkāyadiṭṭhi), these views come to be; when
+there is no self-affirmation view, these views do not come to be.”<br />
+–<strong>SN 41.3</strong></p>
+</blockquote>
+<p>The very starting point of wholesome dhammas is defined in the
+bhikkhu sutta (SN 47.3) as follows:</p>
+<blockquote>
+<p>“Tasmātiha tvaṁ, bhikkhu, ādimeva visodhehi kusalesu dhammesu. Ko
+cādi kusalānaṁ dhammānaṁ? Sīlañca suvisuddhaṁ, diṭṭhi ca ujukā.</p>
+</blockquote>
+<blockquote>
+<p>“Therefore, O bhikkhu, you should purify the very starting point of
+wholesome dhammas. And what is the starting point of wholesome dhammas?
+Virtue that is well purified and view that is straight.<br />
+–<strong>SN 47.3</strong></p>
+</blockquote>
+<p>So the venerable Mahācunda’s question can be paraphrased as
+follows:</p>
+<p>Of the various views that arise in the world, for a bhikkhu who has
+purified his virtue to be in conformity with the virtue of the noble
+ones, and straightened his view to be in conformity to the view of the
+noble ones, is that enough for such a bhikkhu to abandon these views, to
+relinguish these views?</p>
+<p>The Buddha’s answer is:</p>
+<blockquote>
+<p>“These various views, Ocunda, which arise in the world in connection
+with the doctrine of self or in connection with the doctrine of the
+world, if where these views arise, and where they underlie, and where
+they roam about, that one sees just this with right wisdom as it has
+come to be: “Not ‘this is mine’, not ‘this I am’, not ‘this is my
+self’”, thus the abandoning of these views comes to be, thus the
+relinquishing of these views comes to be.<br />
+–<strong>MN 8</strong></p>
+</blockquote>
+<p>But where do these views arise? Where do they underlie? Where do they
+roam about? From theisidatta sutta, we learned that the source of these
+views isself-affirmation view(sakkāyadiṭṭhi). When there is
+self-affirmation view, these views come to be; when there is no
+self-affirmation view, these views do not come to be.”The answer is
+addressed in the isidatta sutta (SN 41.3) as follows:</p>
+<blockquote>
+<p>“But, venerable sir, how does self-affirmation view comes to be?”</p>
+</blockquote>
+<blockquote>
+<p>“Here, O householder, the Dhamma-deaf, the puthujjana; the one who
+does not possess the vision of the noble ones, not an expert, not
+disciplined in the noble ones’ Dhamma; the one who does not possess the
+vision of true men, not an expert, not disciplinedin the true men’s
+Dhamma, recognizes form as self, or self as endowed with form, or form
+as in self, or self as in form.</p>
+</blockquote>
+<blockquote>
+<p>He recognizes feeling as self, or self as endowed with feeling, or
+feeling as in self, or self as in feeling.</p>
+</blockquote>
+<blockquote>
+<p>He recognizes perception as self, or self as endowed with perception,
+or perception as in self, or self as in perception.</p>
+</blockquote>
+<blockquote>
+<p>He recognizes sankharas as self, or self as endowed with sankharas,
+or sankharas as in self, or self as in sankharas.</p>
+</blockquote>
+<blockquote>
+<p>He recognizes consciousness as self, or self as endowed with
+consciousness, or consciousness as in self, or self as in
+consciousness.</p>
+</blockquote>
+<blockquote>
+<p>It is in such a way that self-affirmation view comes to be.”</p>
+</blockquote>
+<blockquote>
+<p>“And, venerable sir, how does self-affirmationview not come to
+be?”</p>
+</blockquote>
+<blockquote>
+<p>Here, O householder, the Dhamma-hearer, the noble disciple; the one
+who possesses the vision of the noble ones, an expert, disciplined in
+the noble ones’ Dhamma; the one who possesses the vision of true men, an
+expert, disciplined in the true men’s Dhamma, does not recognize form as
+self, or self as endowed with form, or form as in self, or self as in
+form.</p>
+</blockquote>
+<blockquote>
+<p>He does not recognize feeling as self, or self as endowed with
+feeling, or feeling as in self, or self as in feeling.</p>
+</blockquote>
+<blockquote>
+<p>He does not recognize perception as self, or self as endowed with
+perception, or perception as in self, or self as in perception.</p>
+</blockquote>
+<blockquote>
+<p>He does not recognize sankharas as self, or self as endowed with
+sankharas, or sankharas as in self, or self as in sankharas.</p>
+</blockquote>
+<blockquote>
+<p>He does not recognize consciousness as self, or self as endowed with
+consciousness, or consciousness as in self, or self as in
+consciousness.</p>
+</blockquote>
+<blockquote>
+<p>It is in such a way that self-affirmation view does not come to
+be.”<br />
+–<strong>SN 41.3</strong></p>
+</blockquote>
+<p>So where these views arise, and where they underlie, and where they
+roam about, are the pañcupādānakkhandhas, the very foundation of
+self-affirmation view. With the abandoning of self-affirmation view,
+these views in connection withthe self and in connection withthe world
+do not arise. So how does one abandon the self-affirmation view? This is
+answered by the Buddha in the sarada sutta (AN 3.94):</p>
+<blockquote>
+<p>Just as, O Bhikkhus, in the autumn, when the sky is clear and
+cloudless, the sun, rising in the sky, dispels all darkness from space
+as it shines, radiates and illuminates. So too, when the dust-free,
+stainless Dhamma-eye arises in the noble disciple, then, together with
+the arising of vision, the noble disciple abandons three fetters:
+self-affirmation view, doubt, and strong hold on virtue and religious
+duties.</p>
+</blockquote>
+<blockquote>
+<p>Afterwards, when he departs from two dhammas, longing and ill-will,
+then, quite secluded from sensual pleasures, secluded from unwholesome
+dhammas, he enters upon and abides in the happiness and pleasure born of
+seclusion connected with thinking and pondering, the first jhana. If, O
+Bhikkhus, that noble disciple should pass away on that occasion, there
+is no fetter bound by which he might return to this world.<br />
+–<strong>AN 3.94</strong></p>
+</blockquote>
+<p>So the Buddha’s answer amounts to the following:</p>
+<p>The pañcupādānakkhandhas are where these views arise, and where they
+underlie, and where they roam about. The one for whom self-affirmation
+view is abandoned sees these pañcupādānakkhandhas with right wisdom as
+they have come to be as: not ’this is mine”, not “this I am”, not “this
+is myself.” It is for such a one that the abandoning of views comes to
+be, the relinquishing of views comes to be.</p>
+<p>The Buddha further clarifies for the venerable Mahācunda that it is
+neither by abiding in the jhanas, nor by abiding in the formless (arupa)
+āyatanas that one abides in effacement. In the noble one’s discipline,
+the jhanas are called pleasant abidings and the formlessāyatanas are
+called peaceful abidings. They are shared in common with puthujjanas and
+do not lead to effacement. Abiding in the noble measureless samādhi (see
+samādhi sutta AN 5.27) is the abiding in effacement proper. This abiding
+is not shared in common with puthujjanas. As explained by the Buddha in
+the sarada sutta (AN 3.94) and the āneñja sutta (AN 3.116), when a sekha
+passes away while in a pleasant abiding or in a peaceful abiding, he/she
+passes away as a non-returner to attain nibbāna in the corresponding
+abode of being (brahma world or formless realms), whereas if a
+puthujjana passes away while in a pleasant abiding or peaceful abiding,
+he/she is headed for deterioration after being reborn in the
+corresponding abode of being, because he/she is still not free from the
+sphere of ghosts, the animal womb or the hell realms.</p>
+<p>So the Buddha then makes it clear to the venerable Mahācunda that
+making the breakthrough to the four noble truths is required for the
+effacement of sakkāyadiṭṭhi to abandon views. Purifying one’s virtue to
+be in conformity with the virtue of the noble ones, and straightening
+one’s view to be in conformity to the view of the noble ones are
+necessary but not sufficient for the abandoning of views, for the
+relinquishing of views.</p>
+<p>This virtue that is well purified and view that is straight is none
+other than the virtue dear to the noble ones and the vision of the
+Dhamma that a sotāpanna possesses, as described in the anāthapiṇḍika
+sutta verses (SN 55.26):</p>
+<blockquote>
+<p>yassa saddhā tathāgate, acalā suppatiṭṭhitā; sīlañca yassa kalyāṇaṃ,
+ariyakantaṃ pasaṃsitaṃ.</p>
+</blockquote>
+<blockquote>
+<p>“Of whom faith in the Tathagata, is well established, unshakeable; of
+whom there is goodness and virtue, pleasing and agreeable to the noble
+ones.</p>
+</blockquote>
+<blockquote>
+<p>saṅghe pasādo yassatthi, ujubhūtañca dassanaṃ; adaḷiddo’ti taṃ āhu,
+amoghaṃ tassa jīvitaṃ.</p>
+</blockquote>
+<blockquote>
+<p>Of whom there is faith in the Sangha, and view that has come to be
+straight; they say that “such a one is not poor,” that such one’s life
+is not in vain.</p>
+</blockquote>
+<blockquote>
+<p>tasmā saddhañca sīlañca, pasādaṃ dhamma dassanaṃ; anuyuñjetha
+medhāvī, saraṃ buddhāna sāsana’nti”.</p>
+</blockquote>
+<blockquote>
+<p>Therefore faith and virtue, confidence and vision of the Dhamma; the
+wise ones devote themselves to, recollecting the Buddha’s
+instructions.”<br />
+–<strong>SN 55.26</strong></p>
+</blockquote>
+<p>It is important to know that it is not the case that first one makes
+the breakthrough to the four noble truths, and then one acquires the
+purified virtue and the straightened view. In the kosambiya sutta (MN
+48), the Buddha makes it clear that one must first bring one’s virtue in
+line with the virtue of a sotāpanna and one’s view in line with the view
+of a sotāpanna. In other words attending to the very starting point of
+wholesome dhammas is a pre-requisite for making the breakthrough to the
+four noble truths. It is only when one’s virtue is purified and one’s
+view is straight that the breakthrough to the four noble truths is
+possible.</p>
+<p>Now that the venerable Mahācunda understands that for one attending
+to the very starting point of wholesome dhammas,abiding in effacement
+takes priority over abiding in the pleasant abidings or the peaceful
+abidings, the Buddha then instructs him to undertake effacement by
+abandoning forty four unwholesome dhammas and undertaking their
+wholesome counterparts.</p>
+<p>The forty four wholesome dhammas consist of:</p>
+<p>The 10 courses of wholesome actions with non-harming replacing right
+view:</p>
+<ul class="incremental">
+<li><ol class="incremental" type="1">
+<li>non-harming (avihiṃsakā)</li>
+</ol></li>
+<li><ol class="incremental" start="2" type="1">
+<li>abstaining from killing (pāṇâtipātā paṭiviratā)</li>
+</ol></li>
+<li><ol class="incremental" start="3" type="1">
+<li>abstaining from taking what is not given(adinnādānā)</li>
+</ol></li>
+<li><ol class="incremental" start="4" type="1">
+<li>celibate (brahmancārī)</li>
+</ol></li>
+<li><ol class="incremental" start="5" type="1">
+<li>abstaining from speaking falsehood(musavādā paṭiviratā)</li>
+</ol></li>
+<li><ol class="incremental" start="6" type="1">
+<li>abstaining from divisive speech (pisuṇāya vācāyapaṭiviratā)</li>
+</ol></li>
+<li><ol class="incremental" start="7" type="1">
+<li>abstaining from harsh speech (pharusāya vācāyapaṭiviratā)</li>
+</ol></li>
+<li><ol class="incremental" start="8" type="1">
+<li>abstaining from idle chatter (samphappalāpāpaṭiviratā)</li>
+</ol></li>
+<li><ol class="incremental" start="9" type="1">
+<li>not covetous (anabhijjhālu)</li>
+</ol></li>
+<li><ol class="incremental" start="10" type="1">
+<li>non-ill-will (abyāpajja cittā)</li>
+</ol></li>
+</ul>
+<p>The ten qualities of the one-beyond-training (asekha):</p>
+<ul class="incremental">
+<li><ol class="incremental" start="11" type="1">
+<li>right view (sammā diṭṭhi)</li>
+</ol></li>
+<li><ol class="incremental" start="12" type="1">
+<li>right intention (sammā saṅkappa)</li>
+</ol></li>
+<li><ol class="incremental" start="13" type="1">
+<li>right speech (sammāvācā)</li>
+</ol></li>
+<li><ol class="incremental" start="14" type="1">
+<li>right action (sammā kammanta)</li>
+</ol></li>
+<li><ol class="incremental" start="15" type="1">
+<li>right livelihood (sammā ājīvā)</li>
+</ol></li>
+<li><ol class="incremental" start="16" type="1">
+<li>right effort (sammā vāyāma)</li>
+</ol></li>
+<li><ol class="incremental" start="17" type="1">
+<li>right mindfulness (sammā sati)</li>
+</ol></li>
+<li><ol class="incremental" start="18" type="1">
+<li>right samādhī(sammā samādhi)</li>
+</ol></li>
+<li><ol class="incremental" start="19" type="1">
+<li>right knowledge (sammā ñāṇa)</li>
+</ol></li>
+<li><ol class="incremental" start="20" type="1">
+<li>right liberation (sammā vimutti)</li>
+</ol></li>
+</ul>
+<p>The last 3 of the 5 hindrances:</p>
+<ul class="incremental">
+<li><ol class="incremental" start="21" type="1">
+<li>free from sloth and torpor (vigata thina middhā)</li>
+</ol></li>
+<li><ol class="incremental" start="22" type="1">
+<li>non-restlessness (anuddhatā)</li>
+</ol></li>
+<li><ol class="incremental" start="23" type="1">
+<li>crossed over doubt (tiṇṇa vicikicchā)</li>
+</ol></li>
+</ul>
+<p>Entering upon the right way [of conduct] for a samaṇa (cūḷaassapura
+sutta MN 40):</p>
+<ul class="incremental">
+<li><ol class="incremental" start="24" type="1">
+<li>non-anger (akkodhanā)</li>
+</ol></li>
+<li><ol class="incremental" start="25" type="1">
+<li>non-resentful (anupanāhī)</li>
+</ol></li>
+<li><ol class="incremental" start="26" type="1">
+<li>non-denigrating(amakkhī)</li>
+</ol></li>
+<li><ol class="incremental" start="27" type="1">
+<li>non-contemptuous(apaḷāsī)</li>
+</ol></li>
+<li><ol class="incremental" start="28" type="1">
+<li>non-envious (anissukī)</li>
+</ol></li>
+<li><ol class="incremental" start="29" type="1">
+<li>non-stinginess (amaccharī)</li>
+</ol></li>
+<li><ol class="incremental" start="30" type="1">
+<li>non-deceitful (amāyāvī)</li>
+</ol></li>
+<li><ol class="incremental" start="31" type="1">
+<li>non-fraudulent (asaṭhā)</li>
+</ol></li>
+</ul>
+<p>Prerequisites for attaining fruits of anāgāmī in the metta sutta (Snp
+1.8) where atthaddha is replaced by its synonym mudu for metrical
+purposes:</p>
+<ul class="incremental">
+<li><ol class="incremental" start="32" type="1">
+<li>non-stubborn (atthaddhā/mudu)</li>
+</ol></li>
+<li><ol class="incremental" start="33" type="1">
+<li>non-arrogant (anatimānī)</li>
+</ol></li>
+<li><ol class="incremental" start="34" type="1">
+<li>easy to admonish (suvacā)</li>
+</ol></li>
+</ul>
+<p>Foundation for undertaking wholesome dhammas (appamāda sutta SN
+3.18):</p>
+<ul class="incremental">
+<li><ol class="incremental" start="35" type="1">
+<li>noble friends (kalyāṇa mittā)</li>
+</ol></li>
+<li><ol class="incremental" start="36" type="1">
+<li>vigilant (appamattā)</li>
+</ol></li>
+</ul>
+<p>The seven saddhammas (sekha sutta MN 53):</p>
+<ul class="incremental">
+<li><ol class="incremental" start="37" type="1">
+<li>faithful (saddhā)</li>
+</ol></li>
+<li><ol class="incremental" start="38" type="1">
+<li>have moral dignity (hirimanā)</li>
+</ol></li>
+<li><ol class="incremental" start="39" type="1">
+<li>have moral dread (ottāpī)</li>
+</ol></li>
+<li><ol class="incremental" start="40" type="1">
+<li>of much learning (bahussutā)</li>
+</ol></li>
+<li><ol class="incremental" start="41" type="1">
+<li>have aroused energy (āraddha vīriyā)</li>
+</ol></li>
+<li><ol class="incremental" start="42" type="1">
+<li>established in mindfulness (upaṭṭhitassatī)</li>
+</ol></li>
+<li><ol class="incremental" start="43" type="1">
+<li>accomplished in wisdom (paññā sampannā)</li>
+</ol></li>
+<li><ol class="incremental" start="44" type="1">
+<li>not cling to self-views (asandiṭṭhi parāmāsī),not grasping them
+tenaciously (anādhānaggāhī), easily giving them up
+(suppaṭinissaggī)</li>
+</ol></li>
+</ul>
+<p>The Buddha then tells the venerable Mahācunda of how helpful the
+arousal of the mind towards wholesome thoughts is, and instructs him to
+arouse his mind accordingly with the same forty four wholesome
+dhammas.</p>
+<p>Now let’s analyze the sequence of these forty four wholesome dhammas
+with respect to the Buddha’s gradual path, gradual practice and gradual
+progress.</p>
+<p>In the appamāda sutta (SN 3.18), the Buddha confirms to King Pasenadi
+that the dhamma is well-proclaimed by him, but [for] one of noble
+friend, of noble companion, of noble comrad, not of evil friend, not of
+evil companion, not of evil comrad. He tells the king that the entire
+life of purity depends on noble friendship and gives himself as an
+example of how that is so, since owing to him as a noble friend, because
+of him as a noble friend, beings liable to birth are freed from birth;
+beings liable to old age are freed from old age; beings liable to
+sickness are freed from sickness; beings liable to death are freed from
+death; beings liable to sorrow, lamentation, physical suffering, mental
+suffering and despair are freed from sorrow, lamentation, physical
+suffering, mental suffering and despair. He then instructs the king
+thus:</p>
+<blockquote>
+<p>tasmātiha te mahārāja evaṃ sikkhitabbaṃ: kalyāṇamitto bhavissāmi
+kalyāṇasahāyo kalyāṇasampavaṅko’ti. evaṃ hi te mahārāja sikkhitabbaṃ.
+kalyāṇamittassa te mahārāja kalyāṇasahāyassa kalyāṇasampavaṅkassa ayaṃ
+eko dhammo upanissāya vihātabbo appamādo.</p>
+</blockquote>
+<blockquote>
+<p>Therefore, for you, O great king, it should be trained thus: “I will
+be of noble friend, noble companion, noble comrad.” Thus indeed for you,
+O great king, should it be trained. For you, O great king, [being] of
+noble friend, of noble companion, of noble comrad, you should dwell
+depending on this one thing alone, that is vigilance in wholesome
+dhammas.<br />
+–<strong>SN 3.18</strong></p>
+</blockquote>
+<p>So items(35) noble friendship and(36) being vigilant are the two
+supports for one who is attending to the very starting point of
+wholesomedhammas. In the dīghajāṇu sutta (AN 8.54),the Buddha defines
+kalyāṇamitta and describes the practice of virtue purification and view
+straightening:</p>
+<blockquote>
+<p>And what is noble friendship? Here, in whatever village or town a
+clansman lives, he associates with householders or their sons—whether
+young but fulfilled in virtue, or oldbut fulfilled in virtue—who are
+accomplished in faith, virtuous behavior, generosity, and wisdom [at
+least a sotāpanna]; he converses with them and engages in discussions
+with them. Insofar as they are accomplished in faith, he emulates them
+with respect to their accomplishment in faith; insofar as they are
+accomplished in virtuous behavior, he emulates them with respect to
+their accomplishment in virtuous behavior; insofar as they are
+accomplished in generosity, he emulates them with respect to their
+accomplishment in generosity; insofar as they are accomplished in
+wisdom, he emulates them with respect to their accomplishment in wisdom.
+This is called noble friendship.<br />
+–<strong>AN 8.54</strong> (Ven. Bodhi’s translation with slight
+modifications)</p>
+</blockquote>
+<p>And so the practice of virtue purification consists of one discussing
+virtue with those accomplished in virtue and emulating them with respect
+to their virtueaccordinglyuntil one’s virtue conforms to theirs.
+Likewise, the practice of view straighteningconsists of onediscussing
+faith, generosity and wisdom with those accomplished infaith, generosity
+and wisdomand emulating them with respect to theirfaith, generosity and
+wisdomaccordingly until one’sfaith, generosity and wisdomconforms to
+theirs.</p>
+<p>Given that nowadays true kalyāṇamittas are very rare, if one does not
+have access to a kalyāṇamitta, then one need to rely on saddhamma
+studies and discussions to understand the virtue and view of the noble
+ones and continuously emulate them with vigilence until one’s virtue and
+view come in conformity with that of the noble ones. If one succeeds at
+this, then one has fulfilled the very starting point of wholesome
+dhammas.</p>
+<p>With virtue that is purified and view that has become straight as
+foundation, if based on one’s faith in the Buddha’s awakening,one is
+resolved on realizing the Buddha’s teachings on impermanence to the
+extent that the five faculties have come to be (see kīṭāgiri sutta MN
+70),the Buddha declares of such a one in the khandhā sutta (SN
+25.10):</p>
+<blockquote>
+<p>“This is called a faith follower (saddhanusari), one who has entered
+upon the fixed course of rightness, who has entered the plane of the
+true man, who has transcended the plane of the puthujjana. He is unable
+to do that deed which having done such a deed, he would be reborn in
+hell, or the animal womb or the sphere of ghost. He is definately
+incapable of passing away as long as he has not realized the fruit
+ofstream entry.”<br />
+–<strong>SN 25.10</strong></p>
+</blockquote>
+<p>With virtue that is purified and view that has become straight as
+foundation, if one submits to the Buddha’s teaching on impermanencebased
+on a measure of understanding with wisdom, and one is resolved on
+realizing these teachings to the extent that the five faculties have
+come to be(see kīṭāgiri sutta MN 70), the Buddha declares of such a one
+in the khandhā sutta (SN 25.10):</p>
+<blockquote>
+<p>“This is called a dhamma follower (dhammanusari), one who has entered
+upon the fixed course of rightness, who has entered the plane of the
+true man, who has transcended the plane of the puthujjana. He is unable
+to do that deed which having done such a deed, he would be reborn in
+hell, or the animal womb, or the sphere of ghost. He is definately
+incapable of passing away as long as he has not realized the fruit of
+stream entry.”<br />
+–<strong>SN 25.10</strong></p>
+</blockquote>
+<p>Both the saddhānusārī and dhammānusārī have entered upon the path to
+the realization of the fruit of stream-entry and are endowed with items
+(1)-(10).</p>
+<p>By relying on the five faculties they have acquired, if they strive
+for the breakthrough to the four noble truths with vigilance and come to
+know and see the Buddha’s teaching on impermanence, the Buddha declares
+of such a one in the khandhā sutta (SN 25.10):</p>
+<blockquote>
+<p>“This is called a stream enterer (sotapanna), not subject to the
+woeful plane, on a fixed course, destined for supreme awakening.”<br />
+–<strong>SN 25.10</strong></p>
+</blockquote>
+<p>The sotāpanna possesses the ten qualities of one-beyond-training,
+items (11)-(20) as declared in the anāthapiṇḍikovāda sutta (MN 143).</p>
+<p>The sotāpanna has effaced three of the five lower fetters,
+namely,self-affirmation view, doubt, and clinging to virtue and
+religious duties. His next major task is to efface the remaining two of
+the five lower fetters, namely, sensual lust and ill-will. These last
+two lower fetters, together with items (21)-(23) are called the five
+hindrances (pañca nīvaraṇa). If that sotāpanna is a bhikkhu or
+bhikkhunī, the he or she becomes worthy of the designation “ascetic”
+(samaṇa or samaṇī) as the Buddha declares in the cūḷasīhanāda sutta (MN
+11) that it is“only here [in the Buddha’steachings]is there asamaṇa,
+here a secondsamaṇa, here a thirdsamaṇa, here a fourthsamaṇa, other
+insignificant teachings of outsiders are empty of samaṇas.”</p>
+<p>Now with worthiness of the “samaṇa” designation comes the
+responsibility to remove the stains of asamaṇa (samaṇamalānaṃ), defects
+of asamaṇa (samaṇadosānaṃ), dregs of asamaṇa (samaṇakasaṭānaṃ) as
+instructed in the cūḷa assapura sutta (MN 40). The antidote to
+thesestains of a samaṇa, defects of a samaṇa, dregs of a samaṇa are
+given in items (24)-(31).</p>
+<p>Further pre-requisites for attaining fruits of non-returner is given
+in the metta sutta (Snp 1.8) where atthaddha is replaced by its synonym,
+mudu, for metrical purposes. These are items</p>
+<p>(32)- (34).</p>
+<p>So when the sotāpanna succeeds in abandoning the five hindrances and
+removing thestains of a samaṇa, defects of a samaṇa, dregs of a samaṇa,
+and fulfilling thepre-requisites for attaining fruits of
+non-returner,he/she becomes a non-returner (anāgāmī).</p>
+<p>Since we have already covered items (35)-(36), the next set of items
+are called the seven saddhammas of a sekha who has entered upon the path
+(37)-(43) (see sekha sutta MN 53). When an anāgāmī is endowed with these
+seven saddhammas and can obtain at will without trouble or difficulty
+the four jhanas that constitute the higher mind (adhicitta) and provide
+a pleasant abiding here and now, he is called a sekha who has entered
+upon the path [to arahantship].</p>
+<p>Finally for item (44), having given up personal views, one has to
+relinguish all views, including the very purified view of the Dhamma
+that enabled one to attain anāgāmī. As explained in the
+mahātaṇhāsankhayasutta (MN 38), regarding the simile of the raft:</p>
+<blockquote>
+<p>“Bhikkhus, this view thus cleansed, thus purified, if you do not
+adhere to it, cherish it, treasure it, and appropriate it, would you
+then understand the Dhamma as taught by me to be similar to a raft,
+being for the purpose of crossing over, not for the purpose of holding
+onto?”</p>
+</blockquote>
+<blockquote>
+<p>“Yes, Bhante.”<br />
+–<strong>MN 38</strong></p>
+</blockquote>
+<p>Thus, if he is able to let go the purified view of the Dhamma, he
+attains complete nibbāna through non-holding (anupādāparinibbāna).</p>
+<p>And so we see that this list of forty four wholesome dhammas fit
+nicely into the Buddha’s gradual path, gradual practice, gradual
+progress.</p>
+<p>The Buddha then explains the gradual progress of effacement with
+several similes. First, one fulfills the starting point of wholesome
+dhammas by straightening one’s view and purifying one’s virtue to enter
+the noble path (saddhānusārī or dhammānusārī). Then with accomplishment
+in virtue (sotāpannā), one undertakes theforty four wholesome dhammas to
+avoid their unwholesome counterparts. The simile of the even path or
+ford that is used to avoid an uneven path or ford helps illustrate
+this.This is adhisīla.</p>
+<p>Then by further undertaking of theseforty four wholesome dhammas,
+when one is able to enter the jhanas or the formless ayatanas, then one
+has transcended theforty four unwholesome counterparts. Here the simile
+of all wholesome dhammas leading upwards (uparibhāgāya) is used.This is
+adhicitta.</p>
+<p>Finally, by further undertakingof theseforty four wholesome dhammas,
+when one is able to enter and abide in a cessation attainment (appamāṇa
+samādhi), then one brings allforty four wholesome dhammas and theirforty
+four unwholesome counterparts to cessation, extinction. The Buddha
+illustrates this with the famous simile of one sinking in the mud. He
+explains that it is not possible for one sinking in the mud to help
+another who is sinking in the mud. Likewise in histeachings, it is not
+possible that one who is himself untamed, undisciplined, not attained
+nibbāna, can tame another, discipline another, or help another to attain
+nibbāna; butit is possible that one who is himself tamed, disciplined,
+attained nibbāna, can tame another,discipline another, and help another
+attain nibbana. This is adhipaññā.</p>
+<p>The Buddha ends the discourse with the admonition to venerable
+Mahācunda that he has done his part as any compassionate teacher would
+do for his students out of compassion. It is venerable Mahācunda’s turn
+to act upon his instructions by going into seclusion to meditate without
+delay to realize his teachings. For a disciple wishing to reciprocate
+the Teacher’s compassion, it is proper that he acts upon the Teacher’s
+instructions,proper that he acts upon the Teacher’s advice.</p>
+
+<p style="text-align:center"><a href="../mn/mn8.html">MN 8: Sallekha sutta</a></p>
+
+</div><!--content-->
+<footer>
+<div id="breadcrumbs">
+<a href="../home/index.html">Home</a><a href="../nt/nt.html">Notes on Dhamma</a>Sallekha Sutta Study Guide
+</div>
+<a id="bottom"></a>
+</footer>
+</div><!--container-->
+<script src="../js/footer.js"></script>
+</body>
+</html>
