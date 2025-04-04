@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8>
+<link rel="icon" type="image/x-icon" href="../images/buddha.jpg">
+<title>Khandaka 4</title>
+<script src="../js/jquery-1.10.2.min.js"></script>
+<link rel="stylesheet" href="../css/menu.css">
+<link rel="stylesheet" href="../css/css.css">
+</head>
+<body>
+<div id="container">
+<header>
+<div id="eng_searchlink"> <span><a href="../home/engsearch.html" >Search English Content</a></span></div>
+<div id="pali_searchlink"> <span><a href="../home/palisearch.html" >Search Pali Content</a></span></div>
+
+<div class="logotext">
+<a href="../home/index.html"><span>Saddhamma Study Group</span></a>
+</div>
+<nav>
+<div id="navbar">
+<ul id="css3menu0" >
+<li class="topfirst" id="home"><a href="../home/index.html">Home</a></li>
+<li class="topmenu" id="dn"><a href="../dn/dn.html">Digha Nikaya</a></li>
+<li class="topmenu" id="mn"><a href="../mn/mn.html">Majjhima Nikaya</a></li>
+	<li class="topmenu" id="sn"><a href="../sn/sn.html">↓ Samyutta Nikaya</a>
+		<ul>
+		<li><a href="../sn/sn01.html">Part 1 - The Book with Verses</a></li>
+			<li><a href="../sn/sn02.html">Part 2 - The Book of Causation</a></li>
+			<li><a href="../sn/sn03.html">Part 3 - The Book of the Aggregates</a></li>
+			<li><a href="../sn/sn04.html">Part 4 - The Book of the Six Sense Bases</a></li>
+			<li><a href="../sn/sn05.html" title="Part 5 - The Great Book">Part 5 - The Great Book</a></li>
+		</ul>
+	</li>
+		<li class="topmenu" id="an"><a href="../an/an.html">↓ Anguttara Nikaya</a>
+			<ul>
+			<li><a href="../an/an1.html">The Ones</a></li>
+			<li><a href="../an/an2.html">The Twos</a></li>
+			<li><a href="../an/an3.html">The Threes</a></li>
+			<li><a href="../an/an4.html">The Fours</a></li>
+			<li><a href="../an/an5.html">The Fives</a></li>
+			<li><a href="../an/an6.html">The Sixes</a></li>
+			<li><a href="../an/an7.html">The Sevens</a></li>
+			<li><a href="../an/an8.html">The Eights</a></li>
+			<li><a href="../an/an9.html">The Nines</a></li>
+			<li><a href="../an/an10.html">The Tens</a></li>
+			<li><a href="../an/an11.html">The Elevens</a></li>
+			</ul>
+		</li>
+	<li class="topmenu" id="kn"><a href="../kn/kn.html">↓ Khuddaka Nikaya</a>
+			<ul>
+			<li><a href="../kp/kp.html">The Khuddakapatha</a></li>
+			<li><a href="../dhp/dhp.html" title="The Dhammapada">The Dhammapada</a></li>
+			<li><a href="../snp/snp.html">Sutta Nipata</a></li>
+			<li><a href="../ud/ud.html">Udana</a></li>
+			<li><a href="../it/it.html">Itivuttaka</a></li>
+			<li><a href="../tha/tha.html">The Theragatha</a></li>
+			<li><a href="../thi/thi.html">The Therigatha</a></li>
+			</ul>
+	</li>
+	<li class="topmenu" id="vi"><a class="pressed" href="../vi/vi.html">↓ Vinaya Pitaka</a>
+			<ul>
+			<li><a class="pressed" href="../vi/kd.html">Khandaka</a></li>
+			<li><a href="../vi/bu-vb.html" title="Monk’s Rules">Bhikkhu Vibhanga</a></li>
+<li><a href="../vi/bu-pt.html" title="Bhikkhu Pātimokkha">Bhikkhu Pātimokkha</a></li>
+
+			<li><a href="../vi/bi-pt.html" title="Bhikkhunī Pātimokkha">Bhikkhunī Patimokkha</a></li>
+			<li><a href="../vi/bi-vb.html" title="Nuns Rules">Bhikkhuni Vibhanga</a></li>
+			<li><a href="../bmc/bmc.html">Buddhist Monastic Code I</a></li>
+      <li><a href="../bmc/bmc2.html">Buddhist Monastic Code 2</a></li>
+			</ul>
+	</li>
+<li class="topmenu" id="bq"><a href="../bq/bq.html">Buddha</a></li>
+<li class="topmenu" id="dq"><a href="../dq/dq.html">Dhamma</a></li>
+<li class="topmenu" id="sq"><a href="../sq/sq.html">Sangha</a></li>
+<li class="topmenu" id="et"><a href="../et/et.html">Training</a></li>
+<li class="topmenu" id="es"><a href="../es/es.html">Samadhi</a></li>
+<li class="topmenu" id="ev"><a href="../ev/ev.html">Vigilance</a></li>
+<li class="topmenu" id="ka"><a href="../ka/ka.html">Kamma</a></li>
+<li class="topmenu" id="nt"><a href="../nt/nt.html">Notes on Dhamma</a></li>
+<li class="toplast" id="qa"><a href="../qa/qa.html">Questions & Answers</a></li>
+</ul>
+</div> <!--navbar-->
+</nav>
+<div class="controlpanel" id="controlpanel"><!--controlpanel-->
+<ul>
+	<li>
+	<ul class="inner">
+		<li><a href="#" title="Page Top" >&nbsp;▲&nbsp;</a>
+		<li class="nextprev">
+			<button class="palitoggle"
+				id="pali"
+				type="button"
+				title="Display Pali and activate Lookup Dictionary"
+				style="width:2.8em; padding: 0 2px;">Pali</button>
+		</li>
+		<li><a href="#bottom" title="Page Bottom">&nbsp;▼&nbsp;</a>
+	</ul>
+	</li>
+</ul>
+</div> <!--controlpanel-->
+</header>
+<div id="content">
+<h2>Vinaya Pitaka - Monastic Rules</h2>
+<hr>
+
+<h2>Khandaka <span class="minor">( and Mahāvagga)</span> 4 - Invitation</h2>
+
+<div id="metaarea">
+<ul class="translator">
+<li><span>A Saddhamma Study Group translation from the Pāḷi text.</li>
+<br>Get PDFs: <a href="../vi/eBook/vi4.1.biv.pdf">Side-by-side</a> | <a href="../vi/eBook/vi4.1.bih.pdf">Par-by-par</a> | <a href="../vi/eBook/vi4.1.bip.pdf">Facing pages</a> | <a href="../vi/eBook/vi4.1.eng.pdf">English only</a> | <a href="../vi/eBook/vi4.1.pli.pdf">Pali only</a>.<br></li>
+</ul>
+</div>
+
+<section class="raw_sutta">
+<div lang="en">
+
+<p><span class="parno">10</span>
+Then the Auspicious One said this to those bhikkhus: “But in what way, O
+bhikkhus, united and happily together, without disputing, spent a
+comfortable rains retreat, and not fatigued on account of
+almsfood?”
+
+<p><span class="parno">11</span>
+Here, O Bhante, many of us bhikkhus, friends and associates, accepted a
+certain residence in the Kosalan country for the rains retreat. It occurred
+to us, O Bhante: “By what means might we united and happily together,
+without disputing, spent a comfortable rains retreat, and not fatigued on
+account of almsfood?”
+
+<p><span class="parno">12</span>
+Then it occurred to us, O Bhante: “If we neither speak nor converse with
+one another, [and would have] the one who returns from village alms
+gathering first set out the seats, the foot-washing water, the foot stool,
+the foot-washing wooden block, the bowl for left-overs having washed it, set
+out the drinking water and the rinsing water. The one who returns from
+village alms gathering last, if there is any food left over, may eat it if
+he so desires. If he does not desire, he would throw it away where there is
+little plant life or in water where there are no living beings. He would
+pack up the seats, the foot-washing water, the foot stool, the foot-washing
+wooden block, the bowl for left-overs having washed it, he would set in
+order the drinking water and the rinsing water, he would sweep up the
+refactory. Whoever sees the drinking water vessel, the rinsing water vessel
+or the toilet water vessel empty and void, would refill it. If it would not
+be possible for him, then having invited another with the wave of hands,
+they would fill it by joining hands together, but not on that account should
+they break into speech. In this way, united and happily together, without
+disputing, we will spent a comfortable rains retreat, and not fatigued on
+account of almsfood?”
+
+<p><span class="parno">13</span>
+“So then, O Bhante, we neither spoke nor conversed with one another. The
+one who returned from village alms gathering first set out the seats, the
+foot-washing water, the foot stool, the foot-washing wooden block, the bowl
+for left-overs having washed it, set out the drinking water and the rinsing
+water. The one who returned from village alms gathering last, if there were
+any food left over, would eat it if he so desired. If he did not desire, he
+threw it away where there was little plant life or in water where there were
+no living beings. He packed up the seats, the foot-washing water, the foot
+stool, the foot-washing wooden block, the bowl for left-overs having washed
+it, he set in order the drinking water and the rinsing water, he swept up
+the refactory. Whoever saw the drinking water vessel, the rinsing water
+vessel or the toilet water vessel empty and void, refilled it. If it were
+not possible for him, then having invited another with the wave of hands,
+they filled it by joining hands together, but not on that account did they
+break into speech. It is in this way, O Bhante, that united and happily
+together, without disputing, we will spent a comfortable rains retreat, and
+not fatigued on account of almsfood?”
+
+<p><span class="parno">14</span>
+Then the Auspicious One addressed the bhikkhus: “Indeed these empty men,
+O bhikkhus, simply having spent an uncomfortable [rains retreat], presume to
+have spent an equally comfortable [rains retreat]. Indeed these empty men, O
+bhikkhus, simply having lived together like beasts, presume to have spent an
+equally comfortable [rains retreat]. Indeed these empty men, O bhikkhus,
+simply having lived together like sheep, presume to have spent an equally
+comfortable [rains retreat]. Indeed these empty men, O bhikkhus, simply
+having lived together like enemies, presume to have spent an equally
+comfortable [rains retreat]. For how indeed, O bhikkhus, could these empty
+men, undertake the practice of followers of other standpoints, the
+observance of silence? This, O bhikkhus, neither [inspires] confidence in
+those with little confidence, nor increase the confidence of those with
+confidence. Rather, this only diminish the confidence of those with little
+confidence and cause wavering in some of those with confidence.”
+Then the Auspicious One, having reprimanded those bhikkhus in various ways
+with Dhamma talk, addressed the bhikkhus: (or how many) the bhikkhus
+address: The practice of followers of other standpoints, O bhikkhus, the
+observance of silence is not to be undertaken. Whoever would undertake it
+incurs an offence of wrong-doing. I allow you, O bhikkhus, to invite the
+bhikkhus you live with during the rains retreat [for feedback] on three
+grounds, what is seen, heard or suspected. That for you will be a state
+suitable for communication, a state allowing for rehabilitation from
+offences, a state honoring the vinaya. 
+</div><!--End English-->
+
+<div lang="pi"><!--Pali-->
+
+<p><span class="parno">10</span>
+atha kho bhagavā te bhikkhū etadavoca: yathā kathampana tumhe bhikkhave,
+samaggā sammodamānā avivadamānā phāsukaṃ vassaṃ vasittha? na ca piṇḍakena
+kilamitthāti.
+
+<p><span class="parno">11</span>
+idha mayaṃ bhante, sambahulā sandiṭṭhā sambhattā bhikkhū kosalesu janapadesu
+aññatarasmiṃ āvāse vassaṃ upagacachimhā. tesaṃ no bhante, amhākaṃ etadahosi:
+kena nu kho mayaṃ upāyena samaggā sammodamānā avivadamānā phāsukaṃ vassaṃ
+vaseyyāma? na ca piṇḍakena kilameyyāmāti.
+
+<p><span class="parno">12</span>
+tesaṃ no bhante, amhākaṃ etadahosi: sace kho mayaṃ aññamaññaṃ neva
+ālapeyyāma, na sallapeyyāma, yo paṭhamaṃ gāmato piṇḍāya paṭikkameyya, so
+āsanaṃ paññāpeyya, pādodakaṃ pādapiṭhaṃ pādakaṭhalikaṃ upanikkhipeyya,
+avakkārapātiṃ dhovitvā upaṭṭhāpeyya, pānīyaṃ paribhojanīyaṃ upaṭṭhāpeyya. yo
+pacchā gāmato piṇḍāya paṭikkameyya, sacassa bhattāvaseso, sace ākaṅkheyya,
+bhuñjeyya, no ce ākaṅkheyya, appaharite vā chaḍḍeyya, appāṇake vā udake
+opilāyeyya, so āsanaṃ uddhareyya, pādodakaṃ pādapīṭhaṃ pādakaṭhalikaṃ
+paṭisāmeyya, avakkārapātiṃ dhovitvā paṭisāmeyya, pānīyaṃ paribhojanīyaṃ
+paṭisāmeyya, bhattaggaṃ sammajjeyya, yo passeyya pāniyaghaṭaṃ vā
+paribhojaniyaghaṭaṃ vā vaccaghaṭaṃ vā rittaṃ tucchaṃ, so upaṭṭhāpeyya,
+sacassa hoti avisayhaṃ, hatthavikārena dutiyaṃ āmantetvā hatthavilaṅghakena
+upaṭṭhāpeyya, ttheva tappaccayā vācaṃ bhindeyya. evaṃ kho mayaṃ samaggā
+sammodamānā avivadamānā phāsukaṃ vassaṃ vaseyyāma. na ca piṇḍakena
+kilameyyāmāti.
+
+<p><span class="parno">13</span>
+atha kho mayaṃ bhante, aññamaññaṃ neva ālapimhā. na sallapimhā. yo paṭhamaṃ
+gāmato piṇḍāya paṭikkamati, so āsanaṃ paññāpeti. pādodakaṃ pādapiṭhaṃ
+pādakaṭhalikaṃ upanikkhipati.avakkārapātiṃ dhovitvā upaṭṭhāpeti.pānīyaṃ
+paribhojanīyaṃ upaṭṭhāpeti. yo pacchā gāmato piṇḍāya paṭikkamati, sace hoti
+bhūttāvaseso, sace ākaṅkhati, bhuñjati, no ce ākaṅkhati, appaharite vā
+chaḍḍeti. appāṇake vā udake opilāpeti. so āsanaṃ uddharati. pādodakaṃ
+pādapīṭhaṃ pādakaṭhalikaṃ paṭisāmeti, avakkārapātiṃ dhovitvā
+paṭisāmeti. pānīyaṃ paribhojanīyaṃ paṭisāmeti, bhattaggaṃ sammajjati, yo
+passati pāniyaghaṭaṃ vā paribhojaniyaghaṭaṃ vā vaccaghaṭaṃ vā tucchaṃ, so
+upaṭṭhāpeti, sacassa hoti avisayhaṃ, hatthavikārena dutiyaṃ āmantetvā
+hatthavilaṅghakena upaṭṭhāpeti, nattheva tappaccayā vācaṃ bhindati. evaṃ kho
+mayaṃ bhante, samaggā sammodamānā avivadamānā phāsukaṃ vassaṃ vasimhā. na ca
+piṇḍakena kilamimhāti.
+
+<p><span class="parno">14</span>
+atha kho bhagavā bhikkhū āmantesi: <span class="var" title="aphāsuññeva - machasaṃ, pts} kira'\footnote{kirime'ja - vi">aphāsukaññeva</span> bhikkhave, moghapurisā
+vutthā\footnote{vuṭṭhā - machasaṃ} samānā phāsukamha\footnote{phāsumhā - machasaṃ, pts} vutthāti paṭijānanti. pasusaṃvāsaññeva kira'me bhikkhave,
+moghapurisā vutthā samānā phāsukamha vuttā'ti paṭijānanti. eḷakasaṃvāsaññeva
+kira'me bhikkhave, moghapurisā vutthā samānā phāsukamha vutthā'ti
+paṭijānanti. sapattasaṃvāsaññeva kira'me bhikkhave, moghapurisā vutthā
+samānā phāsukamha vutthāti paṭijānanti. kathaṃ hi nāmi'me\footnote{kathaṃ hi nāma bhikkhave - machasaṃ} bhikkhave, moghapurisā mūgabbataṃ
+titthiyasamādānaṃ samādiyissanti. netaṃ bhikkhave appasannānaṃ vā pasādāya
+pasannānaṃ vā bhiyyobhāvāya. athakhvetaṃ bhikkhave appasannānaṃ ceva
+appasādāya pasannānañca ekaccānaṃ aññathattāyāti. atha kho bhagavā te
+bhikkhū anekapariyāyena vigarahitvā dhammiṃ kathaṃ katvā bhikkhū āmantesi:
+na bhikkhave, mūgabbataṃ titthiyasamādānaṃ samādiyitabbaṃ. yo samādiyeyya,
+āpatti dukkaṭassa. anujānāmi bhikkhave, vassaṃ vutthānaṃ bhikkhūnaṃ tīhi
+ṭhānehi pavāretuṃ diṭṭhena vā sutena vā parisaṃkāya vā. sā vo bhavissati
+aññamaññānulomatā āpattivuṭṭhānatā vinayapurekkhāratā. evañca pana
+bhikkhave, pavāretabbaṃ: byattena bhikkhunā paṭibalena saṅgho ñāpetabbo. 
+</div><!--End Pali-->
+</section>
+
+<div id="nextprev"><a id="previous-sutta" href="../vi/kd.html"></a><a id="next-sutta" href="../vi/kd2.html"></a></div>
+
+</div><!--content-->
+<footer>
+<div id="breadcrumbs">
+<a href="../home/index.html">Home</a><a href="../vi/vi.html">Vinaya Pitaka</a><a href="../vi/kd.html">Khandaka</a>Khandaka 4 - Invitation
+</div>
+<a id="bottom"></a>
+</footer>
+<script src="../js/footer.js"></script>
+</div><!--container-->
+</body>
+</html>
